@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26845,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,906,2.0, ,,1,1720
+26844,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,906,1.0, ,,1,1720
+26843,Stau,20.0,75.0,160.0,120.0,negative strong,906,3.0,,,1,1720
+26842,schlecht für Umwelt,20.0,342.0,160.0,120.0,negative weak,906,4.0,,,1,1720
+26841,"Kosten (Versicherung, Sprit)",29.0,452.0,160.0,120.0,negative strong,906,5.0,,17:36:33,1,1720
+26840,Stauraum,163.0,132.0,160.0,120.0,positive,906,6.0,,,1,1720
+26839,Komfort,262.0,544.0,160.0,120.0,positive strong,906,7.0,,,1,1720
+26838,keine Fremden,358.0,441.0,160.0,120.0,positive strong,906,8.0,,,1,1720
+26837,schneller am Ziel,247.0,44.0,160.0,120.0,positive strong,906,9.0,,,1,1720
+26836,Unfälle,93.0,258.0,160.0,120.0,negative strong,906,10.0,,,1,1720
+26835,zeitlich flexibel,345.0,150.0,160.0,120.0,positive strong,906,11.0,,,1,1720
+26834,keine Nebenbeschäftigung,193.0,437.0,160.0,120.0,negative weak,906,12.0,,,1,1720
+26833,Fremde,745.0,510.0,160.0,120.0,negative strong,906,13.0,,,1,1720
+26832,kein Komfort,797.0,362.0,160.0,120.0,negative strong,906,14.0,,,1,1720
+26831,kein Stauraum,725.0,254.0,160.0,120.0,negative strong,906,15.0,,,1,1720
+26830,langsam,782.0,140.0,160.0,120.0,negative strong,906,16.0,,,1,1720
+26829,umweltfreundlich,557.0,535.0,160.0,120.0,positive weak,906,17.0,,,1,1720
+26828,Kosten,480.0,236.0,160.0,120.0,negative,906,18.0,,,1,1720
+26827,Wartezeiten,598.0,156.0,160.0,120.0,negative strong,906,20.0,,,1,1720

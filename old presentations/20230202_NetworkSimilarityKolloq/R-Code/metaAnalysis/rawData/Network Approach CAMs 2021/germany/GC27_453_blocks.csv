@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12940,Einzelhandel,715.556,556.667,160.0,120.0,neutral,297,10.0,,,1,453
+12775,Freizeit,1032.22,153.333,160.0,120.0,positive strong,297,9.0,,,1,453
+12749,Uni,672.0,30.0,160.0,120.0,positive,297,8.0,,,1,453
+12729,Feiern,248.0,245.0,160.0,120.0,neutral,297,5.0,,,1,453
+12712,Freunde & Familie treffen,496.0,407.0,160.0,120.0,positive strong,297,4.0,,,1,453
+12680,Risikogruppen,841.0,397.0,160.0,120.0,negative strong,297,3.0,,,1,453
+12675,Corona,792.0,228.0,160.0,120.0,negative strong,297,2.0,,,1,453
+12667,Alltag,443.0,192.0,160.0,120.0,neutral,297,1.0,,,1,453

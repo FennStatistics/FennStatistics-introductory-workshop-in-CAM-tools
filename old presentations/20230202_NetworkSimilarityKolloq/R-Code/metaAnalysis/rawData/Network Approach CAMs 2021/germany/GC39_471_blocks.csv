@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13243,Rassismus,982.0,20.0,131.333,98.0,negative strong,314,28.0,"Rassismus gegen Menschen mit asiatischem Migrationshintergrund, da COVID-19 die ersten Fälle in China hatten und deswegen einen Vorurteil für andere Asiatische Personen mit sich brachten.",14:04:04,1,471
+13242,Hygiene,556.0,20.0,136.667,102.0,positive strong,314,27.0,Häufiges Händewaschen und Desinfizieren von z.B. Einkaufswagen.,14:07:16,1,471
+13241,Vorsicht,734.0,20.0,128.667,96.0,positive strong,314,26.0,,13:55:33,1,471
+13240,Regierung,141.0,277.0,128.667,96.0,positive weak,314,25.0,,13:49:15,1,471
+13239,Fernsehen,162.0,20.0,147.333,110.0,positive,314,24.0,,13:49:06,1,471
+13238,Internet,374.0,20.0,132.667,99.0,positive weak,314,23.0,,13:48:57,1,471
+13237,Verschwörungstheorien,20.0,104.0,136.667,102.0,negative strong,314,22.0,,13:48:17,1,471
+13235,Informationen,345.0,210.0,154.0,115.0,ambivalent,314,20.0,Informationen die die Menschen bezüglich des Coronaviruses mitbekommen,14:00:28,1,471
+13230,Auswirkungen,846.0,159.0,158.0,118.0,ambivalent,314,15.0,Auswirkungen die der Coronavirus mit sich bringt.,14:00:04,1,471
+13229,Hoffnung,257.0,561.0,138.0,103.0,positive weak,314,14.0,,13:36:56,1,471
+13228,Gefühle,341.0,389.0,143.333,107.0,ambivalent,314,13.0,Gefühle die während der Pandemie auftauchen,14:00:53,1,471
+13226,Home-Office,568.0,559.0,140.667,105.0,positive weak,314,11.0,,13:35:17,1,471
+13225,Maßnahmen,811.0,338.0,153.667,114.75,ambivalent,314,10.0,"Maßnahmen der Regierung, der Stadt und von Läden und Firmen",13:59:48,1,471
+13224,Paranoia,20.0,381.0,135.333,101.0,negative strong,314,9.0,,13:36:43,1,471
+13223,Maskenpflicht,1194.0,556.0,144.667,108.0,negative weak,314,8.0,,13:36:01,1,471
+13222,Lustlosigkeit,22.0,544.0,135.333,101.0,negative,314,7.0,,13:36:35,1,471
+13221,Finanzielle Probleme,1193.0,236.0,142.0,106.0,negative strong,314,6.0,Durch das wenigere Arbeiten erhält man einen verringerten Lohn was bei vielen (wie in meinem Fall) Probleme mit dem Monatlichen Alltagsleben führen kann z.B. weniger Geld für Lebensmittel und Probleme mit der Miete,14:03:05,1,471
+13220,Freizeit,1196.0,28.0,134.0,100.0,positive strong,314,5.0,,13:39:02,1,471
+13219,Kurzarbeit,1065.0,396.0,140.667,105.0,negative,314,4.0,,13:39:05,1,471
+13218,Soziale Distanzierung,997.0,553.0,148.667,111.0,positive weak,314,3.0,Das Absagen von Events und Treffen mit Freunden und die Abstandshaltung zu Mitmenschen.,14:05:36,1,471
+13217,Lockdown,835.0,560.0,139.333,104.0,negative weak,314,2.0,"Schließung von Läden und Firmen zum Schutz der Arbeiter und Kunden, und Ausgangsbeschränkungen.",14:01:34,1,471
+13216,Ausbruch vom Coronavirus,568.0,211.0,230.0,172.0,negative strong,314,1.0,,13:43:10,1,471

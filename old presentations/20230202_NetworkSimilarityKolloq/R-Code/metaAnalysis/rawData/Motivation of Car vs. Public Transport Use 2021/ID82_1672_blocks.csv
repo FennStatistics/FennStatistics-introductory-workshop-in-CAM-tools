@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26053,Manchmal überfüllt,651.667,20.0,160.0,120.0,negative,874,15.0,,23:09:09,1,1672
+26052,Unzuverlässig,482.0,222.0,160.0,120.0,negative,874,14.0,,23:04:59,1,1672
+26051,Stresslos,697.0,190.0,160.0,120.0,positive,874,13.0,,23:08:19,1,1672
+26050,Umweltfreundlich,686.0,268.0,160.0,120.0,positive,874,12.0,,23:00:57,1,1672
+26048,warte Zeit,490.0,51.0,160.0,120.0,negative strong,874,11.0,,,1,1672
+26047,spart Geld,592.0,118.0,160.0,120.0,positive strong,874,10.0,,,1,1672
+26046,Verursachen Stau,34.0,309.0,160.0,120.0,negative,874,8.0,,,1,1672
+26045,Nicht umweltfreundlich,183.0,241.0,160.0,120.0,negative,874,7.0,,22:57:57,1,1672
+26044,Teuer,237.0,138.0,160.0,120.0,negative strong,874,6.0,,,1,1672
+26043,Konnektivität bis zu Hause,158.0,20.0,160.0,120.0,positive strong,874,5.0,,,1,1672
+26038,Privatsphäre,20.0,186.0,160.0,120.0,positive strong,874,4.0,,22:54:56,1,1672
+26036,Bequemlichkeit,20.0,69.0,160.0,120.0,positive,874,3.0,,,1,1672
+26035,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,874,1.0, ,,1,1672
+26034,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,874,2.0, ,,1,1672

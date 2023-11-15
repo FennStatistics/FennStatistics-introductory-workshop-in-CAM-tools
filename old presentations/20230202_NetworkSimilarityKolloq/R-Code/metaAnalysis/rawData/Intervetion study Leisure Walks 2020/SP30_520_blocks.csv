@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16558,Arbeitslosigkeit,596.964,307.973,160.0,120.0,ambivalent,339,12.0,,15:52:31,1,520
+16583,Neuer Job,863.951,304.938,160.0,120.0,positive,339,13.0,,15:55:55,1,520
+16648,bessere Finanzen,1238.92,362.964,160.0,120.0,positive,339,14.0,,,1,520
+14022,psychische Belastung,178.984,271.977,160.0,120.0,neutral,339,5.0, ,,0,520
+14021,Stress,1401.94,650.933,160.0,120.0,negative,339,6.0,,15:56:26,0,520
+14020,Einsamkeit,993.996,643.955,160.0,120.0,negative weak,339,10.0,,16:05:48,0,520
+14019,Angst,1568.98,382.982,160.0,120.0,negative,339,7.0,,15:56:05,0,520
+14018,Corona-Pandemie,455.942,97.9464,160.0,120.0,negative,339,1.0,,15:52:56,0,520
+14017,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,339,8.0, ,,0,520
+14016,physische Isolierung,20.0,523.99,160.0,120.0,neutral,339,2.0, ,,0,520
+14015,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,339,3.0, ,,0,520
+14014,Depressivität,1468.95,20.9152,160.0,120.0,negative weak,339,9.0,,15:56:00,0,520
+14013,Befinden,177.984,144.987,160.0,120.0,neutral,339,4.0, ,,0,520
+14012,wirtschaftliche Folgen,183.969,403.969,160.0,120.0,neutral,339,11.0, ,,0,520

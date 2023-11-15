@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24485,Abnutzung,34.0,498.0,160.0,120.0,negative strong,813,16.0,,11:11:36,1,1575
+24511,Umweltkosten,391.0,460.0,160.0,120.0,negative strong,813,21.0,,11:10:39,1,1575
+24512,Versicherung,144.0,608.0,160.0,120.0,negative weak,813,22.0,,11:12:00,1,1575
+24508,Entsorgungsaufwand,26.0,218.0,123.312,92.0,negative strong,813,20.0,,11:10:09,1,1575
+24499,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,positive weak,813,2.0,,11:12:41,1,1575
+24498,Eigener Pkw,273.0,345.0,160.0,120.0,negative weak,813,1.0,,11:12:39,1,1575
+24497,Günstiger Preis,499.0,80.0,160.0,120.0,positive strong,813,3.0,,11:12:13,1,1575
+24496,Lärm,847.0,543.0,160.0,120.0,negative,813,4.0,,,1,1575
+24495,Gerüche,613.0,568.0,160.0,120.0,negative,813,5.0,,,1,1575
+24494,Mitreisende,682.0,457.0,160.0,120.0,neutral,813,6.0,,,1,1575
+24493,Preisgestaltung,550.0,199.0,160.0,120.0,positive,813,7.0,,11:12:24,1,1575
+24492,Verfügbarkeit,763.0,244.0,160.0,120.0,neutral,813,8.0,,,1,1575
+24491,Schlechte Verfügbarkeit (Land),712.0,80.0,160.0,120.0,negative,813,9.0,,11:12:31,1,1575
+24490,Gute Verfügbarkeit (Stadt),873.0,135.0,160.0,120.0,positive strong,813,10.0,,11:12:35,1,1575
+24489,Unsicherheit ( Nachts),378.0,583.0,160.0,120.0,negative,813,12.0,,10:57:46,1,1575
+24488,Ausbaubare Abonnements,314.0,105.0,160.0,120.0,negative weak,813,13.0,,11:12:18,1,1575
+24487,Flexibilität,115.0,137.0,160.0,120.0,positive strong,813,14.0,,11:01:19,1,1575
+24486,Kosten,63.0,390.0,160.0,120.0,negative strong,813,15.0,,11:11:34,1,1575
+24484,Sprit,204.0,497.0,160.0,120.0,negative weak,813,17.0,,11:11:38,1,1575
+24483,Umweltbelastung,37.0,293.0,160.0,120.0,negative strong,813,18.0,,11:10:10,1,1575
+24482,Räumlich / Zeitlich,76.0,30.0,160.0,120.0,positive,813,19.0,,11:01:28,1,1575

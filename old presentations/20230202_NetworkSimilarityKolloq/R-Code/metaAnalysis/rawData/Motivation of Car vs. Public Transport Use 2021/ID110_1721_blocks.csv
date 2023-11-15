@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26861,Bewegung,466.0,28.0,160.0,120.0,positive,907,16.0,,,1,1721
+26859,Kosten,219.0,534.0,160.0,120.0,negative weak,907,13.0,,,1,1721
+26858,Wetter,741.0,48.0,160.0,120.0,ambivalent,907,12.0,,17:59:53,1,1721
+26857,Fahrrad,631.0,178.0,160.0,120.0,positive weak,907,11.0,,17:59:05,1,1721
+26856,Konzentration benötigt,727.0,535.0,155.312,116.0,negative,907,10.0,,18:03:05,1,1721
+26855,Parkplatzsuche,65.0,402.0,160.0,120.0,negative weak,907,8.0,,18:03:39,1,1721
+26854,Flexibilität/Erreichbarkeit,479.0,537.0,160.0,120.0,positive,907,7.0,,18:07:54,1,1721
+26853,Einkauf im Großhandel mit mehr Abstand,55.0,26.0,160.0,120.0,positive,907,6.0,,17:56:57,1,1721
+26852,Einkauf,80.0,214.0,160.0,120.0,ambivalent,907,5.0,,17:56:23,1,1721
+26851,Umwelt,762.0,350.0,160.0,120.0,positive strong,907,4.0,,17:56:09,1,1721
+26850,Corona-Risiko,220.0,106.0,160.0,120.0,negative strong,907,3.0,,18:00:39,1,1721
+26849,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,907,1.0, ,,1,1721
+26848,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,907,2.0, ,,1,1721

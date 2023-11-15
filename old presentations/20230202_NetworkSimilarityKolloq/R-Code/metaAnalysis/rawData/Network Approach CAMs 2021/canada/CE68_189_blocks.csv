@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4343,Art and New Hobbies,771.0,167.0,160.0,120.0,positive weak,110,11.0,,18:24:06,1,189
+4301,Time with Partner,359.0,468.0,160.0,120.0,positive weak,110,9.0,,,1,189
+4258,Friends and Family,20.0,319.0,160.0,120.0,neutral,110,8.0,,,1,189
+4228,Finances,560.0,20.0,160.0,120.0,negative weak,110,7.0,,18:23:06,1,189
+4222,Worry,400.0,20.0,160.0,120.0,negative weak,110,6.0,,18:23:03,1,189
+4215,COVID-19,393.0,152.0,160.0,120.0,negative,110,5.0,,18:22:48,1,189
+4202,Creativity,771.0,20.0,160.0,120.0,positive weak,110,4.0,,18:22:54,1,189
+4192,Distancing,384.0,281.0,160.0,120.0,neutral,110,3.0,,,1,189
+4130,Work Disruption,572.0,246.0,160.0,120.0,negative strong,110,2.0,,18:22:51,1,189
+4124,Health Concerns,26.0,39.0,160.0,120.0,neutral,110,1.0,,18:24:51,1,189

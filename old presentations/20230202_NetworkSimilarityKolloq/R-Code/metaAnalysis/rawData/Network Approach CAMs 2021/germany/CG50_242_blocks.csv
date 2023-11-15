@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5379,Arbeitslosigkeit,1133.5,20.5,160.0,120.0,neutral,149,11.0,,18:49:20,1,242
+5231,Schutzmaßnahmen,652.484,584.473,160.0,120.0,negative strong,149,10.0,,18:45:27,1,242
+5111,Verschwörungstheorien,278.727,375.719,160.0,120.0,positive,149,9.0,,18:43:38,1,242
+5107,Wirtschaft,858.668,23.0,160.0,120.0,positive weak,149,8.0,,18:41:31,1,242
+5068,Globalisierung,493.984,18.4609,160.0,120.0,positive,149,7.0,,18:40:41,1,242
+5010,Isolation,1311.73,439.23,160.0,120.0,negative weak,149,6.0,,18:39:35,1,242
+4949,Wissenschaft,866.418,273.43,160.0,120.0,negative,149,5.0,,18:38:12,1,242
+4902,Impfstoff,276.957,75.9414,160.0,120.0,negative,149,4.0,,18:36:39,1,242
+4860,Soziale Distanz,1090.96,277.992,160.0,120.0,negative weak,149,3.0,,18:35:49,1,242
+4819,Menschen Massen,947.984,543.969,160.0,120.0,positive,149,2.0,,,1,242
+4765,Corona Virus,600.98,257.965,160.0,120.0,neutral,149,1.0,,18:34:00,1,242

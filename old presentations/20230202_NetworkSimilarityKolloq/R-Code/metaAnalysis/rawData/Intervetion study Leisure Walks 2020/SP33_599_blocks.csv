@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16896,Einschränkungen im Alltag,976.0,50.0,160.0,120.0,negative weak,337,24.0,,16:02:23,1,599
+16676,Arbeitlosigkeit,846.0,942.0,160.0,120.0,neutral,337,18.0,,,1,599
+16866,Medien,212.0,680.0,160.0,120.0,neutral,337,23.0,,,1,599
+16792,Videokonferenzen/Telefonate,1476.0,48.0,160.0,120.0,neutral,337,22.0,,,1,599
+16761,Freunde,1742.0,36.0,160.0,120.0,positive strong,337,20.0,,16:00:02,1,599
+16728,Verlust von Angehörigen,304.0,364.0,160.0,120.0,negative,337,19.0,,15:58:23,1,599
+16651,Pflege von ANgehörigen,470.0,130.0,160.0,120.0,neutral,337,17.0,,,1,599
+16619,Zu viel Zeit zum Nachdenken,2450.0,680.0,160.0,120.0,negative weak,337,16.0,,,1,599
+16616,Mehr Zeit für Hobbys,2408.0,402.0,160.0,120.0,positive weak,337,15.0,,,1,599
+16519,"Menschen, die sich nicht an Regeln halten",2376.0,12.75,160.0,120.0,negative weak,337,14.0,,15:50:09,1,599
+16507,Gemeinsam gegen den Virus kämpfen,2420.0,162.0,160.0,120.0,positive strong,337,12.0,,15:49:37,1,599
+16333,psychische Belastung,1495.95,976.953,160.0,120.0,negative weak,337,5.0,,15:46:45,0,599
+16332,Stress,741.945,377.0,160.0,120.0,negative weak,337,6.0,,15:47:04,0,599
+16331,Einsamkeit,1738.0,311.969,160.0,120.0,negative weak,337,10.0,,15:46:25,0,599
+16330,Angst,740.0,536.988,160.0,120.0,negative,337,7.0,,15:46:59,0,599
+16329,Corona-Pandemie,1305.97,623.969,160.0,120.0,negative strong,337,1.0,,15:45:09,0,599
+16328,Zusammenhalt,2117.0,160.0,160.0,120.0,ambivalent,337,8.0,,15:46:35,0,599
+16327,physische Isolierung,2126.0,779.969,160.0,120.0,ambivalent,337,2.0,,15:46:32,0,599
+16326,soziale Isolierung,2126.0,485.969,160.0,120.0,ambivalent,337,3.0,,15:46:27,0,599
+16325,Depressivität,1738.96,584.965,160.0,120.0,negative strong,337,9.0,,15:46:21,0,599
+16324,Befinden,1293.97,218.969,160.0,120.0,neutral,337,4.0, ,,0,599
+16323,wirtschaftliche Folgen,529.969,940.969,160.0,120.0,negative weak,337,11.0,,15:47:08,0,599

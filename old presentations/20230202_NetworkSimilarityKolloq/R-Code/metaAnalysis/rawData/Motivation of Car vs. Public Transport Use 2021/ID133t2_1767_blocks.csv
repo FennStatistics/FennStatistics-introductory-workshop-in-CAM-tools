@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27503,Geschwindigkeit,532.0,525.0,160.0,120.0,positive,936,9.0,,,1,1767
+27502,Kosten,293.0,518.0,160.0,120.0,negative,936,8.0,,,1,1767
+27501,Gesellschaftlich Skalierbar,430.0,43.0,160.0,120.0,positive strong,936,7.0,,17:25:26,1,1767
+27500,"persönliche Beziehung, Personifizierung, Zuneigung",73.0,206.0,160.0,120.0,positive,936,5.0,,17:24:43,1,1767
+27499,Umwelt-/Klimafolgen,649.0,53.0,160.0,120.0,negative strong,936,4.0,,17:38:57,1,1767
+27498,"Flexibilität, Unabhängigkeit",184.0,73.0,151.323,113.0,positive strong,936,3.0,,17:26:36,1,1767
+27497,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,936,1.0, ,,1,1767
+27496,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,936,2.0, ,,1,1767

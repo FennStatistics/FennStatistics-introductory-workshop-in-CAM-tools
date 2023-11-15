@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15251,Impfstoffforschung,118.556,543.0,160.0,120.0,positive strong,371,27.0,,,1,544
+15199,Schutzmaßnahmen,290.319,176.101,160.0,120.0,ambivalent,371,26.0,,14:49:56,1,544
+15176,medezinische Angestellte,296.104,456.309,160.0,120.0,positive strong,371,25.0,,,1,544
+15012,Reduzierung der Freizeitaktivitäten,72.5556,305.556,160.0,120.0,negative,371,22.0,,14:41:55,1,544
+14960,wirtschaftlicher Verlust,17.3334,438.667,160.0,120.0,negative,371,20.0,,14:41:25,1,544
+14947,Familie,317.889,40.1111,160.0,120.0,positive strong,371,17.0,,14:42:05,1,544
+14941,Masken,76.8681,118.431,160.0,120.0,ambivalent,371,16.0,,14:46:03,1,544
+14728,psychische Belastung,877.965,15.0,160.0,120.0,negative weak,371,5.0,,14:36:55,0,544
+14727,Stress,661.969,71.0,160.0,120.0,negative,371,6.0,,14:35:18,0,544
+14726,Einsamkeit,687.0,457.969,160.0,120.0,negative strong,371,10.0,,14:36:11,0,544
+14725,Angst,485.965,54.9826,160.0,120.0,negative strong,371,7.0,,14:35:13,0,544
+14724,Corona-Pandemie,458.99,294.976,160.0,120.0,negative strong,371,1.0,,14:42:26,0,544
+14723,Zusammenhalt,498.99,541.993,160.0,120.0,positive strong,371,8.0,,14:36:31,0,544
+14722,physische Isolierung,957.0,176.972,160.0,120.0,negative,371,2.0,,14:35:35,0,544
+14721,soziale Isolierung,681.979,294.976,160.0,120.0,negative,371,3.0,,14:35:55,0,544
+14720,Depressivität,900.948,483.99,160.0,120.0,negative,371,9.0,,14:37:25,0,544
+14719,Befinden,950.0,318.972,160.0,120.0,ambivalent,371,4.0,,14:38:28,0,544
+14718,wirtschaftliche Folgen,247.969,325.958,160.0,120.0,negative weak,371,11.0,,14:37:10,0,544

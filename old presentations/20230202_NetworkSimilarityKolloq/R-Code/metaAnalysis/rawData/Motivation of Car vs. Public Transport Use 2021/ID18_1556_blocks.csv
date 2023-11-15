@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24231,Geringe Flexibilität,1058.0,463.0,160.0,120.0,negative strong,804,20.0,,20:43:37,1,1556
+24230,Unpünktlichkeit,1158.0,363.0,160.0,120.0,negative weak,804,19.0,,20:43:15,1,1556
+24229,Zeit für andere Arbeiten,1160.0,53.0,160.0,120.0,positive weak,804,18.0,,20:42:44,1,1556
+24227,Privatspäre,125.0,371.0,160.0,120.0,positive,804,17.0,,20:42:17,1,1556
+24225,Unfall,177.0,75.0,160.0,120.0,negative weak,804,16.0,,20:41:36,1,1556
+24218,Man muss nicht fahren,1171.0,226.0,160.0,120.0,ambivalent,804,12.0,,,1,1556
+24216,Man fährt selbst,119.0,227.0,160.0,120.0,ambivalent,804,11.0,,,1,1556
+24192,Geringe Mobilität,867.0,424.0,160.0,120.0,negative,804,8.0,,,1,1556
+24189,Geringe Kosten,870.0,80.0,160.0,120.0,positive weak,804,7.0,,20:36:12,1,1556
+24186,Hohe Kosten,462.0,81.0,160.0,120.0,negative,804,5.0,,20:35:47,1,1556
+24183,Mobilität,432.0,426.0,160.0,120.0,positive strong,804,4.0,,20:35:27,1,1556
+24176,Eigener Pkw,293.0,214.0,213.391,152.422,neutral,804,1.0, ,,1,1556
+24175,Öffentliche Verkehrsmittel,928.0,214.0,233.797,166.984,neutral,804,2.0, ,,1,1556

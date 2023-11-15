@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17477,Familie,1038.0,544.0,160.0,120.0,positive strong,390,19.0,,16:24:54,1,631
+17440,Freiheit,513.0,544.0,160.0,120.0,positive strong,390,17.0,,,1,631
+17366,Demonstrationen,869.0,461.0,160.0,120.0,positive strong,390,16.0,,,1,631
+17338,Lügen,1110.0,337.0,160.0,120.0,negative strong,390,15.0,,16:20:18,1,631
+17335,Falsche Zahlen,952.0,58.0,160.0,120.0,negative weak,390,14.0,,16:20:03,1,631
+17331,Medien,763.0,50.0,145.333,108.5,negative weak,390,13.0,,16:19:05,1,631
+17329,Lockdown,1104.0,163.0,160.0,120.0,negative strong,390,12.0,,16:19:43,1,631
+17249,psychische Belastung,178.984,271.977,160.0,120.0,neutral,390,5.0, ,,0,631
+17248,Stress,177.983,20.0,160.0,120.0,neutral,390,6.0, ,,0,631
+17247,Einsamkeit,507.0,321.983,160.0,120.0,negative strong,390,10.0,,16:23:22,0,631
+17246,Angst,501.0,158.0,160.0,120.0,negative strong,390,7.0,,16:25:26,0,631
+17245,Corona-Pandemie,740.983,267.983,160.0,120.0,neutral,390,1.0, ,,0,631
+17244,Zusammenhalt,679.0,461.0,160.0,120.0,positive strong,390,8.0,,16:22:03,0,631
+17243,physische Isolierung,20.0,523.99,160.0,120.0,neutral,390,2.0, ,,0,631
+17242,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,390,3.0, ,,0,631
+17241,Depressivität,176.979,523.969,160.0,120.0,neutral,390,9.0, ,,0,631
+17240,Befinden,177.984,144.987,160.0,120.0,neutral,390,4.0, ,,0,631
+17239,wirtschaftliche Folgen,177.969,398.974,160.0,120.0,neutral,390,11.0, ,,0,631

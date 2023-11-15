@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24069,Flexibel,85.0,330.0,160.0,120.0,positive weak,796,3.0,,,1,1547
+24111,Festgelegte Zeiten,805.0,437.0,160.0,120.0,negative weak,796,18.0,,20:21:11,1,1547
+24107,Unflexibel,728.0,293.0,160.0,120.0,negative weak,796,17.0,,,1,1547
+24104,Abhängig von Verkehr,20.0,535.0,160.0,120.0,negative weak,796,16.0,,,1,1547
+24093,Einzelfahrten,524.0,20.0,160.0,120.0,negative weak,796,15.0,,,1,1547
+24092,Monatsabo,725.0,20.0,160.0,120.0,positive weak,796,14.0,,,1,1547
+24090,Preis,544.0,182.0,160.0,120.0,neutral,796,13.0,,,1,1547
+24087,Versicherung,20.0,161.0,154.0,115.0,negative weak,796,12.0,,,1,1547
+24085,Hohe laufende Kosten,233.0,203.0,160.0,120.0,negative,796,10.0,,20:18:27,1,1547
+24083,Hohe Tankpreise,332.0,20.0,160.0,120.0,negative weak,796,9.0,,,1,1547
+24082,Hoher Anschaffungspreis,100.0,20.0,160.0,120.0,negative weak,796,8.0,,,1,1547
+24080,Mehr CO2 Emissionen,253.0,531.0,160.0,120.0,negative strong,796,7.0,,,1,1547
+24079,Umweltbewusster,565.0,525.0,160.0,120.0,positive,796,6.0,,20:17:25,1,1547
+24071,Verspätungen,828.0,163.0,160.0,120.0,negative,796,5.0,,20:17:14,1,1547
+24067,Eigener Pkw,317.0,348.0,160.0,120.0,neutral,796,1.0, ,,1,1547
+24066,Öffentliche Verkehrsmittel,537.0,351.0,160.0,120.0,neutral,796,2.0, ,,1,1547

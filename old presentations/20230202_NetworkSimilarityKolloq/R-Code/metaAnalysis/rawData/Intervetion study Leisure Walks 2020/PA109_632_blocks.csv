@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17522,Streit,1185.0,712.974,160.0,120.0,neutral,387,21.0,,,1,632
+17520,Digitalisierung,245.969,43.2865,160.0,120.0,positive strong,387,20.0,,16:31:24,1,632
+17514,Freiheitsentzug,75.9895,516.661,160.0,120.0,negative,387,19.0,,16:30:30,1,632
+17502,Jobverlust,902.656,344.974,160.0,120.0,negative strong,387,17.0,,16:30:40,1,632
+17447,Durchhaltevermögen,1639.66,271.667,160.0,120.0,neutral,387,16.0,,16:31:04,1,632
+17445,Ungewissheit,1726.33,108.333,160.0,120.0,negative weak,387,15.0,,16:30:03,1,632
+17361,Viruseindämmung,1287.95,453.646,160.0,120.0,positive weak,387,14.0,,16:30:47,1,632
+17336,Nächstenliebe,1568.33,450.312,160.0,120.0,positive weak,387,13.0,,16:30:50,1,632
+17330,Einschränkungen,569.302,848.615,160.0,120.0,neutral,387,12.0,,16:30:32,1,632
+17272,psychische Belastung,1005.93,119.922,160.0,120.0,negative strong,387,5.0,,16:30:13,0,632
+17271,Stress,1400.94,34.9948,160.0,120.0,negative,387,6.0,,16:30:01,0,632
+17270,Einsamkeit,500.0,287.969,160.0,120.0,negative weak,387,10.0,,16:30:22,0,632
+17269,Angst,1332.99,240.984,160.0,120.0,neutral,387,7.0,,16:30:06,0,632
+17268,Corona-Pandemie,1002.97,480.958,160.0,120.0,neutral,387,1.0, ,,0,632
+17267,Zusammenhalt,1411.95,789.917,160.0,120.0,positive,387,8.0,,16:30:53,0,632
+17266,physische Isolierung,338.0,478.984,160.0,120.0,negative weak,387,2.0,,16:30:27,0,632
+17265,soziale Isolierung,505.995,53.9531,160.0,120.0,negative,387,3.0,,16:30:20,0,632
+17264,Depressivität,717.948,383.938,160.0,120.0,negative strong,387,9.0,,16:30:38,0,632
+17263,Befinden,766.927,20.0,160.0,120.0,negative weak,387,4.0,,16:30:15,0,632
+17262,wirtschaftliche Folgen,751.906,591.927,160.0,120.0,negative weak,387,11.0,,16:30:35,0,632

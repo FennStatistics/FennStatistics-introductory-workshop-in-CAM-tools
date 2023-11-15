@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27613,benötigt eine Kombination aus verschiedenen und mehr Zeit,882.0,219.0,160.0,120.0,negative strong,941,18.0,,11:45:23,1,1774
+27612,nur begrenzte Reichweite,833.0,20.0,160.0,120.0,negative,941,17.0,,,1,1774
+27611,schlecht für die Umwelt,271.0,486.0,160.0,120.0,negative,941,16.0,,,1,1774
+27610,Öffentliche Verkehrsmittel,574.0,345.0,160.0,120.0,neutral,941,2.0, ,,1,1774
+27609,Eigener Pkw,272.0,344.0,160.0,120.0,neutral,941,1.0, ,,1,1774
+27608,Bus (E-Busse),575.0,71.0,160.0,120.0,ambivalent,941,3.0,,11:19:03,1,1774
+27607,Corona,273.0,74.0,160.0,120.0,ambivalent,941,4.0,,11:15:27,1,1774
+27606,"unangenehme Menschen, die in meine Comfortzone eindringen",1034.0,137.0,160.0,120.0,negative strong,941,5.0,,11:14:45,1,1774
+27605,gut für die Umwelt,1177.0,61.0,160.0,120.0,positive strong,941,6.0,,,1,1774
+27604,Bahn,960.0,424.0,160.0,120.0,ambivalent,941,7.0,,,1,1774
+27603,teuer,580.0,494.0,160.0,120.0,negative strong,941,8.0,,,1,1774
+27602,ungepflegte Waggons,1134.0,475.0,160.0,120.0,negative strong,941,9.0,,,1,1774
+27601,"Möglichkeit mehr zu transportieren, als man tragen kann",31.0,471.0,160.0,120.0,positive strong,941,10.0,,,1,1774
+27600,"Fahrradfahrrer, die sich nicht an die StVO halten",452.0,175.0,160.0,120.0,negative strong,941,11.0,,,1,1774
+27599,freie Zeitwahl,23.0,344.0,160.0,120.0,positive strong,941,12.0,,,1,1774
+27598,"an Fahrzeiten gebunden, meistens zu spät",670.0,181.0,160.0,120.0,negative,941,13.0,"Äquivalent zu ""Verspätung durch Stau""",11:27:49,1,1774
+27597,Parkplatzsuche,20.0,226.0,160.0,120.0,negative strong,941,14.0,,,1,1774
+27596,Verspätung durch Stau,24.0,99.0,160.0,120.0,negative,941,15.0,"Äquivalent zu ""an Fahrzeiten gebunden, meistens zu spät""",11:28:22,1,1774

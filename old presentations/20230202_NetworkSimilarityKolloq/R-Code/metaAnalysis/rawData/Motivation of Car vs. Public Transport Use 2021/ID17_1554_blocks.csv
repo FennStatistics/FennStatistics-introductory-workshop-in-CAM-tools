@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24243,Wertverlust,548.0,20.0,160.0,120.0,negative strong,802,18.0,,,1,1554
+24223,Konzentration,217.0,544.0,160.0,120.0,ambivalent,802,17.0,,,1,1554
+24220,Entspannung / Aus dem Fenster Raus schauen,386.0,352.0,100.65,75.0,positive,802,16.0,,20:39:55,1,1554
+24197,Körpergeruch,534.0,446.0,70.0,52.0,negative weak,802,14.0,,20:38:08,1,1554
+24196,Viren / Enger Raum,536.0,520.0,83.325,62.0,negative strong,802,13.0,,20:37:05,1,1554
+24191,Unachtsam / Unfallgefahr,246.0,437.0,115.325,86.0,negative strong,802,12.0,,20:36:26,1,1554
+24187,Andere Menschen,396.0,502.0,120.65,90.0,negative weak,802,10.0,,20:36:32,1,1554
+24171,Fahrticket,591.0,205.0,63.325,47.0,positive weak,802,9.0,,20:33:45,1,1554
+24170,Versicherung,223.0,201.0,85.0,63.25,negative,802,8.0,,20:33:39,1,1554
+24164,Kosten,356.0,128.0,160.0,120.0,negative strong,802,5.0,,20:38:17,1,1554
+24167,Steuer,27.0,30.0,119.325,89.0,negative,802,7.0,,20:33:42,1,1554
+24166,Benzin,128.0,90.0,103.325,77.0,negative weak,802,6.0,,20:33:37,1,1554
+24161,Zeit frei planen,422.0,246.0,95.325,71.0,positive strong,802,4.0,,,1,1554
+24159,Öffentliche Verkehrsmittel,638.0,419.0,76.6625,57.0,neutral,802,2.0,,,1,1554
+24157,Auto fahren,141.0,282.0,160.0,120.0,neutral,802,1.0,,,1,1554

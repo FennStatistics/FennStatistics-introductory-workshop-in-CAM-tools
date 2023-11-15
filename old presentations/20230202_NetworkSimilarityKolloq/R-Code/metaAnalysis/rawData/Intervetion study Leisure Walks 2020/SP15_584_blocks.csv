@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16201,Freunde,374.995,338.984,160.0,120.0,negative strong,400,20.0,,,1,584
+16138,Flugzeug,789.974,754.953,160.0,120.0,negative strong,400,19.0,,,1,584
+16101,Urlaub,384.979,763.99,160.0,120.0,negative strong,400,18.0,,,1,584
+16018,Maske,1051.97,730.969,160.0,120.0,positive strong,400,17.0,,15:30:40,1,584
+15960,Bleib gesund,388.0,120.0,166.0,124.0,positive strong,400,16.0,,15:28:58,1,584
+15956,,436.0,97.0,160.0,120.0,neutral,400,15.0,,,1,584
+15928,Angst,887.987,19.0,160.0,120.0,negative strong,400,12.0,,,1,584
+15924,Angst,678.0,428.0,160.0,120.0,negative strong,400,15.0,,,1,584
+15818,Depressivität,905.943,267.937,160.0,120.0,neutral,400,9.0, ,,0,584
+15826,psychische Belastung,1059.95,521.953,160.0,120.0,neutral,400,5.0, ,,0,584
+15825,Stress,637.943,96.9844,160.0,120.0,neutral,400,6.0, ,,0,584
+15824,Einsamkeit,84.9792,288.906,160.0,120.0,neutral,400,10.0, ,,0,584
+15823,Angst,1122.92,331.932,160.0,120.0,neutral,400,7.0, Angst vor Krankheiten,15:21:54,0,584
+15822,Corona-Pandemie,694.974,413.964,160.0,120.0,neutral,400,1.0," The ""Great Filter"" Idee",15:26:06,0,584
+15821,Zusammenhalt,71.9271,77.0,160.0,120.0,neutral,400,8.0, ,,0,584
+15820,physische Isolierung,103.938,510.958,160.0,120.0,neutral,400,2.0, ,,0,584
+15819,soziale Isolierung,97.9219,752.885,160.0,120.0,neutral,400,3.0, ,,0,584
+15817,Befinden,1261.93,783.0,160.0,120.0,neutral,400,4.0, ,,0,584
+15816,wirtschaftliche Folgen,629.927,718.979,160.0,120.0,neutral,400,11.0, ,,0,584

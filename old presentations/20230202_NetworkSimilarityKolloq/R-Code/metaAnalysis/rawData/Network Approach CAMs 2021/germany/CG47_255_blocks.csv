@@ -1,0 +1,26 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5696,weniger Tote,1164.26,604.679,160.0,120.0,positive strong,157,36.0,,19:01:56,1,255
+5694,weniger Fälle,873.996,557.571,160.0,120.0,positive strong,157,35.0,,19:01:50,1,255
+5665,Lockdown,646.125,581.835,160.0,120.0,ambivalent,157,34.0,,19:04:44,1,255
+5607,Spaß fehlt,944.246,712.103,160.0,120.0,negative,157,32.0,,,1,255
+5476,Gutschein,191.692,699.107,160.0,120.0,positive weak,157,30.0,Immerhin einen Gutschein zurückbekommen,18:51:27,1,255
+5468,Keine Konzerte,573.813,732.0,160.0,120.0,negative weak,157,29.0,,,1,255
+5354,Finanziell abgesichert,1251.21,493.978,160.0,120.0,positive strong,157,22.0,,18:48:20,1,255
+5332,Zeit für Familie,563.438,22.0,160.0,120.0,positive,157,19.0,,18:48:49,1,255
+5319,Schwester nicht sehen,419.545,29.9821,160.0,120.0,negative,157,18.0,,18:47:27,1,255
+5311,Zeit für Freund,700.982,27.3259,160.0,120.0,positive,157,17.0,,18:49:31,1,255
+5282,Keine Kosten,158.308,550.522,160.0,120.0,positive,157,16.0,Ich komme umsonst an selbst genähte Masken,18:46:18,1,255
+5247,Brillenträger,50.8705,429.647,160.0,120.0,negative weak,157,14.0,Als Brillenträger ist es manchmal nicht so toll,18:44:46,1,255
+5241,Kleinere Risiko,142.997,276.33,160.0,120.0,positive strong,157,13.0,Weniger Risiko sich anzustecken und damit vielleicht auch andere anzustecken,18:45:12,1,255
+5234,Maskenpflicht,310.531,392.277,160.0,120.0,positive,157,12.0,,,1,255
+5193,Kontaktbeschränkung,570.063,237.366,160.0,120.0,ambivalent,157,11.0,,18:43:52,1,255
+5176,Angst andere anzustecken,137.42,130.098,160.0,120.0,negative strong,157,10.0,,,1,255
+5150,Urlaub fällt aus,382.629,598.085,160.0,120.0,negative,157,9.0,,,1,255
+5088,Interaktion fehlt,1190.32,237.862,160.0,120.0,negative,157,6.0,,18:40:53,1,255
+5133,Kein Austausch mit Studienkollegen,1366.09,286.429,160.0,120.0,negative weak,157,8.0,,18:54:55,1,255
+5115,Soziale Kontakte,1359.21,125.746,160.0,120.0,negative,157,7.0,,18:41:34,1,255
+4989,Keine Fernbeziehung,804.96,180.33,160.0,120.0,positive,157,5.0,"Bedeutet, ich kann dadurch wieder mit meinem Freund wohnen",18:39:52,1,255
+4979,Mehr Zeit,1247.94,8.9509,160.0,120.0,positive,157,4.0,,18:38:38,1,255
+4967,Kein Pendeln,988.978,27.0,160.0,120.0,positive strong,157,3.0,Ich muss am Wochenende keine 300km mehr nach Hause fahren,18:40:27,1,255
+4884,Vorlesungen über Zoom,1006.89,281.938,160.0,120.0,ambivalent,157,2.0,,18:37:42,1,255
+4871,Coronavirus,561.964,409.951,160.0,120.0,neutral,157,1.0,,18:36:55,1,255

@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27757,Praktisch auf dem Land,263.0,40.0,160.0,120.0,positive,948,22.0,,,1,1781
+27752,Praktisch in der Stadt,581.0,127.0,160.0,120.0,positive,948,21.0,,,1,1781
+27741,Möglichkeit sparender Tickets,931.0,522.0,160.0,120.0,positive,948,20.0,,,1,1781
+27740,Kostengünstig,726.0,477.0,160.0,120.0,positive,948,19.0,,,1,1781
+27739,Weniger Stress,941.0,149.0,160.0,120.0,positive,948,18.0,,,1,1781
+27738,Übertagung Krankheiten,1046.0,345.0,160.0,120.0,negative,948,17.0,,,1,1781
+27737,Kontakt mit Fremden,835.0,350.0,160.0,120.0,negative,948,16.0,,13:31:46,1,1781
+27736,Entspannt mitfahren,741.0,183.0,160.0,120.0,positive,948,15.0,,,1,1781
+27735,Parkplatz Suche,421.0,189.0,160.0,120.0,negative weak,948,14.0,,,1,1781
+27734,Umweltfreundlich,422.0,523.0,160.0,120.0,positive weak,948,12.0,,13:30:33,1,1781
+27733,TÜV,20.0,536.0,160.0,120.0,negative,948,11.0,,,1,1781
+27732,Steuern,175.0,541.0,160.0,120.0,negative,948,10.0,,,1,1781
+27731,Instandhaltung,202.0,144.0,160.0,120.0,negative,948,9.0,,,1,1781
+27730,Benzin Kosten,39.0,418.0,160.0,120.0,negative weak,948,7.0,,13:29:02,1,1781
+27729,Transport von Gegenständen,20.0,102.0,160.0,120.0,positive,948,6.0,,13:28:23,1,1781
+27728,Privat,55.0,299.0,160.0,120.0,positive,948,5.0,,,1,1781
+27727,Nah am Ziel,426.0,44.0,160.0,120.0,positive weak,948,4.0,,13:39:10,1,1781
+27726,unabhängig,41.0,207.0,160.0,120.0,positive strong,948,3.0,,,1,1781
+27725,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,948,1.0, ,,1,1781
+27724,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,948,2.0,,13:38:47,1,1781

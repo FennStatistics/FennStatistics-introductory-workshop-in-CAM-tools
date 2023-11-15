@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15196,Home-Office (Telearbeit),243.982,190.277,160.0,120.0,positive strong,364,18.0,,14:49:47,1,536
+15174,Work-Life-Balance,496.696,125.281,160.0,120.0,ambivalent,364,17.0,,14:50:56,1,536
+14456,soziale Isolierung,1238.97,239.933,160.0,120.0,negative weak,364,3.0,,14:27:55,0,536
+14463,psychische Belastung,834.938,642.902,160.0,120.0,negative weak,364,5.0, Die psychischen Folgen sind momentan für viele Menschen noch nicht bewusst. Ich sehe das für die Zukunft negativ,14:59:41,0,536
+14461,Einsamkeit,1723.97,246.879,160.0,120.0,negative strong,364,10.0,,15:07:53,0,536
+14460,Stress & Angst,480.937,481.946,160.0,120.0,neutral,364,7.0," Stress uns Angst wirken den ""positiven"" Effekten der Corona-Pandemie (wie Zusammenhalt in der Gesellschaft und flächendeckendes Home-Office) hemmend entgegen. Man kann sich nicht entspannen, wenn man sich Sorgen um sich oder andere Personen macht",15:05:04,0,536
+14459,Corona-Pandemie,1003.96,128.969,160.0,120.0,negative strong,364,1.0,,14:24:56,0,536
+14458,Zusammenhalt,264.982,43.9643,160.0,120.0,positive weak,364,8.0," Der Zusammenhalt in der Gesellschaft ist zu groben Teilen doch gegeben, was doch schon sehr positiv ist.",15:00:21,0,536
+14457,physische Isolierung,1449.98,165.955,160.0,120.0,neutral,364,2.0, ,,0,536
+14455,Depressivität,1449.94,334.973,160.0,120.0,neutral,364,9.0, ,,0,536
+14454,eigenes Befinden,747.942,246.951,160.0,120.0,neutral,364,4.0,,15:07:28,0,536
+14453,wirtschaftliche Folgen,246.942,406.96,160.0,120.0,negative strong,364,11.0," Ich mache mir über meine Freunde und Gemeinschaft sorgen, dass sie wirtschaftlich beeinträchtigt werden. ",14:54:23,0,536

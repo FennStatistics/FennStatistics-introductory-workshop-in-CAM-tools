@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13793,Schwerer zu organisierender Alltag,244.0,277.0,160.0,120.0,negative weak,325,19.0,,13:58:38,1,496
+13382,psychische Belastung,1029.98,521.983,160.0,120.0,negative strong,325,5.0,,13:36:02,0,496
+13381,Stress,664.983,544.0,160.0,120.0,negative strong,325,6.0,,13:33:22,0,496
+13380,Einsamkeit,1019.0,312.983,160.0,120.0,negative strong,325,10.0,,13:36:43,0,496
+13379,Angst,1270.0,236.0,160.0,120.0,negative strong,325,7.0, Angst bezüglich Zukunft,13:44:37,0,496
+13378,Corona-Pandemie,757.983,20.0,160.0,120.0,negative strong,325,1.0,,13:31:59,0,496
+13377,Zusammenhalt,127.0,161.0,160.0,120.0,positive weak,325,8.0, Zusammenhalt in Familie,13:40:32,0,496
+13376,physische Isolierung,512.0,192.983,160.0,120.0,negative strong,325,2.0,,13:25:15,0,496
+13375,soziale Isolierung,834.0,195.983,160.0,120.0,negative strong,325,3.0,,13:25:18,0,496
+13374,Depressivität,571.983,373.967,160.0,120.0,negative strong,325,9.0,,13:26:27,0,496
+13373,Persönliches Befinden,48.9833,514.983,160.0,120.0,neutral,325,4.0,,13:50:06,0,496
+13372,wirtschaftliche Folgen,1078.97,51.0,160.0,120.0,negative weak,325,11.0,Keine persönliche Erfahrungen mit den wirschaftlichen Folgen,13:44:19,0,496

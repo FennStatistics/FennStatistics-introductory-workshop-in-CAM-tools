@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4384,food disparity,72.0,222.0,160.0,120.0,negative strong,107,8.0,,,1,185
+4191,lock downs,337.0,406.0,160.0,120.0,positive strong,107,7.0,,18:25:19,1,185
+4171,social distancing,652.0,415.0,160.0,120.0,positive weak,107,6.0,,18:25:15,1,185
+4143,anxiety,771.0,222.0,160.0,120.0,negative strong,107,4.0,,18:25:07,1,185
+4132,financial issues,526.0,258.0,160.0,120.0,negative strong,107,3.0,,18:25:04,1,185
+4121,afraid,292.0,236.0,160.0,120.0,negative,107,2.0,,18:25:01,1,185
+4106,covid 19,449.0,111.0,160.0,120.0,neutral,107,1.0,,,1,185

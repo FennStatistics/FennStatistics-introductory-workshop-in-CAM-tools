@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5157,finanzielle Schäden,150.0,106.0,160.0,120.0,negative strong,127,12.0,,,1,220
+4750,Hamsterkäufe,747.0,182.0,160.0,120.0,negative strong,127,7.0,,,1,220
+5015,Panikmache,583.0,127.0,160.0,120.0,negative,127,10.0,,,1,220
+4955,erhöhte Sterberate,704.0,20.0,160.0,120.0,negative strong,127,9.0,"dadurch, dass bereits vorbelastete Patienten ""schneller"" sterben",18:39:07,1,220
+4809,erhöhte häusliche Gewalt/psychische Konflikte,666.0,456.0,160.0,120.0,negative strong,127,8.0,"Depressionen, keine Möglichkeiten sich Hilfe zu holen oder seinen Frust zum Beispiel beim Sport abzubauen",18:37:15,1,220
+4701,Maskenpflicht,448.0,430.0,160.0,120.0,negative strong,127,6.0,,,1,220
+4665,weniger soziale Kontakte,704.0,306.0,160.0,120.0,negative,127,5.0,,,1,220
+4632,Ausgangsbeschränkungen,526.0,288.0,160.0,120.0,positive,127,4.0,,,1,220
+4552,COVID-19,325.0,44.0,160.0,120.0,negative,127,2.0,,,1,220
+4527,Coronavirus,342.0,267.0,160.0,120.0,negative strong,127,1.0,,,1,220

@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13993,psychische Belastung,1684.95,226.957,160.0,120.0,negative weak,348,5.0,,14:10:24,0,519
+13992,Stress,1229.97,20.0,160.0,120.0,negative weak,348,6.0,,14:07:15,0,519
+13991,Einsamkeit,645.977,572.961,160.0,120.0,negative weak,348,10.0,,14:06:59,0,519
+13990,Angst,1491.99,154.0,160.0,120.0,negative strong,348,7.0,,14:08:32,0,519
+13989,Corona-Pandemie,928.984,347.984,160.0,120.0,negative strong,348,1.0,,14:05:03,0,519
+13988,Zusammenhalt,869.0,42.0,160.0,120.0,positive weak,348,8.0,,14:07:45,0,519
+13987,physische Isolierung,445.973,352.973,160.0,120.0,ambivalent,348,2.0,,14:11:03,0,519
+13986,soziale Isolierung,674.984,328.984,160.0,120.0,negative weak,348,3.0,,14:12:05,0,519
+13985,Depressivität,1971.97,165.961,160.0,120.0,negative,348,9.0,,14:12:52,0,519
+13984,Befinden,1496.95,418.98,160.0,120.0,negative weak,348,4.0,,14:09:36,0,519
+13983,wirtschaftliche Folgen,615.961,115.953,160.0,120.0,ambivalent,348,11.0,,14:06:21,0,519

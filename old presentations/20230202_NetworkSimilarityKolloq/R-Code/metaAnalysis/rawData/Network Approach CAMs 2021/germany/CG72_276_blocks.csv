@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5613,Gesundheit,795.0,223.0,160.0,120.0,positive,174,10.0,,,1,276
+5521,Wertschätzung,667.0,480.0,160.0,120.0,positive,174,7.0,"man hat gemerkt, was man an bestimmten Dingen hat (Fitnessstudio, Gesundheit, Familie etc.)",18:56:34,1,276
+5586,gleicher Arbeitsalltag,181.0,356.0,160.0,120.0,positive strong,174,9.0,,,1,276
+5535,neuer Alltag,20.0,184.0,160.0,120.0,ambivalent,174,8.0,"durch neue Regelungen (Kontaktsperre, keine geöffneten Geschäfte etc.) ergab sich zwangsläufig ein neuer Alltag",18:55:03,1,276
+5499,Langeweile,523.0,31.0,160.0,120.0,negative weak,174,6.0,,18:53:58,1,276
+5489,neue Hobbys,623.0,333.0,160.0,120.0,positive weak,174,5.0,durch veränderte Gewohnheiten konnte man seine Fähigkeiten weiterentwickeln bzw. neue Hobbys entdecken,18:53:15,1,276
+5473,keine sozialen Kontakte,720.0,54.0,160.0,120.0,negative,174,4.0,Freunde und Familie durften während der Kontaktsperre nicht getroffen werden,18:52:38,1,276
+5431,Routine im Alltag,199.0,84.0,160.0,120.0,positive,174,3.0,,,1,276
+5387,Corona,406.0,204.0,160.0,120.0,neutral,174,1.0,,,1,276

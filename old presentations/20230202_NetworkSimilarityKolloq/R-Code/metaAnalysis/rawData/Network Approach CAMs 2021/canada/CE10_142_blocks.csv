@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4726,More units available,246.0,626.0,160.0,120.0,positive,74,23.0,,18:32:43,1,142
+4647,Shopping,663.734375,25.0,160.0,120.0,positive,74,22.0,,,1,142
+4546,Health,24.0,253.976577758789,160.0,120.0,negative,74,21.0,Physical and Metal Wellbeing,18:29:19,1,142
+4462,Lower Rent,536.984375,618.0,160.0,120.0,positive,74,19.0,,18:26:18,1,142
+4437,Housing,390.99609375,507.992218017578,160.0,120.0,positive,74,18.0,,,1,142
+4323,Loss of money to economy,794.0,526.984375,160.0,120.0,negative strong,74,14.0,,,1,142
+4278,Businesses,739.0,263.99609375,160.0,120.0,ambivalent,74,13.0,,18:24:01,1,142
+4238,Rest and Leisure,179.992202758789,460.99609375,160.0,120.0,ambivalent,74,12.0,,18:27:29,1,142
+4160,Cancellation of sports competitions,24.0,86.9765625,160.0,120.0,negative strong,74,11.0,,18:21:49,1,142
+3972,Sports and Exercise,216.0,23.0,160.0,120.0,negative,74,9.0,,18:16:58,1,142
+3851,Work Ethic,578.98828125,403.0,160.0,120.0,negative strong,74,6.0,Productivity in doing school work and studying,18:12:58,1,142
+3772,Social Life,813.9765625,132.984375,160.0,120.0,negative strong,74,3.0,,18:13:29,1,142
+3759,Corona Virus,382.0,116.0,160.0,120.0,neutral,74,1.0,,,1,142

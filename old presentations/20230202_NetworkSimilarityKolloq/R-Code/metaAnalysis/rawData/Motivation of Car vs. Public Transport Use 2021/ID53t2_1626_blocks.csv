@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25314,Public Transport,302.0,277.0,160.0,120.0,neutral,842,1.0,,,1,1626
+25313,Own car,555.0,280.0,160.0,120.0,neutral,842,2.0,,,1,1626
+25312,Flexible times,701.0,41.0,160.0,120.0,positive strong,842,4.0,,13:06:04,1,1626
+25311,Cheaper,134.0,80.0,139.325,104.0,positive weak,842,5.0,,13:05:59,1,1626
+25310,Better for environemnt ,108.0,430.0,160.0,120.0,positive strong,842,6.0,,13:06:49,1,1626
+25309,Worse for the environment ,666.0,440.0,160.0,120.0,negative,842,7.0,,13:07:32,1,1626
+25308,Subject to delays,340.0,66.0,160.0,120.0,negative,842,9.0,,13:08:09,1,1626
+25307,Can take multiple routes,510.0,139.0,160.0,120.0,positive,842,10.0,,13:08:52,1,1626
+25306,Can be much slower,378.0,530.0,160.0,120.0,negative weak,842,11.0,,13:09:42,1,1626
+25305,Risk of accident ,810.0,258.0,160.0,120.0,negative weak,842,12.0,,13:10:17,1,1626

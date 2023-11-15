@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25548,co2 ausstoß,178.0,397.0,160.0,120.0,negative strong,849,19.0,,,1,1630
+25449,Mobilität,407.0,434.0,160.0,120.0,neutral,849,17.0,,,1,1630
+25448,Wartung,112.0,129.0,160.0,120.0,negative strong,849,14.0,,13:39:46,1,1630
+25447,versicherung,102.0,20.0,160.0,120.0,negative strong,849,13.0,,,1,1630
+25446,benzin,390.0,20.0,160.0,120.0,negative strong,849,12.0,,13:40:53,1,1630
+25444,begrenzte verfügbarkeit,696.0,328.0,160.0,120.0,negative strong,849,10.0,,13:38:51,1,1630
+25441,tages/monats/jahreskarten,760.0,20.0,160.0,120.0,neutral,849,9.0,,,1,1630
+25438,pauschalpreise,590.0,70.0,160.0,120.0,ambivalent,849,7.0,,,1,1630
+25415,Verkehrsfluss,486.0,338.0,160.0,120.0,neutral,849,6.0,,,1,1630
+25397,variabler preis,266.0,94.0,160.0,120.0,ambivalent,849,4.0,,,1,1630
+25393,unbeschränkt verfügbar,54.0,239.0,160.0,120.0,positive strong,849,3.0,,13:34:35,1,1630
+25385,Eigener Pkw,281.0,208.0,160.0,120.0,neutral,849,1.0, ,,1,1630
+25384,Öffentliche Verkehrsmittel,509.0,205.0,160.0,120.0,neutral,849,2.0, ,,1,1630

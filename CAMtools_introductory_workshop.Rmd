@@ -1,0 +1,90 @@
+---
+title: "The title"
+author: "Your Name"
+subtitle: Some subtitle
+output:
+  ioslides_presentation: default
+  beamer_presentation:
+    slide_level: 1
+    theme: AnnArbor
+    keep_tex: no
+  slidy_presentation: default
+institute: Your Affiliation
+header-includes:
+- \input{subfiles/smipstyle.tex}
+- \titlegraphic{\includegraphics[width=4cm]{subfiles/mannheim}}
+- \AtBeginDocument{\date[Conference/Occasion]{Conference/Occasion, April 2, 4242}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, collapse = TRUE)
+# load packages and define functions here
+```
+
+
+# Slide Title
+
+This is how you itemize:
+
+- Main point
+  - Sub-point (level 1) 
+    - Sub-point (level 2)
+
+This is regular text.
+
+\emph{This is how you emphasize}.
+
+\highlight{This text is highlighted.}
+
+\deemph{This line is not important (de-emphasized).}
+
+
+
+# How to Display Code
+
+This code chunk will be printed...
+
+```{r echo=TRUE}
+1 + 1
+```
+
+... this one won't:
+
+```{r}
+1 + 1
+```
+
+
+
+
+# Don't forget to thank the DFG :-)
+
+\vspace{1cm}
+
+\begin{columns} 
+\begin{column}{.48\textwidth} 
+
+\begin{figure}[p]
+```{r, out.width = "150px", fig.align = 'center'}
+knitr::include_graphics('subfiles/logo_full.eps')
+```
+\end{figure}
+
+\end{column}
+\begin{column}{.48\textwidth} 
+
+\begin{center}
+
+\footnotesize{This research was funded by the Deutsche Forschungsgemeinschaft (DFG), grant 2277, Research Training Group ``Statistical Modeling in Psychology" (SMiP)}
+
+\end{center}
+
+\end{column}
+\end{columns}
+
+\vspace{1cm}
+
+This is how you can specify columns, by the way. 
+
+
+

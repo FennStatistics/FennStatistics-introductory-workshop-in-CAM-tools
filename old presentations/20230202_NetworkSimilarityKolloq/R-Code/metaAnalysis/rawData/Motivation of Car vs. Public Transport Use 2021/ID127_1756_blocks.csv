@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27334,fremde Menschen,854.0,479.0,160.0,120.0,negative weak,929,22.0,,,1,1756
+27333,fehlende Verbindungen,800.0,330.0,160.0,120.0,negative strong,929,21.0,,,1,1756
+27332,Benzin,358.0,584.0,160.0,120.0,negative strong,929,20.0,,,1,1756
+27331,Haltungskosten,138.0,560.0,160.0,120.0,negative strong,929,19.0,,,1,1756
+27330,hohe Kosten,268.0,487.0,160.0,120.0,negative strong,929,18.0,,,1,1756
+27329,Wartezeit,626.0,250.0,160.0,120.0,negative strong,929,17.0,,,1,1756
+27327,unzuverlässig,624.0,160.0,160.0,120.0,negative strong,929,15.0,,19:02:52,1,1756
+27326,dreckig,807.0,107.0,160.0,120.0,negative weak,929,14.0,,,1,1756
+27325,fahren wann und wo man will,321.0,69.0,160.0,120.0,positive,929,13.0,,,1,1756
+27324,feste Abfahrtzeiten,621.0,65.0,160.0,120.0,negative,929,12.0,,,1,1756
+27323,Parkplatzsuche,197.0,167.0,160.0,120.0,negative,929,11.0,,,1,1756
+27321,man kommt gut in die Innenstadt,451.0,238.0,160.0,120.0,positive,929,9.0,,,1,1756
+27319,günstig,577.0,486.0,160.0,120.0,positive weak,929,7.0,,,1,1756
+27317,gut zum Einkaufen,35.0,91.0,160.0,120.0,positive strong,929,5.0,,,1,1756
+27316,keine fremden Menschen,40.0,416.0,160.0,120.0,positive strong,929,4.0,,,1,1756
+27315,Stauraum,34.0,225.0,160.0,120.0,positive strong,929,3.0,,,1,1756
+27314,Eigener Pkw,274.0,345.0,160.0,120.0,neutral,929,1.0, ,,1,1756
+27313,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,929,2.0, ,,1,1756

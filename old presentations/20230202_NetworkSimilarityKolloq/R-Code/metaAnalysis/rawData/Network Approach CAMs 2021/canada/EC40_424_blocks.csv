@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12836,Introverted,410.0,134.444,160.0,120.0,positive,272,14.0,,,1,424
+12818,Mindfulness,-4.44444,440.0,160.0,120.0,positive weak,272,13.0,,,1,424
+12765,Fear,431.111,300.0,160.0,120.0,neutral,272,8.0,,,1,424
+12757,corona virus pandemic,185.556,300.0,160.0,120.0,negative strong,272,7.0,The global pandemic,12:26:22,1,424
+12724,Suspence,498.889,497.778,160.0,120.0,negative,272,6.0,,,1,424
+12688,Stress,298.0,539.0,160.0,120.0,ambivalent,272,4.0,,12:11:57,1,424
+12662,deaths,200.0,164.0,160.0,120.0,negative,272,1.0,,,1,424

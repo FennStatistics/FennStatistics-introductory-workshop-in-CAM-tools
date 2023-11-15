@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14089,technischer Fortschritt bei Lehre und Bildung ,373.0,572.0,123.328125,92.0,positive strong,336,27.0,Erkenntnisse im technischen Bereich könnten auch künftig in lehre und Ausbildung eingebracht werden; macht Lehre vielseitiger ,14:11:26,1,506
+14044,Bildungsangebote öffnen sich,492.0,400.0,199.328125,149.0,positive strong,336,26.0,Viele Träger bieten nun kostenfreie Angebote für Nutzerinnen,14:12:47,1,506
+13968,Maske im Alltag,81.0,36.0,160.0,120.0,negative weak,336,25.0,,,1,506
+13937,Insolvenz/ Laden und Lokalschließungen,231.0,398.0,160.0,120.0,negative strong,336,22.0,,14:03:51,1,506
+13927,Jobverlust,58.0,431.0,160.0,120.0,negative strong,336,20.0,,,1,506
+13876,private Einbußen,135.0,574.0,103.328125,77.0,negative strong,336,18.0,,14:02:49,1,506
+13833,Schutzmaßnahmen,273.0,41.0,192.65625,144.0,ambivalent,336,15.0,sehr ambivalent; da nur von einigen eingehalten,14:11:44,1,506
+13622,psychische Belastung,963.96875,172.96875,160.0,120.0,neutral,336,5.0, Vor allem durch Ungewissheit über die Zukunft und mangelnde Voraussagbarkeit,14:12:06,0,506
+13621,Stress,1145.96875,343.0,160.0,120.0,negative strong,336,6.0,,13:57:32,0,506
+13620,Einsamkeit,1086.0,79.0,160.0,120.0,negative,336,10.0,,14:06:55,0,506
+13619,Angst,1097.0,544.0,160.0,120.0,negative,336,7.0,,13:56:46,0,506
+13618,Corona-Pandemie,553.984375,201.984375,160.0,120.0,neutral,336,1.0,,14:01:30,0,506
+13617,"""Solidarität""",707.0,20.0,160.0,120.0,ambivalent,336,8.0, Pseudo-Solidarität häufig,14:12:21,0,506
+13616,physische Isolierung,890.0,20.0,160.0,120.0,neutral,336,2.0, ,,0,506
+13615,soziale Isolierung,791.0,303.984375,160.0,120.0,neutral,336,3.0, ,,0,506
+13614,Depressivität,928.96875,422.96875,160.0,120.0,negative strong,336,9.0,,13:57:34,0,506
+13613,Befinden,706.96875,544.0,160.0,120.0,neutral,336,4.0, ,,0,506
+13612,wirtschaftliche Folgen,206.96875,240.96875,160.0,120.0,negative strong,336,11.0,,14:04:02,0,506

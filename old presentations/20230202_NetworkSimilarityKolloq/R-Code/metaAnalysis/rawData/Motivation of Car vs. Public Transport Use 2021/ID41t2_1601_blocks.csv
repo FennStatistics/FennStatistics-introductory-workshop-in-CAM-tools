@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24928,Wertverlust,312.0,546.75,157.0,117.25,negative strong,828,20.0,,12:13:35,1,1601
+24926,Öffentliche Verkehrsmittel,575.0,343.0,160.0,120.0,neutral,828,2.0, ,,1,1601
+24925,Eigener Pkw,273.0,344.0,160.0,120.0,neutral,828,1.0, ,,1,1601
+24924,Musik,103.0,125.0,160.0,120.0,positive strong,828,3.0,,11:53:01,1,1601
+24923,Klimaanlage,20.0,399.0,160.0,120.0,positive strong,828,4.0,,11:53:22,1,1601
+24922,Privatsphäre,20.0,219.0,160.0,120.0,positive strong,828,5.0,,11:53:44,1,1601
+24921,Abstand,35.0,304.0,160.0,120.0,positive strong,828,6.0,,11:53:54,1,1601
+24920,Sitzplatz,20.0,494.0,160.0,120.0,positive strong,828,7.0,,11:54:10,1,1601
+24919,Flexibilität,160.0,544.0,160.0,120.0,positive strong,828,8.0,,11:54:22,1,1601
+24918,Ungestörtes Gespräch,290.0,138.0,160.0,120.0,positive strong,828,9.0,,11:54:40,1,1601
+24917,Dauerangebot,537.0,137.0,160.0,120.0,positive strong,828,10.0,,11:55:08,1,1601
+24916,Maskenpflicht,690.0,394.0,160.0,120.0,negative strong,828,11.0,,11:58:32,1,1601
+24915,Nach dem Feiern,688.0,181.0,160.0,120.0,positive strong,828,12.0,,11:55:39,1,1601
+24914,Semesterticket,690.0,268.0,160.0,120.0,positive weak,828,13.0,,11:56:04,1,1601
+24913,Verspätung,690.0,482.0,160.0,120.0,negative weak,828,14.0,,11:56:26,1,1601
+24912,Ausfall,574.0,541.0,160.0,120.0,negative strong,828,15.0,,11:58:42,1,1601
+24911,Kosten,399.0,456.0,160.0,120.0,negative strong,828,16.0,,11:56:53,1,1601
+24910,Klimaunfreundlich,380.0,237.0,160.0,120.0,negative strong,828,17.0,,11:57:10,1,1601
+24909,Ausflug zu abgelegenen Zielen,245.0,477.0,166.0,124.0,positive strong,828,18.0,,11:57:43,1,1601
+24908,Schmutzig + laut,524.0,453.0,160.0,120.0,negative strong,828,19.0,,11:57:53,1,1601

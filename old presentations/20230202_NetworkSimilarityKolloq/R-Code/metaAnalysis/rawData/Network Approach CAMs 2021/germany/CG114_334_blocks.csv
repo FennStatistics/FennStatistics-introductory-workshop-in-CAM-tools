@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6438,,1464.67,408.333,160.0,120.0,neutral,218,19.0,,,1,334
+6432,,1295.33,445.0,160.0,120.0,neutral,218,18.0,,,1,334
+6426,Unterhaltungsaktivitäten,10.0,250.0,160.0,120.0,negative,218,17.0,"nicht mehr, bzw. nur noch eingeschränkt möglich",20:58:39,1,334
+6420,Arbeitslose,1248.67,21.0,160.0,120.0,negative strong,218,16.0,,20:59:25,1,334
+6419,Sport,42.5625,33.5625,160.0,120.0,ambivalent,218,15.0,,20:57:24,1,334
+6418,Gesundheit,717.0,22.0,160.0,120.0,negative,218,14.0,,20:54:39,1,334
+6415,Maske,197.143,600.429,160.0,120.0,negative strong,218,13.0,Das arbeiten mit Maske ist anstrengend und tut mit der Zeit an den Ohren weh,20:54:10,1,334
+6413,Aktien,1209.43,181.0,160.0,120.0,positive strong,218,12.0,"Durch die Coronakrise und die Folgen auf die Wirtschaft, habe ich mich aufraffen können mit über den Aktienhandel zu informieren",20:53:24,1,334
+6412,Einkaufen,1056.71,389.429,160.0,120.0,negative,218,11.0,Das Einkaufen ist nur sehr beschränkt möglich. man muss Angst haben sich anzustecken. Es macht keinen Spaß mehr Lebensmittel einzukaufen,21:01:30,1,334
+6410,Partys,503.571,613.857,160.0,120.0,negative strong,218,10.0,Partys müssen leider ausfallen,20:51:09,1,334
+6409,Onlinespiele,688.429,618.143,160.0,120.0,positive,218,9.0,,20:51:40,1,334
+6408,Fahrradtour,922.714,562.571,160.0,120.0,positive strong,218,8.0,,20:50:10,1,334
+6403,Homeoffice,195.25,308.0,160.0,120.0,ambivalent,218,7.0,keine Verbindung zu den Kollgen. Kann aber auch angenehm sein.,20:57:52,1,334
+6402,Alltag,260.25,103.5,160.0,120.0,negative,218,6.0,,20:56:01,1,334
+6400,Umfeld,821.75,305.5,160.0,120.0,negative,218,5.0,,20:52:07,1,334
+6398,Wirtschaft,988.0,69.0,160.0,120.0,negative strong,218,4.0,,20:52:27,1,334
+6397,Arbeit,364.0,466.75,160.0,120.0,neutral,218,3.0,,20:48:18,1,334
+6396,Freunde,677.0,436.0,160.0,120.0,positive strong,218,2.0,,20:50:13,1,334
+6395,Coronavirus,616.0,163.0,160.0,120.0,negative strong,218,1.0,,20:48:34,1,334

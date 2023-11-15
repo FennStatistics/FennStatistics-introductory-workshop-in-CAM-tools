@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4709,Spend more time at home,319.0,299.0,160.0,120.0,neutral,115,20.0,,,1,196
+4457,Unemployment,194.0,81.9938,160.0,120.0,negative,115,10.0,,18:26:44,1,196
+4377,Washing hands more frequently,306.0,438.0,160.0,120.0,positive weak,115,9.0,,18:25:05,1,196
+4349,Less money earned,20.0,210.0,160.0,120.0,negative,115,8.0,,18:26:50,1,196
+4341,Less money spent,145.0,386.0,160.0,120.0,positive weak,115,7.0,,,1,196
+4295,Restaurants are closed,529.0,217.0,160.0,120.0,negative weak,115,6.0,,18:32:54,1,196
+4266,More time to exercise,148.0,250.0,160.0,120.0,positive,115,5.0,,18:22:56,1,196
+4252,More time for hobbies,20.0,35.9875,160.0,120.0,positive weak,115,4.0,,18:22:28,1,196
+4235,Boredom,488.0,379.994,160.0,120.0,negative weak,115,3.0,,18:22:06,1,196
+4223,Global Pandemic,377.0,40.9938,160.0,120.0,negative strong,115,2.0,,,1,196
+4213,Can't go out to eat,682.0,44.9938,160.0,120.0,negative strong,115,1.0,,18:27:21,1,196

@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25580,Abhängigkeit von Abfahrzeiten,867.0,340.0,160.0,120.0,negative weak,853,10.0,,,1,1639
+25578,lange Fahrzeiten,867.0,495.0,160.0,120.0,negative strong,853,9.0,,14:17:57,1,1639
+25572,Günstiger als Auto,736.0,202.0,160.0,120.0,positive weak,853,8.0,,,1,1639
+25566,Zeitaufwand durch Instandhaltung,275.0,513.0,160.0,120.0,negative weak,853,7.0,,14:13:39,1,1639
+25564,hohe Kosten,79.0,448.0,160.0,120.0,negative strong,853,6.0,,,1,1639
+25563,Zielort ist flexibel,355.0,124.0,160.0,120.0,positive,853,5.0,,14:13:03,1,1639
+25561,Immer verfügbar,165.0,123.0,160.0,120.0,positive strong,853,4.0,,,1,1639
+25560,kuze Fahrzeit,20.0,191.0,160.0,120.0,positive strong,853,3.0,,,1,1639
+25559,Eigener Pkw,278.0,347.0,160.0,120.0,neutral,853,1.0, ,,1,1639
+25558,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,853,2.0, ,,1,1639

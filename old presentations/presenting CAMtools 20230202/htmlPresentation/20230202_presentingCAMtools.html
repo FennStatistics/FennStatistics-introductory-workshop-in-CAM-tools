@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Introduction to our developed tools for “Cognitive-Affective Maps”</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Julius Fenn &amp; Florian Gouret" />
+    <meta name="date" content="2023-02-02" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="subfiles/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="subfiles/my-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Introduction to our developed tools for “Cognitive-Affective Maps”
+## C.A.M.E.L., CAM-App, administrative panel
+### Julius Fenn &amp; Florian Gouret
+### February 2, 2023
+
+---
+
+
+
+&lt;style type="text/css"&gt;
+.scrollChunk {
+  max-height: 450px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+
+.cite {
+position: absolute; 
+bottom: 0; 
+right: 0;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+
+## Table of Contents
+
+Three parts:
+
+1 CAM tools
+  + overview
+  + motivate CAMs (highlights)
+  + working group, list of literature
+  
+2 How to set up a CAM study
+  + pros and cons
+  
+3 How to analyze the resulting CAM data
+
+
+&lt;br&gt;
+ 
+.pull-left[
+if you want to download the slides: https://github.com/FennStatistics/CAMtools_workshops
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/githublogo.jpg", height="100px"&gt;
+&lt;/center&gt;
+
+]
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: CAM tools
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: CAM tools - overview
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - C.A.M.E.L. I
+
+we (Julius &amp; Florian) developed **Cognitive-Affective Map Extended Logic** (C.A.M.E.L. 🐪) , which is an open-source software to draw Cognitive Affective Maps. It aims to offer people an easy and intuitive interface on which they could design mind map that can be analysed by researchers.
+
+
+.pull-left[
+*researcher view*
+
+&lt;center&gt;
+&lt;img src="images/slide10.png", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+*participant view*
+
+&lt;center&gt;
+&lt;img src="images/slide12.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - C.A.M.E.L. II
+
+.pull-left[
+*researcher view*
+
+&lt;center&gt;
+&lt;img src="images/slide10.png", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+*possible options*
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+&lt;br&gt;
+see in detail documentation: https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file
+]
+
+&lt;br&gt;
+try it out: [maximum settings](https://camgalaxy.github.io/?cameraFeature=true&amp;fullScreen=true&amp;ShowResearcherButtons=true&amp;hideArrows=false&amp;hideAmbivalent=false&amp;showSliderAgreementOnly=false); [minimal settings](https://camgalaxy.github.io/?cameraFeature=false&amp;fullScreen=false&amp;ShowResearcherButtons=false&amp;hideArrows=true&amp;hideAmbivalent=true&amp;showSliderAgreementOnly=true)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - CAM-App I
+
+resulting data can be analyzed using our developed data-analysis tool **CAM-App**
+
+
+.pull-left[
+
+try it out: https://fennapps.shinyapps.io/shinyCAMEL_v02/
+
+]
+
+.pull-right[
+
+&lt;img src="images/logoShiny.png", height="150px"&gt;
+
+]
+
+* no coding is required to analyze resulting CAM data
+  + facilitate the preprocessing of the data
+  + analysis of preprocessed data
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - CAM-App II
+
+logic of the CAM-App follows the principle of a classical data-analysis pipeline
+
+
+.pull-left[
+
+&lt;img src="images/dataAnalysisPipeline.jpg", height="200px"&gt;
+
+see: &lt;a name=cite-peng_art_2016&gt;&lt;/a&gt;&lt;a name=cite-wickham_r_2017&gt;&lt;/a&gt;[Peng, et al. (2016)](https://bookdown.org/rdpeng/artofdatascience/); [Wickham, et al. (2017)](https://r4ds.had.co.nz/)
+]
+
+.pull-right[
+
+composed of two steps:
+&lt;br&gt;
+**preprocessing step**
+
+CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.
+
+*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in Appendix D in the online supplementary; https://osf.io/8z63x)* - see &lt;a name=cite-fenn_identifying_2022&gt;&lt;/a&gt;[Fenn, et al. (2022)](#bib-fenn_identifying_2022)
+
+&lt;br&gt;
+&lt;br&gt;
+**analysis step**
+
+* word lists
+* word clouds
+* aggregate CAM
+* network indicators
+* network similarity (! in development)
+* ...
+
+]
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - administrative panel (! *in development*)
+
+**administrative panel** (linking everything)
+
+&lt;center&gt;
+&lt;img src="images/slide14.png", height="300px"&gt;
+&lt;/center&gt;
+
+
+&lt;br&gt;
+further information see online presentation about the developed Cognitive-Affective Maps tools: https://studien.psychologie.uni-freiburg.de/publix/4ON9vgMG7Mm
+&lt;br&gt;
+current website design (not connected to API): https://camel-server.vercel.app/
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## already done - support
+
+
+In case you are interested by using CAMs in your studies or just intrigued by their potential application in different fields, feel free to contact us, we would be happy to come in contact with you.
+
+&lt;br&gt;
+&lt;br&gt;
+* Email &lt;cam.contact@drawyourminds.de&gt; 
+* join our Slack channel (we will switch to Discord): https://join.slack.com/t/cognitiveaffe-um96332/shared_invite/zt-1cybwr0tf-u2PWQh4L3BP3tuxLuH4c5w
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: CAM tools - motivate CAMs (highlights)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs I
+
+CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
+
+
+&lt;center&gt;
+&lt;img src="images/CAM_example.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+
+&lt;a name=cite-sendtner_kostbare_2021&gt;&lt;/a&gt;&lt;a name=cite-thagard_empathica_2010&gt;&lt;/a&gt;[Sendtner (2021)](https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit); [Thagard (2010)](https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981)
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs II - theory
+
+**What are CAMs?**
+
+* CAMs are „conceptual structures that people use to represent important aspects of the world“
+* „cognitive-affective map is a visual representation of the emotion values of a group of interconnected concepts“
+  + this is how CAMs differ from semantic networks, because CAMs additionally contain emotions (valence)
+  + hot cognition: emotions cannot be separated from cognitions
+  
+&lt;br&gt;
+&lt;br&gt; 
+
+**How are CAMs constructed?**
+
+* the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
+  + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
+
+&lt;br&gt;
+
+&lt;a name=cite-thagard_coherence_2000&gt;&lt;/a&gt;&lt;a name=cite-thagard_hot_2006&gt;&lt;/a&gt;&lt;a name=cite-thagard_cognitive_2021&gt;&lt;/a&gt;[Thagard (2000)](#bib-thagard_coherence_2000); [Thagard (2006)](#bib-thagard_hot_2006); [Thagard (2021)](https://www.sciencedirect.com/science/article/pii/S104620232100075X)
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs III - fundamental hypothesis 
+
+**Hypothesis**: The generation process of CAMs is not arbitrary, but is determined by multiple processes at multiple levels, and thus CAMs from similar individuals on an identical topic exhibit systematic correlations (similar data generating process)
+
+* can be presented by a „emergent product of interaction between networks of mental representations at the individual level and networks of social communication at the group level“
+
+
+&lt;center&gt;
+&lt;img src="images/fundamentalHypothesis.jpg", height="250px"&gt;
+&lt;/center&gt;
+
+
+&gt; if stochasticity is ubiquitous in **complex networks**, these networks are not maximally random either; rather, they obey organization principles that make them functional
+
+
+&lt;a name=cite-bianconi_multilayer_2018&gt;&lt;/a&gt;&lt;a name=cite-homer-dixon_complex_2013&gt;&lt;/a&gt;[Bianconi (2018)](#bib-bianconi_multilayer_2018); [Homer-Dixon, et al. (2013)](https://jspp.psychopen.eu/index.php/jspp/article/view/4763)
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs IV - fields of application
+
+* to study if CAMs are supplementary to questionnaires -  &lt;a name=cite-mansell_novel_2021&gt;&lt;/a&gt;&lt;a name=cite-mansell_measuring_2021&gt;&lt;/a&gt;[Mansell, et al. (2021)](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627); [Mansell, et al. (2021)](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A); [Fenn, et al. (2022)](#bib-fenn_identifying_2022)
+* agent-based modelling - e.g. &lt;a name=cite-wolf_changing_2015&gt;&lt;/a&gt;&lt;a name=cite-schroder_modeling_2017&gt;&lt;/a&gt;[Wolf, et al. (2015)](https://linkinghub.elsevier.com/retrieve/pii/S0040162514002960); [Schröder, et al. (2017)](https://linkinghub.elsevier.com/retrieve/pii/S0272494416300196)
+* use CAMs for conflict mediation - e.g. &lt;a name=cite-gros_camediaid_2021&gt;&lt;/a&gt;[Gros, et al. (2021)](https://doi.org/10.13140/RG.2.2.12436.78726)
+* evaluate via CAMs the success of an intervention - e.g. &lt;a name=cite-reuter_leisure_2021&gt;&lt;/a&gt;&lt;a name=cite-luthardt_and_2020&gt;&lt;/a&gt;[Reuter, et al. (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12283); [Luthardt, et al. (2020)](https://www.frontiersin.org/articles/10.3389/feduc.2020.00033)
+* possible to compute similarity between CAMs and identify subgroups (e.g. people believing / not believing in human-driven climate change), see: &lt;a name=cite-luthardt_quantifying_2022&gt;&lt;/a&gt;[Luthardt, et al. (2022)](https://link.springer.com/10.1007/s11135-021-01195-7) + own current developments
+* ...
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs V - Data Overview
+
+.pull-left[
+All available CAM data sets collected: https://github.com/FennStatistics/CAMdatasets
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/githublogo.jpg", height="100px"&gt;
+&lt;/center&gt;
+
+]
+
+of currently 6 studies comprising up to 12 different data sets:
+* Intervetion study Leisure Walks 2020 (Valence version ?, self written R functions)
+* Intervetion study Fictional Technological Implant 2021 (Valence version ?, self written R functions)
+* Motivation of Car vs. Public Transport Use 2021 (Valence version ?, self written R functions)
+* Network Approach CAMs 2021 (Valence version ?, Carter's CAM Network Analysis Python Code: https://osf.io/pxnvz/)
+* Feedback psychology program Freiburg 2022 (C.A.M.E.L. version 1.7, CAM-App version 1.4)
+* Stratospheric Aerosol Injection Multi Method 2022 (C.A.M.E.L. version 1.9, CAM-App version 2.1)
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Highlights - we can identify subgroups I
+
+assuming the **fundamental hypothesis** (see slide 14) is true, the generation process of CAMs is not arbitrary, but bey organization principles (which could depend on study design, ...) 
+
+&lt;br&gt;
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+, whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; *hot cognition*, *HOTCO*, ...), which leads to the following network properties:
+
+
+.pull-left[
+
+**emotional properties**
+&lt;br&gt;
+measure how the valence of individual nodes contributes to the overall CAM (Average Valence, Percentage of each node type, &lt;span style="color:blue"&gt;Central Node Valence&lt;/span&gt;, ...)
+
+]
+
+.pull-right[
+
+**latent properties**
+&lt;br&gt;
+refer to the number of nodes, links, and their interconnectedness (Centrality, Density, Diameter, Number of Nodes, Number of Links, Triadic Closure, ...)
+
+]
+
+
+&lt;br&gt;
+using similar terminology as [Mansell, et al. (2021)](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627); [Mansell, et al. (2021)](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Highlights - we can identify subgroups II
+
+using, e.g. the following latent properties of a CAM...
+
+&lt;center&gt;
+&lt;img src="images/networkIndicators.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+&lt;br&gt;
+&lt;a name=cite-reuter_direct_2022&gt;&lt;/a&gt;[Reuter, et al. (2022)](https://www.cambridge.org/core/product/identifier/S0730938421000319/type/journal_article)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Highlights - we can identify subgroups III
+
+
+we can identify specific subgroups of people within single CAM studies:
+
+
+
+
+.pull-left[
+
+**Similarity Matrix**: 
+
+.scrollChunk[
+
+```r
+simMat
+```
+
+```
+##                   CC TRUE CC TRUE CC TRUE CC FALSE CC FALSE the undecided guy
+## CC TRUE              1.00    0.75    0.75     0.27     0.26              0.25
+## CC TRUE              0.75    1.00    0.75     0.27     0.26              0.26
+## CC TRUE              0.75    0.75    1.00     0.24     0.24              0.24
+## CC FALSE             0.27    0.27    0.24     1.00     0.51              0.25
+## CC FALSE             0.26    0.26    0.24     0.51     1.00              0.26
+## the undecided guy    0.25    0.26    0.24     0.25     0.26              1.00
+```
+]
+
+
+]
+.pull-right[
+
+**Hierarchical Clustering**: 
+
+
+```r
+cosine_sim &lt;- 1-as.dist(simMat) # create similarity  using euclidean distance
+cluster1 &lt;- hclust(cosine_sim, method = "ward.D2") # Ward's method
+plot(cluster1)
+```
+
+![](20230202_presentingCAMtools_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+]
+
+&gt; e.g. identify CAMs of people who belief / disbelief in climate change
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## side-note: Aggregation
+
+the so identified subgroups can be summarized by creating a so-called *“canonical adjacency matrix”*; example: 
+
+&lt;center&gt;
+&lt;img src="images/aggregatedCAMExample.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+[Fenn, et al. (2022)](#bib-fenn_identifying_2022)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Highlights - combining data sources
+
+hypothesis: for the ethical assessment of emerging technologies in real-time is needed: 
+
+
+.pull-left[
+**a complex study design**
+
+&lt;center&gt;
+&lt;img src="images/study_designPoss.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+**relating heterogeneous data sources**
+
+&lt;center&gt;
+&lt;img src="images/analysis_types.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+]
+
+
+&lt;br&gt;
+&lt;a name=cite-fenn_empirical_2022&gt;&lt;/a&gt;[Fenn*, et al. (2022)](#bib-fenn_empirical_2022); [Fenn, et al. (2022)](#bib-fenn_identifying_2022)
+
+
+
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: CAM tools - working group, list of literature
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## our CAM team (a subset)
+
+&lt;center&gt;
+&lt;img src="images/wordcloud.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+&gt; especially without [Lisa's disseration](https://www.psychologie.uni-freiburg.de/Members/lreuter/Reuterdiss) we would be at a completely different stage of research / CAM tools development
+
+
+&gt; without Florian I would not have been able to program the CAM tools
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## list of important CAM literature
+
+* more quantitative focused CAM studies -  [Mansell, et al. (2021)](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627); [Mansell, et al. (2021)](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A); [Fenn, et al. (2022)](#bib-fenn_identifying_2022); [Reuter, et al. (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12283); [Luthardt, et al. (2022)](https://link.springer.com/10.1007/s11135-021-01195-7)
+* more qualitative focused CAM studies - e.g. &lt;a name=cite-wolfe_water_2012&gt;&lt;/a&gt;&lt;a name=cite-milkoreit_manjana_mindmade_2013&gt;&lt;/a&gt;[Wolfe (2012)](http://link.springer.com/10.1007/s11269-012-0061-x); [Milkoreit, Manjana (2013)](http://hdl.handle.net/10012/7711); [Luthardt, et al. (2020)](https://www.frontiersin.org/articles/10.3389/feduc.2020.00033)
+* experimental designs of CAMs studies - e.g. [Reuter, et al. (2021)](https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12283); [Gros, et al. (2021)](https://doi.org/10.13140/RG.2.2.12436.78726)
+  + currently we working here on two publications
+
+&lt;br&gt;
+* meta-theoretical articles: &lt;a name=cite-homer-dixon_conceptual_2014&gt;&lt;/a&gt;[Homer-Dixon, et al. (2013)](https://jspp.psychopen.eu/index.php/jspp/article/view/4763); [Homer-Dixon, et al. (2014)](http://journals.sagepub.com/doi/10.1177/2158244014526210); [Thagard (2021)](https://www.sciencedirect.com/science/article/pii/S104620232100075X)
+   + literature focused more on a philosophical perspective: [Thagard (2000)](#bib-thagard_coherence_2000); [Thagard (2006)](#bib-thagard_hot_2006)
+
+&lt;br&gt;
+&lt;br&gt;
+overview over all CAM literature: https://paulthagard.com/links/cognitive-affective-maps/
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 2: How to set up a CAM study
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAMs are part of a online study
+
+* CAMs should only be one part of a online-study and cannot be used stand-alone
+  + tools to set up online-studies such as JsPsych, LabJs, and others are needed
+
+&lt;br&gt;
+Here is a possible workflow for a CAM study integrated within well known online-study / experiments frameworks (highlighted red our CAM tools, green external software): 
+
+
+&lt;center&gt;
+&lt;img src="images/CAMworkflow.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## the single parts of a study need to be linked via **URL parameters**
+
+* while performing an CAM experiment, participants are at some point redirected to our [Cognitive-Affective Maps extended logic](https://camgalaxy.github.io/) software.
+  + there, it is possible for them to draw concepts and connect them. Several options are available based on the project configuration (moving/deleting existing nodes, node's types...). 
+
+&lt;br&gt;
+
+&lt;center&gt;
+&lt;img src="images/URLparam.jpg", height="150px"&gt;
+&lt;/center&gt;
+
+&gt; goal: to have a "primary key", which is a minimal set of variables (ID) that uniquely specify a particpant
+
+
+your "primary" key need to be names as **participantID=XXX**, whereby XXX is your ID
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## set up the parameters / features of your CAM study
+
+* when the administrative panel is online, the following procedure is possible: https://camtools-documentation.readthedocs.io/en/master/Set%20up%20study/
+* but for now you can configure your CAM and just send us the config file and we will set up the CAM study for you
+  + configure your CAM: https://camgalaxy.github.io/?ShowResearcherButtons=true&amp;fullScreen=false
+  + meaning of config parameters: https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file
+
+
+&lt;br&gt;
+**two steps:**
+
+1. first step: draw your default CAM: Start with changing the central predefined concept. It is highly recommended to set the predefined concepts to not deletable, changeable and movable, using the black researcher buttons at the botton of the concept dialog (pops up if you double click on a drawn concept)
+2. second step step: after you have drawn your default CAM click on the "gear symbol" (top left) to define the configuration of your CAM study (see details in config file)
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 2: How to set up a CAM study - pros and cons
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## set up the parameters / features of your CAM study
+
+.pull-left[
+**pro**
+
+* rich data (especially useful as a pre-study)
+* clear data analysis pipelines
+* we facing no technical problems (no one had to stop drawing)
+* ...
+
+]
+
+.pull-right[
+**cons**
+
+* in few cases we facing understanding problems
+* (study is more complex to set up than a survey study)
+* **can take relative long**
+  + e.g. pre-study took on average 46 minutes (SD = 16.94)
+* ...
+
+]
+
+
+&gt; we can simplify the design of the CAMs ! 
+
+see: 
+* [maximum settings](https://camgalaxy.github.io/?cameraFeature=true&amp;fullScreen=true&amp;ShowResearcherButtons=true&amp;hideArrows=false&amp;hideAmbivalent=false&amp;showSliderAgreementOnly=false)
+* [minimal settings](https://camgalaxy.github.io/?cameraFeature=false&amp;fullScreen=false&amp;ShowResearcherButtons=false&amp;hideArrows=true&amp;hideAmbivalent=true&amp;showSliderAgreementOnly=true)
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 3: How to analyze the resulting CAM data
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAM-App I 
+
+
+No coding is required to analyze resulting CAM data. We have set up two CAM-Apps, whereby the more recent version is still under development:
+
+* [CAM app version 1.X](https://fennapps.shinyapps.io/shinyCAMELv01/)
+* [CAM app version 2.X](https://fennapps.shinyapps.io/shinyCAMEL_v02/); it is recommend to use the more recent version, because this version guides the user through the application. Also via an global download button top right the resulting data at every step can be downloaded including a protocol file, which is making all the data preprocessing steps transparent to upload this protocol for example to the Open Science Framework.
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAM-App II 
+
+The CAM App is made of different modules, whereby every module has specific module options (like uploading data, create descriptive summary statistics). After uploading the raw CAM data by clicking on "Preprocessing Part" or "Analysis Part" researchers can preprocess or analyze their data: 
+
+
+&lt;center&gt;
+&lt;img src="images/CAMAppv2.jpg", height="250px"&gt;
+&lt;/center&gt;
+
+
+&gt; highlight is the **protocol file**
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## CAM-App III
+
+Possible preprocessing steps are (everything explained within the CAM-App):
+* Summarize concepts by approximate string matching.
+* Summarize concepts by regular expressions.
+* Summarize concepts using trained word2vec models.
+
+
+&lt;br&gt;
+&lt;br&gt;
+Possible analysis steps are:
+* Get network indicators for CAMs.
+* Aggregate CAMs.
+* Get wordlists and wordclouds of CAMs.
+* ...
+
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References I
+
+&lt;a name=bib-bianconi_multilayer_2018&gt;&lt;/a&gt;[Bianconi,
+G.](#cite-bianconi_multilayer_2018) (2018). _Multilayer Networks:
+Structure and Function_. En. Google-Books-ID: 9gJfDwAAQBAJ. Oxford
+University Press. ISBN: 978-0-19-106850-8.
+
+&lt;a name=bib-fenn_empirical_2022&gt;&lt;/a&gt;[Fenn*, J. et
+al.](#cite-fenn_empirical_2022) (2022). "An Empirical Ethics Scale for
+Technology Assessment: Challenges and Perspectives for a Real Time
+Ethics for Emerging Technologies". Manuscript submitted for
+publication. Institute of Psychology, University of Freiburg.
+
+&lt;a name=bib-fenn_identifying_2022&gt;&lt;/a&gt;[Fenn, J. et
+al.](#cite-fenn_identifying_2022) (2022). "Identifying
+Key-Psychological Factors Influencing the Acceptance of yet Emerging
+Technologies â€“ A Multi-Method-Approach to Inform Climate Policy".
+Manuscript in preparation. Institute of Psychology, University of
+Freiburg.
+
+&lt;a name=bib-gros_camediaid_2021&gt;&lt;/a&gt;[Gros, W. et
+al.](#cite-gros_camediaid_2021) (2021). "CAMediaid: Multimethod
+approach to assess Cognitive-Affective Maps in mediation - A
+quantitative validation study". DOI:
+[10.13140/RG.2.2.12436.78726](https://doi.org/10.13140%2FRG.2.2.12436.78726).
+
+&lt;a name=bib-homer-dixon_complex_2013&gt;&lt;/a&gt;[Homer-Dixon, T. et
+al.](#cite-homer-dixon_complex_2013) (2013). "A Complex Systems
+Approach to the Study of Ideology: Cognitive-Affective Structures and
+the Dynamics of Belief Systems". En. In: _Journal of Social and
+Political Psychology_ 1.1. Number: 1, pp. 337-363. ISSN: 2195-3325.
+DOI: [10.5964/jspp.v1i1.36](https://doi.org/10.5964%2Fjspp.v1i1.36).
+URL:
+[https://jspp.psychopen.eu/index.php/jspp/article/view/4763](https://jspp.psychopen.eu/index.php/jspp/article/view/4763)
+(visited on Jul. 06, 2022).
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References II
+
+&lt;a name=bib-homer-dixon_conceptual_2014&gt;&lt;/a&gt;[Homer-Dixon, T. et
+al.](#cite-homer-dixon_conceptual_2014) (2014). "The Conceptual
+Structure of Social Disputes: Cognitive-Affective Maps as a Tool for
+Conflict Analysis and Resolution". En. In: _SAGE Open_ 4.1, pp. 1-20.
+ISSN: 2158-2440, 2158-2440. DOI:
+[10.1177/2158244014526210](https://doi.org/10.1177%2F2158244014526210).
+URL:
+[http://journals.sagepub.com/doi/10.1177/2158244014526210](http://journals.sagepub.com/doi/10.1177/2158244014526210)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-luthardt_quantifying_2022&gt;&lt;/a&gt;[Luthardt, J. et
+al.](#cite-luthardt_quantifying_2022) (2022). "Quantifying emotionally
+grounded discursive knowledge with cognitive-affective maps". En. In:
+_Quality &amp; Quantity_ 56.3, pp. 1557-1595. ISSN: 0033-5177, 1573-7845.
+DOI:
+[10.1007/s11135-021-01195-7](https://doi.org/10.1007%2Fs11135-021-01195-7).
+URL:
+[https://link.springer.com/10.1007/s11135-021-01195-7](https://link.springer.com/10.1007/s11135-021-01195-7)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-luthardt_and_2020&gt;&lt;/a&gt;[Luthardt, J. et
+al.](#cite-luthardt_and_2020) (2020). "â€œAnd Then Weâ€™ll Just Check
+If It Suits Usâ€ â€“ Cognitive-Affective Maps of Social Innovation in
+Early Childhood Education". In: _Frontiers in Education_ 5, pp. 1-19.
+ISSN: 2504-284X. DOI:
+[10.3389/feduc.2020.00033](https://doi.org/10.3389%2Ffeduc.2020.00033).
+URL:
+[https://www.frontiersin.org/articles/10.3389/feduc.2020.00033](https://www.frontiersin.org/articles/10.3389/feduc.2020.00033)
+(visited on Jul. 07, 2022).
+
+&lt;a name=bib-mansell_measuring_2021&gt;&lt;/a&gt;[Mansell, J. et
+al.](#cite-mansell_measuring_2021) (2021). "Measuring attitudes as a
+complex system: Structured thinking and support for the Canadian carbon
+tax". En. In: _Politics and the Life Sciences_ 40.2. Publisher:
+Cambridge University Press, pp. 179-201. ISSN: 0730-9384, 1471-5457.
+DOI: [10.1017/pls.2021.16](https://doi.org/10.1017%2Fpls.2021.16). URL:
+[https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-mansell_novel_2021&gt;&lt;/a&gt;[Mansell, J. et
+al.](#cite-mansell_novel_2021) (2021). "A Novel Network Approach to
+Capture Cognition and Affect: COVID-19 Experiences in Canada and
+Germany". In: _Frontiers in Psychology_ 12, pp. 1-14. ISSN: 1664-1078.
+DOI:
+[10.3389/fpsyg.2021.663627](https://doi.org/10.3389%2Ffpsyg.2021.663627).
+URL:
+[https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627)
+(visited on Jul. 06, 2022).
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References III
+
+&lt;a name=bib-milkoreit_manjana_mindmade_2013&gt;&lt;/a&gt;[Milkoreit,
+Manjana](#cite-milkoreit_manjana_mindmade_2013) (2013). "Mindmade
+Politics - The Role of Cognition in Global Climate Change Governance".
+PhD Thesis. URL:
+[http://hdl.handle.net/10012/7711](http://hdl.handle.net/10012/7711).
+
+&lt;a name=bib-peng_art_2016&gt;&lt;/a&gt;[Peng, R. D. et al.](#cite-peng_art_2016)
+(2016). _The Art of Data Science: A Guide for Anyone who Works with
+Data_. En. Google-Books-ID: ZDH9DAEACAAJ. Lulu.com. ISBN:
+978-1-365-06146-2. URL:
+[https://bookdown.org/rdpeng/artofdatascience/](https://bookdown.org/rdpeng/artofdatascience/).
+
+&lt;a name=bib-reuter_leisure_2021&gt;&lt;/a&gt;[Reuter, L. et
+al.](#cite-reuter_leisure_2021) (2021). "Leisure walks modulate the
+cognitive and affective representation of the corona pandemic:
+Employing Cognitive-Affective Maps within a randomized experimental
+design". En. In: _Applied Psychology: Health and Well-Being_ 13.4. \_
+eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/aphw.12283, pp.
+952-967. ISSN: 1758-0854. DOI:
+[10.1111/aphw.12283](https://doi.org/10.1111%2Faphw.12283). URL:
+[https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12283](https://onlinelibrary.wiley.com/doi/abs/10.1111/aphw.12283)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-reuter_direct_2022&gt;&lt;/a&gt;[Reuter, L. et
+al.](#cite-reuter_direct_2022) (2022). "Direct assessment of individual
+connotation and experience: An introduction to cognitive-affective
+mapping". En. In: _Politics and the Life Sciences_ 41.1, pp. 131-139.
+ISSN: 0730-9384, 1471-5457. DOI:
+[10.1017/pls.2021.31](https://doi.org/10.1017%2Fpls.2021.31). URL:
+[https://www.cambridge.org/core/product/identifier/S0730938421000319/type/journal_article](https://www.cambridge.org/core/product/identifier/S0730938421000319/type/journal_article)
+(visited on Jul. 01, 2022).
+
+&lt;a name=bib-schroder_modeling_2017&gt;&lt;/a&gt;[Schröder, T. et
+al.](#cite-schroder_modeling_2017) (2017). "Modeling multi-level
+mechanisms of environmental attitudes and behaviours: The example of
+carsharing in Berlin". En. In: _Journal of Environmental Psychology_
+52, pp. 136-148. ISSN: 02724944. DOI:
+[10.1016/j.jenvp.2016.03.007](https://doi.org/10.1016%2Fj.jenvp.2016.03.007).
+URL:
+[https://linkinghub.elsevier.com/retrieve/pii/S0272494416300196](https://linkinghub.elsevier.com/retrieve/pii/S0272494416300196)
+(visited on Jul. 06, 2022).
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References IV
+
+&lt;a name=bib-sendtner_kostbare_2021&gt;&lt;/a&gt;[Sendtner,
+C.](#cite-sendtner_kostbare_2021) (2021). "Kostbare Kisten: GrÃ¼nde
+fÃ¼r FehleinschÃ¤tzungen der Kosten des eigenen Autos und deren
+Auswirkungen auf die Bewertung des Ã–PNV -Masterarbeit". DOI:
+[10.13140/RG.2.2.32640.56325](https://doi.org/10.13140%2FRG.2.2.32640.56325).
+URL:
+[https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit](https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit).
+
+&lt;a name=bib-thagard_coherence_2000&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_coherence_2000) (2000). _Coherence in Thought and
+Action_. En. Google-Books-ID: Px0vctI8eGQC. MIT Press. ISBN:
+978-0-262-70092-4.
+
+&lt;a name=bib-thagard_hot_2006&gt;&lt;/a&gt;[Thagard, P.](#cite-thagard_hot_2006)
+(2006). _Hot Thought: Mechanisms and Applications of Emotional
+Cognition_. En. Google-Books-ID: tJV735\_ HoLAC. MIT Press. ISBN:
+978-0-262-70124-2.
+
+&lt;a name=bib-thagard_empathica_2010&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_empathica_2010) (2010). "EMPATHICA: A Computer
+Support System with Visual Representations for Cognitive-Affective
+Mapping". En. In: _Workshops at the Twenty-Fourth AAAI Conference on
+Artificial Intelligence_. , pp. 79-81. URL:
+[https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981](https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981)
+(visited on Jul. 07, 2022).
+
+&lt;a name=bib-thagard_cognitive_2021&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_cognitive_2021) (2021). "The cognitive science of
+COVID-19: Acceptance, denial, and belief change". En. In: _Methods_.
+COVID-19 and multidimensional epidemic patterns 195, pp. 92-102. ISSN:
+1046-2023. DOI:
+[10.1016/j.ymeth.2021.03.009](https://doi.org/10.1016%2Fj.ymeth.2021.03.009).
+URL:
+[https://www.sciencedirect.com/science/article/pii/S104620232100075X](https://www.sciencedirect.com/science/article/pii/S104620232100075X)
+(visited on Sep. 26, 2022).
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References V
+
+
+```
+## Warning in `[[.BibEntry`(x, ind): subscript out of bounds
+```
+
+&lt;a name=bib-wickham_r_2017&gt;&lt;/a&gt;[Wickham, H. et
+al.](#cite-wickham_r_2017) (2017). _R for Data Science: Import, Tidy,
+Transform, Visualize, and Model Data_. En. Google-Books-ID:
+I6y3DQAAQBAJ. "O'Reilly Media, Inc.". ISBN: 978-1-4919-1034-4. URL:
+[https://r4ds.had.co.nz/](https://r4ds.had.co.nz/).
+
+&lt;a name=bib-wolf_changing_2015&gt;&lt;/a&gt;[Wolf, I. et
+al.](#cite-wolf_changing_2015) (2015). "Changing minds about electric
+cars: An empirically grounded agent-based modeling approach". En. In:
+_Technological Forecasting and Social Change_ 94, pp. 269-285. DOI:
+[10.1016/j.techfore.2014.10.010](https://doi.org/10.1016%2Fj.techfore.2014.10.010).
+URL:
+[https://linkinghub.elsevier.com/retrieve/pii/S0040162514002960](https://linkinghub.elsevier.com/retrieve/pii/S0040162514002960)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-wolfe_water_2012&gt;&lt;/a&gt;[Wolfe, S. E.](#cite-wolfe_water_2012)
+(2012). "Water Cognition and Cognitive Affective Mapping: Identifying
+Priority Clusters Within a Canadian Water Efficiency Community". En.
+In: _Water Resources Management_ 26.10, pp. 2991-3004. ISSN: 0920-4741,
+1573-1650. DOI:
+[10.1007/s11269-012-0061-x](https://doi.org/10.1007%2Fs11269-012-0061-x).
+URL:
+[http://link.springer.com/10.1007/s11269-012-0061-x](http://link.springer.com/10.1007/s11269-012-0061-x)
+(visited on Jul. 06, 2022).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"ratio": "16:9",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

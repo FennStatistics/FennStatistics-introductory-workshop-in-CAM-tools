@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26706,unabhängig,440.0,20.0,160.0,120.0,positive strong,901,27.0,,13:31:42,1,1712
+26705,privatsphäre,392.0,149.0,160.0,120.0,positive strong,901,25.0,,13:30:44,1,1712
+26704,anschaffungskosten,23.0,278.0,160.0,120.0,ambivalent,901,23.0,,13:29:50,1,1712
+26703,umweltschädlich,20.0,486.0,160.0,120.0,negative strong,901,22.0,,13:29:17,1,1712
+26702,unterhaltskosten,339.0,442.0,160.0,120.0,negative weak,901,20.0,,13:29:26,1,1712
+26701,wartungskosten,442.0,544.0,160.0,120.0,negative weak,901,19.0,,13:29:23,1,1712
+26700,intimer,61.0,126.0,160.0,120.0,positive strong,901,18.0,,13:28:30,1,1712
+26699,schneller,254.0,29.0,160.0,120.0,positive strong,901,17.0,,13:28:18,1,1712
+26697,unfallgefahr,20.0,386.0,160.0,120.0,negative weak,901,15.0,,13:29:29,1,1712
+26696,treibstoffkosten,241.0,544.0,160.0,120.0,negative strong,901,14.0,,13:30:25,1,1712
+26695,Betrunken fahrbar,815.0,153.0,160.0,120.0,positive strong,901,12.0,,13:27:09,1,1712
+26694,mehr platz,814.0,44.0,160.0,120.0,positive strong,901,11.0,,13:26:23,1,1712
+26693,langsam,856.0,437.0,160.0,120.0,negative strong,901,9.0,,13:25:55,1,1712
+26692,Wartezeiten,1111.0,544.0,160.0,120.0,negative strong,901,8.0,,13:25:31,1,1712
+26691,Menschen,931.0,331.0,160.0,120.0,negative weak,901,7.0,,,1,1712
+26690,Umweltfreundlich,1168.0,47.0,160.0,120.0,positive strong,901,6.0,,13:24:53,1,1712
+26689,geringere Kosten,994.0,46.0,160.0,120.0,positive strong,901,5.0,,13:24:43,1,1712
+26688,Platzangebot,1145.0,244.0,160.0,120.0,ambivalent,901,4.0,,13:24:25,1,1712
+26687,Verspätungen,941.0,544.0,160.0,120.0,negative strong,901,3.0,,,1,1712
+26686,Eigener Pkw,303.0,346.0,160.0,120.0,neutral,901,1.0, ,,1,1712
+26685,Öffentliche Verkehrsmittel,651.0,349.0,160.0,120.0,neutral,901,2.0, ,,1,1712

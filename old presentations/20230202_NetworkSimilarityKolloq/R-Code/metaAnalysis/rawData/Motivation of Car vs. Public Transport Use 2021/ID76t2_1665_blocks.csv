@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25973,gniedrige kosten,502.0,161.0,160.0,120.0,positive weak,867,26.0,,,1,1665
+25972,monatliche kosten,463.0,32.0,160.0,120.0,negative weak,867,25.0,,,1,1665
+25971,wertverlust,294.0,54.0,160.0,120.0,negative weak,867,23.0,,21:40:06,1,1665
+25968,Öffentliche Verkehrsmittel,573.0,347.0,160.0,120.0,neutral,867,2.0, ,,1,1665
+25967,Eigener Pkw,273.0,343.0,160.0,120.0,neutral,867,1.0, ,,1,1665
+25966,unkompliziert,20.0,135.0,177.0,132.25,positive weak,867,3.0,,,1,1665
+25965,flexibel,259.0,124.0,160.0,120.0,positive strong,867,4.0,,,1,1665
+25964,emotionen beim fahren (freude),188.0,513.0,160.0,120.0,positive,867,5.0,,,1,1665
+25963,freiheit,77.0,318.0,160.0,120.0,positive strong,867,6.0,,,1,1665
+25962,keine verantwortung,770.0,245.0,160.0,120.0,positive strong,867,7.0,,,1,1665
+25961,transport trotz alkoholkonsum,661.0,44.0,160.0,120.0,positive weak,867,9.0,,,1,1665
+25960,schlechte verbindungen,820.0,469.0,160.0,120.0,negative strong,867,10.0,,21:20:59,1,1665
+25959,viele Menschen,596.0,150.0,160.0,120.0,negative weak,867,14.0,,,1,1665
+25958,Zeit bleibt auf der Strecke,862.0,101.0,160.0,120.0,negative strong,867,19.0,,,1,1665
+25957,kein vorankommen mit alkohol,80.0,36.0,160.0,120.0,neutral,867,22.0,,21:25:27,1,1665

@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16212,neue technische Möglichkeiten,38.0,244.0,160.0,120.0,positive strong,336,18.0,,15:37:45,1,582
+16024,Rettungsschirme,370.0,413.0,160.0,120.0,ambivalent,336,17.0,,15:33:44,1,582
+15929,Unsicherheit bezüglich Richtlinien,697.0,472.0,160.0,120.0,negative strong,336,16.0,,,1,582
+15907,Beschränkungen durch Corona ,855.0,271.0,178.0,133.0,ambivalent,336,15.0,"Ambivalent, da gesamtgesellschaftlich sinnvoll, andererseits aber einschränkend und oft unklar formuliert",15:26:43,1,582
+15897,Alltag mit Maske ,515.0,29.0,160.0,120.0,negative,336,14.0,,15:27:52,1,582
+15895,wenig Planbarkeit,649.0,260.0,136.65625,102.0,negative weak,336,13.0,,,1,582
+15893,Privatleben,811.0,31.0,211.328125,158.0,neutral,336,12.0,,,1,582
+15772,psychische Belastung,406.96875,544.0,160.0,120.0,neutral,336,5.0, ,,0,582
+15771,Stress,359.96875,131.0,160.0,120.0,negative strong,336,6.0,,15:31:03,0,582
+15770,Einsamkeit,1414.0,240.96875,160.0,120.0,negative strong,336,10.0,,15:35:24,0,582
+15769,Angst,193.0,21.0,160.0,120.0,negative strong,336,7.0,,15:31:05,0,582
+15768,Corona-Pandemie,425.984375,259.984375,160.0,120.0,neutral,336,1.0,,15:20:18,0,582
+15767,Zusammenhalt,27.0,28.0,160.0,120.0,neutral,336,8.0, ,,0,582
+15766,physische Isolierung,1107.0,227.984375,160.0,120.0,negative strong,336,2.0,,15:35:38,0,582
+15765,soziale Isolierung,1031.0,521.984375,160.0,120.0,negative strong,336,3.0,,15:35:36,0,582
+15764,Depressivität,1214.96875,435.96875,160.0,120.0,negative strong,336,9.0,,15:35:31,0,582
+15763,Befinden,539.96875,396.984375,160.0,120.0,neutral,336,4.0, ,,0,582
+15762,wirtschaftliche Folgen,158.96875,334.96875,160.0,120.0,negative strong,336,11.0,,15:31:38,0,582

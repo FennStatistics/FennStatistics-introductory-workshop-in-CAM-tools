@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27493,Co2 Emissionen,20.0,20.0,160.0,120.0,negative strong,935,11.0,,,1,1765
+27492,Fixe und Variable Kosten,50.0,229.0,160.0,120.0,negative strong,935,10.0,,13:29:08,1,1765
+27483,Fahrtkosten,84.0,464.0,160.0,120.0,negative strong,935,9.0,,13:27:16,1,1765
+27482,Öffentliche Verkehrsmittel,633.0,339.0,160.0,120.0,neutral,935,2.0, ,,1,1765
+27481,Eigener Pkw,273.0,346.0,160.0,120.0,neutral,935,1.0, ,,1,1765
+27480,Umwelt,205.0,105.0,160.0,120.0,positive strong,935,3.0,,12:01:09,1,1765
+27479,Sicherheit,591.0,521.0,160.0,120.0,positive strong,935,5.0,,12:03:29,1,1765
+27478,Bequemlichkeit,262.0,514.0,160.0,120.0,positive weak,935,6.0,,12:03:25,1,1765
+27477,Fahrplan,415.0,58.0,160.0,120.0,negative weak,935,7.0,,12:06:05,1,1765
+27476,Dauer der Fahrt,697.0,98.0,160.0,120.0,positive weak,935,8.0,,12:11:43,1,1765

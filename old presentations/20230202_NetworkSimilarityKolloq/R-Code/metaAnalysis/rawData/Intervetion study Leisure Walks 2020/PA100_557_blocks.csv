@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15445,Umwelt,1131.14,187.71,160.0,120.0,positive,384,18.0,Durch stark reduzierte Reisen mit dem Flugzeug und Auto wird weniger CO² in die Umwelt abgelassen,15:00:16,1,557
+15386,Hygiene,1094.85,46.6964,160.0,120.0,positive strong,384,17.0,"Durch die Corona-Pandemie wird es langfristige, positive Änderungen in der Gesellschaft geben, damit eine weiter derartige Pandemie in der Zukunft vermieden werden kann",14:57:57,1,557
+15349,Hilfe,1272.71,299.281,160.0,120.0,positive,384,16.0,"Viele Menschen bietet in der jetzigen Situation Menschen (besonders älteren) Hilfe beim z.B. Einkaufen an, damit diese nicht riskieren, infiziert zu werden",14:55:50,1,557
+15286,Arbeitslosigkeit,869.938,27.9643,160.0,120.0,negative,384,15.0,,14:52:57,1,557
+15281,Geldmangel,357.5,250.25,160.0,120.0,negative strong,384,14.0,,14:52:29,1,557
+15189,Zusammenhalt,1037.98,328.996,160.0,120.0,positive weak,384,13.0,,14:49:04,1,557
+15182,Angst,1227.98,448.973,160.0,120.0,negative,384,12.0,,14:49:05,1,557
+15070,Corona-Pandemie,784.973,256.951,160.0,120.0,neutral,384,1.0, ,,0,557
+15074,psychische Belastung,573.942,591.933,160.0,120.0,negative weak,384,5.0,,14:54:15,0,557
+15073,Stress,596.953,371.0,160.0,120.0,negative weak,384,6.0,,14:49:50,0,557
+15072,Einsamkeit,620.0,52.9688,160.0,120.0,negative weak,384,10.0,,14:49:18,0,557
+15068,physische Isolierung,399.0,480.978,160.0,120.0,negative weak,384,2.0,,14:54:17,0,557
+15067,soziale Isolierung,396.0,677.96,160.0,120.0,negative weak,384,3.0,,14:54:47,0,557
+15066,Depressivität,995.957,481.949,160.0,120.0,negative weak,384,9.0,,14:49:24,0,557
+15065,Befinden,384.953,76.9648,160.0,120.0,neutral,384,4.0, ,,0,557
+15064,wirtschaftliche Folgen,765.918,539.957,160.0,120.0,negative strong,384,11.0,,14:49:20,0,557

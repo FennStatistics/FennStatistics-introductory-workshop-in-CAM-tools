@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+31093,Alerts,163.0,515.0,160.0,120.0,positive strong,1176,20.0,,,1,2134
+31084,concentration,162.0,405.0,160.0,120.0,positive,1176,19.0,,,1,2134
+31064,Balanceproblems,399.0,593.0,160.0,120.0,negative strong,1176,18.0,,,1,2134
+31053,More emotional,659.0,551.0,160.0,120.0,negative strong,1176,17.0,,,1,2134
+31008,Nausea,415.0,492.0,111.333,83.0,negative strong,1176,16.0,,,1,2134
+30994,Sadness,679.0,479.0,111.333,83.0,negative strong,1176,15.0,,,1,2134
+30984,irritability,679.0,402.0,111.333,83.0,negative strong,1176,14.0,,17:59:25,1,2134
+30974,headache,417.0,416.0,100.667,75.0,negative strong,1176,13.0,,17:58:16,1,2134
+30952,Thinking,174.0,301.0,135.333,101.0,positive strong,1176,12.0,,18:05:52,1,2134
+30948,Physical,397.0,299.0,135.333,101.0,negative,1176,11.0,,,1,2134
+30918,Emotional/mood,647.0,293.0,140.667,105.0,negative strong,1176,10.0,,17:55:58,1,2134
+30883,brain,412.0,161.0,130.0,97.0,negative strong,1176,9.0,,,1,2134
+30875,Sleeping conditions,184.0,44.0,160.0,120.0,positive,1176,8.0,,,1,2134
+30861,Self treatment,643.0,29.0,160.0,120.0,positive,1176,7.0,,,1,2134
+30827,costs,187.0,169.0,118.0,88.0,negative strong,1176,6.0,,,1,2134
+30796,health,621.0,157.0,140.667,105.0,negative,1176,2.0,,17:53:47,1,2134
+30782,technological implant,399.0,20.0,160.0,120.0,neutral,1176,1.0, ,,1,2134

@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+29448,Irritability,683.0,428.2,160.0,120.0,positive,1082,11.0,,,1,1932
+29447,Sleep,278.0,282.0,160.0,120.0,positive,1082,10.0,,,1,1932
+29446,Energy,569.0,160.0,160.0,120.0,positive,1082,9.0,,,1,1932
+29445,Productiity,698.0,293.0,160.0,120.0,neutral,1082,6.0,,,1,1932
+29444,Fear,556.0,524.0,160.0,120.0,negative strong,1082,5.0,,,1,1932
+29440,Health,334.0,371.0,160.0,120.0,positive weak,1082,4.0,,,1,1932
+29439,Autonom,373.2,507.0,160.0,120.0,negative weak,1082,3.0,,20:10:47,1,1932
+29393,technological implant,473.0,295.0,148.4,106.0,neutral,1082,1.0,Irritability,20:16:01,1,1932

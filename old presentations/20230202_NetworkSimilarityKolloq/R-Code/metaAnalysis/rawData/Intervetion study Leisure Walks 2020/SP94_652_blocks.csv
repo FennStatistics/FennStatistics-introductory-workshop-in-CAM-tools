@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17761,Reisebeschränkungen,393.0,519.0,160.0,120.0,negative strong,375,8.0,,,1,652
+17760,Zusammenhalt,200.0,478.0,160.0,120.0,positive strong,375,7.0,,,1,652
+17759,Todesfälle,218.0,305.0,160.0,120.0,negative strong,375,6.0,,,1,652
+17758,Isolierung,625.0,481.0,160.0,120.0,negative strong,375,5.0,,,1,652
+17757,Kurzarbeit,506.0,104.0,160.0,120.0,negative strong,375,4.0,,17:16:00,1,652
+17734,Arbeitslosigkeit,740.0,324.0,160.0,120.0,negative strong,375,3.0,,,1,652
+17732,Corona-Pandemie,489.0,328.0,160.0,120.0,neutral,375,1.0,,,1,652

@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4455,Besorgnis um Familie,68.75,531.25,160.0,120.0,negative strong,85,15.0,,,1,157
+4400,Gute eigene Gesundheit,331.5,451.5,160.0,120.0,positive strong,85,14.0,,,1,157
+4264,Forschung an Impfung,299.0,285.546875,160.0,120.0,positive strong,85,13.0,,,1,157
+4244,Ungewissheit über zweite Welle,167.30859375,322.3203125,160.0,120.0,negative weak,85,12.0,,18:22:12,1,157
+4233,Rückgang der Infektionszahlen,26.0000019073486,270.6484375,160.0,120.0,positive strong,85,11.0,,,1,157
+4199,Mehr freie Zeit,914.444458007812,453.333343505859,160.0,120.0,positive strong,85,10.0,,,1,157
+4116,Verringerung der Ausbreitung,535.989624023438,413.100708007812,160.0,120.0,positive strong,85,9.0,,,1,157
+4079,Herunterfahren des öffentlichen Lebens,581.777770996094,45.5555572509766,160.0,120.0,negative,85,8.0,,,1,157
+4046,Schaffen von mehr Online-Arbeitsmöglichkeiten,862.444458007812,209.222229003906,160.0,120.0,positive strong,85,7.0,,,1,157
+4025,Ungewissheit über Zukunft,109.982650756836,79.5381927490234,160.0,120.0,negative weak,85,6.0,,18:17:12,1,157
+3959,Wenig soziale Kontakte,777.333312988281,74.3333282470703,160.0,120.0,negative,85,5.0,,18:15:28,1,157
+3934,Kein Pendeln,727.954956054688,458.965301513672,160.0,120.0,positive strong,85,4.0,,,1,157
+3927,Arbeit von Zuhause,711.000061035156,290.989593505859,160.0,120.0,positive,85,3.0,,,1,157
+3910,Lockdown,550.989624023438,212.989593505859,160.0,120.0,negative strong,85,2.0,,,1,157
+3897,CoronaVirus,394.0,44.97265625,160.0,120.0,neutral,85,1.0,,,1,157

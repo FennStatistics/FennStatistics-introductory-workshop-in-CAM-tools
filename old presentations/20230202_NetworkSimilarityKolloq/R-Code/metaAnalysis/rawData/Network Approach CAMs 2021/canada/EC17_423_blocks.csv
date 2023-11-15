@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13058,unemployment,240.0,571.0,160.0,120.0,negative weak,271,38.0,,,1,423
+13038,global pandemic,539.0,584.0,160.0,120.0,positive,271,37.0,,,1,423
+12992,washing hands,62.5,409.167,160.0,120.0,positive,271,32.0,,,1,423
+12966,facial mask,-5.0,291.667,160.0,120.0,positive,271,29.0,,,1,423
+12959,social distancing,370.833,170.0,160.0,120.0,positive,271,28.0,,,1,423
+12833,staying indoors,323.333,10.6667,160.0,120.0,positive,271,17.0,,,1,423
+12792,economic shutdown,116.667,8.0,160.0,120.0,negative weak,271,13.0,,,1,423
+12750,deaths,317.333,356.667,160.0,120.0,negative weak,271,7.0,,,1,423
+12685,Corona virus,184.0,139.333,160.0,120.0,neutral,271,1.0,,,1,423

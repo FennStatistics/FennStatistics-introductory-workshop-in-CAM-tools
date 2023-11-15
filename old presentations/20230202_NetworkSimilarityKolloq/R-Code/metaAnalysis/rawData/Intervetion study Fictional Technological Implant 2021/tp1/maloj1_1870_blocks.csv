@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+28569,Health impacts,45.0,128.0,160.0,120.0,negative strong,1028,10.0,it is unclear what the long term health impacts would be - the technology feels untested,16:39:36,1,1870
+28521,Productivity,515.0,92.0,160.0,120.0,positive strong,1028,2.0,Improved productivity may lead to increased economic and social propperity,16:34:36,1,1870
+28563,Academic achievement,721.0,19.0,160.0,120.0,ambivalent,1028,9.0,those with access could benefit academically and progress socially and economically - but is this a form of cheating?,16:38:23,1,1870
+28558,Military,182.0,505.0,160.0,120.0,neutral,1028,8.0,improved military performance may result - but what are the health impacts on military personnel?,16:40:31,1,1870
+28551,Improved sleep,748.0,379.0,160.0,120.0,positive strong,1028,7.0,ability to manage sleep could lead to health and productivity benefits,16:36:00,1,1870
+28550,Misuse,537.0,486.0,160.0,120.0,negative strong,1028,6.0,in the wrong hands this implant could be used wrongfully,16:36:36,1,1870
+28539,Inequity,194.0,346.0,160.0,120.0,negative strong,1028,5.0,could create a new form of social inequality - those who can and cannot afford to benefit,16:37:27,1,1870
+28532,Loss of control,231.0,106.0,160.0,120.0,negative strong,1028,4.0,you would be partly controlled by an app and not in full control of your own actions,16:39:01,1,1870
+28530,Hacking,769.0,190.0,160.0,120.0,negative strong,1028,3.0,implant is controlled via a mobile app leaving it susceptible to attack in the wrong hands,16:35:25,1,1870
+28501,technological implant,472.0,290.0,160.0,120.0,neutral,1028,1.0, ,,1,1870

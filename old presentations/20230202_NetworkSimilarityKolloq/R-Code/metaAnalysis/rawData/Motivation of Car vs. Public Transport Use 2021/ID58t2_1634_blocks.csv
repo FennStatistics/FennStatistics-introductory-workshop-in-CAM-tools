@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25469,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,847,2.0, ,,1,1634
+25468,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,847,1.0, ,,1,1634
+25467,Umweltschädlich,163.0,180.0,160.0,120.0,negative strong,847,3.0,,,1,1634
+25466,Flexibel,20.0,415.0,160.0,120.0,positive weak,847,4.0,,,1,1634
+25465,Keine Konzentration auf Verkehr,468.0,230.0,160.0,120.0,positive weak,847,5.0,,,1,1634
+25464,teurer (v.a. in Gruppen),435.0,537.0,160.0,120.0,negative weak,847,6.0,,,1,1634
+25463,Coronagefahr,875.0,458.0,160.0,120.0,negative weak,847,7.0,,,1,1634
+25462,Unfallgefahr,344.0,112.0,160.0,120.0,negative,847,8.0,,,1,1634
+25461,Nicht bei Alkohol/Müdigkeit,202.0,24.0,160.0,120.0,negative weak,847,9.0,,,1,1634
+25460,Angst vor Ohnmachtsanfall,380.0,20.0,160.0,120.0,negative,847,10.0,,,1,1634
+25459,Zeitlich eingeschränkt,691.0,56.0,160.0,120.0,negative strong,847,11.0,,,1,1634
+25458,Wartezeiten/Dauer,570.0,5.0,160.0,120.0,negative weak,847,12.0,,13:32:40,1,1634
+25457,Keine Parkplätze,859.0,271.0,160.0,120.0,positive,847,13.0,,,1,1634
+25456,Man kommt überall hin,84.0,522.0,160.0,120.0,positive,847,14.0,,,1,1634
+25455,besseres Image,770.0,541.0,160.0,120.0,positive,847,15.0,,,1,1634
+25454,andere Menschen,854.0,136.0,160.0,120.0,ambivalent,847,16.0,,13:36:12,1,1634
+25453,Stau,503.0,110.0,160.0,120.0,negative weak,847,17.0,,,1,1634
+25452,Planung,317.0,488.0,160.0,120.0,negative weak,847,18.0,,,1,1634
+25451,auch teuer,20.0,212.0,160.0,120.0,negative weak,847,19.0,,,1,1634

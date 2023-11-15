@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25576,Eigener Pkw,238.0,20.0,197.986,141.424,positive strong,855,1.0,,14:15:36,1,1641
+25590,Umweltbelastung,536.0,187.0,160.0,120.0,negative strong,855,8.0,,14:21:17,1,1641
+25589,Unkosten,499.0,58.0,160.0,120.0,negative weak,855,7.0,,14:21:01,1,1641
+25588,Parken,399.0,286.0,160.0,120.0,negative weak,855,6.0,,,1,1641
+25585,Privatsphäre,182.0,255.0,131.312,98.0,positive strong,855,5.0,,14:18:25,1,1641
+25584,Freiheit,20.0,20.0,160.0,120.0,positive strong,855,4.0,,,1,1641
+25582,Unabhängigkeit,20.0,172.0,160.0,120.0,positive strong,855,3.0,,14:31:37,1,1641
+25575,Öffentliche Verkehrsmittel,240.997,398.986,239.375,170.99,negative strong,855,2.0,,14:25:00,1,1641

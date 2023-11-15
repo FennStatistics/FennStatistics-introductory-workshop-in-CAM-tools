@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27156,Reparaturkosten,245.0,20.0,160.0,120.0,negative weak,921,19.0,,,1,1743
+27155,Versicherungskosten,421.0,15.0,160.0,120.0,negative,921,18.0,,,1,1743
+27154,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,921,2.0, ,,1,1743
+27153,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,921,1.0, ,,1,1743
+27152,Keine Wartezeiten,382.0,448.0,160.0,120.0,positive weak,921,3.0,,,1,1743
+27151,Stau,51.0,175.0,160.0,120.0,negative,921,4.0,,15:28:31,1,1743
+27150,Tankgeld,125.0,89.0,160.0,120.0,negative,921,5.0,,15:28:33,1,1743
+27149,Fahrkarte,622.0,62.0,160.0,120.0,negative,921,6.0,,,1,1743
+27148,Umsteigen,710.0,201.0,160.0,120.0,negative,921,8.0,,,1,1743
+27147,Umweltverschmutzung,389.0,240.0,160.0,120.0,negative,921,10.0,,,1,1743
+27146,umweltschonend,549.0,482.0,160.0,120.0,positive,921,11.0,,,1,1743
+27145,Währenddessen Buch/Zeitung lesen,710.0,443.0,160.0,120.0,positive weak,921,12.0,,15:31:40,1,1743
+27144,schneller,214.0,459.0,160.0,120.0,positive weak,921,13.0,,,1,1743
+27143,mehrere Personen zu selben Kosten,26.0,466.0,160.0,120.0,positive,921,14.0,,15:32:11,1,1743
+27142,umfangreiche Gepäckmöglichkeit,332.0,544.0,160.0,120.0,positive weak,921,15.0,,15:32:43,1,1743
+27141,Unfallgefahr,319.0,142.0,160.0,120.0,negative weak,921,16.0,,,1,1743
+27140,gebunden an Abfahrtszeiten,534.0,199.0,160.0,120.0,negative weak,921,17.0,,,1,1743
+27139,Schwere Parkmöglichkeit,46.0,329.0,160.0,120.0,negative,921,9.0,,,1,1743

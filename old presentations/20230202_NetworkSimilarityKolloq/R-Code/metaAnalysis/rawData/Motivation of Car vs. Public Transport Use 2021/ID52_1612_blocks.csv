@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25099,Reparatur,391.0,227.0,160.0,120.0,negative,840,12.0,,,1,1612
+25093,Zeit,340.0,497.0,160.0,120.0,positive strong,840,11.0,,,1,1612
+25092,Zeit,807.0,94.0,160.0,120.0,negative strong,840,10.0,,,1,1612
+25090,Kosten,586.0,235.0,160.0,120.0,negative strong,840,9.0,,,1,1612
+25089,Umwelt,659.0,483.0,160.0,120.0,positive strong,840,8.0,,,1,1612
+25087,Viele Menschen,829.0,398.0,160.0,120.0,ambivalent,840,7.0,,,1,1612
+25084,Fahrplan,768.0,268.0,160.0,120.0,negative,840,6.0,,,1,1612
+25082,Kosten,249.0,142.0,160.0,120.0,ambivalent,840,5.0,,,1,1612
+25080,Umwelt belastend,108.0,427.0,160.0,120.0,negative strong,840,4.0,,,1,1612
+25078,fördert Faulheit,63.0,244.0,160.0,120.0,negative,840,3.0,,,1,1612
+25074,Eigener Pkw,270.0,345.0,160.0,120.0,neutral,840,1.0, ,,1,1612
+25073,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,840,2.0, ,,1,1612

@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24306,muss selber fahren,351.0,536.0,160.0,120.0,negative strong,799,18.0,,,1,1561
+24294,unerwartete Zusatzkosten,441.0,268.0,160.0,120.0,negative strong,799,17.0,,,1,1561
+24291,Wartungsaufwand,330.0,105.0,160.0,120.0,negative strong,799,16.0,,,1,1561
+24287,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,799,2.0, ,,1,1561
+24286,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,799,1.0, ,,1,1561
+24285,komfortables Fahrerlebnis,23.0,182.0,154.0,115.0,positive strong,799,3.0,,,1,1561
+24284,mehr Sicherheit,147.0,71.0,160.0,120.0,positive strong,799,4.0,,20:22:22,1,1561
+24283,hohe Kosten,330.0,201.0,160.0,120.0,negative strong,799,6.0,,,1,1561
+24282,Stau,51.0,451.0,160.0,120.0,negative strong,799,8.0,,,1,1561
+24281,flexibel,217.0,483.0,160.0,120.0,positive strong,799,9.0,,20:26:30,1,1561
+24280,Gruppenbeförderung,387.0,443.975,160.0,120.0,ambivalent,799,10.0,,20:35:28,1,1561
+24279,keine Menschen,20.0,321.0,160.0,120.0,positive strong,799,5.0,,20:25:44,1,1561
+24278,schnell,684.0,463.0,160.0,120.0,positive strong,799,11.0,,,1,1561
+24277,muss nicht selber fahren,788.0,319.0,160.0,120.0,positive strong,799,12.0,,,1,1561
+24276,Menschenmenge,489.0,151.988,160.0,120.0,negative strong,799,13.0,,,1,1561
+24275,auf Dauer günstig,645.0,96.0,160.0,120.0,positive strong,799,14.0,,,1,1561
+24274,mit Umsteigen verbunden,698.0,225.0,160.0,120.0,negative strong,799,15.0,,,1,1561

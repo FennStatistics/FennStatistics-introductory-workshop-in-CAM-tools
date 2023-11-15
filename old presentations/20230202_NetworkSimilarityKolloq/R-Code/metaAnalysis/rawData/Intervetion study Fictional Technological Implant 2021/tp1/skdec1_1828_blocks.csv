@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+28106,loss of choice,1086.0,469.0,160.0,120.0,negative strong,990,12.0,,,1,1828
+28105,Overuse,1213.0,41.0,160.0,120.0,negative weak,990,11.0,,,1,1828
+28104,Better economy,1493.0,471.0,160.0,120.0,positive,990,10.0,,,1,1828
+28103,Unnatural,765.0,127.0,160.0,120.0,negative,990,9.0,,,1,1828
+28102,No sleep disorders,1453.0,129.0,160.0,120.0,positive strong,990,8.0,,,1,1828
+28101,Privacy concerns,740.0,391.0,154.0,115.0,negative strong,990,7.0,,,1,1828
+28098,Unknown health risk,963.0,73.0,160.0,120.0,negative,990,4.0,,,1,1828
+28097,health benefits,1229.0,169.0,156.641,117.0,positive,990,3.0,reduction of illnesses caused by lack of sleep,22:59:40,1,1828
+28096,enhanced productivity,1219.0,318.0,160.0,120.0,positive weak,990,2.0,,22:53:32,1,1828
+28095,technological implant,929.0,247.0,160.0,120.0,neutral,990,1.0, ,,1,1828

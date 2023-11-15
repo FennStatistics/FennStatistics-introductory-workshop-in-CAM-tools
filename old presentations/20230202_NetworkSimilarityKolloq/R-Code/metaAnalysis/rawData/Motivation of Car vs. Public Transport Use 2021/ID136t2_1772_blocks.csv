@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27578,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,940,2.0, ,,1,1772
+27577,Eigener Pkw,275.0,348.0,160.0,120.0,neutral,940,1.0, ,,1,1772
+27576,Pandemie,649.0,70.0,160.0,120.0,negative strong,940,3.0,,,1,1772
+27575,Umwelt,424.0,225.0,160.0,120.0,ambivalent,940,4.0,,,1,1772
+27574,Arbeiten während Fahrt,844.0,221.0,160.0,120.0,positive weak,940,7.0,,10:23:13,1,1772
+27573,Verkehrsstau,109.0,128.0,160.0,120.0,negative weak,940,8.0,,10:23:34,1,1772
+27572,Flexibel,34.0,321.0,160.0,120.0,positive strong,940,9.0,,,1,1772
+27571,Kostengünstig,836.0,392.0,160.0,120.0,positive weak,940,10.0,,,1,1772
+27570,Deutsche Bahn,574.0,445.0,160.0,120.0,neutral,940,11.0,,,1,1772
+27569,Verspätungen,799.0,544.0,160.0,120.0,negative strong,940,12.0,,,1,1772
+27568,Unzuverlässig,606.0,544.0,160.0,120.0,negative,940,13.0,,10:26:16,1,1772
+27567,Autobahn,277.0,442.0,160.0,120.0,neutral,940,14.0,,,1,1772
+27566,Kein Tempolimit,20.0,449.0,160.0,120.0,positive strong,940,15.0,,10:27:45,1,1772
+27565,Baustellen,274.0,593.0,160.0,120.0,negative,940,16.0,,,1,1772
+27564,Steigende Kraftstoffpreise,27.0,214.0,160.0,120.0,negative strong,940,17.0,,,1,1772
+27563,Unterhaltungskosten,278.0,60.0,160.0,120.0,negative,940,5.0,,10:30:09,1,1772

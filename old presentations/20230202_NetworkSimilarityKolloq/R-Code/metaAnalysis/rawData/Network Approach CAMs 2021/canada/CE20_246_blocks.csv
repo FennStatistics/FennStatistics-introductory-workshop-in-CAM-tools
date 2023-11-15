@@ -1,0 +1,25 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5412,Community Transmission,1223.33,296.667,160.0,120.0,negative,153,24.0,,,1,246
+5400,Contact Tracing,120.0,77.0,160.0,120.0,positive,153,23.0,,,1,246
+5363,Donald Trump,1083.0,361.667,160.0,120.0,negative strong,153,21.0,,18:48:01,1,246
+5365,Fake News,795.0,365.333,160.0,120.0,negative strong,153,22.0,,18:47:58,1,246
+5357,Bolsonaro,944.667,366.667,160.0,120.0,negative strong,153,20.0,,18:47:41,1,246
+5348,WHO,677.0,425.0,160.0,120.0,positive,153,19.0,,,1,246
+5336,Herd Immunity,1117.66,58.6458,160.0,120.0,negative strong,153,18.0,,,1,246
+5320,Sars-CoV-2,827.313,19.0,160.0,120.0,negative strong,153,17.0,,,1,246
+5306,Containment,633.0,534.667,160.0,120.0,positive,153,16.0,,,1,246
+5283,Social Distancing,483.333,533.333,160.0,120.0,ambivalent,153,15.0,,18:45:38,1,246
+5268,Flattening The Curve,356.646,456.661,160.0,120.0,positive strong,153,14.0,,,1,246
+5232,Focusing on what matters,315.385,327.135,160.0,120.0,positive strong,153,13.0,,18:44:37,1,246
+5228,Nurses/Doctors/Care,434.115,78.8073,160.0,120.0,positive strong,153,12.0,,18:44:07,1,246
+5222,Disease Research,272.792,77.6823,160.0,120.0,positive,153,11.0,,,1,246
+5207,Thinking Positive,270.839,205.135,160.0,120.0,positive strong,153,10.0,,18:43:35,1,246
+5181,Quarantine,445.714,207.143,160.0,120.0,positive,153,9.0,,,1,246
+5086,Death,738.75,106.0,160.0,120.0,negative strong,153,8.0,,,1,246
+5078,Racism,574.75,350.5,160.0,120.0,negative strong,153,7.0,,,1,246
+5053,China Origins,586.73,214.473,160.0,120.0,negative,153,6.0,,18:40:25,1,246
+5045,Blame/Negligence,1095.0,231.992,160.0,120.0,negative strong,153,5.0,,,1,246
+5025,Fear,927.99,225.99,160.0,120.0,negative strong,153,3.0,,,1,246
+5028,Panic,761.996,217.988,160.0,120.0,negative strong,153,4.0,,18:39:47,1,246
+5014,Pandemic,948.964,60.0,160.0,120.0,negative strong,153,2.0,,18:39:31,1,246
+5008,Corona Virus,621.984,20.0,160.0,120.0,negative strong,153,1.0,,,1,246

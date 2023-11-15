@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4702,Quarantine,356.25,248.75,160.0,120.0,positive,95,19.0,,,1,170
+4467,Can't access gyms,650.0,513.333,160.0,120.0,negative weak,95,18.0,,,1,170
+4451,Freedom in schedule,641.444,19.0,160.0,120.0,positive weak,95,17.0,,18:26:24,1,170
+4370,Less productivity,894.444,147.778,160.0,120.0,negative weak,95,16.0,,,1,170
+4338,Worried about future employment/housing,407.444,531.111,160.0,120.0,negative,95,15.0,,,1,170
+4287,Worried about contracting and spreading virus,918.778,369.111,160.0,120.0,negative weak,95,14.0,,18:23:20,1,170
+4283,"Eating better, being able to prepare all meals at home",818.556,507.333,160.0,120.0,positive weak,95,13.0,,18:23:04,1,170
+4269,Health,744.889,350.111,160.0,120.0,ambivalent,95,12.0,,18:23:33,1,170
+4231,Depression - too much time spent at home,369.0,22.0,160.0,120.0,negative,95,11.0,,18:22:11,1,170
+4221,Anxiety,177.0,20.0,160.0,120.0,negative,95,10.0,,,1,170
+4217,Fear of the future,17.0,71.9844,160.0,120.0,negative weak,95,9.0,,,1,170
+4206,Financial status,414.986,392.983,160.0,120.0,neutral,95,8.0,,,1,170
+4194,Appreciation for government assistance,236.993,463.986,160.0,120.0,positive,95,7.0,,,1,170
+4169,More appreciation for health,25.0,235.992,160.0,120.0,positive,95,6.0,,,1,170
+4114,More appreciation for family and friends,156.992,283.996,160.0,120.0,positive,95,5.0,,18:20:36,1,170
+4065,Less time spent commuting and getting ready,879.99,20.9965,160.0,120.0,positive,95,4.0,,18:24:14,1,170
+4055,Mental health,225.996,156.984,160.0,120.0,ambivalent,95,3.0,,18:20:15,1,170
+4051,Working from home,736.979,142.976,160.0,120.0,ambivalent,95,2.0,,18:22:14,1,170
+4002,Coronavirus,538.997,219.993,160.0,120.0,neutral,95,1.0,,,1,170

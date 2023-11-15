@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24550,Parkkosten,918.0,478.0,160.0,120.0,neutral,816,18.0,,,1,1577
+24549,Kraftstoff,607.0,558.0,160.0,120.0,neutral,816,17.0,,,1,1577
+24543,teuer,699.0,465.0,160.0,120.0,negative weak,816,16.0,,11:19:12,1,1577
+24542,günstig durch Jahresticket,327.0,356.0,160.0,120.0,positive weak,816,15.0,,11:17:11,1,1577
+24538,teils unkomfortabel,48.0,234.0,160.0,120.0,negative weak,816,14.0,,11:16:00,1,1577
+24537,Risiko der Ansteckung,151.0,317.0,160.0,120.0,negative,816,13.0,,,1,1577
+24535,Nutzung der Fahrzeit,82.0,120.0,160.0,120.0,positive weak,816,12.0,,11:15:24,1,1577
+24533,klimafreundlich,223.0,55.0,160.0,120.0,positive,816,11.0,,11:15:05,1,1577
+24532,Fahrspaß,909.0,129.0,160.0,120.0,positive weak,816,10.0,,11:14:47,1,1577
+24526,CO2-Ausstoß,824.0,327.0,160.0,120.0,negative,816,8.0,,,1,1577
+24524,Parkplatzsuche,951.0,243.0,160.0,120.0,negative,816,7.0,,11:14:38,1,1577
+24522,Sicherheit vor Ansteckung,532.0,131.0,160.0,120.0,positive,816,6.0,,11:12:01,1,1577
+24521,Einfacher Transport,543.0,27.0,160.0,120.0,positive,816,5.0,,,1,1577
+24519,Komfort,725.0,64.0,160.0,120.0,positive,816,4.0,,,1,1577
+24513,ÖPNV,287.0,166.0,160.0,120.0,ambivalent,816,3.0,,11:11:19,1,1577
+24510,Pkw,742.0,201.0,160.0,120.0,ambivalent,816,2.0,,11:11:12,1,1577
+24509,Mobilität,517.0,347.0,160.0,120.0,neutral,816,1.0,,11:11:14,1,1577

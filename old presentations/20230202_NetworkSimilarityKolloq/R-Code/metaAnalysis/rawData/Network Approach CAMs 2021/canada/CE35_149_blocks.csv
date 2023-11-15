@@ -1,0 +1,7 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+3829,working at home,20.0,251.0,160.0,120.0,ambivalent,79,6.0,Lack of motivation,18:14:45,1,149
+3822,time with family,62.0,82.0,160.0,120.0,positive strong,79,5.0,It feels good to spend time with loved ones,18:18:08,1,149
+3807,isolation,493.0,480.0,160.0,120.0,negative strong,79,4.0,,18:10:43,1,149
+3805,laziness,691.0,139.0,160.0,120.0,negative strong,79,3.0,Sometimes I don't feel like doing anything.,18:14:24,1,149
+3801,boredom,521.0,54.0,160.0,120.0,negative weak,79,2.0,seems like there's nothing to do,18:14:07,1,149
+3795,coronavirus,373.0,263.0,160.0,120.0,neutral,79,1.0,,,1,149

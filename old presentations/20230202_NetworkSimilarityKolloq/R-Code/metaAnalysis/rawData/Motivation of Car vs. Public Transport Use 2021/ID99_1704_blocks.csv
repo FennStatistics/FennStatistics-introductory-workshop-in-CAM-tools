@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26557,umweltschädlich,242.0,470.0,160.0,120.0,negative strong,894,13.0,,,1,1704
+26556,schneller,77.0,329.0,160.0,120.0,positive strong,894,11.0,,21:46:16,1,1704
+26555,Reparaturen,39.0,112.0,160.0,120.0,negative strong,894,10.0,,,1,1704
+26554,Ansteckungsgefahr,850.0,320.0,160.0,120.0,negative strong,894,9.0,,,1,1704
+26553,Verspätung / Ausfall,736.0,470.0,160.0,120.0,negative strong,894,8.0,,21:39:30,1,1704
+26552,Stau,436.0,485.0,160.0,120.0,negative strong,894,7.0,,,1,1704
+26551,ökologisch nachhaltig,605.0,69.0,160.0,120.0,positive strong,894,6.0,,,1,1704
+26550,Fahrgemeinschaften,388.0,131.0,160.0,120.0,ambivalent,894,5.0,,,1,1704
+26549,teuer,215.0,165.0,160.0,120.0,negative strong,894,4.0,,21:37:52,1,1704
+26548,bequemer,50.0,446.0,160.0,120.0,positive strong,894,3.0,,,1,1704
+26547,Eigener Pkw,275.0,344.0,160.0,120.0,neutral,894,1.0, ,,1,1704
+26546,Öffentliche Verkehrsmittel,574.0,346.0,166.6,119.0,neutral,894,2.0, ,,1,1704

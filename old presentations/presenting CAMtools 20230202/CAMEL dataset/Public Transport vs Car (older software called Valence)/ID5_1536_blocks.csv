@@ -1,0 +1,27 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+23948,Aktives Erlebnis,20.0,326.0,160.0,120.0,ambivalent,787,32.0,,,1,1536
+23947,Passives Erlebnis,931.0,231.0,160.0,120.0,ambivalent,787,31.0,,,1,1536
+23946,Zeit,470.0,442.0,160.0,120.0,ambivalent,787,30.0,,,1,1536
+23945,Gebunden,646.0,68.0,160.0,120.0,negative weak,787,29.0,,,1,1536
+23944,Stau,390.0,544.0,160.0,120.0,ambivalent,787,28.0,,,1,1536
+23943,"Schnell, Direkt",786.0,20.0,160.0,120.0,ambivalent,787,27.0,,,1,1536
+23942,Eigen Verantwortung,20.0,544.0,160.0,120.0,ambivalent,787,26.0,,,1,1536
+23941,Ruecksichtnahme,792.0,547.0,160.0,120.0,ambivalent,787,25.0,,,1,1536
+23940,Sitzplatz,622.0,544.0,160.0,120.0,ambivalent,787,24.0,,,1,1536
+23939,Sitzplatz,20.0,440.0,160.0,120.0,positive weak,787,23.0,,12:53:22,1,1536
+23938,Mitmenschen,676.0,419.0,160.0,120.0,ambivalent,787,22.0,,12:52:49,1,1536
+23937,Keine nervigen Mitmenschen,80.0,20.0,160.0,120.0,positive weak,787,20.0,,,1,1536
+23936,"Buch lesen, schlafen",924.0,404.0,160.0,120.0,positive weak,787,18.0,,,1,1536
+23935,Zeit zum Abschalten,860.0,299.0,160.0,120.0,positive weak,787,17.0,,,1,1536
+23934,Kosten,480.0,153.0,160.0,120.0,ambivalent,787,16.0,,12:50:36,1,1536
+23933,Zeit Intensiv,866.0,135.0,160.0,120.0,negative weak,787,14.0,,,1,1536
+23932,Zeit sparend,61.0,225.0,160.0,120.0,positive weak,787,13.0,,12:49:42,1,1536
+23931,Bequem,727.0,205.0,160.0,120.0,positive weak,787,12.0,,,1,1536
+23928,Erfordert Aufmerksamkeit,242.0,456.0,160.0,120.0,ambivalent,787,8.0,,12:46:43,1,1536
+23930,Eigen Kontrolle,150.0,345.0,160.0,120.0,positive weak,787,11.0,,,1,1536
+23929,Risiken,199.0,544.0,160.0,120.0,negative,787,9.0,,,1,1536
+23927,Freiheit,63.0,119.0,160.0,120.0,positive weak,787,7.0,,,1,1536
+23926,Ungebunden,238.0,87.0,160.0,120.0,positive weak,787,5.0,,,1,1536
+23925,Bequem,242.0,184.0,160.0,120.0,positive weak,787,3.0,,,1,1536
+23924,Offentliche Verkehrsmittel,607.0,295.0,160.0,120.0,neutral,787,2.0,,,1,1536
+23923,Eigner PKW,314.0,298.0,160.0,120.0,neutral,787,1.0,,,1,1536

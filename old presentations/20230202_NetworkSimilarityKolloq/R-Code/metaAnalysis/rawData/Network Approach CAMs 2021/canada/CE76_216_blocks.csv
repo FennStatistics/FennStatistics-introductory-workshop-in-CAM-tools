@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5201,Using hand sanitizer,544.0,383.0,160.0,120.0,positive,126,17.0,,,1,216
+5165,Less work,1094.0,22.0,160.0,120.0,positive,126,16.0,,,1,216
+5094,Purchasing grocery in bulk,367.0,413.0,160.0,120.0,positive weak,126,14.0,,18:42:24,1,216
+5116,Playing in the park,362.0,5.0,160.0,120.0,positive,126,15.0,,,1,216
+5057,Feeling bored,852.0,20.0,160.0,120.0,negative,126,13.0,,,1,216
+4996,Work remote,947.0,125.0,160.0,120.0,positive,126,12.0,,18:38:49,1,216
+4911,Going to social event,190.0,88.0,160.0,120.0,positive strong,126,11.0,,18:38:32,1,216
+4486,Mandatory quarintine,688.0,327.0,160.0,120.0,negative,126,5.0,,18:26:38,1,216
+4423,Spend time with family,314.0,261.0,160.0,120.0,positive strong,126,4.0,,,1,216
+4406,Loss of income,901.0,312.0,160.0,120.0,negative strong,126,3.0,,18:25:13,1,216
+4383,Coronavirus experience,623.0,95.0,160.0,120.0,neutral,126,1.0,,18:30:25,1,216

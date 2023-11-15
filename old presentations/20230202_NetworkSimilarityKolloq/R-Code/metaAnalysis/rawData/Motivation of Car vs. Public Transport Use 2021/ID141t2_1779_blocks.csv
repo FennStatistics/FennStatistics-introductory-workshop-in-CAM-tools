@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27700,klimaschädlich,20.0,639.0,160.0,120.0,negative strong,946,23.0,,,1,1779
+27699,Schutz vor Infektionen,395.0,199.0,160.0,120.0,positive strong,946,22.0,,,1,1779
+27698,Problematisch in Pandemie,953.0,366.0,160.0,120.0,negative strong,946,21.0,,,1,1779
+27697,Fahrkosten,598.0,569.0,160.0,120.0,ambivalent,946,20.0,,09:21:56,1,1779
+27696,teuer,346.0,476.0,160.0,120.0,negative weak,946,19.0,,,1,1779
+27695,transportiert Familie und Freunde,20.0,67.0,160.0,120.0,positive weak,946,18.0,,,1,1779
+27694,Freiheit,279.0,21.0,160.0,120.0,positive weak,946,17.0,,,1,1779
+27693,verstopfte Straßen,355.0,623.0,160.0,120.0,negative,946,16.0,,,1,1779
+27692,Transportmöglichkeit für schwere Güter,33.0,303.0,160.0,120.0,positive weak,946,15.0,,,1,1779
+27691,unterstützt Wirtschaft,445.0,67.0,160.0,120.0,positive weak,946,14.0,,,1,1779
+27690,umweltschädigend,180.0,581.0,160.0,120.0,negative weak,946,13.0,,,1,1779
+27689,Unfallgefahr,20.0,541.0,160.0,120.0,negative weak,946,12.0,,09:17:03,1,1779
+27688,Stress,20.0,435.0,160.0,120.0,negative,946,11.0,,09:16:31,1,1779
+27687,Flexibel,20.0,179.0,160.0,120.0,positive weak,946,10.0,,,1,1779
+27686,entspanntes Reisen,895.0,67.0,160.0,120.0,positive weak,946,9.0,,,1,1779
+27685,Unzuverlässig,742.0,208.0,160.0,120.0,negative weak,946,8.0,,,1,1779
+27684,überfüllt,959.0,614.0,160.0,120.0,negative,946,7.0,,,1,1779
+27683,Sicherheit,999.0,168.0,160.0,120.0,positive,946,6.0,,09:14:16,1,1779
+27682,Umweltfreundlich,687.0,74.0,160.0,120.0,positive weak,946,5.0,,09:13:51,1,1779
+27681,Abhängig von Fahrplan,843.0,447.0,160.0,120.0,negative weak,946,4.0,,,1,1779
+27680,Unabhängigkeit,226.0,213.0,160.0,120.0,positive strong,946,3.0,,,1,1779
+27679,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,946,1.0, ,,1,1779
+27678,Öffentliche Verkehrsmittel,581.0,345.0,160.0,120.0,neutral,946,2.0, ,,1,1779

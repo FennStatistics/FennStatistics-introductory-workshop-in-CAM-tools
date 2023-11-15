@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25396,Kein Parkplatz suchen,795.0,200.0,160.0,120.0,positive strong,848,16.0,,13:35:11,1,1628
+25394,Semesterticket,685.0,72.0,160.0,120.0,positive strong,848,15.0,,13:34:26,1,1628
+25391,Coronarisiko,589.0,544.0,160.0,120.0,negative,848,14.0,,13:35:33,1,1628
+25390,Laut,949.0,544.0,160.0,120.0,negative weak,848,13.0,,,1,1628
+25389,Viele Menschen,794.0,432.0,160.0,120.0,negative strong,848,12.0,,13:33:43,1,1628
+25388,Griesgrämige Busfahrer,945.0,344.0,160.0,120.0,negative strong,848,11.0,,,1,1628
+25387,Umweltfreundlich,576.0,199.0,160.0,120.0,positive strong,848,10.0,,13:32:49,1,1628
+25381,Kosten,204.0,494.0,160.0,120.0,negative,848,9.0,,13:32:13,1,1628
+25380,Steuer,20.0,514.0,160.0,120.0,negative weak,848,8.0,,13:31:55,1,1628
+25377,Coronasicher,40.0,267.0,160.0,120.0,positive strong,848,7.0,,,1,1628
+25376,Komfortabel,61.0,137.0,160.0,120.0,positive,848,6.0,,,1,1628
+25374,Schnell,392.0,90.0,160.667,120.0,positive,848,5.0,,,1,1628
+25373,Unabhängigkeit,220.0,179.0,160.0,120.0,positive strong,848,4.0,,13:30:03,1,1628
+25370,Umweltbelastung,47.0,406.0,160.0,120.0,negative strong,848,3.0,,,1,1628
+25352,Eigener Pkw,266.0,345.0,160.0,120.0,neutral,848,1.0, ,,1,1628
+25351,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,848,2.0, ,,1,1628

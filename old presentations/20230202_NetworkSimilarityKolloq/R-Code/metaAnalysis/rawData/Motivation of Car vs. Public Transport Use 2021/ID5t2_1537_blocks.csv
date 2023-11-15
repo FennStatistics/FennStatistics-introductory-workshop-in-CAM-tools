@@ -1,0 +1,28 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+23975,Umweltschonend,476.0,20.0,160.0,120.0,ambivalent,787,33.0,,13:14:23,1,1537
+23974,Eigner PKW,314.0,298.0,160.0,120.0,neutral,787,1.0,,,1,1537
+23973,Offentliche Verkehrsmittel,607.0,295.0,160.0,120.0,neutral,787,2.0,,,1,1537
+23972,Bequem,242.0,184.0,160.0,120.0,positive weak,787,3.0,,,1,1537
+23971,Ungebunden,238.0,87.0,160.0,120.0,positive weak,787,5.0,,,1,1537
+23970,Freiheit,63.0,119.0,160.0,120.0,positive weak,787,7.0,,,1,1537
+23969,Risiken,199.0,544.0,160.0,120.0,negative,787,9.0,,,1,1537
+23968,Eigen Kontrolle,150.0,345.0,160.0,120.0,positive weak,787,11.0,,,1,1537
+23967,Erfordert Aufmerksamkeit,242.0,456.0,160.0,120.0,ambivalent,787,8.0,,12:46:43,1,1537
+23966,Bequem,727.0,205.0,160.0,120.0,positive weak,787,12.0,,,1,1537
+23965,Zeit sparend,61.0,225.0,160.0,120.0,positive weak,787,13.0,,12:49:42,1,1537
+23964,Zeit Intensiv,866.0,135.0,160.0,120.0,negative weak,787,14.0,,,1,1537
+23963,Kosten,480.0,153.0,160.0,120.0,ambivalent,787,16.0,,12:50:36,1,1537
+23962,Zeit zum Abschalten,860.0,299.0,160.0,120.0,positive weak,787,17.0,,,1,1537
+23961,"Buch lesen, schlafen",924.0,404.0,160.0,120.0,positive weak,787,18.0,,,1,1537
+23960,Keine nervigen Mitmenschen,80.0,20.0,160.0,120.0,positive weak,787,20.0,,,1,1537
+23959,Mitmenschen,676.0,419.0,160.0,120.0,ambivalent,787,22.0,,12:52:49,1,1537
+23958,Sitzplatz,20.0,440.0,160.0,120.0,positive weak,787,23.0,,12:53:22,1,1537
+23957,Sitzplatz,622.0,544.0,160.0,120.0,ambivalent,787,24.0,,,1,1537
+23956,Ruecksichtnahme,792.0,547.0,160.0,120.0,ambivalent,787,25.0,,,1,1537
+23955,Eigen Verantwortung,20.0,544.0,160.0,120.0,ambivalent,787,26.0,,,1,1537
+23954,"Schnell, Direkt",786.0,20.0,160.0,120.0,ambivalent,787,27.0,,,1,1537
+23953,Stau,390.0,544.0,160.0,120.0,ambivalent,787,28.0,,,1,1537
+23952,Gebunden,646.0,68.0,160.0,120.0,negative weak,787,29.0,,,1,1537
+23951,Zeit,470.0,442.0,160.0,120.0,ambivalent,787,30.0,,,1,1537
+23950,Passives Erlebnis,931.0,231.0,160.0,120.0,ambivalent,787,31.0,,,1,1537
+23949,Aktives Erlebnis,20.0,326.0,160.0,120.0,ambivalent,787,32.0,,,1,1537

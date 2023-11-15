@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17671,Job verlieren ,1408.29,293.058,160.0,120.0,negative weak,396,20.0,,16:46:01,1,644
+17642,selber krank werden,1482.56,-3.16518,160.0,120.0,negative,396,19.0,,16:40:50,1,644
+17636,Familie,301.143,639.571,160.0,120.0,positive strong,396,17.0,,16:41:41,1,644
+17635,Telefonate,674.424,673.281,160.0,120.0,positive,396,16.0,,16:41:38,1,644
+17612,Zuhause aus arbeiten,436.714,144.714,160.0,120.0,ambivalent,396,15.0,,16:41:24,1,644
+17611,Kinder nerven ,818.531,12.0,160.0,120.0,negative,396,14.0,,16:39:10,1,644
+17587,Großeltern sterben wegen Corona,1522.42,147.844,160.0,120.0,negative,396,13.0,,16:37:44,1,644
+17586,Großeltern nicht besuchen,1455.71,634.42,160.0,120.0,negative,396,12.0,,16:37:47,1,644
+17552,psychische Belastung,1012.99,79.9821,160.0,120.0,negative,396,5.0,,16:35:45,0,644
+17551,Stress,640.942,108.978,160.0,120.0,negative,396,6.0,,16:41:26,0,644
+17550,Einsamkeit,1037.95,564.938,160.0,120.0,negative,396,10.0,,16:35:55,0,644
+17549,Angst,1254.92,139.964,160.0,120.0,negative strong,396,7.0,,16:40:52,0,644
+17548,Corona-Pandemie,875.955,314.933,160.0,120.0,neutral,396,1.0, ,,0,644
+17547,Zusammenhalt,519.996,479.973,160.0,120.0,positive strong,396,8.0,,16:36:00,0,644
+17545,soziale Isolierung,1240.99,446.946,160.0,120.0,negative,396,3.0,,16:40:53,0,644
+17542,wirtschaftliche Folgen,1692.88,433.906,160.0,120.0,negative weak,396,11.0,,16:46:05,0,644

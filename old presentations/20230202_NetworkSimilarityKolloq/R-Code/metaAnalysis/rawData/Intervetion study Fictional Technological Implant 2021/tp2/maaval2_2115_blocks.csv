@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+30720,auto-destroy,31.0,117.0,160.0,120.0,positive,1159,25.0,,17:44:29,1,2115
+30715,no maintenance,126.0,25.0,160.0,120.0,positive strong,1159,24.0,,17:44:11,1,2115
+30703,repairs itself,279.0,40.0,160.0,120.0,positive,1159,23.0,,17:43:39,1,2115
+30693,easily implanted,212.0,134.0,160.0,120.0,positive,1159,22.0,,17:43:25,1,2115
+30681,more stamina,20.0,511.0,160.0,120.0,positive,1159,21.0,,17:42:19,1,2115
+30667,sleep disorders,902.0,550.0,160.0,120.0,positive strong,1159,20.0,,17:41:25,1,2115
+30659,better concentration,192.0,586.0,160.0,120.0,positive strong,1159,18.0,,17:40:41,1,2115
+30655,less accidents,430.0,561.0,160.0,120.0,positive strong,1159,17.0,,,1,2115
+30650,productivity improvement,186.0,411.0,160.0,120.0,positive strong,1159,15.0,,,1,2115
+30633,drug abuse,1008.0,427.0,160.0,120.0,positive,1159,13.0,,17:39:19,1,2115
+30629,better sleep,949.0,298.0,160.0,120.0,positive strong,1159,12.0,,,1,2115
+30625,health,729.0,389.0,160.0,120.0,positive strong,1159,10.0,,17:38:35,1,2115
+30622,privacy,933.0,149.0,160.0,120.0,negative strong,1159,9.0,,,1,2115
+30612,invasive,768.0,71.0,160.0,120.0,negative strong,1159,5.0,,,1,2115
+30609,abuse,549.0,43.0,160.0,120.0,negative strong,1159,4.0,,,1,2115
+30604,technological implant,380.0,274.0,160.0,120.0,ambivalent,1159,1.0,,17:43:18,1,2115

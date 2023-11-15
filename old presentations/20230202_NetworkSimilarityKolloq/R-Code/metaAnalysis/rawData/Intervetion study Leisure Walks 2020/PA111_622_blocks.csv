@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17156,Heimatregion besser kennenlernen,35.0,396.0,160.0,120.0,positive,385,21.0,,,1,622
+17131,Mehr Zeit für sich,492.0,419.0,160.0,120.0,positive strong,385,19.0,,,1,622
+17122,Urlaubspläne abgesagt,216.0,518.0,160.0,120.0,negative,385,18.0,,16:12:23,1,622
+17114,Einschränkungen im Studium,182.0,241.0,166.0,124.0,negative,385,17.0,,,1,622
+17002,psychische Belastung,509.983,20.0,160.0,120.0,negative,385,5.0,,16:08:59,0,622
+17001,Stress,284.983,20.0,160.0,120.0,negative,385,6.0,,16:08:57,0,622
+17000,Einsamkeit,762.0,274.983,160.0,120.0,negative weak,385,10.0,,16:09:18,0,622
+16998,Corona-Pandemie,465.983,247.983,160.0,120.0,neutral,385,1.0, ,,0,622
+16996,physische Isolierung,762.0,519.983,160.0,120.0,negative weak,385,2.0,,16:09:50,0,622
+16995,soziale Isolierung,762.0,55.9833,160.0,120.0,ambivalent,385,3.0,,16:16:13,0,622

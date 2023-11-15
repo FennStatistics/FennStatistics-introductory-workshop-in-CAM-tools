@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27130,Schwere Parkmöglichkeit,46.0,329.0,160.0,120.0,negative,921,9.0,,,1,1742
+27138,gebunden an Abfahrtszeiten,534.0,199.0,160.0,120.0,negative weak,921,17.0,,,1,1742
+27137,Unfallgefahr,319.0,142.0,160.0,120.0,negative weak,921,16.0,,,1,1742
+27136,umfangreiche Gepäckmöglichkeit,332.0,544.0,160.0,120.0,positive weak,921,15.0,,15:32:43,1,1742
+27135,mehrere Personen zu selben Kosten,26.0,466.0,160.0,120.0,positive,921,14.0,,15:32:11,1,1742
+27134,schneller,214.0,459.0,160.0,120.0,positive weak,921,13.0,,,1,1742
+27133,Währenddessen Buch/Zeitung lesen,710.0,443.0,160.0,120.0,positive weak,921,12.0,,15:31:40,1,1742
+27132,umweltschonend,549.0,482.0,160.0,120.0,positive,921,11.0,,,1,1742
+27131,Umweltverschmutzung,389.0,240.0,160.0,120.0,negative,921,10.0,,,1,1742
+27129,Umsteigen,710.0,201.0,160.0,120.0,negative,921,8.0,,,1,1742
+27128,Fahrkarte,622.0,62.0,160.0,120.0,negative,921,6.0,,,1,1742
+27127,Tankgeld,125.0,89.0,160.0,120.0,negative,921,5.0,,15:28:33,1,1742
+27126,Stau,51.0,175.0,160.0,120.0,negative,921,4.0,,15:28:31,1,1742
+27125,Keine Wartezeiten,382.0,448.0,160.0,120.0,positive weak,921,3.0,,,1,1742
+27124,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,921,1.0, ,,1,1742
+27123,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,921,2.0, ,,1,1742

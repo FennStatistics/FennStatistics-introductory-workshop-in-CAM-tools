@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15922,Online-Konzerte,858.0,539.0,103.323,77.0,positive,329,22.0,,15:24:54,1,579
+15919,Soziale Netzwerke,827.323,419.0,118.0,88.0,neutral,329,21.0,,,1,579
+15899,Entdecken neuer Hobbies,392.0,544.0,160.0,120.0,positive,329,20.0,,,1,579
+15866,Fokus auf sich selbst,20.0,149.0,160.0,120.0,positive weak,329,19.0,,,1,579
+15838,Rücksichtslosigkeit,616.0,326.0,160.0,120.0,negative weak,329,18.0,,15:19:26,1,579
+15828,Folgen für Selbständige und Studenten,438.0,22.0,160.0,120.0,negative,329,17.0,,,1,579
+15804,digital-technischer Fortschritt,43.0,20.0,160.0,120.0,neutral,329,16.0,,,1,579
+15723,Soziale Faktoren,632.0,190.0,160.0,120.0,neutral,329,15.0,,,1,579
+15721,Rücksicht,817.0,177.0,160.0,120.0,positive,329,14.0,,15:15:23,1,579
+15720,Ausgeglichenheit,811.0,20.0,160.0,120.0,positive,329,13.0,,15:15:30,1,579
+15718,Ruhe,638.0,20.0,160.0,120.0,positive,329,12.0,,15:15:56,1,579
+15717,psychische Belastung,460.979,405.969,160.0,120.0,negative weak,329,5.0,,15:16:45,0,579
+15716,Stress,20.0,365.0,160.0,120.0,ambivalent,329,6.0,,15:16:43,0,579
+15715,Einsamkeit,556.0,544.0,160.0,120.0,ambivalent,329,10.0,,15:16:11,0,579
+15714,Angst,374.0,293.0,160.0,120.0,negative weak,329,7.0,,15:16:31,0,579
+15713,Corona-Pandemie,451.99,171.99,160.0,120.0,neutral,329,1.0, ,,0,579
+15712,Zusammenhalt,818.333,296.0,160.0,120.0,positive weak,329,8.0,,15:16:34,0,579
+15711,physische Isolierung,20.0,507.99,160.0,120.0,negative weak,329,2.0,,15:16:16,0,579
+15710,soziale Isolierung,207.0,526.99,160.0,120.0,ambivalent,329,3.0,,15:16:29,0,579
+15709,Depressivität,669.969,455.969,160.0,120.0,negative,329,9.0,,15:16:00,0,579
+15708,Befinden,146.979,266.979,160.0,120.0,neutral,329,4.0, ,,0,579
+15707,wirtschaftliche Folgen,266.969,28.9688,160.0,120.0,ambivalent,329,11.0,,15:16:07,0,579

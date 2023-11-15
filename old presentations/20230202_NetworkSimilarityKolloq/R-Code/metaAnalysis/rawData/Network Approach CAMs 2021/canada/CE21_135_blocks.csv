@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4918,Depressed,1686.0,710.0,160.0,120.0,negative strong,67,21.0,,18:39:22,1,135
+4845,previous health issues,1250.0,394.0,160.0,120.0,negative weak,67,20.0,,,1,135
+4823,Health,1318.0,210.0,160.0,120.0,neutral,67,19.0,,,1,135
+4797,Age,1106.0,296.0,160.0,120.0,negative weak,67,18.0,,,1,135
+4737,Working from home,408.0,938.0,160.0,120.0,positive weak,67,17.0,,,1,135
+4681,Tech,882.0,472.0,160.0,120.0,positive weak,67,16.0,,,1,135
+4667,Can't see them,744.0,202.0,160.0,120.0,ambivalent,67,15.0,,18:38:52,1,135
+4626,Family,928.0,223.656,160.0,120.0,ambivalent,67,14.0,,18:38:45,1,135
+4593,Financial insecurity,246.969,770.656,160.0,120.0,negative,67,13.0,,18:29:29,1,135
+4524,Going out to get food,638.5,507.5,160.0,120.0,negative weak,67,12.0,,18:28:01,1,135
+4474,Delivering food,471.719,514.813,160.0,120.0,positive weak,67,11.0,,18:27:40,1,135
+4441,fear of getting sick,911.188,828.156,160.0,120.0,negative strong,67,10.0,,,1,135
+4419,Income,137.438,578.75,160.0,120.0,positive strong,67,9.0,,,1,135
+4396,Can work,265.625,437.969,160.0,120.0,neutral,67,8.0,,,1,135
+4371,Can't work,74.0,339.656,160.0,120.0,ambivalent,67,7.0,,18:38:57,1,135
+4356,Don't qualify,16.0,738.688,160.0,120.0,negative strong,67,6.0,,,1,135
+4337,CERB,20.0,477.313,160.0,120.0,positive,67,5.0,,,1,135
+4312,Food,560.188,349.969,160.0,120.0,neutral,67,4.0,,,1,135
+4284,Work,248.094,231.0,160.0,120.0,neutral,67,3.0,,18:39:16,1,135
+4275,Finance,502.844,169.969,160.0,120.0,neutral,67,2.0,,,1,135
+4265,Covid-19,1001.66,30.0,160.0,120.0,negative,67,1.0,,,1,135

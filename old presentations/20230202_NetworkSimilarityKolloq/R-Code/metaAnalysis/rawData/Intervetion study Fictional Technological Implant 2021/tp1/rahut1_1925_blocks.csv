@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+29334,Technological implant,38.0,20.0,160.0,120.0,neutral,1075,16.0,,,1,1925
+29315,Gain of Self through rest,355.0,533.0,160.0,120.0,positive weak,1075,15.0,,16:55:40,1,1925
+29312,Loss of 'Self',143.0,542.0,160.0,120.0,negative,1075,13.0,,,1,1925
+29310,High Cost,591.0,562.0,160.0,120.0,negative strong,1075,12.0,,,1,1925
+29308,Moral,506.0,433.0,160.0,120.0,positive,1075,10.0,,,1,1925
+29307,Immoral,225.0,420.0,160.0,120.0,negative strong,1075,9.0,,,1,1925
+29304,morality,485.0,254.0,160.0,120.0,neutral,1075,8.0,,16:44:50,1,1925
+29301,Controlled,290.0,230.0,160.0,120.0,negative,1075,7.0,,,1,1925
+29300,Efficient,698.0,67.0,160.0,120.0,positive,1075,6.0,,,1,1925
+29299,Medical,218.0,73.0,192.0,143.5,neutral,1075,4.0,,,1,1925
+29298,Addiction,594.0,151.0,160.0,120.0,negative,1075,3.0,,16:39:53,1,1925
+29297,Cost,732.0,337.0,160.0,120.0,neutral,1075,2.0,,16:51:50,1,1925
+29296,Overcome Insomia,448.0,65.0,160.0,120.0,positive weak,1075,1.0,,16:43:43,1,1925

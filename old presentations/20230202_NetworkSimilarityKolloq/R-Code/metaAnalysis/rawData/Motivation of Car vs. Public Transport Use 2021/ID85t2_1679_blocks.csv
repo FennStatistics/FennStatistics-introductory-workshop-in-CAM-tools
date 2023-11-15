@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26158,Umwelt,416.0,544.0,160.0,120.0,ambivalent,879,22.0,,10:12:03,1,1679
+26157,Stau,265.0,481.0,160.0,120.0,negative strong,879,20.0,,10:11:39,1,1679
+26156,Essen nicht lecker,830.0,141.0,160.0,120.0,negative,879,19.0,,09:43:44,1,1679
+26155,Nickerchen,536.0,112.0,160.0,120.0,positive,879,18.0,,09:43:19,1,1679
+26154,Viele Sachen mitnehmen,66.0,518.0,160.0,120.0,positive,879,17.0,,09:43:41,1,1679
+26153,Schlepperei Koffer,535.0,473.0,160.0,120.0,negative strong,879,16.0,,09:43:13,1,1679
+26152,anstrengend,68.0,395.0,158.0,118.0,negative strong,879,15.0,,09:43:29,1,1679
+26151,WC Zug,799.0,483.0,158.0,118.0,negative strong,879,14.0,,09:43:38,1,1679
+26150,WC Raststätte,22.0,222.0,160.0,120.0,positive,879,13.0,,09:42:04,1,1679
+26148,Wartezeiten,679.0,34.0,158.0,118.0,negative,879,11.0,,09:42:26,1,1679
+26147,mobil sein,391.0,33.0,158.0,118.0,positive strong,879,10.0,,09:42:19,1,1679
+26146,Unterhaltung,827.0,367.0,158.0,118.0,positive,879,9.0,,09:42:58,1,1679
+26145,Leute kennenlernen,410.0,226.0,160.0,120.0,positive,879,8.0,,09:43:02,1,1679
+26144,Mitsingen,22.0,77.0,160.0,120.0,positive,879,7.0,,09:42:47,1,1679
+26143,Laut Musik hören,222.0,247.0,160.0,120.0,positive,879,6.0,,09:42:54,1,1679
+26142,lesen,792.0,266.0,159.312,119.0,positive weak,879,5.0,,10:10:39,1,1679
+26141,Hund Gassi gehen,162.0,20.0,160.0,120.0,positive,879,4.0,,09:42:37,1,1679
+26140,entspannen,677.0,168.0,155.0,115.75,positive strong,879,3.0,,09:36:33,1,1679
+26139,Eigener Pkw,269.0,345.0,165.188,120.0,neutral,879,1.0,,09:43:04,1,1679
+26138,Öffentliche Verkehrsmittel,594.0,354.0,165.188,120.0,neutral,879,2.0, ,,1,1679

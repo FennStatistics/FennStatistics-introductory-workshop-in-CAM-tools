@@ -1,0 +1,82 @@
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pdfrender}
+\usepackage{graphicx}
+
+\definecolor{smipblue}{RGB}{73,105,162}
+\definecolor{smipgray}{RGB}{131,131,131}
+\definecolor{smiporange}{RGB}{228,108,49}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=smipblue}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=smipgray}
+\setbeamercolor{frametitle}{bg=white, fg=smipblue}
+\setbeamerfont{frametitle}{size=\LARGE}
+\setbeamerfont{title}{shape=\bfseries}
+
+\renewcommand{\emph}[1]{\textbf{\textcolor{smipblue}{#1}}}
+\newcommand{\deemph}[1]{\textbf{\textcolor{smipgray}{#1}}}
+\newcommand{\highlight}[1]{\textbf{\textcolor{smiporange}{#1}}}
+
+\setbeamertemplate{itemize item}{\textcolor{black}{$\bullet$}}
+\setbeamertemplate{itemize subitem}{\textcolor{black}{$-$}}
+\setbeamertemplate{itemize subsubitem}{\textcolor{black}{$\bullet$}}
+
+\setbeamertemplate{headline}{}
+\setbeamertemplate{frametitle}[default][center]
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=south east,yshift=13pt] at (current page.south east) {\includegraphics[height=1cm]{subfiles/logo_reduced.eps}};
+\end{tikzpicture}}
+
+\setbeamertemplate{footline}
+{
+    \ifnum \insertpagenumber=1
+      \leavevmode%
+      \hbox{%
+      \begin{beamercolorbox}[wd=\paperwidth,ht=30ex,dp=7ex,right, rightskip = 10ex]{title in head/foot}%
+        \includegraphics[width=5.5cm]{subfiles/Logo_full_sw.png}
+      \end{beamercolorbox}}%
+      \vskip0pt%
+    \else
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.005\paperwidth,ht=4ex,dp=2.5ex,center]{}%
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.06\paperwidth,ht=4ex,dp=2ex,center]{author in head/foot}%
+     \insertframenumber{}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.005\paperwidth,ht=4ex,dp=2ex,center]{}%
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.925\paperwidth, ht=4ex, dp=2ex, left, leftskip = 2.5ex plus1fil]{title in head/foot}% 
+  	\insertshortdate{} \newline 
+  	\insertshortauthor, \insertshortinstitute\vspace{-3.7px}
+  \end{beamercolorbox}}%
+  \begin{beamercolorbox}[wd=.005\paperwidth,ht=4ex,dp=2ex,center]{}%
+  \end{beamercolorbox}%
+  \vskip0pt%
+  \fi
+}
+
+\setbeamertemplate{title page}{%
+\begin{tikzpicture}[remember picture,overlay]
+\fill[smipblue]
+  ([yshift=-20pt]current page.west) rectangle (current page.south east);
+\node[anchor = west]
+  at ([yshift=-25pt, xshift=0pt]current page.north west) (logo)
+  {\parbox[t]{.1\paperwidth}{
+    \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic}};
+\node[anchor=west] 
+  at ([yshift=-90pt, xshift=10pt]current page.north west) (title)
+  {\parbox[t]{.8\paperwidth}{\raggedright%
+    \usebeamerfont{title}\textcolor{smipblue}{%
+    {\inserttitle}}}};
+ \node[anchor=west]
+  at ([yshift=-110pt, xshift=10pt]current page.north west) (subtitle)
+  {\parbox[t]{.8\paperwidth}{\usebeamerfont{subtitle}\textcolor{smipblue}{\insertsubtitle}}};
+ \node[anchor=west]
+  at ([yshift=-130pt, xshift=10pt]current page.north west) (author)
+  {\parbox[t]{.8\paperwidth}{\usebeamerfont{author}\textcolor{smipgray}{\insertauthor,\ \insertinstitute}}};
+ \node[anchor=west]
+  at ([yshift=-145pt, xshift=10pt]current page.north west) (occasion)
+  {\parbox[t]{.8\paperwidth}{\usebeamerfont{date}\textcolor{smipgray}{\insertdate}}};
+\end{tikzpicture}
+}

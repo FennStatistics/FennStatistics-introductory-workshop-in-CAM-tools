@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26940,Verfügbarkeit für alle,245.0,149.0,160.0,120.0,neutral,910,19.0,,,1,1726
+26939,Flexibilität,973.0,522.0,160.0,120.0,negative,910,18.0,,22:59:45,1,1726
+26938,Flexibilität,1057.0,307.0,160.0,120.0,positive strong,910,17.0,,22:59:43,1,1726
+26937,Anbindung an ländlichen Bereich,284.0,371.0,160.0,120.0,negative,910,16.0,,22:59:50,1,1726
+26936,Anbindung im ländlichen Bereich,431.0,224.0,160.0,120.0,positive strong,910,15.0,,22:59:41,1,1726
+26935,Sicherheit,760.0,533.0,160.0,120.0,negative weak,910,13.0,,,1,1726
+26934,Sicherheit ,857.0,146.0,160.0,120.0,positive weak,910,12.0,,22:56:45,1,1726
+26933,Umwelt,547.0,548.25,155.0,115.75,positive weak,910,10.0,,22:55:07,1,1726
+26932,Umwelt,598.0,217.0,160.0,120.0,negative weak,910,9.0,,22:55:55,1,1726
+26931,Kosten,316.0,510.0,160.0,120.0,positive weak,910,8.0,,,1,1726
+26930,Schnelligkeit,723.0,404.0,160.0,120.0,negative,910,6.0,,22:54:39,1,1726
+26929,Kosten,888.0,33.0,160.0,120.0,negative strong,910,5.0,,22:54:15,1,1726
+26928,Schnelligkeit,363.0,36.0,160.0,120.0,positive strong,910,3.0,,,1,1726
+26927,ÖPV,485.0,425.0,160.0,120.0,neutral,910,2.0,,22:53:33,1,1726
+26926,PKW,626.0,43.0,160.0,120.0,neutral,910,1.0,,,1,1726

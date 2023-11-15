@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27103,Hygiene,754.0,20.0,160.0,120.0,negative strong,919,12.0,,10:04:52,1,1740
+27102,Eigener PKW,36.0,205.0,160.0,120.0,ambivalent,919,1.0,,09:53:52,1,1740
+27101,Öffentliche Verkehrsmittel,750.0,209.0,160.0,120.0,ambivalent,919,2.0,,09:54:02,1,1740
+27100,Geschwindigkeit,401.0,117.0,160.0,120.0,neutral,919,3.0,,,1,1740
+27099,Zuverlässigkeit/ Verkehr,401.0,230.0,160.0,120.0,neutral,919,4.0,,09:56:36,1,1740
+27098,Kosten,398.0,342.0,160.0,120.0,neutral,919,5.0,,,1,1740
+27097,Umwelt,398.0,448.0,160.0,120.0,neutral,919,6.0,,,1,1740
+27096,Komfort,398.0,20.0,160.0,120.0,positive strong,919,7.0,,09:52:41,1,1740
+27095,Transport,44.0,20.0,160.0,120.0,neutral,919,11.0,,,1,1740

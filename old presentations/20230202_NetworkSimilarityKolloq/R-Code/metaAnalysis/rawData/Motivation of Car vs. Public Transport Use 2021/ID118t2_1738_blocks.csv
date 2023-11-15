@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27086,Schlechtes Wetter,468.0,20.0,160.0,120.0,negative,918,10.0,,20:46:32,1,1738
+27085,Kontakte,875.0,75.0,160.0,120.0,ambivalent,918,8.0,,20:46:59,1,1738
+27084,Ansteckungsgefahr/Hygiene,1124.0,422.0,160.0,120.0,negative weak,918,7.0,,20:46:52,1,1738
+27083,Benutzbar wenn Müde/Krank/...,686.0,526.0,182.0,136.0,positive weak,918,6.0,,20:46:50,1,1738
+27082,Flexibel,300.0,485.0,160.0,120.0,positive weak,918,5.0,,20:46:48,1,1738
+27081,Teuer,666.0,43.0,160.0,120.0,negative strong,918,4.0,,20:46:45,1,1738
+27080,Umweltfreundlich,249.0,67.0,160.0,120.0,positive strong,918,3.0,,20:46:35,1,1738
+27079,Eigener PKW,829.0,293.0,160.0,120.0,neutral,918,2.0,,,1,1738
+27078,ÖPNV,515.0,277.0,160.0,120.0,neutral,918,1.0,,,1,1738

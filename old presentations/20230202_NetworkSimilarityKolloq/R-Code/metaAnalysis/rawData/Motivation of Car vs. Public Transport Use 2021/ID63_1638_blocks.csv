@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25571,Statussymbol,309.0,469.0,160.0,120.0,neutral,852,13.0,,14:14:22,1,1638
+25551,Zeitlich anpassen,1110.0,288.0,160.0,120.0,negative strong,852,10.0,,14:06:51,1,1638
+25549,Unabhängig,108.0,450.0,160.0,120.0,positive strong,852,9.0,,14:11:38,1,1638
+25546,Schneller ankommen,63.0,305.0,160.0,120.0,positive weak,852,8.0,,14:05:23,1,1638
+25544,Fremde Menschen,924.0,161.0,160.0,120.0,ambivalent,852,7.0,,14:05:06,1,1638
+25542,Umwelt,592.0,474.0,160.0,120.0,positive strong,852,6.0,,14:04:16,1,1638
+25538,Reperaturen/Kosten,236.0,179.0,160.0,120.0,negative strong,852,5.0,,14:13:27,1,1638
+25535,Nicht selber Fahren,586.0,145.0,160.0,120.0,ambivalent,852,4.0,,,1,1638
+25531,Eigener PKW,269.0,316.0,160.0,120.0,neutral,852,3.0,,,1,1638
+25529,Öffentliche Verkehrsmittel,879.0,315.0,160.0,120.0,neutral,852,2.0,,14:14:08,1,1638

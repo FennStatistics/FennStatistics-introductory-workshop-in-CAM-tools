@@ -1,0 +1,27 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6289,Zusammenhalt,1146.0,654.0,160.0,120.0,positive,206,26.0,,,1,319
+6279,Einsamkeit,1338.0,36.0,160.0,120.0,negative,206,25.0,,,1,319
+6271,Finanzielle Sorgen,62.0,402.0,160.0,120.0,negative strong,206,24.0,,,1,319
+6262,Freizeit,1562.0,448.0,160.0,120.0,negative,206,23.0,,,1,319
+6243,Weniger soziale Kontakte,1326.0,474.0,160.0,120.0,negative,206,22.0,,19:33:54,1,319
+6227,Bessere Arbeitsbedingungen,520.0,1086.0,160.0,120.0,positive,206,21.0,,,1,319
+6223,,416.0,1188.0,160.0,120.0,neutral,206,20.0,,,1,319
+6222,,416.0,1188.0,160.0,120.0,neutral,206,19.0,,,1,319
+6220,,370.0,1198.0,160.0,120.0,neutral,206,18.0,,,1,319
+6219,,344.0,1178.0,160.0,120.0,neutral,206,17.0,,,1,319
+6217,,350.0,1200.0,160.0,120.0,neutral,206,16.0,,,1,319
+6210,Mehr selbstbestimmtheit,401.667,876.667,160.0,120.0,positive,206,15.0,,,1,319
+6197,Mehr Homeoffiice,131.661,907.995,160.0,120.0,neutral,206,14.0,,,1,319
+6184,Sorgen um die Zukunft,40.3333,606.667,160.0,120.0,negative strong,206,13.0,,,1,319
+6179,Arbeit,224.656,608.313,160.0,120.0,positive,206,12.0,,,1,319
+6173,Will die Familie nicht gefährden,1231.67,816.667,160.0,120.0,negative strong,206,11.0,,,1,319
+6165,Sorgen um die Gesundheit,965.0,751.667,160.0,120.0,negative weak,206,10.0,,,1,319
+6149,Seltene Besuche,1082.0,507.969,160.0,120.0,negative strong,206,9.0,,,1,319
+6136,Familie,818.98,511.969,160.0,120.0,neutral,206,8.0,,,1,319
+6122,Ich gehe seltener einkaufen,521.111,118.889,160.0,120.0,negative weak,206,7.0,,,1,319
+6106,Fühle mich unwohl,1032.22,200.0,160.0,120.0,negative,206,6.0,,,1,319
+6098,Meine Brille beschlägt,1134.44,38.8889,160.0,120.0,negative,206,5.0,,,1,319
+6088,Man muss eine Maske Tragen,941.111,30.0,160.0,120.0,negative,206,4.0,,,1,319
+6080,Unbequem,754.0,43.0,160.0,120.0,negative strong,206,3.0,,,1,319
+6073,Einkaufen im Supermarkt,806.0,141.0,160.0,120.0,negative,206,2.0,,,1,319
+6063,Corona Krise,587.0,280.0,160.0,120.0,negative weak,206,1.0,,,1,319

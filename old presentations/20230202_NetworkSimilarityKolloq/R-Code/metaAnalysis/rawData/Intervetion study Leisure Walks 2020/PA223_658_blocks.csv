@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17909,Digitalisierung,555.0,538.0,160.0,120.0,positive,407,15.0,,,1,658
+17908,Homeoffice,688.0,435.0,160.0,120.0,ambivalent,407,14.0,,19:30:47,1,658
+17907,Schulschließung,529.0,350.0,160.0,120.0,negative,407,13.0,,,1,658
+17906,Hoffnung,1061.0,413.0,160.0,120.0,positive weak,407,12.0,,,1,658
+17905,psychische Belastung,1349.97,177.969,160.0,120.0,negative weak,407,5.0,,19:27:46,0,658
+17904,Stress,1112.97,51.0,160.0,120.0,negative weak,407,6.0,,19:28:35,0,658
+17903,Einsamkeit,1349.0,299.969,160.0,120.0,negative weak,407,10.0,,19:28:05,0,658
+17902,Angst/Ungewissheit,1233.0,116.0,160.0,120.0,negative weak,407,7.0,,19:27:33,0,658
+17901,Corona-Pandemie,838.984,219.984,160.0,120.0,neutral,407,1.0, ,,0,658
+17900,Kurzarbeit,416.0,129.0,160.0,120.0,negative weak,407,8.0,,19:26:16,0,658
+17899,Arbeitslosigkeit,417.0,262.984,160.0,120.0,negative strong,407,2.0,,19:26:52,0,658
+17898,Hamsterkäufe,528.0,47.9844,160.0,120.0,negative weak,407,3.0,,19:25:33,0,658
+17897,Depressivität,1233.97,360.969,160.0,120.0,negative,407,9.0,,19:28:30,0,658
+17896,Befinden,1115.97,217.984,160.0,120.0,ambivalent,407,4.0,,19:27:12,0,658
+17895,wirtschaftliche Folgen,609.969,221.969,160.0,120.0,ambivalent,407,11.0,,19:25:00,0,658

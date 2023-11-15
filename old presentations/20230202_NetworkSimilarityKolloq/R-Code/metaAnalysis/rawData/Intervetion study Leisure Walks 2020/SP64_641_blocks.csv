@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17610,Spazieren,298.0,20.0,160.0,120.0,positive weak,361,22.0,,,1,641
+17585,Hilfslosigkeit,1046.0,30.0,160.0,120.0,negative weak,361,21.0,,,1,641
+17582,Politische entscheidungen,187.0,293.0,160.0,120.0,positive strong,361,20.0,,16:36:29,1,641
+17553,Job in Gefahr / Kürzungen,451.0,20.0,160.0,120.0,negative weak,361,19.0,,16:35:14,1,641
+17530,Proteste,63.0,525.0,160.0,120.0,negative strong,361,18.0,,,1,641
+17528,Alle in der selben SItuation,35.0,370.0,160.0,120.0,positive,361,17.0,,,1,641
+17527,Gemeinsames Masken Tragen,440.0,376.0,160.0,120.0,positive weak,361,16.0,,,1,641
+17521,Home Office,1043.0,275.0,160.0,120.0,positive,361,15.0,,,1,641
+17519,Mehr zeit für Familie und Freunde,1215.0,29.0,160.0,120.0,positive strong,361,14.0,,,1,641
+17516,Mehr Freizeit,1211.0,277.0,160.0,120.0,positive,361,12.0,,,1,641
+17476,psychische Belastung,659.983,78.0,160.0,120.0,neutral,361,5.0, ,,0,641
+17475,Stress,1110.98,423.0,160.0,120.0,neutral,361,6.0, ,,0,641
+17474,Einsamkeit,87.0,65.9833,160.0,120.0,neutral,361,10.0, ,,0,641
+17473,Angst,272.0,163.0,160.0,120.0,neutral,361,7.0, ,,0,641
+17472,Corona-Pandemie,596.983,544.0,160.0,120.0,neutral,361,1.0, ,,0,641
+17471,Zusammenhalt,275.0,489.0,160.0,120.0,neutral,361,8.0, ,,0,641
+17470,physische Isolierung,857.0,160.983,160.0,120.0,neutral,361,2.0, ,,0,641
+17469,soziale Isolierung,601.0,243.0,160.0,120.0,neutral,361,3.0, ,,0,641
+17468,Depressivität,20.0,202.967,160.0,120.0,neutral,361,9.0, ,,0,641
+17467,Befinden,597.983,393.983,160.0,120.0,neutral,361,4.0, ,,0,641
+17466,wirtschaftliche Folgen,828.967,477.967,160.0,120.0,neutral,361,11.0, ,,0,641

@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14758,Home Office,752.0,142.0,160.0,120.0,positive,361,19.0,,,1,533
+14666,Corona Proteste,316.0,252.0,160.0,120.0,negative,361,17.0,,,1,533
+14641,Schnelle Politik entscheidungen,86.0,454.0,160.0,120.0,positive weak,361,16.0,,,1,533
+14636,Masken Tragen,219.0,374.0,160.0,120.0,positive weak,361,15.0,,,1,533
+14586,Weniger Geld,1101.0,33.0,160.0,120.0,negative,361,14.0,,,1,533
+14582,Arbeitszeitkürzungen,841.0,20.0,160.0,120.0,negative,361,13.0,,,1,533
+14576,Antriebslosigkeit,33.0,268.0,160.0,120.0,negative,361,12.0,,,1,533
+14371,psychische Belastung,529.983,401.983,160.0,120.0,neutral,361,5.0, ,,0,533
+14370,Stress,1190.98,185.0,160.0,120.0,neutral,361,6.0, ,,0,533
+14369,Einsamkeit,265.0,20.0,160.0,120.0,neutral,361,10.0, ,,0,533
+14368,Angst,529.0,245.0,160.0,120.0,neutral,361,7.0, ,,0,533
+14367,Corona-Pandemie,838.983,544.0,160.0,120.0,neutral,361,1.0, ,,0,533
+14366,Zusammenhalt,373.0,525.0,160.0,120.0,neutral,361,8.0, ,,0,533
+14365,physische Isolierung,635.0,20.0,160.0,120.0,neutral,361,2.0, ,,0,533
+14364,soziale Isolierung,464.0,37.0,160.0,120.0,neutral,361,3.0, ,,0,533
+14363,Depressivität,103.983,121.967,160.0,120.0,neutral,361,9.0, ,,0,533
+14362,Befinden,737.983,385.983,160.0,120.0,neutral,361,4.0, ,,0,533
+14361,wirtschaftliche Folgen,962.967,165.967,160.0,120.0,neutral,361,11.0, ,,0,533

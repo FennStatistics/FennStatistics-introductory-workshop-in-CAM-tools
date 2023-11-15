@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17790,nur bei gutem Wetter,330.24,15.0,160.0,120.0,negative weak,386,13.0,,17:40:46,1,654
+17789,Spazieren gehen,596.25,70.0,160.0,120.0,positive strong,386,12.0,Der Spaziergang war sehr entspannend bei schönem Wetter deshalb Stress hemmend.,17:39:27,1,654
+17788,psychische Belastung,681.99,597.0,160.0,120.0,negative weak,386,5.0,,17:42:42,0,654
+17787,Stress,878.982,73.0,160.0,120.0,negative strong,386,6.0,,17:38:47,0,654
+17786,Einsamkeit,773.997,456.977,160.0,120.0,negative,386,10.0,,17:42:12,0,654
+17785,Angst,199.0,119.99,160.0,120.0,negative weak,386,7.0,,17:42:57,0,654
+17784,Corona-Pandemie,510.99,258.99,160.0,120.0,neutral,386,1.0, ,,0,654
+17783,Zusammenhalt,241.0,259.0,160.0,120.0,positive,386,8.0,,17:43:03,0,654
+17782,physische Isolierung,21.0,352.979,160.0,120.0,positive weak,386,2.0,,17:42:46,0,654
+17781,soziale Isolierung,519.984,494.964,160.0,120.0,negative strong,386,3.0,,17:43:15,0,654
+17780,Depressivität,220.966,483.958,160.0,120.0,negative weak,386,9.0,,17:43:11,0,654
+17779,Befinden,810.966,269.977,160.0,120.0,positive,386,4.0, Spazieren gehen wirkt sich positiv auf mein Befinden aus,17:41:38,0,654
+17778,wirtschaftliche Folgen,25.9427,170.951,160.0,120.0,ambivalent,386,11.0,,17:42:23,0,654

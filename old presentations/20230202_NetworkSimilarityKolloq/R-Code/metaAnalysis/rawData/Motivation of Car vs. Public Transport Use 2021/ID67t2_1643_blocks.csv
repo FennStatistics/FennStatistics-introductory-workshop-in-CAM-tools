@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25623,Eigener Pkw,275.0,347.0,160.0,120.0,neutral,857,1.0, ,,1,1643
+25746,Hohe Nebenkosten,400.0,88.0,160.0,120.0,negative strong,857,23.0,,,1,1643
+25662,Schlechte Anbindung,906.0,194.0,160.0,120.0,negative,857,22.0,,,1,1643
+25660,Mehr Platz,485.0,229.0,160.0,120.0,neutral,857,21.0,,,1,1643
+25658,Manchmal schneller,702.0,526.0,160.0,120.0,positive weak,857,19.0,,,1,1643
+25641,Umweltfreundlich,809.0,451.0,160.0,120.0,positive strong,857,17.0,,,1,1643
+25638,Teuer,820.0,331.0,160.0,120.0,negative strong,857,14.0,,14:35:19,1,1643
+25636,Feste Fahrtzeiten,672.0,225.0,160.0,120.0,negative strong,857,13.0,,14:34:54,1,1643
+25631,Unfälle,445.0,489.0,160.0,120.0,negative weak,857,12.0,,,1,1643
+25630,Bequem und schnell,247.0,488.0,160.0,120.0,positive,857,11.0,,14:33:54,1,1643
+25627,"Nebenkosten, bei nicht Nutzung",102.0,446.0,160.0,120.0,negative,857,10.0,,,1,1643
+25626,Umweltschutz,52.0,323.0,160.0,120.0,negative weak,857,8.0,,,1,1643
+25625,Mobilität und Unabhängigkeit,284.0,172.0,160.0,120.0,positive strong,857,7.0,,,1,1643
+25624,Wenig Parkplätze,97.0,204.0,160.0,120.0,negative weak,857,5.0,,14:29:43,1,1643
+25622,Öffentliche Verkehrsmittel,587.0,351.0,160.0,120.0,neutral,857,2.0, ,,1,1643

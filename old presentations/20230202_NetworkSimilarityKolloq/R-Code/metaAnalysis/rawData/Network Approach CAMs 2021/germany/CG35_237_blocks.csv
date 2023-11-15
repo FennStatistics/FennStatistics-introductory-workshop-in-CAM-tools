@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5077,im Labor an der Uni arbeiten können,285.0,302.0,160.0,120.0,positive,144,7.0,,,1,237
+5153,Pendeln mit dem Rad bei schönem Wetter,99.0,363.0,160.0,120.0,positive strong,144,9.0,,,1,237
+5132,pendeln kostet zeit,4.0,237.0,160.0,120.0,negative weak,144,8.0,,,1,237
+4898,"stress beim Pendeln, früh aufstehen",210.0,20.0,160.0,120.0,negative,144,6.0,,18:39:34,1,237
+4895,sich zwischen den Vorlesungen einfach treffen können,612.0,245.0,160.0,120.0,positive strong,144,5.0,,,1,237
+4850,Pendeln,44.0,112.0,160.0,120.0,negative weak,144,4.0,,,1,237
+4800,Kommilitonen und Freunde treffen,429.0,229.0,160.0,120.0,positive strong,144,3.0,,,1,237
+4776,auf dem Campus sein können,461.0,56.0,160.0,120.0,neutral,144,2.0,,,1,237
+4761,Universität,252.0,143.0,160.0,120.0,positive strong,144,1.0,,,1,237

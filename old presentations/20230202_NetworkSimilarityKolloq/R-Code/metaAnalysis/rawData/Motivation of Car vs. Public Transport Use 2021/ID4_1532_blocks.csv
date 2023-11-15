@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+23862,Benzinkosten,54.0,415.0,160.0,120.0,negative strong,786,6.0,,,1,1532
+23873,abhängig,617.0,555.533,160.0,119.5,negative weak,786,15.0,,,1,1532
+23872,weniger volle Straßen,563.0,129.333,160.0,120.0,positive strong,786,14.0,,,1,1532
+23871,umweltfreundlich,792.0,350.0,160.0,120.0,positive strong,786,13.0,,,1,1532
+23870,soziale Konkte,410.0,455.933,160.0,120.0,positive strong,786,12.0,,,1,1532
+23869,nutzbare Fahrzeit,747.0,448.267,160.0,120.0,positive strong,786,11.0,,11:14:32,1,1532
+23868,günstig,744.0,218.333,160.0,120.0,positive strong,786,10.0,,,1,1532
+23867,Privatsphäre,401.0,229.0,160.0,120.0,positive,786,9.0,,,1,1532
+23866,Versicherungskosten,263.0,571.0,160.0,120.0,negative strong,786,8.0,,,1,1532
+23864,teurer Anschaffungspreis,20.0,214.0,159.333,119.0,negative strong,786,7.0,,11:11:43,1,1532
+23855,freie Zeiteinteilung,122.0,115.0,160.0,120.0,positive strong,786,4.0,,11:09:46,1,1532
+23853,Komfort,305.0,127.0,160.0,120.0,positive,786,3.0,,,1,1532
+23850,Eigener Pkw,273.0,345.6,160.0,120.0,neutral,786,1.0, ,,1,1532
+23849,Öffentliche Verkehrsmittel,575.0,345.6,160.0,120.0,neutral,786,2.0, ,,1,1532

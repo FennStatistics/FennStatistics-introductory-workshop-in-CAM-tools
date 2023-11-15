@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5565,Food safety,1058.0,868.0,160.0,120.0,ambivalent,158,17.0,Unknown food safety practices/people touching store items then putting them back on the shelf,19:08:07,1,256
+5630,No/limited recreational activities,1296.0,340.0,160.0,120.0,negative strong,158,19.0,I enjoy playing sports. I am unable to do that this summer.,19:05:40,1,256
+5327,Living costs,804.85,106.55,160.0,120.0,positive strong,158,4.0,"I go to school abroad. Being home, I don't have to pay for dorm fees or higher priced groceries",18:57:01,1,256
+5576,Fast food practices,1156.0,1022.2,160.0,120.0,ambivalent,158,18.0,"Unknown practices - some workers change gloves frequently, others handle money and touch food without changing gloves",19:08:36,1,256
+5549,Don't have to pay airfare,686.0,494.0,160.0,120.0,positive strong,158,16.0,,,1,256
+5540,Less job opportunities,1668.0,782.0,160.0,120.0,negative strong,158,15.0,Potential jobs from past experiences are no longer being offered,18:56:02,1,256
+5519,Summer employment,1270.0,752.0,160.0,120.0,negative strong,158,14.0,,,1,256
+5503,Shopping,926.0,704.0,160.0,120.0,negative weak,158,13.0,,,1,256
+5486,Store lines,732.0,652.0,160.0,120.0,negative strong,158,12.0,Often long,19:06:23,1,256
+5469,Social distancing,892.0,912.0,160.0,120.0,negative,158,11.0,Most people in my area do not distance themselves or wear gloves and masks.,19:07:32,1,256
+5430,Small shared living space,1078.0,80.0,160.0,120.0,negative,158,10.0,,,1,256
+5413,Essential worker mom,1079.55,284.425,160.0,120.0,positive,158,9.0,,,1,256
+5399,Availability of groceries,705.85,849.275,160.0,120.0,negative weak,158,8.0,,,1,256
+5373,I have asthma (high risk),1540.13,554.425,160.0,120.0,negative strong,158,7.0,,,1,256
+5361,Not seeing friends,593.425,374.55,160.0,120.0,negative strong,158,6.0,,,1,256
+5342,Education quality,604.125,177.975,160.0,120.0,negative weak,158,5.0,"Difficult to complete some vet school courses online (anatomy, clinicals)",19:07:07,1,256
+5307,Online school,812.85,365.425,160.0,120.0,positive,158,3.0,,,1,256
+5301,Mom with health issues (high risk),1553.85,380.85,160.0,120.0,negative strong,158,2.0,She was supposed to have surgery but it has been postponed,19:06:04,1,256
+5280,COVID-19,1051.0,534.7,160.0,120.0,negative strong,158,1.0,,,1,256

@@ -1,0 +1,29 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24583,Umweltschädlich,393.0,288.0,115.312,86.0,negative strong,815,32.0,,,1,1576
+24582,Zeit für andere Aktivitäten während Fahrt & Entspannung,592.0,141.0,160.0,120.0,positive strong,815,31.0,,11:31:37,1,1576
+24581,Ticketpreise z.T. noch sehr hoch (Bahn),721.0,540.0,160.0,120.0,negative,815,30.0,,,1,1576
+24580,Güte des Angebotes Abhängig vom Wohnort/ Verbindung,568.0,477.0,160.0,120.0,negative strong,815,29.0,,,1,1576
+24576,vergleichsweise umweltfreundlich,720.0,437.0,160.0,120.0,positive strong,815,28.0,,11:28:10,1,1576
+24568,Unfälle/ Suizide,872.344,176.0,140.641,105.0,negative,815,26.0,,,1,1576
+24565,Unwetter,763.0,179.0,120.641,90.0,negative,815,24.0,,,1,1576
+24563,Vorgegebener Fahrplan (ggf. nicht ausreichendes Intervall),670.0,327.0,160.0,120.0,negative,815,23.0,,11:27:18,1,1576
+24562,Vulnerabilität,678.0,247.0,139.312,104.0,negative,815,22.0,,,1,1576
+24561,mangelnde Zuverlässigkeit,821.0,84.0,160.0,120.0,negative,815,21.0,,11:23:58,1,1576
+24556,Abhängigkeit,500.0,253.0,160.0,120.0,negative strong,815,20.0,,,1,1576
+24555,Sperrzonen/ Autofreie Zonen (Stadt),22.0,457.0,138.0,103.0,negative weak,815,19.0,,,1,1576
+24554,ländliche Gegend meist freie Wahl,305.0,538.0,160.0,120.0,positive,815,18.0,,11:20:56,1,1576
+24553,im urbanen Raum meist erschwert,456.0,540.0,160.0,120.0,negative,815,17.0,,11:21:03,1,1576
+24551,Parkplatzsuche,390.0,445.0,160.0,120.0,ambivalent,815,16.0,,11:23:04,1,1576
+24546,zeitliche Unabhängigkeit (kein Fahrplan),22.0,271.0,151.312,113.0,positive strong,815,15.0,,11:18:10,1,1576
+24544,insbesondere in infrastrukturell Schwachen Gegenden (Land),145.0,457.0,160.0,120.0,positive strong,815,14.0,,11:17:31,1,1576
+24541,Mobilität & Flexibilität,86.0,349.0,160.0,120.0,ambivalent,815,13.0,,11:21:31,1,1576
+24539,ggf. Stellplatzkosten (Stadt),429.0,106.0,158.0,118.0,negative,815,12.0,,11:33:49,1,1576
+24530,Hoher Wertverlust (Neuwagen),191.0,252.0,160.0,120.0,negative,815,11.0,,11:14:14,1,1576
+24528,Laufende Kosten,262.0,110.0,160.0,120.0,negative,815,10.0,,,1,1576
+24525,Wartung/ Inspektion,203.0,22.0,160.0,120.0,negative,815,8.0,,11:33:15,1,1576
+24523,Treibstoff,374.0,22.0,160.0,120.0,negative,815,7.0,,,1,1576
+24520,Versicherung,93.0,75.0,124.641,93.0,negative,815,6.0,,,1,1576
+24518,Anschaffungspreis,90.0,188.0,160.0,120.0,negative weak,815,5.0,,,1,1576
+24515,meist hohe Kosten,342.0,198.0,160.0,120.0,negative,815,3.0,,11:11:28,1,1576
+24503,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,815,1.0, ,,1,1576
+24502,Öffentliche Verkehrsmittel,481.0,350.0,160.0,120.0,neutral,815,2.0, ,,1,1576

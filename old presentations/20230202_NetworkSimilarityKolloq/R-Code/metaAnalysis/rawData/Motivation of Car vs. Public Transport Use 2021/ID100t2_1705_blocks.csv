@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26576,Kostenersparnis,763.0,453.0,160.0,120.0,positive weak,895,17.0,,08:43:20,1,1705
+26575,Warten,607.0,539.0,160.0,120.0,negative,895,16.0,,08:37:22,1,1705
+26574,Zeitersparnis,410.0,522.0,160.0,120.0,neutral,895,15.0,,08:37:17,1,1705
+26573,Umwelt,763.0,121.0,160.0,120.0,ambivalent,895,14.0,,08:37:00,1,1705
+26572,Verantwortung,145.0,532.0,118.0,88.0,ambivalent,895,13.0,,08:36:33,1,1705
+26571,Nebenbeitätigkeiten,778.0,292.0,160.0,120.0,positive weak,895,12.0,,08:37:51,1,1705
+26570,Fahrkosten,685.0,247.0,126.0,94.0,neutral,895,11.0,,08:37:38,1,1705
+26569,Privatheit,42.0,403.0,148.0,110.5,positive,895,10.0,,08:35:54,1,1705
+26568,Öffentlichkeit,592.0,103.0,160.0,120.0,ambivalent,895,9.0,,08:48:11,1,1705
+26567,Zuverlässigkeit,415.0,76.0,160.0,120.0,positive weak,895,8.0,,08:37:47,1,1705
+26565,Gesamtkosten,72.0,122.0,160.0,120.0,negative,895,6.0,,08:36:15,1,1705
+26564,Stau,417.0,216.0,160.0,120.0,negative,895,5.0,,08:35:45,1,1705
+26563,Versicherung,281.0,168.0,110.0,82.0,negative,895,4.0,,08:35:37,1,1705
+26562,Unabhängigkeit,55.0,254.0,136.641,102.0,positive,895,3.0,,08:36:07,1,1705
+26561,Eigener Pkw,273.0,345.0,160.0,120.0,positive weak,895,1.0,,08:36:41,1,1705
+26560,Öffentliche Verkehrsmittel,572.0,320.0,160.0,120.0,neutral,895,2.0,,08:36:52,1,1705

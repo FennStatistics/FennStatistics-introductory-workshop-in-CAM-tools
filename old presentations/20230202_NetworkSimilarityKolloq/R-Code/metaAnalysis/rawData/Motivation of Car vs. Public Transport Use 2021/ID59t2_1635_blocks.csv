@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25487,Erzeungskosten,20.0,544.0,160.0,120.0,negative strong,848,18.0,,13:49:10,1,1635
+25486,Kraftstoff,190.0,516.0,160.0,120.0,negative strong,848,17.0,,13:48:54,1,1635
+25485,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,848,2.0, ,,1,1635
+25484,Eigener Pkw,266.0,345.0,160.0,120.0,neutral,848,1.0, ,,1,1635
+25483,Umweltbelastung,48.0,406.0,160.0,120.0,negative strong,848,3.0,,,1,1635
+25482,Unabhängigkeit,220.0,179.0,160.0,120.0,positive strong,848,4.0,,13:30:03,1,1635
+25481,Schnell,392.0,90.0,160.667,120.0,positive,848,5.0,,,1,1635
+25480,Komfortabel,61.0,137.0,160.0,120.0,positive,848,6.0,,,1,1635
+25479,Coronasicher,40.0,267.0,160.0,120.0,positive strong,848,7.0,,,1,1635
+25478,Steuer,368.0,544.0,160.0,120.0,negative weak,848,8.0,,13:31:55,1,1635
+25477,Kosten,404.0,464.0,160.0,120.0,negative,848,9.0,,13:32:13,1,1635
+25476,Umweltfreundlich,576.0,199.0,160.0,120.0,positive strong,848,10.0,,13:32:49,1,1635
+25475,Griesgrämige Busfahrer,945.0,344.0,160.0,120.0,negative strong,848,11.0,,,1,1635
+25474,Viele Menschen,794.0,432.0,160.0,120.0,negative strong,848,12.0,,13:33:43,1,1635
+25473,Laut,949.0,544.0,160.0,120.0,negative weak,848,13.0,,,1,1635
+25472,Coronarisiko,589.0,544.0,160.0,120.0,negative,848,14.0,,13:35:33,1,1635
+25471,Semesterticket,685.0,72.0,160.0,120.0,positive strong,848,15.0,,13:34:26,1,1635
+25470,Kein Parkplatz suchen,795.0,200.0,160.0,120.0,positive strong,848,16.0,,13:35:11,1,1635

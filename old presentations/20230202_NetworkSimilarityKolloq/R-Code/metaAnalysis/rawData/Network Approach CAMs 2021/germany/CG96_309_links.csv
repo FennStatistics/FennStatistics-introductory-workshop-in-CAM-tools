@@ -1,0 +1,16 @@
+id,starting_block,ending_block,line_style,creator,num,arrow_type,timestamp,CAM
+5716,6240,6261,Solid-Weak,199,0,none,19:35:07,309
+5706,6240,6249,Solid-Weak,199,0,none,19:34:02,309
+5699,6000,6240,Solid-Strong,199,0,none,19:33:30,309
+5669,6190,6215,Solid-Weak,199,0,none,19:32:01,309
+5650,6190,6205,Solid-Weak,199,0,none,19:31:19,309
+5637,6000,6190,Solid-Strong,199,0,none,19:30:36,309
+5623,6111,6181,Solid-Weak,199,0,none,19:29:54,309
+5609,6111,6163,Solid-Weak,199,0,none,19:29:00,309
+5558,6111,6119,Solid-Weak,199,0,none,19:27:04,309
+5518,6000,6111,Solid-Strong,199,0,none,19:25:18,309
+5493,6037,6072,Solid-Weak,199,0,none,19:24:02,309
+5489,6037,6087,Solid-Weak,199,0,none,19:23:57,309
+5471,6037,6072,Solid,199,0,uni,19:23:11,309
+5464,6037,6072,Solid-Weak,199,0,uni,19:22:59,309
+5413,6000,6037,Solid-Strong,199,0,none,19:21:40,309

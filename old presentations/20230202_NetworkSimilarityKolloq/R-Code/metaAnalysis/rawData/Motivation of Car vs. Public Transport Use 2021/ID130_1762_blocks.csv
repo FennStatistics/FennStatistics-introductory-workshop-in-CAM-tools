@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27441,Abo,830.0,453.0,160.0,120.0,positive weak,933,14.0,,,1,1762
+27440,Dauer,598.0,20.0,160.0,120.0,negative weak,933,13.0,,,1,1762
+27439,Flexibilität,811.0,57.0,160.0,120.0,positive,933,11.0,,,1,1762
+27438,Privatsphäre,35.0,487.0,160.0,120.0,positive,933,10.0,,,1,1762
+27437,Haltungskosten,346.0,144.0,160.0,120.0,negative weak,933,9.0,,,1,1762
+27436,Umweltschutz,481.0,511.0,160.0,120.0,positive strong,933,8.0,,,1,1762
+27435,Natur,213.0,544.0,160.0,120.0,positive strong,933,7.0,,10:31:58,1,1762
+27434,Benzin,220.0,97.0,160.0,120.0,negative weak,933,5.0,,,1,1762
+27433,Tickets,781.0,277.0,160.0,120.0,neutral,933,4.0,,,1,1762
+27432,Kosten,397.0,20.0,160.0,120.0,negative,933,3.0,,,1,1762
+27431,Eigener Pkw,200.0,346.0,160.0,120.0,neutral,933,1.0, ,,1,1762
+27430,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,933,2.0, ,,1,1762

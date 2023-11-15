@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4836,Elderly at high risk,948.0,119.0,160.0,120.0,negative strong,125,14.0,,18:34:55,1,215
+4816,Fatalities,762.0,101.0,160.0,120.0,ambivalent,125,13.0,I was still paid full time on reduced hours,18:37:32,1,215
+4742,Laid off,44.0,205.0,160.0,120.0,negative strong,125,12.0,,18:33:21,1,215
+4718,Paid on Salary,88.0,75.0,160.0,120.0,positive weak,125,11.0,,18:37:40,1,215
+4655,Time off work,272.0,101.0,160.0,120.0,ambivalent,125,10.0,,18:32:00,1,215
+4581,Unemployment,-5.0,491.0,160.0,120.0,negative strong,125,9.0,,18:29:08,1,215
+4568,,1.0,515.0,160.0,120.0,neutral,125,8.0,,,1,215
+4563,Crime increase,87.0,341.0,160.0,120.0,negative strong,125,7.0,,18:28:37,1,215
+4554,Economy Crash,191.0,459.0,160.0,120.0,negative strong,125,6.0,,18:28:26,1,215
+4461,Global Shutdown,327.0,317.0,160.0,120.0,negative,125,5.0,,18:28:07,1,215
+4450,Loneliness,819.0,480.0,160.0,120.0,negative weak,125,4.0,,18:26:38,1,215
+4436,alone time,989.0,367.0,160.0,120.0,positive weak,125,3.0,,18:38:13,1,215
+4402,Social Distancing,737.0,327.0,160.0,120.0,ambivalent,125,2.0,,18:25:26,1,215
+4364,Corona Virus,557.0,205.0,160.0,120.0,negative strong,125,1.0,,18:37:50,1,215

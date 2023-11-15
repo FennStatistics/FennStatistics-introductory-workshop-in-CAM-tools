@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+31250,mental health improved,332.98046875,226.222671508789,160.0,120.0,positive weak,1183,27.0,,,1,2142
+31240,improved economy,794.73046875,152.23046875,160.0,120.0,positive weak,1183,24.0,,,1,2142
+31234,increased personal productivity,587.21875,118.707038879395,160.0,120.0,positive weak,1183,22.0,,,1,2142
+31232,more quality free time,671.9375,241.71875,160.0,120.0,positive weak,1183,21.0,,,1,2142
+31221,fewer sleep related accidents,192.484375,269.7265625,160.0,120.0,positive weak,1183,20.0,,,1,2142
+31205,end of sleep disorders,340.96875,382.98828125,160.0,120.0,positive weak,1183,18.0,,,1,2142
+31194,no drugs,476.96484375,527.9921875,160.0,120.0,positive weak,1183,16.0,,,1,2142
+31167,health benefits,620.9609375,406.976593017578,159.31640625,118.984375,positive,1183,14.0,,,1,2142
+31120,loss of control,1476.0,101.0,160.0,120.0,negative weak,1183,13.0,,,1,2142
+31114,hackers,1538.0,295.0,160.0,120.0,negative,1183,12.0,,,1,2142
+31109,privacy concerns,1374.0,204.0,160.0,120.0,negative,1183,11.0,,,1,2142
+31105,social unrest,1478.0,461.0,160.0,120.0,negative,1183,10.0,,,1,2142
+31100,unequal society,1089.0,357.0,160.0,120.0,negative strong,1183,9.0,,,1,2142
+31070,forced use by bosses,1291.0,299.0,160.0,120.0,negative,1183,8.0,,,1,2142
+31034,overuse,1211.0,172.0,160.0,120.0,negative,1183,5.0,,,1,2142
+31017,unnatural sleep patters,1015.0,22.0,160.0,120.0,negative,1183,4.0,,,1,2142
+31003,unknown side effects,1220.0,66.0,160.0,120.0,negative,1183,3.0,,,1,2142
+30995,unnatural,953.0,181.0,160.0,120.0,negative strong,1183,2.0,,18:07:00,1,2142
+30965,technological implant,831.0,470.99609375,160.0,120.0,neutral,1183,1.0, ,,1,2142

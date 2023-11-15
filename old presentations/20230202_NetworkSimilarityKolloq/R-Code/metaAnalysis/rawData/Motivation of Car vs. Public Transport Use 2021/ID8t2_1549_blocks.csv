@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24267,Geringe Co2 Preise,1091.0,188.0,160.0,120.0,neutral,798,16.0,,20:57:44,1,1549
+24266,Hohe Co2 Preise,1090.0,318.0,160.0,120.0,negative weak,798,15.0,,20:57:33,1,1549
+24165,Privat,413.0,544.0,160.0,120.0,positive strong,798,14.0,,,1,1549
+24160,Entspannt,895.0,414.0,160.0,120.0,positive strong,798,13.0,,20:32:38,1,1549
+24153,Schnell,654.0,544.0,160.0,120.0,positive,798,11.0,,,1,1549
+24156,Einfach,894.0,544.0,160.0,120.0,positive weak,798,12.0,,20:32:18,1,1549
+24141,Auf Dauer teuer,892.0,38.0,160.0,120.0,negative weak,798,10.0,,20:29:12,1,1549
+24137,Überfüllt,415.0,88.0,160.0,120.0,negative,798,9.0,,20:27:28,1,1549
+24127,Resourcen schonend,904.0,279.0,160.0,120.0,positive strong,798,7.0,,20:25:34,1,1549
+24130,Effektiv,415.0,422.0,160.0,120.0,positive weak,798,8.0,,,1,1549
+24123,Umständlich,903.0,158.0,160.0,120.0,negative weak,798,6.0,,,1,1549
+24121,Gemeinschaftlich,415.0,262.0,160.0,120.0,neutral,798,5.0,,20:23:55,1,1549
+24120,Haltstellen,659.0,160.0,160.0,120.0,negative weak,798,4.0,,,1,1549
+24116,Wartezeiten,664.0,37.0,160.0,120.0,negative strong,798,3.0,,,1,1549
+24113,Eigener PKW,654.0,418.0,160.0,120.0,neutral,798,2.0,,20:31:26,1,1549
+24106,Öffentliche Verkehrsmittel,657.0,286.0,156.667,117.0,ambivalent,798,1.0,,,1,1549

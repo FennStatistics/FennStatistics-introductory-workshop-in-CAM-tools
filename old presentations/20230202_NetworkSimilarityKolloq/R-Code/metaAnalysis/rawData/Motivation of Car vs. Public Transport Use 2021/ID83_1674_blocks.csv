@@ -1,0 +1,25 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26088,Elektroauto,439.0,538.0,160.0,120.0,positive,875,24.0,,,1,1674
+26087,Umwelt,397.0,410.0,160.0,120.0,negative,875,23.0,,,1,1674
+26086,Umweltschonend,1088.0,534.0,160.0,120.0,positive,875,22.0,,,1,1674
+26085,Dreckig,613.0,534.0,160.0,120.0,negative,875,21.0,,,1,1674
+26084,Schlafen,1191.0,309.0,160.0,120.0,positive,875,20.0,,,1,1674
+26083,Entspannt Reisen,928.0,343.0,160.0,120.0,positive,875,19.0,,01:00:27,1,1674
+26082,Unfreundliche Busfahrer,735.0,49.0,160.0,120.0,negative,875,18.0,,01:00:15,1,1674
+26081,Unpraktisch (z.B. für Einkäufe),1490.0,142.0,160.0,120.0,negative strong,875,17.0,,,1,1674
+26080,Praktisch (z.B. für Einkäufe),417.0,157.0,160.0,120.0,positive strong,875,16.0,,00:59:46,1,1674
+26079,Wartungskosten,224.0,446.0,160.0,120.0,negative,875,15.0,,,1,1674
+26078,Kein Corona,356.0,20.0,160.0,120.0,positive strong,875,14.0,,,1,1674
+26077,"Hohe Gefahr, sich mit Corona anzustecken",832.0,485.0,160.0,120.0,negative strong,875,13.0,,,1,1674
+26076,Geringe Unfallgefahr,910.0,188.0,160.0,120.0,positive,875,12.0,,,1,1674
+26075,"Nur von Mo-Fr, von 06:00-18:00",1574.0,528.0,160.0,120.0,negative strong,875,11.0,,00:57:24,1,1674
+26074,Weg zum Bahnhof dauert lange,1475.0,366.0,160.0,120.0,negative,875,10.0,,,1,1674
+26073,auf dem Land nicht verfügbar,1371.0,526.0,160.0,120.0,negative,875,9.0,,00:56:45,1,1674
+26072,hohe Anschaffunskosten,26.0,527.0,160.0,120.0,negative,875,8.0,,00:55:21,1,1674
+26071,stau,129.0,50.0,160.0,120.0,negative,875,7.0,,00:54:59,1,1674
+26070,unzuverlässig,1231.0,119.0,160.0,120.0,negative strong,875,6.0,,00:54:49,1,1674
+26069,teuer,956.0,59.0,160.0,120.0,negative,875,5.0,,00:54:13,1,1674
+26068,flexibel,450.0,259.0,160.0,120.0,positive strong,875,4.0,,00:54:02,1,1674
+26067,private Haftung bei Unfall,20.0,202.0,160.0,120.0,negative strong,875,3.0,,,1,1674
+26066,Eigener Pkw,223.0,296.0,160.0,120.0,neutral,875,1.0, ,,1,1674
+26065,Öffentliche Verkehrsmittel,642.0,343.0,160.0,120.0,neutral,875,2.0, ,,1,1674

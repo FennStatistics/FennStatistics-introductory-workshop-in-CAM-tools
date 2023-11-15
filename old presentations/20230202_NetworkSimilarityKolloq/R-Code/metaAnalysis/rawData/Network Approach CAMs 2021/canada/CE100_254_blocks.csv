@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5595,can't meet with friends,560.0,451.0,160.0,120.0,negative weak,152,21.0,,18:56:15,1,254
+5555,rule breakers,938.0,335.0,160.0,120.0,negative strong,152,19.0,"This refers to those who are breaking quarantine to, for example, go to the beach or other gatherings in other areas.",18:55:11,1,254
+5526,social distancing,760.0,376.0,160.0,120.0,neutral,152,17.0,,18:54:29,1,254
+5477,limitations,390.0,334.0,160.0,120.0,neutral,152,15.0,,18:52:03,1,254
+5329,for myself,959.0,20.0,160.0,120.0,negative weak,152,10.0,"I always get anxious when these events happen, leading to feeling false symptoms, and panic attacks.",18:49:16,1,254
+5300,for my family,977.0,197.0,160.0,120.0,negative,152,8.0,"My family, specifically my parents and grandparents, are some of the ones who are specifically at risk or coronavirus, which makes me very worried.",18:48:41,1,254
+5261,fear,822.0,123.0,160.0,120.0,negative,152,7.0,,18:46:02,1,254
+5219,isolation,534.0,20.0,160.0,120.0,negative,152,6.0,,18:43:52,1,254
+5083,cutural shift,192.0,241.0,160.0,120.0,ambivalent,152,4.0,"There is a change in culture, and I believe this to be both a good and bad thing. Mostly regarding technology and how people treat it, and the possibilities it brings us.",18:47:30,1,254
+4953,safety,221.0,20.0,160.0,120.0,positive strong,152,3.0,,,1,254
+4941,quarantine,375.0,111.0,160.0,120.0,ambivalent,152,2.0,,18:43:02,1,254
+4933,coronavirus,624.0,233.0,160.0,120.0,negative strong,152,1.0,,18:46:04,1,254

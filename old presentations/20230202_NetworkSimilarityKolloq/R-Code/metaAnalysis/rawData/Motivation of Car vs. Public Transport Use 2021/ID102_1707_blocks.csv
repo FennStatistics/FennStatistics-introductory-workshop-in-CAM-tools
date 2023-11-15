@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26600,Benzinpreise,898.0,470.0,160.0,120.0,negative strong,897,8.0,,11:18:40,1,1707
+26607,Ticketpreise,925.0,149.0,160.0,120.0,negative strong,897,15.0,,,1,1707
+26596,andere Menschen,535.0,93.0,160.0,120.0,negative strong,897,4.0,,11:17:33,1,1707
+26606,Wartezeiten,44.0,465.0,160.0,120.0,negative weak,897,14.0,,11:18:07,1,1707
+26605,Zeitlich flexibel,396.0,215.0,160.0,120.0,positive strong,897,13.0,,11:17:44,1,1707
+26604,Betriebskosten,60.0,227.0,160.0,120.0,positive weak,897,12.0,,11:17:50,1,1707
+26603,Wetter,226.0,468.0,160.0,120.0,ambivalent,897,11.0,,11:18:18,1,1707
+26602,Lesen bei Fahrt,454.0,544.0,160.0,120.0,positive weak,897,10.0,,11:18:20,1,1707
+26601,Ruhe,675.0,551.0,160.0,120.0,positive,897,9.0,,11:18:24,1,1707
+26599,Stau,785.0,250.0,160.0,120.0,negative weak,897,7.0,,11:17:40,1,1707
+26598,Unpünktlichkeit,422.0,32.0,160.0,120.0,negative,897,6.0,,11:17:31,1,1707
+26597,Ansteckung,788.0,51.0,160.0,120.0,negative strong,897,5.0,,11:17:36,1,1707
+26595,Umweltschutz,143.0,81.0,160.0,120.0,positive strong,897,3.0,,11:15:19,1,1707
+26594,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,897,1.0, ,,1,1707
+26593,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,897,2.0, ,,1,1707

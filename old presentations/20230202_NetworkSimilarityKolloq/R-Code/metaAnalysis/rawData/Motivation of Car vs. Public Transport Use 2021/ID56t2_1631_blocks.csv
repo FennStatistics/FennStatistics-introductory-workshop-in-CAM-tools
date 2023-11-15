@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25445,Eventuell ungenügende Verbindungen,710.0,235.0,160.0,120.0,neutral,845,22.0,,13:39:13,1,1631
+25443,An bestimmte Zeiten gebunden,658.0,105.0,160.0,120.0,neutral,845,21.0,,,1,1631
+25442,Fahrgemeinschaften,229.0,485.0,160.0,120.0,neutral,845,20.0,,,1,1631
+25413,CO2-Emissionen,319.0,110.0,160.0,120.0,negative strong,845,19.0,,13:35:56,1,1631
+25412,Damit verbundene Kosten,384.0,215.0,160.0,120.0,negative strong,845,18.0,,,1,1631
+25409,Öffentliche Verkehrsmittel,575.0,346.0,160.0,120.0,neutral,845,2.0, ,,1,1631
+25408,Eigener Pkw,273.0,347.0,160.0,120.0,neutral,845,1.0, ,,1,1631
+25407,Umweltfreundlicher,475.0,92.0,160.0,120.0,positive,845,3.0,,13:09:54,1,1631
+25406,Schlechter für die Umwelt,194.0,196.0,160.0,120.0,negative,845,4.0,,13:16:02,1,1631
+25405,Zeitersparnis,44.0,375.0,160.0,120.0,positive weak,845,5.0,,13:17:47,1,1631
+25404,Kosten,36.0,165.0,160.0,120.0,negative strong,845,6.0,,13:20:52,1,1631
+25403,Menschenmassen,566.0,20.0,160.0,120.0,negative weak,845,7.0,,13:17:25,1,1631
+25402,Ticketpreise,692.0,544.0,160.0,120.0,ambivalent,845,12.0,,13:17:49,1,1631
+25401,Verglichen mit PKW Kosten --> niedriger!,401.0,544.0,160.0,120.0,positive weak,845,13.0,,13:18:34,1,1631
+25400,Benzinkosten,20.0,20.0,160.0,120.0,negative,845,15.0,,13:20:50,1,1631
+25399,Reparaturkosten,184.0,20.0,160.0,120.0,negative weak,845,16.0,,13:20:48,1,1631
+25398,Versicherungskosten,364.0,21.0,160.0,120.0,negative weak,845,17.0,,13:35:48,1,1631

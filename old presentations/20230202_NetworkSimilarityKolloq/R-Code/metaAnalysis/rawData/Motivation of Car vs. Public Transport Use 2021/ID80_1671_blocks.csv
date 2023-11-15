@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26049,stau,163.0,480.0,160.0,120.0,negative,873,28.0,,,1,1671
+26042,kontakt zu mitmenschen,456.0,504.0,160.0,120.0,neutral,873,25.0,,22:56:23,1,1671
+26041,besser für umwelt,770.0,515.0,160.0,120.0,positive weak,873,24.0,,,1,1671
+26040,nicht umweltfreundlich,70.0,263.0,160.0,120.0,negative,873,22.0,,,1,1671
+26039,kostet geld,491.0,175.0,160.0,120.0,negative weak,873,21.0,,,1,1671
+26037,oft verspätung,715.0,65.0,158.0,118.0,negative strong,873,20.0,,,1,1671
+26031,Schneller am ziel,266.0,137.0,160.0,120.0,positive weak,873,17.0,,22:54:04,1,1671
+26025,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,873,1.0, ,,1,1671
+26024,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,873,2.0, ,,1,1671

@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6261,Ich kann meinen Kindern kein Taschengeld geben,160.0,462.0,160.0,120.0,negative weak,199,14.0,,,1,309
+6249,Ich nehme zu,135.0,244.0,160.0,120.0,neutral,199,13.0,,,1,309
+6240,Ich kann meine Hobbys nicht draußen machen,290.0,349.0,160.0,120.0,neutral,199,12.0,,,1,309
+6215,Meine Kinder lernen etwas über richtige Hygiene,397.0,48.0,160.0,120.0,positive strong,199,11.0,,,1,309
+6205,Ich verbessere die Beziehung zu meinen Kindern,249.0,51.0,160.0,120.0,positive strong,199,10.0,,,1,309
+6190,Mehr Zeit für mich und meine Familie,318.0,169.0,160.0,120.0,positive strong,199,9.0,,,1,309
+6181,Meine Kinder langweilen sich,678.0,325.0,160.0,120.0,negative strong,199,8.0,,,1,309
+6163,Einsamkeit,639.0,533.0,160.0,120.0,negative strong,199,7.0,"Ich fühle mich einsam, wenn ich meine Freunde nicht sehen kann",19:28:51,1,309
+6119,"Sorge, ich könnte jemanden verlieren",379.0,480.0,160.0,120.0,negative strong,199,6.0,,19:26:59,1,309
+6111,Ich kann keine Freunde und Familie sehen,520.0,400.0,160.0,120.0,negative strong,199,5.0,,,1,309
+6087,"Angst, gefeuert zu werden",701.0,85.0,160.0,120.0,negative strong,199,4.0,,,1,309
+6072,"Es ist schwieriger, Lebensmittel zu kaufen",563.0,20.0,160.0,120.0,negative strong,199,3.0,,,1,309
+6037,Weniger Geld von der Arbeit,572.0,160.0,160.0,120.0,negative strong,199,2.0,,,1,309
+6000,CORONA-VIRUS,439.0,255.0,160.0,120.0,negative strong,199,1.0,,,1,309

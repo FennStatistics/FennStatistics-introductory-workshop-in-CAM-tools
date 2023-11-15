@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6131,Reiseverbot,20.0,92.0,160.0,120.0,negative weak,207,8.0,,19:29:29,1,320
+6127,Pandemie,385.0,284.2,160.0,120.0,neutral,207,7.0,,19:28:40,1,320
+6153,Home Office,571.2,171.0,160.0,120.0,positive weak,207,10.0,,19:30:30,1,320
+6150,Kontaktverbot,432.2,441.0,160.0,120.0,ambivalent,207,9.0,,19:30:22,1,320
+6091,Hamsterkäufe,746.0,202.0,160.0,120.0,ambivalent,207,6.0,,19:30:55,1,320
+6089,Tod,75.0,480.0,160.0,120.0,negative strong,207,5.0,,19:29:50,1,320
+6086,Insolvenz,670.2,20.0,160.0,120.0,negative strong,207,4.0,,19:29:40,1,320
+6082,Maskenpflicht,411.0,20.0,160.0,120.0,ambivalent,207,3.0,,19:31:14,1,320
+6079,Kurzarbeit,189.0,185.0,160.0,120.0,positive,207,2.0,,19:30:11,1,320
+6077,Angst,746.0,407.0,160.0,120.0,negative weak,207,1.0,,19:30:47,1,320

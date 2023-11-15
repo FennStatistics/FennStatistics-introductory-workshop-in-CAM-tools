@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15385,Sich über Bedürfnisse klar werden,762.0,193.0,160.0,120.0,positive,385,26.0,,,1,558
+15352,Einschränkungen im Studium,41.0,544.0,160.0,120.0,negative strong,385,25.0,,,1,558
+15293,Mehr Zeit für sich,762.0,418.0,160.0,120.0,positive,385,22.0,,,1,558
+15107,psychische Belastung,305.983,34.0,160.0,120.0,negative weak,385,5.0,,14:46:39,0,558
+15106,Stress,56.9833,69.0,160.0,120.0,negative weak,385,6.0,,14:48:25,0,558
+15105,Einsamkeit,762.0,20.0,160.0,120.0,negative weak,385,10.0,,14:52:54,0,558
+15103,Corona-Pandemie,191.983,350.983,160.0,120.0,neutral,385,1.0, ,,0,558
+15101,physische Isolierung,474.0,486.983,160.0,120.0,ambivalent,385,2.0,,14:51:23,0,558
+15100,soziale Isolierung,528.0,120.983,160.0,120.0,negative strong,385,3.0,,14:48:17,0,558

@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27094,Transport,44.0,20.0,160.0,120.0,neutral,919,11.0,,,1,1739
+27093,Komfort,398.0,20.0,160.0,120.0,positive strong,919,7.0,,09:52:41,1,1739
+27092,Umwelt,398.0,448.0,160.0,120.0,neutral,919,6.0,,,1,1739
+27091,Kosten,398.0,342.0,160.0,120.0,neutral,919,5.0,,,1,1739
+27090,Zuverlässigkeit/ Verkehr,401.0,230.0,160.0,120.0,neutral,919,4.0,,09:56:36,1,1739
+27089,Geschwindigkeit,401.0,117.0,160.0,120.0,neutral,919,3.0,,,1,1739
+27088,Öffentliche Verkehrsmittel,750.0,209.0,160.0,120.0,ambivalent,919,2.0,,09:54:02,1,1739
+27087,Eigener PKW,36.0,205.0,160.0,120.0,ambivalent,919,1.0,,09:53:52,1,1739

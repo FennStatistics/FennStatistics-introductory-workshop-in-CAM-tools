@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26760,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,902,2.0, ,,1,1715
+26759,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,902,1.0, ,,1,1715
+26758,zeitliche Flexibilität,54.0,182.0,160.0,120.0,positive strong,902,3.0,,,1,1715
+26757,Klimaanlage/Musik/etc.,127.0,88.0,160.0,120.0,positive weak,902,4.0,,10:48:23,1,1715
+26756,Parkplatzsuche,50.0,477.0,160.0,120.0,negative,902,5.0,,10:41:14,1,1715
+26755,Schadensrisiko,251.0,534.0,160.0,120.0,negative weak,902,6.0,,10:42:14,1,1715
+26754,finanz. Kosten,35.0,336.0,160.0,120.0,negative weak,902,8.0,,10:51:37,1,1715
+26753,Ticketkosten,703.0,246.0,160.0,120.0,negative,902,9.0,,10:51:08,1,1715
+26752,zeitl. festgelegt,476.0,498.0,160.0,120.0,negative,902,10.0,,10:44:05,1,1715
+26751,teils überfüllt,674.0,544.0,160.0,120.0,negative,902,11.0,,10:45:21,1,1715
+26750,laut/Stress,710.0,429.0,160.0,120.0,negative,902,12.0,,,1,1715
+26749,umweltfreundlich,471.0,100.0,160.0,120.0,positive,902,13.0,,,1,1715
+26748,"einfach ""nur"" sitzen",653.0,128.0,160.0,120.0,ambivalent,902,14.0,,10:52:04,1,1715
+26747,direkt vor Haus,281.0,154.0,160.0,120.0,positive,902,15.0,,,1,1715
+26746,umweltschädlich,18.0,263.0,160.0,120.0,negative,902,18.0,,11:02:29,1,1715

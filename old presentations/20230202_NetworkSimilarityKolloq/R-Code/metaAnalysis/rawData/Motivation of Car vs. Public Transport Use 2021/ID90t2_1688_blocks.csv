@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26287,Öffentliche Verkehrsmittel,574.0,345.0,160.0,120.0,neutral,885,2.0, ,,1,1688
+26286,Eigener Pkw,274.0,344.0,160.0,120.0,neutral,885,1.0, ,,1,1688
+26285,günstig,95.0,226.0,171.333,128.0,positive,885,3.0,,13:01:09,1,1688
+26284,schnell,108.0,512.0,160.0,120.0,positive,885,4.0,,,1,1688
+26283,teuer,544.0,212.0,160.0,120.0,negative weak,885,5.0,,,1,1688
+26282,verspätungen,478.0,482.0,160.0,120.0,negative weak,885,7.0,,,1,1688
+26281,stau,55.0,393.0,160.0,120.0,negative,885,8.0,,,1,1688
+26280,unsauber,513.0,590.0,160.0,120.0,negative weak,885,9.0,,,1,1688
+26279,komfortabel,231.0,147.0,160.0,120.0,positive weak,885,11.0,,,1,1688
+26278,umweltfreundlich,552.0,145.0,160.0,120.0,positive,885,14.0,,,1,1688
+26277,unabhängig,284.0,549.0,160.0,120.0,ambivalent,885,15.0,,,1,1688
+26276,sicher,355.0,208.0,160.0,120.0,positive weak,885,16.0,,,1,1688
+26275,warten,525.0,52.0,160.0,120.0,negative,885,17.0,,,1,1688
+26274,polizei blitzer,284.0,60.0,160.0,120.0,negative,885,18.0,,13:15:42,1,1688

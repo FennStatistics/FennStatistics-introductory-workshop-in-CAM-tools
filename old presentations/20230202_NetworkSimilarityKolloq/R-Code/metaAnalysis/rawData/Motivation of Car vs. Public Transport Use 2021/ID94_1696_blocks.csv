@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26429,Frische Luft,318.0,560.0,160.0,120.0,ambivalent,890,14.0,,,1,1696
+26428,gute Musik,85.0,515.0,160.0,120.0,positive strong,890,13.0,,,1,1696
+26427,viel Platz,49.0,314.0,160.0,120.0,positive strong,890,12.0,,,1,1696
+26426,Zeitliche Freiheit,24.0,91.0,160.0,120.0,positive strong,890,11.0,,,1,1696
+26425,Preis Tanken,192.0,86.0,160.0,120.0,negative strong,890,10.0,,18:33:17,1,1696
+26424,Umweltschädlich,344.0,253.0,160.0,120.0,negative,890,9.0,,,1,1696
+26423,Kontakt zu anderen Personen,806.0,103.0,160.0,120.0,positive,890,8.0,,,1,1696
+26422,Fußwege,816.0,278.0,160.0,120.0,ambivalent,890,7.0,,,1,1696
+26421,Zeitbindung,857.0,425.0,160.0,120.0,negative strong,890,6.0,,,1,1696
+26420,hohe Fahrgastdichte,874.0,530.0,160.0,120.0,negative strong,890,5.0,,,1,1696
+26419,Preis Ticket,655.0,523.0,160.0,120.0,negative strong,890,4.0,,18:33:24,1,1696
+26418,Umweltfreundlich,561.0,166.988,156.0,116.5,positive strong,890,3.0,,,1,1696
+26417,Eigener Pkw,273.0,343.0,160.0,120.0,neutral,890,1.0, ,,1,1696
+26416,Öffentliche Verkehrsmittel,568.0,338.0,160.0,120.0,neutral,890,2.0, ,,1,1696

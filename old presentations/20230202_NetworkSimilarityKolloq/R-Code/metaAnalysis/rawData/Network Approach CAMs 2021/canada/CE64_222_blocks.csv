@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4532,Bulk buy,1099.0,464.0,160.0,120.0,positive strong,129,3.0,"Ability to buy larger items at discounted prices so I do not have to re-visit for same items, over and over again",18:36:38,1,222
+4706,one-stop shop,634.0,300.0,160.0,120.0,neutral,129,7.0,,,1,222
+4609,Prices,1083.0,38.0,160.0,120.0,positive weak,129,6.0,"Ability to buy larger items at discounted prices so I do not have to re-visit for same items, over and over again",18:37:03,1,222
+4590,Distance from home,222.0,45.0,160.0,120.0,negative strong,129,5.0,,18:29:26,1,222
+4559,Traffic,235.0,446.0,160.0,120.0,negative weak,129,4.0,,18:30:09,1,222
+4487,grocery stores,646.0,442.0,160.0,120.0,neutral,129,2.0,,18:27:14,1,222
+4468,Costco Shopping,625.0,61.0,160.0,120.0,positive weak,129,1.0,,,1,222

@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24136,Umweltschädlich,94.0,143.0,160.0,120.0,negative strong,793,12.0,,20:27:11,1,1551
+24133,Unabhängig,333.0,20.0,160.0,120.0,positive,793,9.0,,20:26:10,1,1551
+24128,Umweltfreundlich,584.0,230.0,160.0,120.0,positive,793,8.0,,,1,1551
+24126,Zu spät,1067.0,198.0,160.0,120.0,negative strong,793,7.0,,20:24:41,1,1551
+24124,Zu wenig Busse,1067.0,47.0,160.0,120.0,negative strong,793,6.0,,,1,1551
+24119,Hohe Kosten ,479.0,155.0,159.312,119.0,negative strong,793,4.0,,20:22:36,1,1551
+24109,Öffentliche Verkehrsmittel,574.0,345.0,160.0,120.0,neutral,793,2.0, ,,1,1551
+24108,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,793,1.0, ,,1,1551

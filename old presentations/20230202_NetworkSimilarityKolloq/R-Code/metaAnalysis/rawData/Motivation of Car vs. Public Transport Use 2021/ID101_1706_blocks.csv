@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26590,Wertverlust,82.0,355.0,160.0,120.0,negative,896,12.0,,,1,1706
+26589,effektive Zeitnutzung,912.0,393.0,160.0,120.0,positive,896,11.0,,11:02:12,1,1706
+26588,Tanken,75.0,447.0,160.0,120.0,negative weak,896,10.0,,11:01:38,1,1706
+26587,Verspätungen,874.0,506.0,160.0,120.0,negative weak,896,9.0,,10:59:34,1,1706
+26586,Werkstatt,149.0,533.0,160.0,120.0,negative weak,896,8.0,,10:59:29,1,1706
+26585,Kosten,805.0,234.0,160.0,120.0,negative,896,7.0,,10:59:23,1,1706
+26584,Freiheit,221.0,115.0,160.0,120.0,positive strong,896,6.0,,10:58:11,1,1706
+26583,andere Menschen,496.0,542.0,160.0,120.0,ambivalent,896,5.0,,11:00:29,1,1706
+26582,Radio/mitsingen,100.0,242.0,160.0,120.0,positive strong,896,4.0,,10:56:38,1,1706
+26581,Umwelt,448.0,134.0,160.0,120.0,positive,896,3.0,,10:56:05,1,1706
+26580,Eigener Pkw,274.0,346.0,160.0,120.0,neutral,896,1.0, ,,1,1706
+26579,Öffentliche Verkehrsmittel,576.0,346.0,160.0,120.0,neutral,896,2.0, ,,1,1706

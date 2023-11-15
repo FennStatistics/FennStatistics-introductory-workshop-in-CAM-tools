@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24115,Instandhaltungkosten,350.992,562.992,160.0,120.0,negative weak,797,18.0,,,1,1548
+24086,Fossile Brennstoffe,207.988,427.984,160.0,120.0,negative strong,797,5.0,,20:18:31,1,1548
+24177,Herstellung/Entsorgung,426.25,426.734,160.0,120.0,negative strong,797,23.0,,,1,1548
+24131,Zeitplanung,699.0,20.0,160.0,120.0,ambivalent,797,22.0,,,1,1548
+24129,Sicherheit,1466.0,521.0,160.0,120.0,positive weak,797,21.0,,,1,1548
+24105,Pendelwege anderweitig nutzbar,1260.0,529.0,160.0,120.0,positive weak,797,15.0,,20:20:47,1,1548
+24118,Berauscht nutzbar,1384.0,373.0,160.0,120.0,positive,797,19.0,,,1,1548
+24112,Preis,899.0,252.0,160.0,120.0,ambivalent,797,17.0,,20:21:29,1,1548
+24110,Wetter,921.0,508.0,160.0,120.0,negative weak,797,16.0,,,1,1548
+24103,Ressourcenschonend,1267.0,259.0,160.0,120.0,positive strong,797,14.0,,,1,1548
+24098,Netzausbau,1049.0,20.0,160.0,120.0,ambivalent,797,13.0,,,1,1548
+24097,Taktung,1516.0,261.0,160.0,120.0,ambivalent,797,12.0,,,1,1548
+24096,Pünktlichkeit,1368.0,137.0,160.0,120.0,negative weak,797,11.0,,,1,1548
+24095,andere Menschen,1194.0,120.0,160.0,120.0,negative strong,797,10.0,,,1,1548
+24094,erneuerbare Energien,824.0,143.0,160.0,120.0,positive weak,797,9.0,,,1,1548
+24091,Parkplätze,234.0,308.0,160.0,120.0,negative strong,797,8.0,,,1,1548
+24089,Individualität des Ziels,255.0,182.0,160.0,120.0,positive strong,797,7.0,,20:18:57,1,1548
+24088,Fahrgemeinschaften,476.0,20.0,160.0,120.0,positive,797,6.0,,,1,1548
+24084,Unfallgefahr,631.0,530.0,160.0,120.0,negative weak,797,4.0,,,1,1548
+24081,für sich alleine sein,620.0,182.0,160.0,120.0,positive weak,797,3.0,,,1,1548
+24076,Eigener Pkw,704.0,374.0,160.0,120.0,neutral,797,1.0, ,,1,1548
+24075,Öffentliche Verkehrsmittel,1100.0,373.0,160.0,120.0,neutral,797,2.0, ,,1,1548

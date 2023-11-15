@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+29240,Technological Implant,358.0,200.0,160.0,120.0,neutral,1067,1.0,The Ethics of Having an implant discussed,19:39:08,1,1912
+29239,Easily Implanted,650.0,47.0,187.312,140.0,ambivalent,1067,2.0,,19:21:35,1,1912
+29238,Energy Efficient,39.0,161.0,160.0,120.0,positive,1067,3.0,"Repairs itself and charges itself, no need to worry about running out of charge",19:25:36,1,1912
+29237,Decomposes when not wanted,49.0,322.0,160.0,120.0,positive strong,1067,4.0,No need to worry about having to have it physically removed,19:27:14,1,1912
+29236,Military - Making killing more likely,710.0,523.0,160.0,120.0,negative strong,1067,5.0,Could make soldiers more dangerous and unstable,19:32:28,1,1912
+29235,Helps Sleep (Less Sleep needed),666.0,324.0,160.0,120.0,positive strong,1067,7.0,Can allow people to be more productive,19:32:16,1,1912
+29234,Lower Risk of Fatigue Accidents,704.0,220.0,160.0,120.0,positive strong,1067,9.0,"Accidents from sleep deprivation can be reduced, E.g. car accidents",19:32:06,1,1912
+29233,Social Divide/Class Divide,409.0,406.0,160.0,120.0,negative strong,1067,6.0,Could create a divide between different classes for people who have and people who dont have the implant,19:26:42,1,1912
+29232,Invasive Technology,257.0,20.0,160.0,120.0,negative,1067,14.0,,19:28:43,1,1912
+29231,Privacy,475.0,50.0,160.0,120.0,negative strong,1067,15.0,"People may be worried of having information they dont want to be leaked, leaked to the outside world",19:33:56,1,1912
+29230,Hackers,20.0,20.0,160.0,120.0,negative strong,1067,17.0,"Due to the infancy of the tech, it could be prone to hacks",19:33:29,1,1912
+29229,Unknown Health Factors,901.973,119.991,160.0,120.0,ambivalent,1067,18.0,Due to the early Technology we don't know of any health related factors of having it inside your head,19:33:17,1,1912
+29228,Price,154.0,448.0,160.0,120.0,negative weak,1067,8.0,"Linked with the social divide, some people may not be able to afford",19:34:15,1,1912

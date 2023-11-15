@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24433,Fahrt mit eigenem PKW,420.0,206.0,157.0,117.25,neutral,808,2.0,,,1,1570
+24432,Öffentliche Verkehrsmittel,755.0,205.0,160.0,120.0,neutral,808,3.0,,,1,1570
+24431,zeitliche und geographische Freiheit,116.0,65.0,160.0,120.0,positive strong,808,4.0,,21:07:09,1,1570
+24430,geringere Emissionen,1071.0,59.0,160.0,120.0,positive strong,808,5.0,,,1,1570
+24429,Kosten,822.0,20.0,160.0,120.0,positive weak,808,6.0,,21:30:07,1,1570
+24428,personelle Abhängigkeit,1157.0,209.0,160.0,120.0,negative,808,7.0,,,1,1570
+24427,zusätzliche Fertigkeit benötigt,88.0,211.0,160.0,120.0,negative weak,808,8.0,,21:11:08,1,1570
+24426,erhöhte Gepäckkapazität,104.0,367.0,160.0,120.0,positive strong,808,9.0,,21:13:47,1,1570
+24425,geringer Stress,1144.0,361.0,160.0,120.0,positive weak,808,10.0,,21:15:18,1,1570
+24424,Vorgegebene Route,1128.0,486.0,160.0,120.0,negative,808,11.0,,,1,1570
+24423,kein geographisches Vorwissen nötig,898.0,525.0,160.0,120.0,positive weak,808,12.0,,,1,1570

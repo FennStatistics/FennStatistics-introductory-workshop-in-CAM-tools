@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24007,Wartezeit,532.0,184.0,160.0,120.0,negative strong,789,20.0,,,1,1539
+24003,Keine Privatheit,731.0,188.0,160.0,120.0,negative,789,19.0,,,1,1539
+24000,Weniger Verkehr,703.0,20.0,160.0,120.0,positive weak,789,18.0,,,1,1539
+23997,Billiger,624.0,262.0,160.0,120.0,positive,789,17.0,,,1,1539
+23991,Erhöhte Verschmutzung,54.6667,20.0,171.323,128.0,negative strong,789,15.0,,19:44:59,1,1539
+23990,Reduzierte Verschmutzung,611.0,98.0,160.0,120.0,positive strong,789,14.0,,,1,1539
+23989,Flexibilität in Zeiten,352.0,126.0,160.0,120.0,positive strong,789,13.0,,19:43:16,1,1539
+23988,Benzinkosten,54.6667,127.0,160.0,120.0,negative,789,12.0,,,1,1539
+23986,Einfaches Pendeln,325.0,20.0,160.0,120.0,positive strong,789,10.0,,,1,1539
+23985,Sicherheit,238.0,198.0,160.0,120.0,positive strong,789,9.0,,,1,1539
+23983,Privatheit,111.0,315.0,160.0,120.0,positive,789,6.0,,19:45:41,1,1539
+23982,Teuer,54.6667,224.0,160.0,120.0,negative,789,5.0,,,1,1539
+23980,Nützlichkeit im Notfall,179.0,70.0,160.0,120.0,positive strong,789,3.0,,,1,1539
+23979,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,789,1.0, ,,1,1539
+23978,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,789,2.0, ,,1,1539

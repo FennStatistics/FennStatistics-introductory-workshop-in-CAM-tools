@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5483,Langfristige Schädigung der Erde,1402.86,784.286,160.0,120.0,negative strong,156,31.0,,,1,249
+5447,Panik,338.571,308.571,160.0,120.0,negative strong,156,29.0,,,1,249
+5429,Hamsterkäufe,384.286,480.0,160.0,120.0,negative weak,156,25.0,,,1,249
+5420,Vorratsbeschafung,617.143,551.429,160.0,120.0,neutral,156,24.0,,,1,249
+5407,Quarantäne,688.571,654.286,160.0,120.0,negative weak,156,23.0,,,1,249
+5371,Streiterein,1535.71,92.8571,160.0,120.0,negative,156,22.0,,,1,249
+5341,Mehr Zeit mit Familie,1384.29,271.429,160.0,120.0,positive,156,20.0,,,1,249
+5233,Angst,751.429,115.714,160.0,120.0,negative strong,156,17.0,,,1,249
+5218,Weniger Tote,1310.0,120.0,160.0,120.0,positive strong,156,16.0,,,1,249
+5196,Neue Fähigkeiten lernen,1548.57,205.714,160.0,120.0,positive weak,156,15.0,,,1,249
+5172,Mehr Zeit für sich selbst,1614.29,368.571,160.0,120.0,positive weak,156,14.0,,,1,249
+5124,Einsamkeit,1632.86,688.571,160.0,120.0,negative,156,13.0,,18:41:49,1,249
+5120,Langeweile,1642.86,482.857,160.0,120.0,negative weak,156,12.0,,,1,249
+5100,Kein Treffen mit Freunden,1404.29,424.286,160.0,120.0,negative,156,11.0,,,1,249
+5074,Kosten,1005.71,717.143,160.0,120.0,negative weak,156,10.0,,,1,249
+5046,Nicht nachhaltig,1310.0,568.571,160.0,120.0,negative weak,156,9.0,,,1,249
+4974,Schutzmaßnahmen,1044.0,371.0,160.0,120.0,neutral,156,6.0,"Mundschutz, Hände desinfizieren",18:39:00,1,249
+4940,Hemmung der Verbreitung des Virus,1137.0,151.0,160.0,120.0,positive strong,156,5.0,,,1,249
+4901,Geringere Ansteckungsgefahr,1049.0,41.0,160.0,120.0,positive weak,156,4.0,,,1,249
+4883,Erhöhte Aufmerksamkeit,905.0,191.0,160.0,120.0,positive,156,3.0,,,1,249
+4861,Erhöhte Gefahr,802.0,319.0,160.0,120.0,negative strong,156,2.0,,18:38:45,1,249
+4851,Vorerkrante Familienmitglieder,585.0,182.0,160.0,120.0,negative strong,156,1.0,,,1,249

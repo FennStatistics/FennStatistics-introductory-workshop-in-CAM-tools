@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25210,Treibstoff,127.0,36.0,160.0,120.0,negative strong,840,14.0,,,1,1619
+25209,Steuern,393.0,57.0,160.0,120.0,negative,840,13.0,,,1,1619
+25208,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,840,2.0, ,,1,1619
+25207,Eigener Pkw,270.0,345.0,160.0,120.0,neutral,840,1.0, ,,1,1619
+25206,fördert Faulheit,63.0,244.0,160.0,120.0,negative,840,3.0,,,1,1619
+25205,Umwelt belastend,108.0,427.0,160.0,120.0,negative strong,840,4.0,,,1,1619
+25204,Kosten,249.0,142.0,160.0,120.0,ambivalent,840,5.0,,,1,1619
+25203,Fahrplan,768.0,268.0,160.0,120.0,negative,840,6.0,,,1,1619
+25202,Viele Menschen,829.0,398.0,160.0,120.0,ambivalent,840,7.0,,,1,1619
+25201,Umwelt,659.0,483.0,160.0,120.0,positive strong,840,8.0,,,1,1619
+25200,Kosten,586.0,235.0,160.0,120.0,negative strong,840,9.0,,,1,1619
+25199,Zeit,807.0,94.0,160.0,120.0,negative strong,840,10.0,,,1,1619
+25198,Zeit,340.0,497.0,160.0,120.0,positive strong,840,11.0,,,1,1619
+25197,Reparatur,391.0,227.0,160.0,120.0,negative,840,12.0,,,1,1619

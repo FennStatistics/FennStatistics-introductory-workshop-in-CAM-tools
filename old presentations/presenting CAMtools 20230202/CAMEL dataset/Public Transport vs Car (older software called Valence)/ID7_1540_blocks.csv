@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24018,umweltbelastender,412.0,526.0,160.0,120.0,negative weak,790,29.0,,19:59:47,1,1540
+24017,Vorteilhaft in Großstädten,670.0,48.0,160.0,120.0,positive weak,790,27.0,,19:59:17,1,1540
+24016,Vorrausplanung nötig,982.0,22.0,160.0,120.0,negative weak,790,26.0,,,1,1540
+24015,spontan,252.0,-6.0,160.0,120.0,positive weak,790,25.0,,,1,1540
+24014,schlechtes Wetter,1658.0,284.0,160.0,120.0,negative weak,790,24.0,,19:55:36,1,1540
+24013,Transportmöglichkeit,366.0,88.0,160.0,120.0,positive weak,790,23.0,,19:52:33,1,1540
+24012,Umweltfreundlich,1130.0,630.0,160.0,120.0,positive weak,790,22.0,,19:54:27,1,1540
+24011,Kostengünstig,1344.0,516.0,160.0,120.0,positive weak,790,21.0,,19:54:11,1,1540
+24010,Anbindung nicht immer gegeben,828.0,698.0,160.0,120.0,negative weak,790,20.0,,19:54:39,1,1540
+24009,Anschaffungskosten,12.0,364.0,160.0,120.0,negative weak,790,13.0,,19:51:09,1,1540
+24008,Verschleiß,254.0,649.0,160.0,120.0,negative weak,790,12.0,,19:51:24,1,1540
+24006,laufende Kosten,9.00002,611.0,160.0,120.0,negative weak,790,11.0,,19:51:20,1,1540
+24005,Kostenintesiver,124.0,487.0,160.0,120.0,negative,790,10.0,,19:51:16,1,1540
+24004,flexibel,47.0,20.0,160.0,120.0,positive strong,790,9.0,,19:50:51,1,1540
+24002,schneller,39.0,144.0,160.0,120.0,positive strong,790,8.0,,19:50:58,1,1540
+24001,Wartezeiten,1358.0,320.0,160.0,120.0,negative weak,790,6.0,,19:54:00,1,1540
+23999,abhängig,1344.0,128.0,160.0,120.0,negative strong,790,5.0,,19:53:55,1,1540
+23998,Bahn,1022.0,217.0,160.0,120.0,neutral,790,4.0,,,1,1540
+23996,Bus,1031.0,473.0,160.0,120.0,neutral,790,3.0,,,1,1540
+23995,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,790,1.0, ,,1,1540
+23994,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,790,2.0, ,,1,1540

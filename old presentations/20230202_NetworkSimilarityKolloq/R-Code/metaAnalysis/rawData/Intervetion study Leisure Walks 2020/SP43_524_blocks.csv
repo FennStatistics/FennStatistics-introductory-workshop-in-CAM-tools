@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14752,Freizeit,779.827,627.818,159.983,119.987,positive,352,20.0,,14:33:10,1,524
+14704,Lohnkürzung,155.381,624.223,159.983,119.987,negative strong,352,19.0,,14:32:47,1,524
+14697,Kurzarbeit,423.378,634.233,128.971,96.224,ambivalent,352,18.0,,14:31:39,1,524
+14640,Geschlossene Geschäfte und Unternehmen,231.112,431.683,159.983,119.987,negative,352,17.0,,,1,524
+14581,Weniger Menschen in der Bahn,617.143,29.0,159.989,119.996,positive weak,352,16.0,,14:28:12,1,524
+14538,"Verschwörungstheorien, Corona-Leugner",165.498,22.2351,179.297,133.966,negative strong,352,15.0,,,1,524
+14500,"Nicht-Einhaltung, Ignoranz",178.547,253.84,159.989,119.996,negative,352,14.0,,14:24:07,1,524
+14180,Mitleid für Menschen in Krisenländern,1073.84,296.119,159.983,119.987,negative,352,13.0,,14:15:29,1,524
+14144,Angst um Angehörige und Freunde in Risikogruppen,1078.54,105.099,163.216,121.918,negative,352,12.0,,14:14:00,1,524
+14117,Corona-Pandemie,786.919,290.941,159.989,119.996,neutral,352,1.0, ,,0,524
+14116,Eventuell nachhaltige Verbesserung des Verhaltens von Mitmenschen,414.979,22.9784,159.989,119.996,positive weak,352,8.0,,14:29:31,0,524
+14115,physische Isolierung,1022.96,460.937,159.983,119.987,neutral,352,2.0, ,,0,524
+14114,soziale Isolierung,1021.94,614.892,159.983,119.987,neutral,352,3.0, ,,0,524
+14112,Hygienemaßnahmen,416.976,251.978,159.989,119.996,ambivalent,352,4.0,,14:24:29,0,524
+14111,Wirtschaftliche Folgen,584.908,428.902,159.983,119.987,negative strong,352,11.0,,14:31:14,0,524

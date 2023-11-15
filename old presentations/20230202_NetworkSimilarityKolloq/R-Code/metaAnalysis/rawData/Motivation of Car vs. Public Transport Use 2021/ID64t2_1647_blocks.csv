@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25696,versteckte Kosten,99.0,305.0,160.0,120.0,negative strong,854,20.0,,14:40:26,1,1647
+25695,Unsolidarisch,548.0,99.0,160.0,120.0,negative strong,854,19.0,,14:39:20,1,1647
+25693,Kosten für Staat,780.0,555.0,160.0,120.0,negative strong,854,18.0,,,1,1647
+25692,Umweltkosten,592.0,468.0,160.0,120.0,negative strong,854,17.0,,,1,1647
+25688,Öffentliche Verkehrsmittel,771.979,337.979,160.0,120.0,neutral,854,2.0, ,,1,1647
+25687,Eigener Pkw,539.986,339.0,159.583,113.993,neutral,854,1.0, ,,1,1647
+25686,Freiheit,122.212,211.316,144.653,107.986,positive strong,854,3.0,,,1,1647
+25685,Unabhängigkeit,256.295,67.7431,160.0,120.0,positive strong,854,4.0,,14:15:48,1,1647
+25684,Spontanität,69.9965,59.309,160.0,120.0,positive strong,854,5.0,,,1,1647
+25683,Individualität,378.222,171.444,160.0,120.0,positive,854,6.0,,,1,1647
+25682,Kosten,322.754,401.976,160.0,120.0,negative,854,7.0,,14:20:49,1,1647
+25681,Haftung/Versicherung/Steuern,82.7535,423.097,160.0,120.0,negative weak,854,8.0,,14:21:47,1,1647
+25680,Co2-Emissionen,348.889,550.0,160.0,120.0,negative strong,854,10.0,,14:22:45,1,1647
+25679,Klimawandel,567.438,598.438,160.0,120.0,negative strong,854,11.0,,14:22:49,1,1647
+25678,geringere Kosten,993.986,257.997,155.312,115.99,positive strong,854,12.0,,14:23:48,1,1647
+25677,Abhängigkeit,1022.2,446.33,160.0,120.0,negative,854,13.0,,14:24:32,1,1647
+25676,geringere Co2-Emissionen,1102.89,99.6667,160.0,120.0,positive strong,854,14.0,,,1,1647
+25675,staatliche gefördert,1239.55,179.438,160.0,120.0,positive,854,15.0,,14:25:49,1,1647
+25674,Ansteckungsgefahr Covid/andere Krankheiten,1253.33,366.667,160.0,120.0,negative strong,854,16.0,,14:26:34,1,1647

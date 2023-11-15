@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26290,praktisch,59.0,106.0,160.0,120.0,positive strong,885,21.0,,,1,1687
+26289,umständlich,403.0,120.0,160.0,120.0,negative strong,885,20.0,,,1,1687
+26288,abgase,330.0,431.0,160.0,120.0,negative,885,19.0,,,1,1687
+26273,polizei blitzer,284.0,60.0,160.0,120.0,negative,885,18.0,,13:15:42,1,1687
+26272,warten,525.0,52.0,160.0,120.0,negative,885,17.0,,,1,1687
+26271,sicher,355.0,208.0,160.0,120.0,positive weak,885,16.0,,,1,1687
+26270,unabhängig,284.0,549.0,160.0,120.0,ambivalent,885,15.0,,,1,1687
+26269,umweltfreundlich,552.0,145.0,160.0,120.0,positive,885,14.0,,,1,1687
+26268,komfortabel,231.0,147.0,160.0,120.0,positive weak,885,11.0,,,1,1687
+26266,unsauber,513.0,590.0,160.0,120.0,negative weak,885,9.0,,,1,1687
+26265,stau,55.0,393.0,160.0,120.0,negative,885,8.0,,,1,1687
+26264,verspätungen,478.0,482.0,160.0,120.0,negative weak,885,7.0,,,1,1687
+26263,teuer,544.0,212.0,160.0,120.0,negative weak,885,5.0,,,1,1687
+26262,schnell,108.0,512.0,160.0,120.0,positive,885,4.0,,,1,1687
+26261,günstig,95.0,226.0,171.333,128.0,positive,885,3.0,,13:01:09,1,1687
+26260,Eigener Pkw,274.0,344.0,160.0,120.0,neutral,885,1.0, ,,1,1687
+26259,Öffentliche Verkehrsmittel,574.0,345.0,160.0,120.0,neutral,885,2.0, ,,1,1687

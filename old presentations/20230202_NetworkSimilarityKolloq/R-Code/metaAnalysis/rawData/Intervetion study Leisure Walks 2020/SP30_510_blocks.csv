@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14523,Depression,1162.0,271.0,160.0,120.0,negative,339,7.0,,14:24:27,1,510
+14498,Einsamkeit,778.0,406.0,160.0,120.0,negative,339,6.0,,14:24:22,1,510
+14494,Schulden,848.0,209.0,160.0,120.0,negative,339,5.0,,14:24:18,1,510
+14469,Stress,771.0,47.0,160.0,120.0,negative weak,339,4.0,,14:24:15,1,510
+14437,Finanzielle Probleme,594.0,245.0,160.0,120.0,negative,339,3.0,,14:23:01,1,510
+14435,Arbeitslosigkeit,380.0,187.0,160.0,120.0,negative strong,339,2.0,,14:22:46,1,510
+14428,Corona,104.0,58.0,238.0,178.0,ambivalent,339,1.0,,14:22:06,1,510

@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27227,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,926,2.0, ,,1,1750
+27226,Eigener Pkw,273.0,344.0,160.0,120.0,neutral,926,1.0, ,,1,1750
+27225,Zeit sparrend,74.0,41.0,147.0,109.75,positive,926,4.0,,10:29:33,1,1750
+27224,Sprit verbrauch,25.0,270.0,158.0,118.0,negative strong,926,5.0,,10:30:06,1,1750
+27223,Umweltschädlich,240.0,20.0,160.0,120.0,negative weak,926,6.0,,10:30:29,1,1750
+27222,Umweltfreundlich,481.0,20.0,160.0,120.0,positive weak,926,7.0,,10:30:51,1,1750
+27221,Billiger,212.0,138.0,160.0,120.0,positive weak,926,8.0,,,1,1750
+27220,sehr voll,648.0,20.0,160.0,120.0,negative weak,926,9.0,,,1,1750
+27219,Unabhängig,20.0,145.0,160.0,120.0,positive strong,926,3.0,,,1,1750
+27218,auf Zeitplan angewiessen,602.0,143.0,160.0,120.0,neutral,926,10.0,,10:32:04,1,1750
+27217,Versicherung,118.0,488.0,160.0,120.0,negative weak,926,11.0,,,1,1750
+27216,Jahreskarte,648.0,247.0,160.0,120.0,neutral,926,12.0,,,1,1750
+27215,mehr Bewegung,446.0,244.0,160.0,120.0,positive weak,926,13.0,,10:33:16,1,1750
+27214,Gute Anbindung,473.0,459.0,160.0,120.0,positive weak,926,14.0,,,1,1750
+27213,Sozialleben,407.0,126.0,156.65625,117.0,neutral,926,15.0,,,1,1750

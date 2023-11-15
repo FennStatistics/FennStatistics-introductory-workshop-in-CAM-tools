@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12770,Boost Digitalisierung,60.25,512.25,160.0,120.0,positive weak,291,13.0,,,1,447
+12709,Keine Riskikogruppen,1173.5,296.25,160.0,120.0,positive weak,291,11.0,,,1,447
+12665,Sozialleben,698.73,542.965,160.0,120.0,positive,291,10.0,,,1,447
+12656,Freiheiten,318.941,408.203,160.0,120.0,positive strong,291,9.0,,,1,447
+12654,Familie/Freunde,1074.16,497.453,160.0,120.0,positive strong,291,8.0,,,1,447
+12649,Probleme Wirtschaft,81.9688,252.965,160.0,120.0,negative weak,291,7.0,,,1,447
+12641,Gesellschaftliche Probleme,312.965,115.996,160.0,120.0,negative weak,291,6.0,,,1,447
+12636,Bevölkerung,631.988,67.9883,160.0,120.0,negative weak,291,5.0,,,1,447
+12632,Verwandte/Bekannte,893.949,285.988,160.0,120.0,negative weak,291,4.0,,,1,447
+12626,eigene,964.984,100.957,160.0,120.0,negative weak,291,3.0,,,1,447
+12608,Angst um Gesundheit,752.969,179.984,160.0,120.0,negative weak,291,2.0,,12:07:07,1,447
+12603,COVID-19,576.984,310.988,160.0,120.0,neutral,291,1.0,,,1,447

@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15477,finanzielle Ressourcen,196.946,195.554,160.0,120.0,positive strong,389,14.0,,,1,562
+15356,Armut,1436.84,21.1429,160.0,120.0,negative strong,389,13.0,gemeint sind nicht ausreichender Zugang zu Gesundheitsversorgung und dicht gedrängte Lebensverhältnisse,14:56:59,1,562
+15240,physische Isolierung,1293.94,607.942,160.0,120.0,negative,389,2.0,,14:52:13,0,562
+15246,psychische Belastung,581.857,500.92,160.0,120.0,negative,389,5.0,,14:54:05,0,562
+15245,Stress,834.893,274.884,160.0,120.0,negative strong,389,6.0,,14:53:55,0,562
+15244,Einsamkeit,957.879,584.871,160.0,120.0,negative,389,10.0,,14:52:29,0,562
+15243,Angst,877.853,445.83,160.0,120.0,negative weak,389,7.0,,14:53:20,0,562
+15242,Corona-Pandemie,1413.96,250.964,160.0,120.0,neutral,389,1.0,,14:50:38,0,562
+15241,Zusammenhalt,869.906,17.9821,160.0,120.0,positive strong,389,8.0,,14:53:31,0,562
+15239,soziale Isolierung,1178.94,391.929,160.0,120.0,negative strong,389,3.0,,14:52:02,0,562
+15238,Depressivität,849.893,702.982,160.0,120.0,negative strong,389,9.0,,14:52:36,0,562
+15236,wirtschaftliche Folgen,1070.91,192.92,160.0,120.0,negative,389,11.0,,14:51:37,0,562

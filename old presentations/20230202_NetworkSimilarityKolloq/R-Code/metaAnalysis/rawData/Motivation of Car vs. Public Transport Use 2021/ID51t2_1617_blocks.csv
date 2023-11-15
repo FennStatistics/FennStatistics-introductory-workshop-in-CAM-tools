@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25192,einfacher,701.0,544.0,160.0,120.0,positive,837,21.0,,,1,1617
+25181,Keine Nebenkosten,806.0,473.0,160.0,120.0,positive weak,837,20.0,,,1,1617
+25179,Umweltbelastung,20.0,235.0,160.0,120.0,negative weak,837,19.0,,,1,1617
+25177,Monatliche Fixkosten,25.0,338.0,160.0,120.0,negative,837,18.0,,,1,1617
+25174,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,837,2.0, ,,1,1617
+25173,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,837,1.0, ,,1,1617
+25172,Zeitlich flexibel,274.0,234.0,160.0,120.0,positive strong,837,3.0,,12:29:31,1,1617
+25171,Spritkosten,276.0,463.0,160.0,120.0,negative weak,837,4.0,,,1,1617
+25170,Privatsphäre,221.0,20.0,160.0,120.0,positive,837,5.0,,,1,1617
+25169,laut Musik hören,30.0,130.0,160.0,120.0,positive weak,837,6.0,,,1,1617
+25168,Schneller als ÖPNV,268.0,119.0,160.0,120.0,positive strong,837,7.0,,12:30:50,1,1617
+25167,Parkplatz suchen ,20.0,447.0,160.0,120.0,negative weak,837,8.0,,12:31:46,1,1617
+25166,Parkplatz Kosten,155.0,544.0,160.0,120.0,negative,837,9.0,,12:31:49,1,1617
+25165,Platz & Stauraum,27.0,20.0,160.0,120.0,positive strong,837,10.0,,12:33:04,1,1617
+25164,Zeitlich gebunden,580.0,240.0,160.0,120.0,negative,837,11.0,,,1,1617
+25163,Dauer,576.0,122.0,160.0,120.0,ambivalent,837,12.0,,,1,1617
+25162,Umweltschonender,811.0,348.0,160.0,120.0,positive weak,837,14.0,,,1,1617
+25161,Viele (nervige) Leute,649.0,20.0,160.0,120.0,negative strong,837,15.0,,,1,1617
+25160,Ticket Kosten,599.0,467.0,160.0,120.0,negative,837,16.0,,,1,1617
+25159,Überfüllung,831.0,20.0,160.0,120.0,negative strong,837,17.0,,,1,1617

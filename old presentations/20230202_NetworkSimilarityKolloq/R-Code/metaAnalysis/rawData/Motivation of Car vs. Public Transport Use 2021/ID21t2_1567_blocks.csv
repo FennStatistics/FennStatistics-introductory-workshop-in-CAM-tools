@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24385,geringe laufende Kosten,427.0,38.0,160.0,120.0,positive weak,807,20.0,,21:20:46,1,1567
+24384,hohe laufende Kosten,89.0,244.0,160.0,120.0,positive weak,807,19.0,,21:21:03,1,1567
+24383,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,807,2.0, ,,1,1567
+24382,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,807,1.0, ,,1,1567
+24381,Unabhängige Zeitplanung,20.0,20.0,160.0,120.0,positive,807,3.0,,21:01:29,1,1567
+24380,Parkplatzsuche entfällt,832.0,228.0,160.0,120.0,positive,807,4.0,,,1,1567
+24379,Infektionsschutz,20.0,383.0,160.0,120.0,positive,807,6.0,,,1,1567
+24378,Kein Stau,821.0,351.0,156.663,117.0,positive weak,807,7.0,,,1,1567
+24377,CO2-Ausstoß,138.0,452.0,160.0,120.0,negative,807,8.0,,21:11:27,1,1567
+24376,Spart CO2,804.0,75.0,160.0,120.0,positive strong,807,9.0,,21:19:50,1,1567
+24375,Fahrtzeit kann genutzt werden,544.0,180.0,160.0,120.0,positive,807,10.0,,,1,1567
+24374,Ansteckungsgefahr,570.0,471.0,160.0,120.0,negative strong,807,11.0,,21:11:19,1,1567
+24373,Flexibler Ein- und Ausstieg/Pausen,328.0,159.0,160.0,120.0,positive,807,13.0,,,1,1567
+24372,Vorgegebene Routen/längere Wege,760.0,453.0,160.0,120.0,negative weak,807,14.0,,,1,1567
+24371,Flexible Wegplanung,149.0,110.0,160.0,120.0,positive,807,15.0,,,1,1567
+24370,Auch bei Müdigkeit sicher,677.0,20.0,160.0,120.0,positive weak,807,17.0,,,1,1567
+24369,Flexible Schnelligkeit,251.0,20.0,160.0,120.0,positive weak,807,18.0,,,1,1567

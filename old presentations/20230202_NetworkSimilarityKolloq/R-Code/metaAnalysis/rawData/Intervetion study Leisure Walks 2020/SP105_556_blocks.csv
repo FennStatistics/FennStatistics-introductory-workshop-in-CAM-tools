@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15254,Zusammenbruch der Demokratie,92.0,443.0,160.0,120.0,negative strong,383,17.0,,14:50:54,1,556
+15247,Zweifel an der Wissenschaft,93.0,320.0,160.0,120.0,negative strong,383,15.0,,14:50:21,1,556
+15187,Mundschutz,882.0,136.0,160.0,120.0,ambivalent,383,14.0,,14:48:49,1,556
+15172,Verschwörungstheoretiker,336.0,503.0,160.0,120.0,negative strong,383,13.0,,14:47:53,1,556
+15049,Stress,724.983,536.0,160.0,120.0,negative strong,383,6.0,,14:43:44,0,556
+15050,psychische Belastung,970.0,20.0,160.0,120.0,negative weak,383,5.0,,14:44:07,0,556
+15048,Einsamkeit,1073.0,285.983,160.0,120.0,negative weak,383,10.0,,14:44:04,0,556
+15047,Angst,322.0,347.0,160.0,120.0,negative strong,383,7.0,,14:44:11,0,556
+15046,Corona-Pandemie,648.983,164.983,160.0,120.0,neutral,383,1.0, ,,0,556
+15045,Zusammenhalt,165.0,20.0,160.0,120.0,positive strong,383,8.0,,14:43:51,0,556
+15044,physische Isolierung,540.0,429.0,160.0,120.0,negative weak,383,2.0,,14:44:02,0,556
+15043,soziale Isolierung,317.0,149.983,160.0,120.0,negative weak,383,3.0,,14:44:33,0,556
+15042,Depressivität,1118.98,483.967,160.0,120.0,negative strong,383,9.0,,14:43:57,0,556
+15040,wirtschaftliche Folgen,883.967,403.967,160.0,120.0,negative strong,383,11.0,,14:43:54,0,556

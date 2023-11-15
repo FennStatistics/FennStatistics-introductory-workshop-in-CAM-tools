@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25816,Fahrtzeit nutzen,544.0,98.4375,160.0,120.0,positive,863,18.0,"Bei Langstrecken kann man prima lesen, Filme schauen, oder einfach schlafen. Beim Autofahren hat man diese Möglichkeit nicht (insofern man alleine fährt). ",15:58:03,1,1655
+25815,Gefahr,261.094,493.547,160.0,120.0,ambivalent,863,17.0,Im Straßenverkehr geht grundsätzlich eine Gefahr durch andere Fahrer aus. Dies ist bei öffentlichen Verkehrsmitteln gemindert.,15:54:41,1,1655
+25814,Kosten,803.222,421.774,160.0,120.0,negative,863,16.0,"Ich lebe in einer ländlichen Gegend, für mich ist es tatsächlich gleich teuer, wenn nicht gar teurer öffentliche Verkehrsmittel zu nutzen. Außerdem haben wir hier eine sehr schlechte Anbindung.",15:55:53,1,1655
+25813,Ausfälle,457.953,540.984,160.0,120.0,negative,863,14.0,,15:56:45,1,1655
+25812,Verspätungen,707.969,537.938,160.0,120.0,negative weak,863,12.0,,15:56:08,1,1655
+25811,Abhängigkeit,576.953,461.953,160.0,120.0,negative,863,11.0,,,1,1655
+25810,Umweltfreundlich,762.984,180.0,160.0,120.0,positive,863,10.0, Mehr Menschen in einem Transportmittel,16:02:51,1,1655
+25809,Menschenmengen,779.976,301.986,160.0,120.0,negative strong,863,9.0,"Ich persönlich mag keine Menschenmengen und auch Interaktionen mit Fremden, wenn es um Sitzplatzreservierungen geht bspw. empfinde ich als unangenehm",15:55:18,1,1655
+25808,Passiver Transport,551.972,226.965,160.0,120.0,positive weak,863,8.0,"Man muss sich nicht auf die Straße konzentrieren, man wird quasi nur mitgenommen",15:53:48,1,1655
+25807,Umweltfreundlich,20.0,438.969,160.0,120.0,negative,863,7.0,,15:50:54,1,1655
+25806,Kostenfaktor,46.9531,282.938,162.0,121.0,negative weak,863,6.0,,16:10:33,1,1655
+25805,Unabhängig,64.9688,80.9844,160.0,120.0,positive,863,5.0,,15:52:14,1,1655
+25804,Schneller,307.984,80.9688,160.0,120.0,positive weak,863,4.0,"Langstrecken nicht, Kurzstrecken auf jeden Fall",16:00:44,1,1655
+25803,Flexibilität,226.953,210.984,160.0,120.0,positive strong,863,3.0,,,1,1655
+25802,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,863,1.0, ,,1,1655
+25801,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,863,2.0, ,,1,1655

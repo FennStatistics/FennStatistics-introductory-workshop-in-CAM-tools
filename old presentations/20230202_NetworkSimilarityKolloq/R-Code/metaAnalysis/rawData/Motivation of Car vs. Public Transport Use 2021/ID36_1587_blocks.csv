@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24760,schnell am Ziel,424.0,70.0,160.0,120.0,positive strong,824,13.0,,,1,1587
+24752,"Fahrplan (gute Verfügbarkeit, z.B. sonntags nicht so gut)",796.0,347.0,160.0,120.0,neutral,824,12.0,,,1,1587
+24739,Umweltschutz,464.0,481.0,160.0,120.0,positive,824,9.0,,,1,1587
+24734,Parkplatz plus Gebühren,30.0,396.0,160.0,120.0,negative strong,824,8.0,,,1,1587
+24727,Flexibilität,147.0,221.0,160.0,120.0,positive strong,824,6.0,,11:46:36,1,1587
+24724,Kosten (Sprit / Ticket),180.0,486.0,160.0,120.0,negative,824,4.0,,,1,1587
+24683,schlechtes Wetter,418.0,231.0,160.0,120.0,negative,824,3.0,,11:44:40,1,1587
+24680,Eigener Pkw,248.0,338.0,160.0,120.0,neutral,824,1.0, ,,1,1587
+24679,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,824,2.0, ,,1,1587

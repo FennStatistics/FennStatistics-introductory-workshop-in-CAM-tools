@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12957,Vorurteile,1042.0,528.0,160.0,120.0,negative strong,294,32.0,,,1,450
+12952,Einschränkung der Reisefreiheit,850.0,770.0,160.0,120.0,neutral,294,31.0,,,1,450
+12933,weniger sozialer Kontakt,24.0,368.0,160.0,120.0,negative strong,294,30.0,,,1,450
+12920,Wandel/Weiterentwicklung,1548.0,432.0,160.0,120.0,positive,294,28.0,,,1,450
+12912,Grundsatzdiskussionen,1298.0,378.0,160.0,120.0,neutral,294,27.0,,,1,450
+12868,Mentale Gesundheit,386.0,464.0,160.0,120.0,positive,294,25.0,,,1,450
+12859,Sorge um Angehörige,218.0,70.0,160.0,120.0,negative,294,24.0,,,1,450
+12850,Arbeitslosigkeit,1540.0,660.0,160.0,120.0,negative,294,23.0,,,1,450
+12845,Insolvenzen,1150.0,734.0,160.0,120.0,negative,294,22.0,,,1,450
+12844,Kurzarbeit,1396.0,778.0,160.0,120.0,negative weak,294,21.0,,,1,450
+12840,Wirtschafstkrise,1316.0,578.0,160.0,120.0,negative,294,20.0,,,1,450
+12834,Überlastung,1484.0,220.0,160.0,120.0,negative,294,19.0,,,1,450
+12827,Gesundheitssystem,1308.0,76.0,160.0,120.0,neutral,294,18.0,,,1,450
+12751,Zusammenhalt in der Familie,18.4286,148.429,160.0,120.0,positive weak,294,16.0,,,1,450
+12741,Versagensängste,516.701,667.121,160.0,120.0,negative strong,294,15.0,,,1,450
+12719,Stress,400.688,799.406,160.0,120.0,negative,294,12.0,,,1,450
+12710,Online Vorlesungen,2.85716,831.143,160.0,120.0,positive weak,294,10.0,,,1,450
+12706,Abbruch,218.714,742.429,160.0,120.0,negative strong,294,9.0,,,1,450
+12693,Auslandsstudium,68.4464,607.17,160.0,120.0,neutral,294,7.0,,,1,450
+12682,Gesellschaftliche Asuwirkungen,1006.53,291.786,166.0,124.0,neutral,294,5.0,,,1,450
+12671,Persönliche Auswirkungen,219.438,284.25,160.0,120.0,neutral,294,4.0,,,1,450
+12633,Gegenmaßnahmen,721.938,467.938,148.625,111.0,neutral,294,2.0,,,1,450
+12627,COVID-19,555.938,179.969,203.281,151.969,neutral,294,1.0,,,1,450

@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5474,,583.0,334.0,160.0,120.0,neutral,172,8.0,,18:51:18,1,275
+5472,,563.0,342.0,160.0,120.0,neutral,172,7.0,,,1,275
+5450,Unsicherheit,385.0,20.0,160.0,120.0,negative weak,172,6.0,"damit meine ich allgemeine Unsicherheit, wie es weiter geht und was der Virus für Folgen hat",19:01:01,1,275
+5446,Eingeschränktheit,83.0,20.0,160.0,120.0,negative weak,172,5.0,,18:50:15,1,275
+5416,Zusammenhalten mit der Familie,292.0,407.0,160.0,120.0,positive strong,172,3.0,,18:49:21,1,275
+5427,Sorge um Angehörige,20.0,199.0,160.0,120.0,negative,172,4.0,,18:49:43,1,275
+5385,Zukunftsangst,507.0,177.0,160.0,120.0,negative strong,172,2.0,damit meine ich konkrete Sorgen um die Zukunft vor allem wirtschaftliche,19:02:23,1,275
+5370,Corona,232.0,191.0,160.0,120.0,neutral,172,1.0,,18:48:04,1,275

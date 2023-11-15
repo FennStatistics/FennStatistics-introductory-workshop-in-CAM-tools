@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12458,Uncertainty,1316.0,488.0,160.0,120.0,positive,264,20.0,,,1,416
+12449,Increased Inequality,920.0,860.0,160.0,120.0,negative strong,264,19.0,,,1,416
+12439,Homelessness,1186.0,946.0,160.0,120.0,negative strong,264,18.0,,,1,416
+12433,Recession/Depression,1334.98,794.974,160.0,120.0,negative strong,264,17.0,,11:51:14,1,416
+12427,Extensive Global Economic Downturn,1135.33,682.0,160.0,120.0,negative strong,264,16.0,,,1,416
+12420,Travel Restrictions,1882.0,490.333,160.0,120.0,negative weak,264,15.0,,11:50:05,1,416
+12415,Less in-person interactions,1833.33,238.0,160.0,120.0,neutral,264,14.0,,,1,416
+12387,How Society fuctions,1593.98,341.667,160.0,120.0,ambivalent,264,13.0,,11:49:21,1,416
+12355,Broader Social Issues,1569.67,134.661,160.0,120.0,negative strong,264,12.0,,,1,416
+12321,High Global Death Toll,1376.33,35.0,160.0,120.0,negative strong,264,11.0,,,1,416
+12295,Unable to see family,701.429,443.129,160.0,120.0,negative strong,264,10.0,,11:42:54,1,416
+12289,Work from home,907.571,42.4286,160.0,120.0,neutral,264,9.0,,,1,416
+12276,Confinement,511.429,333.0,157.991,117.991,negative weak,264,8.0,,11:41:33,1,416
+12255,No Social Life,347.429,214.286,160.0,120.0,negative strong,264,7.0,,,1,416
+12251,More time with Spouse,458.839,37.7054,160.0,120.0,positive,264,6.0,,11:39:39,1,416
+12244,More time Cooking,691.286,6.71428,160.0,120.0,positive,264,5.0,,11:39:16,1,416
+12219,Global Pandemic,1118.99,313.987,160.0,120.0,negative weak,264,1.0,,11:37:25,1,416
+12233,More time at home,655.978,197.964,160.0,120.0,ambivalent,264,4.0,,11:38:52,1,416
+12228,Significant personal impact,842.969,279.969,160.0,120.0,positive,264,2.0,,,1,416

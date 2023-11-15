@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15084,Familie,640.978,200.393,160.0,120.0,positive strong,366,14.0,,14:45:36,1,539
+14956,Arbeitsplatzsituation,1228.69,236.263,160.0,120.0,positive,366,13.0,,14:41:40,1,539
+14568,soziale Isolierung,28.9911,229.973,160.0,120.0,negative strong,366,3.0,,14:32:44,0,539
+14890,Verlust eines geliebten Menschen,16.0,4.99107,210.982,157.746,negative strong,366,12.0,,14:38:27,1,539
+14566,Befinden,848.915,265.924,160.0,120.0,ambivalent,366,4.0,,14:40:53,0,539
+14575,psychische Belastung,1034.94,528.924,160.0,120.0,neutral,366,5.0, ,,0,539
+14574,Stress,1248.98,472.96,160.0,120.0,negative weak,366,6.0,,14:42:32,0,539
+14573,Einsamkeit,154.996,429.938,160.0,120.0,negative strong,366,10.0,,14:40:07,0,539
+14572,Angst,277.982,10.9866,160.0,120.0,negative strong,366,7.0,,14:30:03,0,539
+14571,Corona-Pandemie,669.96,16.0,160.0,120.0,negative strong,366,1.0,,14:40:13,0,539
+14570,Zusammenhalt,837.973,499.973,160.0,120.0,positive strong,366,8.0,,14:43:08,0,539
+14569,physische Isolierung,326.996,228.964,160.0,120.0,negative strong,366,2.0,,14:34:37,0,539
+14565,wirtschaftliche Folgen,983.991,78.933,160.0,120.0,ambivalent,366,11.0,,14:36:32,0,539

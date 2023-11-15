@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26460,CO2-Kosten,243.0,113.0,160.0,120.0,negative,889,17.0,,,1,1695
+26459,TüV,83.0,544.0,160.0,120.0,negative,889,16.0,,,1,1695
+26431,Paralleltätigkeiten,775.0,379.0,160.0,120.0,positive strong,889,14.0,,,1,1695
+26430,Flexibilität,425.0,80.0,160.0,120.0,positive strong,889,13.0,,,1,1695
+26413,Braucht Ticket,704.0,487.0,160.0,120.0,neutral,889,11.0,,,1,1695
+26412,Komfort,421.0,450.0,160.0,120.0,positive strong,889,10.0,,,1,1695
+26411,Kosten,197.0,465.0,160.0,120.0,negative strong,889,9.0,,18:25:41,1,1695
+26410,Anschaffungskosten,56.0,345.0,160.0,120.0,negative,889,8.0,,18:25:24,1,1695
+26409,Versicherungskosten,37.0,245.0,160.0,120.0,negative,889,7.0,,18:51:12,1,1695
+26408,Verbraucht Sprit,34.0,439.0,160.0,120.0,negative,889,6.0,,18:24:36,1,1695
+26407,Gedränge,687.0,187.0,160.0,120.0,negative strong,889,5.0,,18:25:52,1,1695
+26406,Umweltschutz,426.0,224.0,160.0,120.0,positive strong,889,4.0,,18:28:52,1,1695
+26405,Zeit,418.0,544.0,160.0,120.0,negative strong,889,3.0,,18:32:52,1,1695
+26404,Eigener Pkw,260.0,352.0,160.0,120.0,neutral,889,1.0, ,,1,1695
+26403,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,889,2.0, ,,1,1695

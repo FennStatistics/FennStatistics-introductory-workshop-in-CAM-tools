@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12199,Work from home,579.0,43.0,160.0,120.0,positive weak,243,10.0,,11:35:41,1,395
+12182,Events cancelled,1053.0,272.0,160.0,120.0,ambivalent,243,8.0,,11:35:14,1,395
+12132,Less social,1016.0,461.0,160.0,120.0,ambivalent,243,4.0,,11:34:34,1,395
+12186,Unemployment,727.0,544.0,160.0,120.0,negative strong,243,9.0,,11:35:07,1,395
+12178,Depression,342.0,132.0,160.0,120.0,negative strong,243,7.0,,11:35:16,1,395
+12168,Death,231.0,304.0,160.0,120.0,negative strong,243,6.0,,11:35:18,1,395
+12130,Finance reset,300.0,481.0,160.0,120.0,positive strong,243,3.0,,,1,395
+12123,Solitude,823.0,177.0,160.0,120.0,negative,243,2.0,,11:38:16,1,395
+12122,Corona Virus experience,600.0,284.0,160.0,120.0,negative strong,243,1.0,,11:32:09,1,395
