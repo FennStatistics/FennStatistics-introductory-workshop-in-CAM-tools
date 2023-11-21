@@ -1,0 +1,32 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5390,kaum veränderung,640.0,522.0,160.0,120.0,ambivalent,136,36.0,,18:48:58,1,229
+5384,Mehr Kontakt zu freunden wenn überhaupt,622.0,342.0,160.0,120.0,positive,136,35.0,,18:48:56,1,229
+5375,Verzögerungen Karriere,652.0,188.0,160.0,120.0,negative weak,136,34.0,,18:48:51,1,229
+5358,Persönliche Auswirkungen,862.0,366.0,160.0,120.0,neutral,136,33.0,,,1,229
+5294,Hamsterer,2392.0,1014.0,160.0,120.0,negative strong,136,32.0,,18:45:55,1,229
+5288,Digitale Infrasturktur,1662.0,966.0,160.0,120.0,positive weak,136,31.0,,18:47:20,1,229
+5275,Chance?,1454.0,992.0,160.0,120.0,ambivalent,136,30.0,,18:47:23,1,229
+5270,Arbeitslosigkeit,1262.0,1000.0,160.0,120.0,negative weak,136,29.0,,18:47:26,1,229
+5265,Home-Office,1042.0,976.0,160.0,120.0,positive,136,28.0,,18:47:28,1,229
+5163,Fehlinformationen,2238.0,1010.0,160.0,120.0,negative,136,27.0,,18:44:48,1,229
+5105,Wirtschaftskrise,2060.0,976.0,160.0,120.0,negative weak,136,25.0,,18:42:19,1,229
+4617,öffentliches Leben,2316.0,804.0,160.0,120.0,neutral,136,4.0,,,1,229
+5096,Wissenschaft,2020.0,748.0,160.0,120.0,positive strong,136,24.0,,18:42:14,1,229
+5089,Aluhüte,2344.0,582.0,160.0,120.0,negative strong,136,23.0,,18:42:06,1,229
+5079,Hysterie,2018.0,636.0,160.0,120.0,negative strong,136,22.0,,18:42:11,1,229
+5039,Medizinische Versorgung,2014.0,864.0,160.0,120.0,positive strong,136,21.0,,18:42:16,1,229
+5029,Besorgungen,2512.0,630.0,160.0,120.0,ambivalent,136,20.0,,18:42:04,1,229
+5023,Verkehr,2188.0,586.0,160.0,120.0,ambivalent,136,19.0,,18:42:09,1,229
+4963,Allgemeine Gesundheit,2636.0,508.0,160.0,120.0,neutral,136,18.0,,,1,229
+4958,Mannschaften,2634.0,400.0,160.0,120.0,neutral,136,17.0,,,1,229
+4950,Fitnessstudios,2630.0,296.0,160.0,120.0,neutral,136,16.0,,,1,229
+4910,Partys,2616.0,4.0,160.0,120.0,neutral,136,14.0,,,1,229
+4899,Familie,2478.0,26.0,160.0,120.0,neutral,136,13.0,,,1,229
+4889,Freunde,2326.0,20.0,160.0,120.0,neutral,136,12.0,,,1,229
+4886,Dating,2168.0,18.0,160.0,120.0,neutral,136,11.0,,,1,229
+4805,Beschränkungen,1800.0,356.0,160.0,120.0,ambivalent,136,8.0,,18:34:21,1,229
+4831,Sport,2470.0,392.0,160.0,120.0,positive,136,9.0,,18:35:02,1,229
+4770,Soziales Leben,2552.0,154.0,160.0,120.0,positive,136,6.0,,18:33:29,1,229
+4612,Freizeit,1922.0,29.0,160.0,120.0,positive strong,136,3.0,,18:31:36,1,229
+4604,Arbeit,1337.0,745.0,160.0,120.0,neutral,136,2.0,,,1,229
+4596,Coronavirus,1189.0,441.0,160.0,120.0,negative,136,1.0,,18:29:29,1,229

@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4381,Education loss,109.0,420.0,160.0,120.0,negative weak,90,10.0,,18:24:49,1,163
+4059,Vaccine development,676.0,370.0,160.0,120.0,positive strong,90,9.0,,18:23:56,1,163
+4053,Health workers recognition,511.0,348.0,160.0,120.0,positive strong,90,8.0,,18:18:02,1,163
+4047,Illness,143.0,262.0,160.0,120.0,negative strong,90,7.0,,18:21:56,1,163
+4009,Social Distancing,739.0,20.0,160.0,120.0,neutral,90,6.0,,,1,163
+4005,Self-Learning,916.0,131.0,160.0,120.0,positive weak,90,5.0,,18:27:40,1,163
+3986,Working from home,752.0,206.0,160.0,120.0,positive,90,4.0,,18:16:04,1,163
+3980,Loss of jobs,341.0,274.0,160.0,120.0,negative strong,90,3.0,,18:21:47,1,163
+3937,Death,126.0,62.9938,160.0,120.0,negative,90,2.0,,18:21:53,1,163
+3925,Coronavirus,460.0,51.0,160.0,120.0,neutral,90,1.0,,18:15:31,1,163

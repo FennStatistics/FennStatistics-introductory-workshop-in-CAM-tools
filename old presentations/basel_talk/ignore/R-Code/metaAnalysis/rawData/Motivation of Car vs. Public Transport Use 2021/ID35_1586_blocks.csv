@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24870,Hoher CO2 Austsoß,310.0,566.0,160.0,120.0,negative strong,823,17.0,,,1,1586
+24869,Hohe Produktionskosten,57.0,370.0,160.0,120.0,negative,823,16.0,,,1,1586
+24781,Man muss immer dran denken einen Fahrschein zu haben,571.0,212.0,160.0,120.0,negative weak,823,15.0,,,1,1586
+24738,Ansteckungsgefahr erhöht,473.0,467.0,160.0,120.0,negative strong,823,13.0,,11:51:11,1,1586
+24763,Überfüllte Abteilungen,702.0,119.0,160.0,120.0,negative,823,14.0,,11:51:46,1,1586
+24733,Unfreundliche Busfahrer,801.0,348.0,160.0,120.0,negative weak,823,12.0,,11:51:18,1,1586
+24725,Umweltfreundlich,686.0,461.0,160.0,120.0,positive strong,823,11.0,,11:51:14,1,1586
+24723,Umweltunfreundlich,402.0,159.0,160.0,120.0,negative strong,823,10.0,,11:51:07,1,1586
+24694,Teuer in der Anschaffung,113.0,450.0,160.0,120.0,negative strong,823,9.0,,11:51:03,1,1586
+24692,Parkplatzsuche,149.0,244.0,160.0,120.0,negative weak,823,8.0,,11:50:55,1,1586
+24687,Verspätungen,603.0,30.0,160.0,120.0,negative weak,823,7.0,,11:51:21,1,1586
+24673,Hohe Unterhaltskosten,261.0,67.0,160.0,120.0,negative weak,823,5.0,,11:43:35,1,1586
+24671,Nur nach Fahrplan,795.0,219.0,160.0,120.0,negative strong,823,4.0,,,1,1586
+24668,Zeitunabhängig,109.0,136.0,160.0,120.0,positive strong,823,3.0,,,1,1586
+24666,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,823,1.0, ,,1,1586
+24665,Öffentliche Verkehrsmittel,573.0,346.0,160.0,120.0,neutral,823,2.0, ,,1,1586

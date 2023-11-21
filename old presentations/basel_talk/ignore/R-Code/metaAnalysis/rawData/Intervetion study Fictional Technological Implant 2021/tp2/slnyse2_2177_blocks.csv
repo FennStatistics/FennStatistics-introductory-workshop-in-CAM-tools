@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+31631,Concentration,234.0,30.0,167.333,125.0,positive strong,1219,15.0,,,1,2177
+31630,Individuality,691.0,30.0,108.667,81.0,negative strong,1219,14.0,,,1,2177
+31628,Self Control,145.8,349.0,160.0,120.0,negative,1219,11.0,,,1,2177
+31624,Health,660.0,158.0,160.0,120.0,positive weak,1219,7.0,,,1,2177
+31618,Sleep Deprivation,599.0,477.0,160.0,120.0,positive strong,1219,3.0,,,1,2177
+31616,Ability,332.0,458.0,160.0,120.0,positive,1219,2.0,,,1,2177
+31614,technological implant,380.0,272.0,160.0,120.0,neutral,1219,1.0, ,,1,2177

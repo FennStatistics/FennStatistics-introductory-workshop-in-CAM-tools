@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13090,savings money,623.0,51.0,160.0,120.0,positive strong,245,9.0,,,1,397
+13083,sports,162.0,463.0,160.0,120.0,positive strong,245,8.0,,,1,397
+13035,hobbies,47.0,297.0,160.0,120.0,positive weak,245,7.0,,12:38:53,1,397
+13033,isolation,353.0,439.0,160.0,120.0,negative strong,245,6.0,,12:39:10,1,397
+13031,non-essential trips,703.0,451.0,160.0,120.0,positive weak,245,5.0,,12:39:31,1,397
+13029,grocery shopping,513.0,203.0,160.0,120.0,negative weak,245,4.0,,12:39:14,1,397
+13015,Physical health,315.0,285.0,160.0,120.0,negative weak,245,3.0,,12:39:03,1,397
+13014,mental health,723.0,155.0,166.0,124.0,negative weak,245,2.0,,12:39:17,1,397
+13007,Corona virus,111.0,21.0,190.0,142.0,neutral,245,1.0,,,1,397

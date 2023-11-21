@@ -1,0 +1,26 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13157,Maske tragen,402.625,149.938,160.0,120.0,positive,309,29.0,,,1,467
+13155,Abstand zu anderen Menschen halten,645.25,340.969,160.0,120.0,ambivalent,309,28.0,,12:52:44,1,467
+13152,"Geburtstage, Feste, ...",747.969,90.0,160.0,120.0,negative,309,27.0,,12:51:53,1,467
+13005,Familie,1122.97,55.9688,160.0,120.0,ambivalent,309,3.0,"mehr Zeit mit der Familie im gleichen Haushalt; weniger Zeit mit der Familie, die in einem anderen Haushalt lebt",12:50:25,1,467
+13148,Wartezeit beim Arzt,1403.97,582.969,160.0,120.0,positive weak,309,26.0,,,1,467
+13137,Frustration,1721.28,90.625,160.0,120.0,negative strong,309,24.0,,12:48:20,1,467
+13133,"Dates: Essen gehen; Kino, ...",824.969,886.312,160.0,120.0,negative strong,309,23.0,,12:48:01,1,467
+13131,Freizeitaktivitäten,615.312,1034.31,160.0,120.0,negative,309,22.0,,12:47:35,1,467
+13128,Selbstorganisation,1754.31,776.312,160.0,120.0,positive,309,21.0,,,1,467
+13116,Ernährungsumstellung,39.25,113.0,160.0,120.0,positive,309,19.0,frisches Essen,12:44:45,1,467
+13026,auf Gesundheit achten,247.875,460.938,160.0,120.0,positive weak,309,8.0,,12:35:58,1,467
+13053,kein Krankenbesuch,1500.97,22.0,160.0,120.0,negative,309,10.0,,,1,467
+13079,Verlängerung der Abschlussarbeit,1015.12,970.0,168.562,125.938,positive strong,309,15.0,,12:38:54,1,467
+13065,Homeoffice,1022.94,780.938,160.0,120.0,positive strong,309,12.0,,,1,467
+13103,Ansteckungsgefahr,13.4062,649.156,160.0,120.0,negative strong,309,18.0,,,1,467
+13094,"Sport (Outdoor, Zuhause)",21.0,341.719,160.0,120.0,positive strong,309,17.0,,,1,467
+13086,Freunde,1742.16,332.531,160.0,120.0,negative weak,309,16.0,,,1,467
+13068,neuer Alltag,1456.94,754.875,160.0,120.0,positive,309,13.0,,,1,467
+13037,Ruhe in der Stadt,1260.94,1040.97,160.0,120.0,positive strong,309,9.0,,12:35:21,1,467
+13024,Angst,1340.94,198.969,160.0,120.0,negative strong,309,7.0,,,1,467
+13019,"zur Ruhe kommen,",1604.94,1019.97,160.0,120.0,positive weak,309,6.0,,12:46:30,1,467
+13017,Urlaub,312.938,1003.97,160.0,120.0,negative weak,309,5.0,,,1,467
+13013,Freizeitaktivitäten,631.969,701.938,160.0,120.0,negative strong,309,4.0,,,1,467
+13001,Einkaufen (Lebensmittel),264.938,662.969,146.0,109.0,negative,309,2.0,,12:53:21,1,467
+12991,Corona Pandemie,925.969,541.0,108.625,81.0,neutral,309,1.0,,,1,467

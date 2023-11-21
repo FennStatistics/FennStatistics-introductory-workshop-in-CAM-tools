@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5002,WORK FROM HOME,812.0,185.0,160.0,120.0,positive weak,101,11.0,,18:39:35,1,179
+4318,EDUCATION IMPACT,811.0,412.0,160.0,120.0,neutral,101,5.0,,,1,179
+4449,FAMILY TIME,410.0,20.0,160.0,120.0,positive strong,101,10.0,Getting quality time to spend with family,18:42:59,1,179
+4426,GOOD CLIMATE CHANGE,20.0,65.0,160.0,120.0,positive strong,101,9.0,,18:43:27,1,179
+4409,TRAVEL BANS,62.0,302.0,160.0,120.0,negative weak,101,8.0,,18:33:26,1,179
+4376,LESS SOCIAL GATHERING,265.0,54.0,160.0,120.0,ambivalent,101,7.0,,18:38:00,1,179
+4361,SHORTAGE OF GROCERIES/SUPPLIES,618.0,480.0,160.0,120.0,negative weak,101,6.0,,18:31:12,1,179
+4300,JOB IMPACT,635.0,36.0,160.0,120.0,negative strong,101,4.0,,,1,179
+4259,SOCIAL DISTANCING,95.0,438.0,160.0,120.0,positive strong,101,3.0,,,1,179
+4242,CORONA PANDEMIC,420.0,305.0,160.0,120.0,negative strong,101,2.0,,,1,179

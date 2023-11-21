@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4672,Going outside,711.263,60.1071,160.0,120.0,positive strong,71,23.0,,18:31:13,1,139
+4073,Decorate the house,906.714,17.1429,160.0,120.0,positive strong,71,22.0,,18:18:55,1,139
+4023,Lonely,1024.51,450.362,160.0,120.0,negative strong,71,21.0,,18:19:09,1,139
+4013,Play more games,1222.1,21.0,160.0,120.0,positive strong,71,20.0,,18:18:53,1,139
+4006,Can binge past shows,1122.33,142.987,160.0,120.0,positive strong,71,19.0,,18:18:52,1,139
+3990,No traveling to other countries,11.0,282.982,160.0,120.0,negative strong,71,18.0,,18:16:10,1,139
+3983,News fatigue,435.321,46.4375,160.0,120.0,negative strong,71,17.0,,18:16:15,1,139
+3948,Can't meet up with friends,522.946,785.531,160.0,120.0,negative strong,71,16.0,,18:17:58,1,139
+3931,Take out only from restaurants,301.625,536.969,160.0,120.0,ambivalent,71,15.0,,18:14:33,1,139
+3912,No new shows,96.6295,421.491,160.0,120.0,negative strong,71,14.0,,18:14:44,1,139
+3902,No Sports,104.862,124.062,160.0,120.0,negative strong,71,13.0,,18:14:35,1,139
+3878,Anxious,1210.16,515.295,160.0,120.0,negative strong,71,12.0,,18:18:58,1,139
+3870,Repetitive,862.728,396.839,160.0,120.0,ambivalent,71,11.0,,18:30:32,1,139
+3849,Easy,1656.75,595.96,160.0,120.0,positive,71,10.0,,18:19:02,1,139
+3848,Convenient,949.344,934.0,160.0,120.0,positive strong,71,9.0,,18:19:08,1,139
+3842,Safer,2007.72,664.156,160.0,120.0,positive strong,71,8.0,,18:18:57,1,139
+3838,Boring,1401.96,550.152,160.0,120.0,negative strong,71,7.0,,18:19:11,1,139
+3821,Canceled Events,333.987,371.955,160.0,120.0,negative strong,71,6.0,,,1,139
+3803,Online Schooling,812.951,641.929,160.0,120.0,neutral,71,5.0,,,1,139
+3781,Lockdown,524.924,464.933,160.0,120.0,negative strong,71,4.0,,18:17:49,1,139
+3773,Social Distancing,728.911,435.911,160.0,120.0,ambivalent,71,3.0,,18:14:47,1,139
+3766,Staying at Home,899.955,213.964,160.0,120.0,ambivalent,71,2.0,,18:11:12,1,139
+3755,Coronavirus,533.964,279.951,160.0,120.0,negative strong,71,1.0,,,1,139

@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5909,Langeweile,208.0,417.0,160.0,120.0,negative weak,186,14.0,,,1,293
+5887,Keine Lerngruppen,933.0,259.0,160.0,120.0,negative weak,186,13.0,,,1,293
+5877,Weniger Bewegung,94.0,229.0,160.0,120.0,negative,186,12.0,,,1,293
+5757,Wird durch online Kontakt ersetzt,954.0,414.0,160.0,120.0,positive weak,186,6.0,,19:04:55,1,293
+5851,Kein direkter Kontakt zu Lehrern um Fragen zu stellen,977.0,31.0,160.0,120.0,negative,186,11.0,,19:08:53,1,293
+5829,Insgesamt weniger Stress,541.0,91.0,160.0,120.0,positive,186,10.0,,,1,293
+5784,Verringert Virusausbreitung,500.0,405.0,160.0,120.0,positive strong,186,9.0,,19:06:37,1,293
+5768,Alleine auf Abitur Klausuren vorbereiten,720.0,33.0,160.0,120.0,negative,186,8.0,,19:06:53,1,293
+5733,Kaum direkten Kontakt mit Freunden,716.0,417.0,160.0,120.0,negative,186,5.0,,19:11:26,1,293
+5693,Schulfrei,716.0,229.0,160.0,120.0,neutral,186,3.0,,,1,293
+5688,Ausschlafen,303.0,20.0,160.0,120.0,positive,186,2.0,,19:14:11,1,293
+5663,Self Isolation,356.0,230.0,160.0,120.0,ambivalent,186,1.0,,19:12:23,1,293

@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15836,nicht Reisen,565.0,20.0,160.0,120.0,ambivalent,344,19.0,,15:21:05,1,583
+15835,Geld sparen,438.0,126.0,160.0,120.0,positive,344,18.0,,15:19:56,1,583
+15833,Angehörige verlieren,1085.0,353.0,160.0,120.0,negative strong,344,17.0,,,1,583
+15827,Ansteckungsrisiko,930.0,110.0,160.0,120.0,negative,344,16.0,,15:20:11,1,583
+15803,Immunsuppremiert,1081.0,41.0,160.0,120.0,negative strong,344,15.0,,15:18:37,1,583
+15800,Flexibilität,352.0,544.0,160.0,120.0,positive strong,344,14.0,,,1,583
+15798,weniger Abgrenzbarkeit von Arbeit,571.0,544.0,160.0,120.0,negative,344,13.0,,,1,583
+15796,Home Office,495.0,368.0,160.0,120.0,ambivalent,344,12.0,,15:17:21,1,583
+15794,psychische Belastung,921.969,469.969,160.0,120.0,negative weak,344,5.0,,15:24:58,0,583
+15793,Stress,774.969,544.0,160.0,120.0,negative,344,6.0,,15:18:12,0,583
+15792,Einsamkeit,20.0,397.984,160.0,120.0,neutral,344,10.0, ,,0,583
+15791,Angst,867.0,299.0,160.0,120.0,negative,344,7.0,,15:18:49,0,583
+15790,Corona-Pandemie,677.984,237.984,160.0,120.0,negative strong,344,1.0,,15:17:04,0,583
+15789,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,344,8.0, ,,0,583
+15788,physische Isolierung,20.0,523.99,160.0,120.0,neutral,344,2.0, ,,0,583
+15787,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,344,3.0, ,,0,583
+15786,Depressivität,75.9688,20.0,160.0,120.0,neutral,344,9.0, ,,0,583
+15785,Befinden,20.0,154.984,160.0,120.0,neutral,344,4.0, ,,0,583
+15784,wirtschaftliche Folgen,297.969,259.969,160.0,120.0,negative weak,344,11.0,,15:24:40,0,583

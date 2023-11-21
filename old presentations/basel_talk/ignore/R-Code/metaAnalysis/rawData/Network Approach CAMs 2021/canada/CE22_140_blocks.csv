@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5404,Payments,599.984,24.0,160.0,120.0,negative,72,27.0,,,1,140
+5343,Car,458.449,149.699,160.0,120.0,neutral,72,26.0,,18:48:26,1,140
+5292,Union,1031.0,250.988,160.0,120.0,positive,72,25.0,,,1,140
+4995,Will my field of work be in demand?,224.984,424.0,160.0,120.0,negative,72,22.0,,18:38:54,1,140
+4687,Finding a new job,771.969,128.969,160.0,120.0,positive,72,15.0,,,1,140
+4773,Work resumes,745.98,508.961,160.0,120.0,positive strong,72,17.0,,18:33:19,1,140
+5184,Credit card payments,215.0,76.0,160.0,120.0,negative,72,24.0,,,1,140
+4964,Benefits,982.992,515.973,160.0,120.0,positive strong,72,21.0,,18:37:58,1,140
+4935,What if I become sick?,91.9844,346.984,160.0,120.0,negative,72,20.0,,,1,140
+4897,Retirement,341.0,523.984,160.0,120.0,positive weak,72,19.0,,,1,140
+4854,Income,783.945,317.984,160.0,120.0,positive strong,72,18.0,,,1,140
+4719,Interviews,999.0,20.0,160.0,120.0,negative weak,72,16.0,,,1,140
+4040,Will there be a hiring freeze,44.0,217.992,160.0,120.0,negative strong,72,7.0,,18:30:33,1,140
+3767,Job Security,519.0,285.98,160.0,120.0,neutral,72,1.0,,18:29:43,1,140

@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25175,Preis,691.688,251.0,159.312,119.0,positive,836,22.0,,,1,1616
+25155,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,836,2.0, ,,1,1616
+25154,Eigener Pkw,275.0,345.0,160.0,120.0,neutral,836,1.0, ,,1,1616
+25153,Flexibilität,215.0,141.0,160.0,120.0,positive strong,836,3.0,,,1,1616
+25152,Zeit (oft schneller),379.0,73.0,160.0,120.0,positive,836,4.0,,,1,1616
+25151,Zeit (kann man während Fahrt nutzen),669.0,113.0,160.0,120.0,positive,836,5.0,,12:29:47,1,1616
+25150,Benzinpreise,42.0,260.0,157.0,117.25,ambivalent,836,6.0,,12:32:48,1,1616
+25149,Unfallgefahr höher,54.0,71.0,158.0,118.0,negative weak,836,7.0,,12:30:50,1,1616
+25148,Parken,31.0,394.0,160.0,120.0,negative,836,8.0,,,1,1616
+25147,Gepäckmitnahme/Großeinkäufe/Sperrige Einkäufe,226.0,475.0,160.0,120.0,positive strong,836,9.0,,12:31:53,1,1616
+25145,Umweltschonender,658.0,471.0,160.0,120.0,positive strong,836,11.0,,,1,1616
+25144,Gebunden an Zeiten,501.0,222.0,160.0,120.0,negative weak,836,12.0,,12:33:52,1,1616
+25143,Privatsphäre,223.0,244.0,160.0,120.0,positive weak,836,13.0,,,1,1616
+25142,viele Leute,482.0,481.0,160.0,120.0,negative,836,14.0,,,1,1616
+25141,Stau,55.0,503.0,160.0,120.0,negative weak,836,15.0,,12:34:59,1,1616
+25140,Verspätungen,540.0,25.0,160.0,120.0,negative weak,836,16.0,,12:35:14,1,1616
+25139,Ärger mit Service,704.0,25.0,160.0,120.0,negative weak,836,21.0,,12:35:31,1,1616

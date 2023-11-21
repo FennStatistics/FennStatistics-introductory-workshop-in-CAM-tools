@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14140,Sparen,701.0,595.0,92.6563,69.0,positive weak,344,22.0,,,1,514
+14033,wirtschaftliche Folgen,323.0,424.0,160.0,120.0,negative,344,20.0,,14:12:09,1,514
+14024,persönlich: weniger Geld ausgeben,533.0,509.0,160.0,120.0,positive,344,19.0,,14:07:19,1,514
+13944,Angehörige verlieren,1089.0,427.0,160.0,120.0,negative strong,344,17.0,,,1,514
+13941,Ansteckung,1084.0,269.0,160.0,120.0,negative,344,16.0,,14:10:39,1,514
+13900,mehr Flexibilität,303.0,20.0,160.0,120.0,positive strong,344,15.0,,14:02:59,1,514
+13827,Home Office,450.0,193.0,160.0,120.0,ambivalent,344,12.0,,14:00:53,1,514
+13816,psychische Belastung,903.969,92.9688,160.0,120.0,negative strong,344,5.0,,14:08:09,0,514
+13815,Stress,643.969,20.0,160.0,120.0,negative,344,6.0,,14:11:04,0,514
+13814,Einsamkeit,20.0,397.984,160.0,120.0,neutral,344,10.0, ,,0,514
+13813,Angst,897.0,339.0,160.0,120.0,negative strong,344,7.0,,14:03:58,0,514
+13812,Corona-Pandemie,690.984,248.984,160.0,120.0,negative strong,344,1.0,,13:59:25,0,514
+13811,Zusammenhalt,22.0,20.0,160.0,120.0,neutral,344,8.0, ,,0,514
+13810,physische Isolierung,20.0,525.984,160.0,120.0,neutral,344,2.0, ,,0,514
+13809,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,344,3.0, ,,0,514
+13808,Depressivität,171.969,526.969,160.0,120.0,neutral,344,9.0, ,,0,514
+13807,Befinden,20.0,146.984,160.0,120.0,neutral,344,4.0, ,,0,514
+13806,finanzielle Aspekte,529.969,357.969,160.0,120.0,ambivalent,344,11.0,,14:06:36,0,514

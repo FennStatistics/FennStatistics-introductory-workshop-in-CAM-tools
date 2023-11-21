@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12537,Important events cancelled,919.0,118.0,160.0,120.0,negative,251,17.0,,,1,403
+12521,Social distancing,942.0,319.0,160.0,120.0,negative weak,251,15.0,,,1,403
+12499,Wearing masks,941.0,486.0,160.0,120.0,neutral,251,13.0,,,1,403
+12478,Lack of routine,525.0,41.0,160.0,120.0,neutral,251,12.0,,,1,403
+12459,Illness,598.0,525.0,160.0,120.0,negative strong,251,11.0,,12:04:08,1,403
+12404,Cant see friends/family,264.0,381.0,160.0,120.0,negative weak,251,9.0,,,1,403
+12375,Online school,248.0,222.0,160.0,120.0,positive,251,8.0,,,1,403
+12259,More time for hobbies,336.0,73.0,160.0,120.0,positive strong,251,6.0,,,1,403
+12238,Quarantine,453.0,231.0,160.0,120.0,positive,251,5.0,,,1,403
+12194,Coronavirus,648.0,247.0,228.641,171.0,negative strong,251,4.0,,,1,403

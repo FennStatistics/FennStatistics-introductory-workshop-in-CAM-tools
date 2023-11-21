@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27650,BlaBlaCar,16.2827,39.1191,160.0,119.985,positive,943,22.0,,,1,1776
+27649,Reisen in großen Gruppen,920.688,100.548,160.0,119.985,positive,943,21.0,,,1,1776
+27648,störende Mitfahrer,940.0,430.286,160.0,119.985,negative weak,943,20.0,,,1,1776
+27647,flexibler Streckenverlauf,393.402,274.83,160.0,119.985,positive weak,943,19.0,,,1,1776
+27646,Pausen selber planen,254.411,74.2649,160.0,119.985,positive weak,943,18.0,,13:02:49,1,1776
+27645,wenig Gepäck,739.268,522.705,160.0,119.985,negative,943,17.0,,,1,1776
+27644,viel Gepäck,26.0,303.554,160.0,119.985,positive,943,16.0,,,1,1776
+27643,Stau/Berufsverkehr,334.286,508.571,160.0,119.985,negative,943,15.0,,,1,1776
+27642,kein Stau,864.691,288.411,160.0,119.985,positive,943,14.0,,13:00:07,1,1776
+27641,teilweise schneller,911.429,197.143,160.0,119.985,positive weak,943,13.0,,13:01:03,1,1776
+27640,Begegnung mit anderen,420.113,19.0,160.0,119.985,ambivalent,943,12.0,,12:59:19,1,1776
+27639,Zusatzkosten,37.2708,499.571,160.0,119.985,negative,943,11.0,,,1,1776
+27638,immer verfügbar,3.0,146.545,160.0,119.985,positive,943,10.0,,13:04:13,1,1776
+27637,Verfügbarkeit,897.143,548.571,160.0,119.985,negative,943,9.0,,,1,1776
+27636,zeitlich unflexibel,601.271,549.985,160.0,119.985,negative strong,943,8.0,,12:57:38,1,1776
+27635,umweltschädlich,197.143,578.571,160.0,119.985,negative strong,943,7.0,,,1,1776
+27634,günstigere Fahrtkosten,406.131,171.696,160.0,119.985,ambivalent,943,6.0,,13:09:22,1,1776
+27633,umweltfreundlich,723.988,144.991,160.0,119.985,positive strong,943,4.0,,,1,1776
+27632,zeitlich flexibel,139.976,170.973,160.0,119.985,positive strong,943,3.0,,,1,1776
+27631,Eigener Pkw,202.979,345.0,160.0,120.0,neutral,943,1.0, ,,1,1776
+27630,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,943,2.0, ,,1,1776

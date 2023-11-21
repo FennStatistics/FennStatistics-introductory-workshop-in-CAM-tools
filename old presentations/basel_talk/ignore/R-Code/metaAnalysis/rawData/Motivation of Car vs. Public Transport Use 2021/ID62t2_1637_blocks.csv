@@ -1,0 +1,28 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25583,Fehlende Privatsphäre,1165.0,234.0,160.0,120.0,negative weak,851,31.0,,,1,1637
+25565,Komfort,238.0,217.0,160.0,120.0,positive,851,30.0,,,1,1637
+25555,Entspannung,20.0,343.0,160.0,120.0,positive weak,851,29.0,,,1,1637
+25554,Privatsphäre,20.0,261.0,160.0,120.0,positive weak,851,28.0,,,1,1637
+25553,Flexibilität,467.0,202.0,160.0,120.0,positive strong,851,27.0,,,1,1637
+25552,Gutes Straßennetz,537.0,26.0,160.0,120.0,positive weak,851,26.0,,,1,1637
+25550,Zeitlich unflexibel,748.0,186.0,160.0,120.0,negative,851,23.0,,,1,1637
+25547,Wertverlust,451.0,470.0,160.0,120.0,negative weak,851,22.0,,,1,1637
+25545,Hohe Ticketpreise,947.0,612.0,160.0,120.0,negative strong,851,21.0,,14:05:00,1,1637
+25543,Platz für Einkäufe,272.0,66.0,160.0,120.0,positive weak,851,20.0,,,1,1637
+25541,Steuer- und Versicherungsabgaben,355.0,565.0,160.0,120.0,negative strong,851,19.0,,,1,1637
+25540,Reparaturkosten,229.0,608.0,160.0,120.0,negative strong,851,18.0,,,1,1637
+25539,Hohe Krafstoffpreise,124.0,546.0,160.0,120.0,negative strong,851,17.0,,14:03:02,1,1637
+25537,Finanzielle Belastung,264.0,466.0,160.0,120.0,negative strong,851,16.0,,14:02:32,1,1637
+25536,Sicher,25.0,176.0,160.0,120.0,positive weak,851,15.0,,,1,1637
+25534,Zeitlich flexibel,435.0,101.0,160.0,120.0,positive strong,851,14.0,,14:01:21,1,1637
+25533,Immer verfügbar,604.0,125.0,160.0,120.0,positive,851,13.0,,,1,1637
+25532,Bequem,90.0,61.0,160.0,120.0,positive,851,12.0,,,1,1637
+25530,Finanzielle Belastung,829.0,496.0,160.0,120.0,negative strong,851,11.0,,14:04:43,1,1637
+25528,Gewalttäter in öffentlichen Verkehrsmitteln,1082.0,121.0,160.0,120.0,negative strong,851,10.0,,,1,1637
+25527,Gefährlich,963.0,237.0,160.0,120.0,negative strong,851,8.0,,13:59:38,1,1637
+25526,Überfüllt,895.0,364.0,160.0,120.0,negative strong,851,6.0,,13:58:52,1,1637
+25525,Zu wenig Platz,1146.0,326.0,160.0,120.0,negative,851,5.0,,,1,1637
+25523,Infektionsgefahr,1127.0,466.0,160.0,120.0,negative strong,851,4.0,,13:58:42,1,1637
+25522,Unpünktlich,802.0,66.0,160.0,120.0,negative strong,851,3.0,,,1,1637
+25521,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,851,1.0, ,,1,1637
+25520,Öffentliche Verkehrsmittel,590.0,347.0,160.0,120.0,neutral,851,2.0, ,,1,1637

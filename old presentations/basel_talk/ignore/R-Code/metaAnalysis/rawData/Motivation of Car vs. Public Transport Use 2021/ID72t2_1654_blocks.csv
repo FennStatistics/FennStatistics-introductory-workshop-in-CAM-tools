@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25798,Platz finden,259.0,19.0,160.0,120.0,negative weak,862,21.0,,,1,1654
+25797,Kosten,33.0,12.0,160.0,120.0,negative weak,862,20.0,,15:27:51,1,1654
+25796,Parken,108.0,99.0,160.0,120.0,negative weak,862,19.0,,,1,1654
+25795,flexibler,397.0,431.0,160.0,120.0,positive weak,862,18.0,,15:27:07,1,1654
+25794,Umweltfreundlicher,742.0,179.0,160.0,120.0,positive weak,862,17.0,,,1,1654
+25793,Versicherung,25.0,194.0,156.0,116.5,neutral,862,16.0,,15:26:15,1,1654
+25792,Fixkosten,285.0,104.0,160.0,120.0,negative weak,862,15.0,,15:26:29,1,1654
+25791,Betriebskosten,30.0,544.0,160.0,120.0,negative weak,862,14.0,,15:26:21,1,1654
+25790,Wertverlust,382.0,519.0,160.0,120.0,negative weak,862,13.0,,15:26:25,1,1654
+25789,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,862,2.0, ,,1,1654
+25788,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,862,1.0,,15:26:54,1,1654
+25787,Fahrgäste,760.0,264.0,160.0,120.0,ambivalent,862,4.0,,,1,1654
+25786,laute Musik,183.0,201.0,160.0,120.0,positive weak,862,5.0,,,1,1654
+25785,tanken,106.0,317.0,160.0,120.0,negative,862,6.0,,,1,1654
+25784,Klogänge,834.0,381.0,160.0,120.0,negative,862,7.0,,,1,1654
+25783,laut,627.0,491.0,160.0,120.0,negative weak,862,8.0,,,1,1654
+25782,muss nicht selbst fahren,583.0,212.0,160.0,120.0,positive weak,862,9.0,,,1,1654
+25781,Pausen wann man will,200.0,497.0,160.0,120.0,positive weak,862,10.0,,,1,1654
+25780,Konzentration,43.0,415.0,160.0,120.0,neutral,862,11.0,,,1,1654
+25779,genauere Zielorte,367.0,199.0,160.0,120.0,positive weak,862,12.0,,,1,1654

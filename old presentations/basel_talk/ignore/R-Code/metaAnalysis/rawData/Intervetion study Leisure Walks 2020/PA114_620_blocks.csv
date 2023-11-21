@@ -1,0 +1,23 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17128,Gesundheit,345.0,170.0,160.0,120.0,positive strong,394,23.0,,16:13:38,1,620
+16941,Wirtschaftliche Folgen,137.0,226.0,160.0,120.0,ambivalent,394,15.0,,16:12:24,1,620
+17112,Chance auf Verschlechterung,239.0,20.0,160.0,120.0,negative,394,21.0,,16:12:21,1,620
+17110,Chance auf Verbesserung,205.0,478.0,160.0,120.0,positive,394,20.0,,16:12:27,1,620
+17080,Zusammenhalt,866.0,76.0,159.0,118.75,positive weak,394,19.0,,16:12:56,1,620
+17003,Akzeptanz für Abstand,631.0,362.0,160.0,120.0,positive,394,18.0,,16:12:31,1,620
+16942,Isolation,547.0,544.0,160.0,120.0,positive weak,394,16.0,,16:12:34,1,620
+16945,Angst,726.0,216.0,160.0,120.0,negative,394,17.0,,16:12:45,1,620
+16940,Freunde,1029.0,247.0,160.0,120.0,positive,394,14.0,,16:12:42,1,620
+16937,Familie,989.0,489.0,160.0,120.0,ambivalent,394,13.0,,16:12:39,1,620
+16935,Verschwörungsmythen,608.0,54.0,160.0,120.0,negative strong,394,12.0,,16:12:47,1,620
+16917,soziale Isolierung,20.0,20.0,160.0,120.0,neutral,394,3.0, ,,0,620
+16924,psychische Belastung,20.0,20.0,160.0,120.0,neutral,394,5.0, ,,0,620
+16923,Stress,20.9688,20.0,160.0,120.0,neutral,394,6.0, ,,0,620
+16922,Einsamkeit,20.0,20.0,160.0,120.0,neutral,394,10.0, ,,0,620
+16921,Angst,20.0,20.0,160.0,120.0,neutral,394,7.0, ,,0,620
+16920,Corona-Pandemie,426.984,323.984,160.0,120.0,ambivalent,394,1.0,,16:03:50,0,620
+16919,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,394,8.0, ,,0,620
+16918,physische Isolierung,20.0,20.0,160.0,120.0,neutral,394,2.0, ,,0,620
+16916,Depressivität,20.0,20.0,160.0,120.0,neutral,394,9.0, ,,0,620
+16915,Befinden,20.0,20.0,160.0,120.0,neutral,394,4.0, ,,0,620
+16914,wirtschaftliche Folgen,20.0,20.0,160.0,120.0,neutral,394,11.0, ,,0,620

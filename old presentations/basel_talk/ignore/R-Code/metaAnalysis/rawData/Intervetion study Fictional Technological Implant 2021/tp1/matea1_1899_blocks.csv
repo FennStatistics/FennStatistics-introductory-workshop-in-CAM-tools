@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+29158,Advances in technology,327.246,585.496,160.0,120.0,positive strong,1056,19.0,this might help support the development of more technology,17:53:08,1,1899
+29156,Limited testing evidence,17.75,569.0,160.0,120.0,negative strong,1056,18.0,Product might not be safe over a 20 year lifespan as there is not sufficient evidence ,17:53:53,1,1899
+29153,Research,196.75,445.0,160.0,120.0,neutral,1056,17.0,,,1,1899
+29058,Status,40.0,278.0,160.0,120.0,negative strong,1056,9.0,individuals with this technology might receive benefits e.g. job opportunities which may be unfair if the technology is not available to all,17:49:11,1,1899
+29129,Health benefits,821.984,112.5,160.0,120.0,positive strong,1056,14.0,,17:42:59,1,1899
+29091,Human rights issues,20.0,20.0,160.0,120.0,negative strong,1056,13.0,,,1,1899
+29076,Limited life span of the technology,477.0,444.0,160.0,120.0,ambivalent,1056,12.0,technology improves so quickly that this version may not be valid for 20 years,17:42:42,1,1899
+29069,Biodegradable in the body,1070.0,441.0,160.0,120.0,positive weak,1056,11.0,Does not need to be removed and is safe to breakdown in the body,17:47:20,1,1899
+29063,Self-fixing,1064.0,338.0,160.0,120.0,positive weak,1056,10.0,"Does not require invasive medical procedure to fix the technology, tech is able to self-repair",17:46:45,1,1899
+29051,Technology abused for other purposes,79.0,137.0,160.0,120.0,negative strong,1056,8.0,,17:24:28,1,1899
+29048,Data privacy ,234.0,20.0,160.0,120.0,negative strong,1056,7.0,Will the company collect personal health data that it can sell? What happens if there is a data breach?,17:54:47,1,1899
+29044,Availability,664.0,438.0,160.0,120.0,ambivalent,1056,6.0,,,1,1899
+29039,Ethical issues,326.0,170.0,160.0,120.0,negative strong,1056,5.0,,,1,1899
+29027,Regulated sleep ,1119.99,155.992,160.0,120.0,positive strong,1056,4.0,Better sleep leads to improved productivity and better health,17:45:44,1,1899
+29023,Increased productivity,1045.98,20.0,160.0,120.0,positive strong,1056,3.0,,17:17:00,1,1899
+29015,technological implant,585.0,197.0,160.0,120.0,neutral,1056,1.0, ,,1,1899

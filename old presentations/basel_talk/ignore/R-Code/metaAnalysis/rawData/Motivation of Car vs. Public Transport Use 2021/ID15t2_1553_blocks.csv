@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24232,"""behindertenfreundlich""",433.0,544.0,160.0,120.0,positive strong,801,21.0,,,1,1553
+24228,Führerschein nötig,63.3333,20.0,122.0,91.0,negative weak,801,20.0,,,1,1553
+24219,Tiertransport einfach,258.0,553.0,160.0,120.0,positive weak,801,19.0,,,1,1553
+24217,wenig Platz,695.0,524.0,160.0,120.0,negative weak,801,18.0,,,1,1553
+24215,Stauraum,45.3333,524.0,160.0,120.0,positive strong,801,17.0,,,1,1553
+24199,Alkoholkonsum möglich,729.333,368.0,160.0,120.0,neutral,801,16.0,,,1,1553
+24195,Ansteckungsgefahr,745.677,245.0,135.323,101.0,negative,801,15.0,,,1,1553
+24193,soziale Interaktion,739.0,20.0,136.667,102.0,positive weak,801,14.0,,,1,1553
+24188,Kontakte,627.0,121.0,160.0,120.0,ambivalent,801,12.0,,20:36:26,1,1553
+24185,individuelle Zeiten,30.0,383.0,160.0,120.0,positive strong,801,11.0,,,1,1553
+24182,Bindung an festgelegte Linien,527.0,431.0,160.0,120.0,negative weak,801,10.0,,,1,1553
+24180,Bewegunsfreiheit,210.0,444.0,160.0,120.0,positive strong,801,9.0,,20:34:55,1,1553
+24172,mehr (individuelle Abgase),365.0,63.0,132.667,99.0,negative strong,801,8.0,,20:34:30,1,1553
+24169,weniger Abgase,540.0,20.0,130.0,97.0,positive,801,7.0,,20:33:35,1,1553
+24162,Abgase,380.0,169.0,160.0,120.0,negative strong,801,6.0,,20:33:06,1,1553
+24154,Umweg/Planung,232.0,20.0,119.323,89.0,negative weak,801,5.0,,,1,1553
+24152,Preis,20.0,96.0,123.323,92.0,negative,801,4.0,,,1,1553
+24150,tanken,64.0,194.0,160.0,120.0,ambivalent,801,3.0,,,1,1553
+24145,öffentliche Verkehrsmittel,508.0,281.0,160.0,120.0,neutral,801,2.0,,,1,1553
+24144,eigener PKW,244.0,285.0,160.0,120.0,neutral,801,1.0,,20:30:35,1,1553

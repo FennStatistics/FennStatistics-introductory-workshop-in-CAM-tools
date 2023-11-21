@@ -1,0 +1,27 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14790,Ungewissheit,1188.0,350.0,160.0,120.0,negative weak,358,24.0,,14:36:36,1,530
+14938,Sparen,1458.0,342.0,160.0,120.0,positive strong,358,28.0,,14:39:53,1,530
+14820,Langeweile,736.0,124.0,160.0,120.0,neutral,358,27.0,,14:38:22,1,530
+14786,Maskenpflicht,1644.0,510.0,160.0,120.0,negative weak,358,23.0,,14:36:40,1,530
+14539,Familie,120.969,257.969,160.0,120.0,positive strong,358,15.0,,14:26:46,1,530
+14700,Zukunftsangst,1056.0,486.0,160.0,120.0,negative,358,22.0,,14:34:00,1,530
+14547,Keine Reisen,1814.5,121.0,160.0,120.0,negative strong,358,17.0,,14:26:58,1,530
+14589,Mehr Achtsamkeit,950.0,632.0,160.0,120.0,positive weak,358,21.0,,14:29:14,1,530
+14587,Gesundheit,754.0,654.5,160.0,120.0,neutral,358,20.0,,14:28:51,1,530
+14577,Mehr Freizeit,1390.75,536.5,160.0,120.0,positive weak,358,19.0,,14:28:09,1,530
+14550,Urlaub abgebrochen,1930.75,490.0,160.0,120.0,negative,358,18.0,,14:27:18,1,530
+14546,Kurzarbeit,1301.0,176.0,160.0,120.0,positive weak,358,16.0,,14:28:01,1,530
+14495,Einschränkungen,1483.0,46.0,192.625,144.0,negative strong,358,14.0,,14:23:58,1,530
+14431,Umfeld,29.9688,515.969,160.0,120.0,neutral,358,13.0,,14:35:29,1,530
+14423,Homeoffice,237.0,710.0,160.0,120.0,positive weak,358,12.0,,14:27:40,1,530
+14305,psychische Belastung,480.969,837.969,160.0,120.0,negative strong,358,5.0,,14:37:08,0,530
+14304,Stress,1134.97,955.969,160.0,120.0,negative strong,358,6.0,,14:32:01,0,530
+14303,Einsamkeit,495.0,62.9688,160.0,120.0,negative,358,10.0,,14:36:50,0,530
+14302,Angst,504.0,458.0,160.0,120.0,negative strong,358,7.0,,14:37:02,0,530
+14301,Corona-Pandemie,563.969,249.973,160.0,120.0,negative,358,1.0,,14:36:59,0,530
+14300,Zusammenhalt,168.0,25.0,160.0,120.0,neutral,358,8.0,,14:37:26,0,530
+14299,physische Isolierung,993.0,-3.03125,160.0,120.0,negative weak,358,2.0,,14:36:44,0,530
+14298,soziale Isolierung,372.969,215.0,160.0,120.0,negative strong,358,3.0,,14:36:53,0,530
+14297,Depressivität,261.938,460.938,160.0,120.0,negative weak,358,9.0,,14:37:13,0,530
+14296,Befinden,516.969,669.969,160.0,120.0,neutral,358,4.0, ,,0,530
+14295,wirtschaftliche Folgen,821.969,483.969,160.0,120.0,negative weak,358,11.0,,14:28:16,0,530

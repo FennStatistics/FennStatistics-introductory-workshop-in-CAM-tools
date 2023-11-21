@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17848,Maskenpflicht,1142.25,349.75,160.0,120.0,ambivalent,408,19.0,,18:30:46,1,656
+17845,Angst,584.0,36.0,160.0,120.0,negative weak,408,17.0,,,1,656
+17834,psychische Belastung,454.969,295.969,160.0,120.0,negative weak,408,5.0,,18:22:49,0,656
+17833,Stress,881.964,275.0,160.0,120.0,negative,408,6.0,,18:26:17,0,656
+17832,Einsamkeit,1389.0,698.0,160.0,120.0,negative weak,408,10.0,,18:16:17,0,656
+17830,Corona-Pandemie,1483.98,86.0,160.0,120.0,negative strong,408,1.0,,18:14:29,0,656
+17829,Zusammenhalt,1097.0,552.0,160.0,120.0,positive weak,408,8.0,,18:18:37,0,656
+17828,physische Isolierung,1738.0,631.982,160.0,120.0,negative,408,2.0,,18:28:45,0,656
+17827,soziale Isolierung,1625.0,374.964,160.0,120.0,ambivalent,408,3.0,,18:18:19,0,656
+17825,Befinden,695.964,679.964,160.0,120.0,ambivalent,408,4.0,,18:23:38,0,656

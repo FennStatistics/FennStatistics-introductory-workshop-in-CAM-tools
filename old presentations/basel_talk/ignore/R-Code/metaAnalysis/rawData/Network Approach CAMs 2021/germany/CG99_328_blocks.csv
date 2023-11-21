@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6352,Maßnahmen,299.0,275.0,160.0,120.0,ambivalent,211,14.0,,19:51:18,1,328
+6244,Zeit für Einkäufe,546.0,28.0,160.0,120.0,positive weak,211,7.0,,,1,328
+6305,schlechte Wirtschaftslage,778.0,213.0,160.0,120.0,negative strong,211,13.0,,,1,328
+6300,Existenzängste,1203.0,347.0,160.0,120.0,negative weak,211,12.0,,,1,328
+6294,Hygienemaßnahmen,753.0,414.0,160.0,120.0,negative weak,211,11.0,,,1,328
+6292,Läden leerer,501.0,397.0,160.0,120.0,positive weak,211,10.0,,,1,328
+6280,mehr Produktivität,318.0,30.0,160.0,120.0,positive weak,211,9.0,,,1,328
+6255,Geringerer Lohn,1118.0,20.0,160.0,120.0,negative,211,8.0,,19:34:50,1,328
+6218,Kontaktverbot,20.0,327.0,160.0,120.0,negative strong,211,6.0,,,1,328
+6198,Gefährdeter Arbeitsplatz,993.0,203.0,160.0,120.0,negative strong,211,5.0,,19:31:15,1,328
+6180,Familienaktivitäten,49.0,20.0,160.0,120.0,positive,211,4.0,,19:30:02,1,328
+6169,mehr Freizeit,174.0,138.0,160.0,120.0,positive strong,211,3.0,,,1,328
+6115,Corona,557.0,208.0,160.0,120.0,neutral,211,1.0,,,1,328

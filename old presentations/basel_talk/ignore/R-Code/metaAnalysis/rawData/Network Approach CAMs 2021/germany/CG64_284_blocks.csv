@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5594,Einschränkungen,531.111,404.444,160.0,120.0,ambivalent,178,8.0,Die Einschränkungen wurden Rechtzeitig erlassen und haben Wirkung gezeigt,19:13:38,1,284
+5894,Familien probleme,508.889,43.3333,160.0,120.0,negative weak,178,22.0,,,1,284
+5878,Keinerlei Auszeit,816.667,361.0,160.0,120.0,negative,178,21.0,,19:11:32,1,284
+5853,Sorgen,768.889,551.111,160.0,120.0,negative,178,20.0,,19:11:27,1,284
+5716,Meiden Sozialer Kontakte,577.778,543.333,160.0,120.0,positive,178,18.0,,,1,284
+5695,Psychischer Stress,681.111,415.556,160.0,120.0,negative strong,178,17.0,,19:02:29,1,284
+5682,Finanzhilfen,63.3333,565.556,160.0,120.0,positive strong,178,16.0,,19:01:07,1,284
+5634,Wirtschaft,222.222,450.0,160.0,120.0,neutral,178,15.0,Hat deutliche Verluste erlitten ist aber nicht zusammen gebrochen,19:16:55,1,284
+5625,Schwachstellen wurden aufgezeigt,68.8889,22.2222,160.0,120.0,positive strong,178,14.0,,19:00:09,1,284
+5622,Benötigt änderungen,-50.0,128.889,160.0,120.0,negative weak,178,13.0,,19:00:15,1,284
+5610,Gesundheitssytem,174.444,136.667,160.0,120.0,neutral,178,11.0,"Hat in Deutschland dem Druck standgehalten, aber...",19:16:06,1,284
+5537,Prodiktivität,760.0,89.0,160.0,120.0,negative strong,178,3.0,,18:59:44,1,284
+5530,Von zuhause Arbeiten,611.0,159.0,160.0,120.0,ambivalent,178,2.0,,18:59:11,1,284
+5502,Corona,377.0,259.0,160.0,120.0,negative strong,178,1.0,,18:59:02,1,284

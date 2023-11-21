@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27300,energie verbrauch,447.0,192.0,160.0,120.0,ambivalent,928,10.0,,,1,1754
+27299,Elektro/ Hybrid,103.98,208.953,160.0,120.0,positive strong,928,9.0,,15:15:00,1,1754
+27298,Umwelt,127.941,78.8984,160.0,120.0,ambivalent,928,8.0,,,1,1754
+27297,Kosten,523.953,52.9648,160.0,120.0,ambivalent,928,7.0,,15:12:59,1,1754
+27296,Verkehrsplan,840.98,463.976,160.0,120.0,neutral,928,6.0,,,1,1754
+27295,Bequemlichkeit,426.965,502.969,160.0,120.0,positive strong,928,5.0,,15:24:59,1,1754
+27294,Pandemie Risiko,746.992,129.0,160.0,120.0,negative strong,928,4.0,,,1,1754
+27292,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,928,1.0, ,,1,1754
+27291,Öffentliche Verkehrsmittel,574.984,345.996,160.0,120.0,neutral,928,2.0, ,,1,1754

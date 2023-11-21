@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26495,Umweltschädlich,312.0,32.0,160.0,120.0,negative,891,21.0,,,1,1700
+26494,Wertverlust,281.0,562.0,160.0,120.0,negative strong,891,20.0,,,1,1700
+26493,Unterhaltskosten,20.0,520.0,160.0,120.0,negative strong,891,19.0,,19:29:58,1,1700
+26492,Öffentliche Verkehrsmittel,587.0,341.0,160.0,120.0,neutral,891,2.0, ,,1,1700
+26491,Eigener Pkw,272.0,345.0,160.0,120.0,neutral,891,1.0, ,,1,1700
+26490,Ruhe,198.0,173.0,160.0,120.0,positive strong,891,4.0,,,1,1700
+26489,Flexibilität,323.0,239.0,160.0,120.0,positive weak,891,5.0,,,1,1700
+26488,Kosten f. Benzin,181.0,459.0,160.0,120.0,negative weak,891,6.0,,19:06:05,1,1700
+26487,Umweltschutz,534.0,243.0,160.0,120.0,positive weak,891,8.0,,,1,1700
+26486,Andere Passagiere,731.0,221.0,160.0,120.0,negative weak,891,9.0,,19:10:20,1,1700
+26485,Verspätungen,783.0,419.0,160.0,120.0,negative strong,891,11.0,,,1,1700
+26484,Stau,105.0,265.0,160.0,120.0,negative strong,891,12.0,,,1,1700
+26483,Parkplatzmangel,32.0,358.0,160.0,120.0,negative strong,891,13.0,,,1,1700
+26482,Passives Fahren,577.0,447.0,160.0,120.0,positive strong,891,14.0,,19:07:45,1,1700
+26481,Ausruhmöglichkeit,686.0,544.0,160.0,120.0,positive weak,891,15.0,,19:07:56,1,1700
+26480,Andere Aufgaben möglich,448.0,520.0,160.0,120.0,positive weak,891,16.0,,,1,1700
+26479,Musik hören,20.0,181.0,160.0,120.0,positive weak,891,17.0,,,1,1700
+26478,Ungestört sein,103.0,62.0,160.0,120.0,positive strong,891,18.0,,,1,1700

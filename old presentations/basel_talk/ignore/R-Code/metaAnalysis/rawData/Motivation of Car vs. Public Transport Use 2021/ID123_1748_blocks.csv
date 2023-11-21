@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27211,Dorf,1004.0,754.0,160.0,120.0,negative strong,925,24.0,,,1,1748
+27210,Metropole,1189.0,676.0,160.0,120.0,positive strong,925,23.0,,,1,1748
+27209,Flexibilität,1004.0,592.0,160.0,120.0,ambivalent,925,22.0,,,1,1748
+27188,Mitnahme von anderen,565.0,462.0,160.0,120.0,positive weak,925,7.0,,10:28:30,1,1748
+27204,Berauscht nutzbar,1065.0,431.0,160.0,120.0,positive,925,19.0,,,1,1748
+27202,Abbonement,1333.0,216.0,160.0,120.0,positive weak,925,17.0,,,1,1748
+27200,Einzelfahrt,1335.0,382.0,160.0,120.0,negative weak,925,16.0,,,1,1748
+27197,Preis,1137.0,293.0,160.0,120.0,ambivalent,925,12.0,,10:30:42,1,1748
+27195,Voll / Stickig,969.0,112.0,160.0,120.0,negative,925,11.0,,,1,1748
+27193,Wartezeiten,755.0,154.0,160.0,120.0,negative weak,925,10.0,,,1,1748
+27192,Umwelt,770.0,572.0,160.0,120.0,positive,925,9.0,,10:36:16,1,1748
+27189,Stau / Verkehr,170.0,572.0,160.0,120.0,negative weak,925,8.0,,10:29:19,1,1748
+27183,Es gehört mir,492.0,119.0,160.0,120.0,positive weak,925,6.0,,,1,1748
+27182,Flexibilität,277.0,118.0,160.0,120.0,positive strong,925,5.0,,10:32:56,1,1748
+27181,Wartung,50.0,325.0,160.0,120.0,negative weak,925,4.0,,,1,1748
+27180,Treibstoff,430.0,581.0,160.0,120.0,negative weak,925,3.0,,,1,1748
+27179,Eigener Pkw,355.0,320.0,159.594,114.0,neutral,925,1.0, ,,1,1748
+27178,Öffentliche Verkehrsmittel,811.0,324.0,160.0,120.0,neutral,925,2.0, ,,1,1748

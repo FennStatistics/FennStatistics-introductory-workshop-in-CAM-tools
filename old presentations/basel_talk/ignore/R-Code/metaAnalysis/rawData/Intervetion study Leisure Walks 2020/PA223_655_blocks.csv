@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17847,Kontaktverbot/Lockdown,583.818,558.818,160.0,120.0,neutral,407,17.0,,,1,655
+17844,Mundschutz,759.091,528.182,160.0,120.0,neutral,407,16.0,,,1,655
+17843,Kurzarbeit,948.264,523.989,160.0,120.0,negative,407,15.0,,,1,655
+17842,Homeoffice,947.727,369.818,160.0,120.0,positive,407,14.0,,,1,655
+17839,Staatliche Maßnahmen,770.0,366.0,141.974,105.98,positive weak,407,13.0,,18:18:07,1,655
+17835,Steuerliche Maßnahmen,595.0,415.0,160.0,120.0,positive weak,407,12.0,,18:18:04,1,655
+17812,psychische Belastung,1460.97,60.9688,160.0,120.0,negative strong,407,5.0,,18:10:29,0,655
+17811,Stress,1307.97,473.0,160.0,120.0,negative weak,407,6.0,,18:13:50,0,655
+17810,Einsamkeit,1473.0,478.0,160.0,120.0,negative,407,10.0,,18:14:28,0,655
+17809,Angst,1144.0,415.0,160.0,120.0,negative weak,407,7.0,,18:13:52,0,655
+17808,Corona-Pandemie,866.984,185.984,160.0,120.0,neutral,407,1.0, ,,0,655
+17807,Zusammenhalt,442.0,367.0,160.0,120.0,ambivalent,407,8.0,,18:13:04,0,655
+17806,physische Isolierung,1460.0,333.984,160.0,120.0,negative weak,407,2.0,,18:11:51,0,655
+17805,soziale Isolierung,1459.0,203.984,160.0,120.0,negative strong,407,3.0,,18:11:47,0,655
+17804,Depressivität,1258.97,20.0,160.0,120.0,negative weak,407,9.0,,18:14:23,0,655
+17803,Befinden,1147.97,187.984,160.0,120.0,ambivalent,407,4.0,,18:17:26,0,655
+17802,wirtschaftliche Folgen,624.969,185.969,160.0,120.0,ambivalent,407,11.0,,18:12:53,0,655

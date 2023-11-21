@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+30734,Ethical?,549.0,550.0,160.0,120.0,neutral,1161,28.0,,,1,2118
+30626,Self-Recharging,393.0,457.0,160.0,120.0,positive strong,1161,6.0,,,1,2118
+30725,Army Use,671.0,479.0,160.0,120.0,positive weak,1161,26.0,,17:44:48,1,2118
+30716,Risk of being hacked?,635.0,362.0,208.641,156.0,negative strong,1161,24.0,,,1,2118
+30674,Other People?,20.0,461.0,160.0,120.0,neutral,1161,23.0,,,1,2118
+30645,How is it implanted?,423.0,126.0,160.0,120.0,ambivalent,1161,18.0,,17:39:48,1,2118
+30644,Alarm Control by App?,697.0,186.0,160.0,120.0,positive weak,1161,17.0,,17:39:52,1,2118
+30643,Stops alarms from waking people up?,697.0,273.0,160.0,120.0,negative weak,1161,16.0,,17:41:05,1,2118
+30640,"Energy Boost, better sleep",256.0,532.0,176.641,132.0,positive,1161,15.0,,17:41:02,1,2118
+30637,Beneficial for Sleep Apnea etc.,220.0,332.0,160.0,120.0,positive,1161,14.0,,,1,2118
+30634,Employers,184.0,457.0,160.0,120.0,neutral,1161,12.0,,,1,2118
+30632,Societial Requirement?,54.0,248.0,160.0,120.0,negative weak,1161,11.0,,,1,2118
+30630,Risk of Contamination,25.0,115.0,160.0,120.0,negative,1161,9.0,,,1,2118
+30628,Connectivity or Interference,309.0,21.0,160.0,120.0,negative,1161,8.0,,17:38:53,1,2118
+30627,Disposable in the Blood Stream,85.0,20.0,160.0,120.0,positive weak,1161,7.0,,,1,2118
+30624,Lost of Device,545.0,259.0,160.0,120.0,negative strong,1161,5.0,,17:38:27,1,2118
+30623,Controlled by App,697.0,95.0,160.0,120.0,positive strong,1161,4.0,,,1,2118
+30620,Self-Recharging,603.0,20.0,160.0,120.0,positive strong,1161,2.0,,,1,2118
+30614,technological implant,377.0,273.0,160.0,120.0,neutral,1161,1.0, ,,1,2118

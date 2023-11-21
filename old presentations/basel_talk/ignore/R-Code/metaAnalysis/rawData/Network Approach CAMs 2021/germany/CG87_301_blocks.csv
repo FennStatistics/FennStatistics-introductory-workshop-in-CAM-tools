@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+6204,,1688.0,1526.0,160.0,120.0,neutral,192,12.0,,,1,301
+6199,,1392.0,1222.0,160.0,120.0,neutral,192,11.0,,,1,301
+5994,Reisebeschränkungen,338.0,478.0,160.0,120.0,ambivalent,192,10.0,,19:18:41,1,301
+5990,Tourismusbranche,674.0,634.0,160.0,120.0,neutral,192,9.0,,19:21:09,1,301
+5989,Hamsterkäufe,86.0,240.0,160.0,120.0,negative strong,192,8.0,,19:25:23,1,301
+5987,Europäische Zusammenarbeit,232.0,720.0,160.0,120.0,positive,192,7.0,,19:23:06,1,301
+5986,Homeoffice,74.0,490.0,160.0,120.0,ambivalent,192,6.0,,19:27:06,1,301
+5941,Arbeitslosigkeit,813.0,360.817,160.0,120.0,negative strong,192,5.0,"Arbeitslosigkeit führt zu einbrechender Wirtschaft, ausgelöst durch geschlossene Läden",19:30:20,1,301
+5921,Politik,365.833,10.0,160.0,120.0,ambivalent,192,4.0,"Politik ist für Ausgangsbeschränkungen verantwortlich, wird öfters kritisiert",19:28:44,1,301
+5869,Lockdown,616.55,375.45,160.0,120.0,ambivalent,192,3.0,Lockdown ist für Reisebeschränkungen in vielen Ländern verantwortlich,19:29:23,1,301
+5844,Wirtschaft,777.0,124.0,160.0,120.0,positive,192,2.0,,19:11:22,1,301
+5838,Coronavirus,359.0,279.0,160.0,120.0,neutral,192,1.0,,,1,301

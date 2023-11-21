@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26925,umweltfreundlicher,852.0,511.0,160.0,120.0,positive strong,909,17.0,,,1,1725
+26924,Gepäcktransport,495.0,529.0,160.0,120.0,negative,909,16.0,,,1,1725
+26923,Stauraum für Gepäck,62.0,112.0,160.0,120.0,positive,909,15.0,,,1,1725
+26922,überfüllt,630.0,480.0,160.0,120.0,negative,909,14.0,,,1,1725
+26921,unabhängig,279.0,198.0,160.0,120.0,positive,909,13.0,,,1,1725
+26920,bequem,808.0,365.0,160.0,120.0,positive,909,11.0,,19:54:30,1,1725
+26919,schnell,883.0,288.0,160.0,120.0,positive strong,909,10.0,,,1,1725
+26918,S-/U-Bahn,825.0,160.0,160.0,120.0,neutral,909,9.0,,,1,1725
+26917,teuer,737.0,20.0,160.0,120.0,negative weak,909,8.0,,,1,1725
+26916,Unpünktlich,451.0,20.0,160.0,120.0,negative,909,7.0,,,1,1725
+26915,Bahn,603.0,159.0,160.0,120.0,neutral,909,6.0,,,1,1725
+26914,flexibel,208.0,84.0,160.0,120.0,positive strong,909,5.0,,,1,1725
+26913,CO2-Ausstoß,20.0,267.0,160.0,120.0,negative strong,909,4.0,,,1,1725
+26912,Sprit,65.0,391.0,160.0,120.0,negative strong,909,3.0,,,1,1725
+26911,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,909,1.0, ,,1,1725
+26910,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,909,2.0, ,,1,1725

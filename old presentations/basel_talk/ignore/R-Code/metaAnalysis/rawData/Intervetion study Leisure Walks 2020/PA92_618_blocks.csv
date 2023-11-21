@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16861,psychische Belastung,178.984,271.977,160.0,120.0,neutral,376,5.0, ,,0,618
+16860,Stress,177.984,20.0,160.0,120.0,neutral,376,6.0, ,,0,618
+16859,Einsamkeit,20.0,397.984,160.0,120.0,neutral,376,10.0, ,,0,618
+16858,Angst,20.0,146.0,160.0,120.0,neutral,376,7.0, ,,0,618
+16857,Corona-Pandemie,510.99,258.99,160.0,120.0,neutral,376,1.0, ,,0,618
+16856,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,376,8.0, ,,0,618
+16855,physische Isolierung,20.0,523.99,160.0,120.0,neutral,376,2.0, ,,0,618
+16854,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,376,3.0, ,,0,618
+16853,Depressivität,176.979,523.969,160.0,120.0,neutral,376,9.0, ,,0,618
+16852,Befinden,177.984,144.987,160.0,120.0,neutral,376,4.0, ,,0,618
+16851,wirtschaftliche Folgen,177.969,398.974,160.0,120.0,neutral,376,11.0, ,,0,618

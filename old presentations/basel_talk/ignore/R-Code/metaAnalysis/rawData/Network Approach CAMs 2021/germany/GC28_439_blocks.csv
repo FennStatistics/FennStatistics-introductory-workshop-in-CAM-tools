@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13002,Wiedersprüchliche Experten Meinungen,630.0,846.0,160.0,120.0,ambivalent,285,18.0,,12:32:54,1,439
+12978,Debatten über Impfpflicht und Immunitätsnachweise,862.0,348.0,160.0,120.0,negative strong,285,17.0,,12:31:18,1,439
+12939,Neue Fälle,854.0,842.0,160.0,120.0,negative strong,285,16.0,,12:28:49,1,439
+12891,Unruhe und Coronaparties,1096.0,516.0,160.0,120.0,negative strong,285,15.0,,12:37:13,1,439
+12877,Häusliche Gewalt und Depression,367.667,845.667,160.0,120.0,negative strong,285,14.0,,,1,439
+12853,Rückgang der Fallzahlen,138.667,672.0,160.0,120.0,positive strong,285,13.0,,12:23:00,1,439
+12831,Mediale Berichterstattung,631.85,667.717,160.0,120.0,positive,285,12.0,,,1,439
+12748,Wiederspruch aus teilen der Bevölkerung,858.0,513.717,160.0,120.0,negative,285,11.0,,12:16:20,1,439
+12732,Leichte Versorgungsengpässe,372.15,511.0,160.0,120.0,negative weak,285,10.0,,,1,439
+12713,Sorgen in der Bevölkerung,369.717,669.85,160.0,120.0,positive,285,9.0,,,1,439
+12694,Striktere Quarantäne Maßnahmen,631.283,507.85,160.0,120.0,positive strong,285,8.0,,,1,439
+12650,Leichte Quarantäne Maßnahmen,355.333,189.333,160.0,120.0,positive weak,285,7.0,,,1,439
+12628,Kontrollverlust an Karneval,1093.67,196.667,160.0,120.0,negative strong,285,6.0,,,1,439
+12584,Ausbreitung,626.667,346.667,160.0,120.0,negative strong,285,5.0,,,1,439
+12563,"Zögerliches, zu lockeres Handeln der Regierung",864.0,196.0,160.0,120.0,negative strong,285,4.0,,12:03:43,1,439
+12522,Erste nationale Fälle,628.0,196.0,160.0,120.0,negative,285,2.0,,12:02:39,1,439
+12500,Corona Ausbruch,627.0,55.0,160.0,120.0,neutral,285,1.0,,,1,439

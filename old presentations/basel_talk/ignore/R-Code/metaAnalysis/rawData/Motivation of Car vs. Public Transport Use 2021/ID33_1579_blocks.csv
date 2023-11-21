@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24579,Verspätungen,495.0,193.0,160.0,120.0,negative,818,15.0,,11:28:49,1,1579
+24578,Kein Stau,741.0,382.0,160.0,120.0,positive strong,818,14.0,,,1,1579
+24577,Umwelt Freundlich,773.0,295.0,160.0,120.0,positive strong,818,13.0,,,1,1579
+24575,Abhängig,568.0,580.0,160.0,120.0,negative strong,818,12.0,,11:27:41,1,1579
+24574,Viele Leute,642.0,188.0,160.0,120.0,negative strong,818,11.0,,,1,1579
+24573,Teuer,660.0,489.0,160.0,120.0,negative strong,818,10.0,,,1,1579
+24572,Transport,294.0,499.0,160.0,120.0,positive strong,818,9.0,,,1,1579
+24571,Macht Spaß,50.0,409.0,160.0,120.0,positive,818,8.0,,,1,1579
+24570,Teuer,36.0,278.0,160.0,120.0,negative weak,818,7.0,,,1,1579
+24569,Individuell,336.0,149.0,160.0,120.0,positive strong,818,6.0,,,1,1579
+24567,Unabhängigkeit,112.0,518.0,160.0,120.0,positive strong,818,5.0,,11:25:31,1,1579
+24566,Freiheit,123.0,113.0,160.0,120.0,positive strong,818,4.0,,,1,1579
+24560,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,818,1.0, ,,1,1579
+24559,Öffentliche Verkehrsmittel,573.0,347.0,160.0,120.0,neutral,818,2.0, ,,1,1579

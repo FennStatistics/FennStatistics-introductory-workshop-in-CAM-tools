@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12888,Work from home,443.667,17.0,160.0,120.0,positive,286,12.0,,,1,441
+12864,Lockdown,673.117,239.783,160.0,120.0,positive,286,11.0,,,1,441
+12772,Bond with Spouse,100.783,475.217,160.0,120.0,positive strong,286,10.0,,,1,441
+12767,Business Closure,140.0,76.6667,160.0,120.0,negative strong,286,9.0,,,1,441
+12738,Fear of Job Loss,720.883,433.783,160.0,120.0,negative strong,286,6.0,,,1,441
+12727,Boredom,397.0,456.0,160.0,120.0,positive,286,5.0,,,1,441
+12717,More time with family,94.0,251.0,160.0,120.0,positive strong,286,4.0,,,1,441
+12704,Fear,701.0,51.0,160.0,120.0,negative strong,286,2.0,,,1,441
+12702,Coronavirus,373.0,204.0,152.667,114.0,negative strong,286,1.0,,,1,441

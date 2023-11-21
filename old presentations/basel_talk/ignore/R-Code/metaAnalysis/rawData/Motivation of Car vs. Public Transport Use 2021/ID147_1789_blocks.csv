@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27896,Lange Fahrtzeiten,856.0,329.0,160.0,120.0,ambivalent,954,21.0,,,1,1789
+27895,stau,20.0,127.0,88.6406,66.0,negative weak,954,18.0,,,1,1789
+27894,stressfrei,20.0,20.0,160.0,120.0,positive weak,954,17.0,,09:03:42,1,1789
+27893,Spass am Fahren,146.0,44.0,160.0,120.0,positive weak,954,16.0,,,1,1789
+27892,Urlaubsreise,20.0,439.0,160.0,120.0,ambivalent,954,15.0,,09:01:21,1,1789
+27891,Mitnahme von Gegenständen etc.,406.0,463.0,160.0,120.0,positive,954,14.0,,08:47:04,1,1789
+27890,Fahrtdauer,380.0,192.0,160.0,120.0,ambivalent,954,13.0,,08:46:00,1,1789
+27889,Parkplatzsuche,289.0,561.0,160.0,120.0,negative weak,954,12.0,,,1,1789
+27888,Umweltbelastend,20.0,275.0,160.0,120.0,negative strong,954,11.0,,,1,1789
+27887,mögliche Verspätungen,627.0,560.0,160.0,120.0,negative weak,954,10.0,,08:40:31,1,1789
+27886,Privatsphäre,301.0,65.0,160.0,120.0,positive,954,9.0,,08:39:51,1,1789
+27885,Kontakt zu Menschen,608.0,133.0,160.0,120.0,ambivalent,954,8.0,,08:39:13,1,1789
+27884,Finanzierbar,818.0,441.0,160.0,120.0,positive strong,954,7.0,,,1,1789
+27883,Tank und Versicherungskosten,78.0,533.0,175.312,131.0,negative,954,6.0,,08:37:37,1,1789
+27882,Komfortabel,101.0,156.0,160.0,120.0,positive,954,5.0,,08:36:36,1,1789
+27881,Umweltschonend,798.0,176.0,160.0,120.0,positive strong,954,4.0,,09:03:09,1,1789
+27880,Eigener Pkw,205.0,346.0,160.0,120.0,neutral,954,1.0, ,,1,1789
+27879,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,954,2.0, ,,1,1789

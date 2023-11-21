@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17667,finanzielle Ressourcen,718.567,30.2679,160.0,120.0,positive strong,389,12.0,,16:43:37,1,647
+17609,psychische Belastung,617.964,530.955,160.0,120.0,negative strong,389,5.0,,16:41:15,0,647
+17608,Stress und Angst,828.911,351.942,160.0,120.0,negative strong,389,6.0,,16:40:54,0,647
+17607,Einsamkeit,969.996,534.938,160.0,120.0,negative strong,389,10.0,,16:41:01,0,647
+17605,Corona-Pandemie,1437.96,131.964,160.0,120.0,neutral,389,1.0, ,,0,647
+17604,Zusammenhalt,536.978,206.96,160.0,120.0,positive strong,389,8.0,,16:39:24,0,647
+17602,soziale und pysische Isolierung,1144.96,314.955,160.0,120.0,negative strong,389,3.0,,16:41:07,0,647
+17601,Depressivität,388.946,618.946,160.0,120.0,negative strong,389,9.0,,16:41:17,0,647
+17599,wirtschaftliche Folgen,1081.95,22.942,160.0,120.0,negative strong,389,11.0,,16:41:09,0,647

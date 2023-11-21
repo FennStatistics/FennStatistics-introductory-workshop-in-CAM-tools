@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14035,Toleranz,614.0,437.0,110.0,82.0,positive,329,26.0,,,1,500
+13999,Schwierigkeiten bei der Jobsuche,864.333,30.0,112.667,84.0,negative,329,25.0,,,1,500
+13994,Online-Konzerte,510.0,21.0,134.0,100.0,positive,329,24.0,,,1,500
+13933,finden neuer Hobbies,317.0,553.0,122.0,91.0,positive,329,23.0,,14:03:41,1,500
+13868,Sorge um Ältere Menschen/Familienmitglieder,731.0,559.0,121.0,90.25,negative weak,329,21.0,,,1,500
+13825,Rücksichtslosigkeit/Rücksichtnahme,619.0,333.0,124.667,93.0,positive,329,19.0,,,1,500
+13817,digital-technischer Fortschritt,334.0,20.0,160.0,120.0,positive,329,18.0,,13:58:40,1,500
+13746,umweltfreundliche Alternativen,181.0,42.0,160.0,120.0,positive,329,17.0,,13:58:04,1,500
+13527,Konzentrieren auf sich selbst,191.0,541.0,124.667,93.0,positive weak,329,14.0,,13:52:32,1,500
+13623,Zwischenmenschliches,815.0,308.0,115.323,86.0,neutral,329,15.0,,,1,500
+13500,Kontakt über überwiegend soziale Netzwerke,655.0,20.0,160.0,120.0,ambivalent,329,13.0,,13:51:22,1,500
+13499,Home Office,847.0,224.0,107.323,80.0,positive,329,12.0,,,1,500
+13468,Depressivität,427.969,515.969,160.0,120.0,negative,329,9.0,,13:51:46,0,500
+13469,soziale Isolierung,585.0,523.0,160.0,120.0,negative weak,329,3.0,,13:54:27,0,500
+13470,physische Isolierung,22.0,31.0,160.0,120.0,negative weak,329,2.0,,13:54:44,0,500
+13471,Zusammenhalt,817.0,467.0,160.0,120.0,positive weak,329,8.0,,13:54:24,0,500
+13476,psychische Belastung,194.979,353.969,160.0,120.0,negative weak,329,5.0,,13:55:25,0,500
+13475,Stress,38.9792,493.0,160.0,120.0,negative weak,329,6.0,,13:53:17,0,500
+13474,Einsamkeit,457.0,377.979,160.0,120.0,ambivalent,329,10.0,,13:52:18,0,500
+13473,Angst,20.0,243.0,160.0,120.0,negative,329,7.0,,13:55:28,0,500
+13472,Corona-Pandemie,433.99,217.99,160.0,120.0,neutral,329,1.0, ,,0,500
+13467,Befinden,197.979,180.979,160.0,120.0,neutral,329,4.0, ,,0,500
+13466,wirtschaftliche Folgen,639.969,144.0,160.0,120.0,ambivalent,329,11.0,,13:51:58,0,500

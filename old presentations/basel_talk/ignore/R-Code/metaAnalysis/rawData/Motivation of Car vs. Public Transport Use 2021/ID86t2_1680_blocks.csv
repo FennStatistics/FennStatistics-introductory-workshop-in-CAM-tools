@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26173,schlecht mit Gepäck,806.0,289.0,160.0,120.0,negative strong,880,13.0,,10:43:27,1,1680
+26172,erhöhte Ansteckungsgefahr,806.0,459.0,160.0,120.0,negative,880,12.0,,,1,1680
+26171,Parkplatzsuche,262.0,544.0,160.0,120.0,negative strong,880,11.0,,,1,1680
+26170,Ticket / Benzinkosten,437.0,482.0,160.0,120.0,negative weak,880,10.0,,,1,1680
+26169,nicht auf Sitz eingeengt,34.0,21.0,160.0,120.0,positive,880,9.0,,,1,1680
+26168,Einkäufe transportieren,810.0,20.0,160.0,120.0,positive strong,880,8.0,,,1,1680
+26167,Umweltbelastung,103.0,473.0,160.0,120.0,negative,880,7.0,,10:42:22,1,1680
+26166,keine Ansteckungsgefahr,631.0,20.0,160.0,120.0,positive strong,880,6.0,,,1,1680
+26165,Haltestellen-unabhängig,442.0,20.0,160.0,120.0,positive strong,880,5.0,,,1,1680
+26163,Unabhängigkeit von Fahrplänen,243.0,20.0,160.0,120.0,positive strong,880,3.0,,,1,1680
+26162,Eigener Pkw,265.0,348.0,160.0,120.0,neutral,880,1.0, ,,1,1680
+26161,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,880,2.0, ,,1,1680

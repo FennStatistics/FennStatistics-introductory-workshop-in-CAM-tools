@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17512,Wut,270.0,159.0,160.0,120.0,negative,393,17.0,,,1,638
+17503,Spätfolgen/Krankheit,34.0,184.0,160.0,120.0,negative strong,393,16.0,,,1,638
+17479,Covid-19,46.0,41.0,160.0,120.0,negative strong,393,15.0,,16:25:27,1,638
+17453,Anstand und Rücksicht,217.0,475.0,160.0,120.0,ambivalent,393,14.0,,16:25:57,1,638
+17449,andere Menschen,250.0,321.0,160.0,120.0,positive,393,13.0,,,1,638
+17437,Abstand halten,36.0,508.0,160.0,120.0,ambivalent,393,12.0,,16:26:10,1,638
+17392,psychische Belastung,855.983,227.983,160.0,120.0,negative weak,393,5.0,,16:25:44,0,638
+17391,Stress,463.983,30.0,160.0,120.0,negative,393,6.0,,16:25:33,0,638
+17390,Einsamkeit,662.0,32.9833,160.0,120.0,negative strong,393,10.0,,16:25:37,0,638
+17389,Angst,280.0,25.0,160.0,120.0,negative strong,393,7.0,,16:25:32,0,638
+17388,Corona-Pandemie,505.983,216.983,160.0,120.0,negative strong,393,1.0,,16:23:16,0,638
+17387,Maske tragen,38.0,367.0,160.0,120.0,ambivalent,393,8.0,,16:26:12,0,638
+17386,physische Isolierung,852.0,383.983,160.0,120.0,negative,393,2.0,,16:25:48,0,638
+17385,soziale Isolierung,850.0,518.983,160.0,120.0,negative weak,393,3.0,,16:25:52,0,638
+17384,Depressivität,861.983,38.9667,160.0,120.0,negative strong,393,9.0,,16:25:40,0,638
+17383,Befinden,685.983,294.983,160.0,120.0,negative,393,4.0,,16:25:45,0,638
+17382,wirtschaftliche Folgen,515.967,466.967,160.0,120.0,negative strong,393,11.0,,16:25:54,0,638

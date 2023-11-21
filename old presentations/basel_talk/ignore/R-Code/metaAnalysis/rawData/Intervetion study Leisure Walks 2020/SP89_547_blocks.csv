@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14957,Sicheres Einkommen,150.875,260.549,160.0,120.0,positive strong,373,16.0,,,1,547
+14953,Keine Kurzarbeit,289.649,418.198,160.0,120.0,positive strong,373,15.0,,,1,547
+14939,Kind aufwachsen sehen,1218.56,180.445,160.0,120.0,positive strong,373,14.0,,,1,547
+14891,Mehr Arbeit durch Kind,1300.0,367.778,160.0,120.0,negative weak,373,13.0,,14:38:51,1,547
+14815,Home-Office,1059.32,442.997,155.313,115.972,positive,373,12.0,,14:37:15,1,547
+14783,psychische Belastung,1570.98,343.962,160.0,120.0,negative weak,373,5.0,,14:42:47,0,547
+14782,Stress,1498.97,200.0,160.0,120.0,negative weak,373,6.0,,14:42:46,0,547
+14780,Angst,309.99,24.9722,160.0,120.0,negative,373,7.0,,14:42:42,0,547
+14779,Corona-Pandemie,798.979,267.983,160.0,120.0,neutral,373,1.0, ,,0,547
+14776,soziale Isolierung,1016.98,15.0,160.0,120.0,negative weak,373,3.0,,14:42:33,0,547
+14774,Befinden,622.955,57.9722,160.0,120.0,positive weak,373,4.0,,14:42:39,0,547
+14773,wirtschaftliche Folgen,749.944,513.927,160.0,120.0,neutral,373,11.0, ,,0,547

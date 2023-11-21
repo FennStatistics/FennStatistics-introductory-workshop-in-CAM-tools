@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Presentation of my PhD project</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Julius Fenn" />
+    <meta name="date" content="2023-11-20" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="subfiles/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="subfiles/my-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Presentation of my PhD project
+]
+.subtitle[
+## Develop new methods to investigate the acceptability and ethical concerns of emerging (climate) technologies
+]
+.author[
+### Julius Fenn
+]
+.date[
+### November 20, 2023
+]
+
+---
+
+
+
+&lt;style type="text/css"&gt;
+.scrollChunk {
+  max-height: 450px;
+  overflow-y: auto;
+  background-color: inherit;
+}
+
+.cite {
+position: absolute; 
+bottom: 0; 
+right: 0;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+
+## Table of Contents
+
+Three parts:
+
+1 Motivation
+  + about me
+  + emerging technologies
+    + ethics in real time 
+  
+2 Developed tools
+  + Cognitive-Affective Maps
+  + Empirical Ethics Scale for Technology Assessment (probably skipped)
+
+3 Empirical Results
+  
+
+
+&lt;br&gt;
+ 
+.pull-left[
+if you want to download the slides / R Code: https://github.com/FennStatistics/Talk_Basel_EP_PSBC_lab
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/logo_github.jpg", height="100px"&gt;
+&lt;/center&gt;
+
+]
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: Motivation
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+about me
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## About me
+
+
+.pull-left[
+
+* Bachelor in psychology, master in applied statistics
+* worked as a "coach for data analysis" 
+* taught myself (a little) web development
+* had already 2 desk rejects, and EU proposal was rejected (450.000,-)
+* Member of two research groups (and hopefully Basel soon!):
+
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/itsEmeMario.jpg", height="200px"&gt;
+&lt;/center&gt;
+
+]
+
+
+.pull-left[
+PhD candidate in "Statistical Modeling in Psychology"
+
+&lt;center&gt;
+&lt;img src="images/logo_smip.jpg", height="200px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+associated member in "Cluster of Excellence Living, Adaptive and Energy-autonomous Materials Systems" in Freiburg
+
+&lt;center&gt;
+&lt;img src="images/livmats_areaD.jpg", height="200px"&gt;
+&lt;/center&gt;
+
+]
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## The elephant in the room
+
+
+.pull-left[
+speech of António Guterres at the 2022 United Nations Climate Change Conference (COP 27):
+
+&gt; We are in the fight of our lives. 
+And we are losing. 
+Greenhouse gas emissions keep growing.   
+Global temperatures keep rising.  
+And our planet is fast approaching tipping points that will make climate chaos irreversible.
+We are on a highway to climate hell with our foot still on the accelerator.  
+
+&lt;br&gt;
+see talk: https://www.youtube.com/watch?v=J3UdNagA31w
+]
+
+.pull-right[
+
+Observational data - he seems right: 
+
+monthly mean carbon dioxide measured at Mauna Loa Observatory, Hawaii: 
+
+
+&lt;center&gt;
+&lt;img src="images/MaunaLoaCO2.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+data collection started 1958: https://gml.noaa.gov/ccgg/trends/mlo.html
+
+]
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Neural networks trained on multiple climate model output
+
+*When will we reach the 1.5◦C global warming threshold?* 
+
+
+&lt;center&gt;
+&lt;img src="images/forecastingGlobalWarming_Lasse2023.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+&gt; Global warming forecasts are sensitive to the assumed climate model (rows) and emission
+scenario (groups of rows)
+
+
+
+&lt;a name=cite-diffenbaughDatadrivenPredictionsTime2023&gt;&lt;/a&gt;&lt;a name=cite-elsemullerSensitivityAwareAmortizedBayesian2023&gt;&lt;/a&gt;[Diffenbaugh et al. (2023)](https://doi.org/10.1073/pnas.2207183120); [Elsemüller et al. (2023)](https://doi.org/10.48550/arXiv.2310.11122); computed by https://bayesflow.org/
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## solution (?!): a high-technology portfolio
+
+
+.pull-left[
+
+&gt; A daunting task lies ahead for scientists and engineers to guide society towards environmentally sustainable management during the era of the Anthropocene. This will require appropriate human behaviour at all scales, and may well **involve internationally accepted, large-scale geo-engineering projects**, for instance to ‘optimize’ climate.
+
+by &lt;a name=cite-crutzen_geology_2002&gt;&lt;/a&gt;[Crutzen (2002)](https://www.nature.com/articles/415023a)
+]
+
+.pull-right[
+&lt;center&gt;
+&lt;img src="images/climateEngineering.jpg", height="400px"&gt;
+&lt;/center&gt;
+]
+
+&lt;br&gt;
+-&gt; huge investments by private and public sector, e.g. [Office of Fossil Energy and Carbon Management investing $2.52 billion to fund two carbon capture programs ](https://content.govdelivery.com/accounts/USDOEOFE/bulletins/3454f32)
+
+&gt; **ethical assessment of such emerging technologies in real-time**, see also talk the [Ten Domains of Climate Ethics by Konrad Ott](https://www.youtube.com/watch?v=SJ0saECi1Qc)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ethical assessment in real-time
+
+
+.pull-left[
+
+**Problem**:
+
+&gt; It is repeatedly noted with scepticism that the speed of technological innovation on a global scale means that ethics is often powerless to keep up with technological developments and has the character of a "bicycle brake on an intercontinental aircraft"
+
+by &lt;a name=cite-grunwaldHandbuchTechnikethik2021&gt;&lt;/a&gt;[Grunwald et al. (2021)](#bib-grunwaldHandbuchTechnikethik2021)
+
+&lt;br&gt;
+* post-normal science in contrast to applied science e.g. &lt;a name=cite-funtowiczSciencePostnormalAge1993&gt;&lt;/a&gt;[Funtowicz et al. (1993)](https://doi.org/10.1016/0016-32879390022-L)
+* deep uncertainty e.g. &lt;a name=cite-marchauDecisionMakingDeep2019&gt;&lt;/a&gt;[Marchau et al. (2019)](https://doi.org/10.1007/978-3-030-05252-2)
+* ...
+
+]
+
+.pull-right[
+
+**Possible Solution**:
+
+&gt; the best way to reduce uncertainty about the future of open systems is to make informed but incremental decisions and then see what happens
+
+&gt; preparation for and resilience in the face of an unpredictable future is a core asset of any well-functioning society
+
+by &lt;a name=cite-gustonRealtimeTechnologyAssessment2002&gt;&lt;/a&gt;[Guston et al. (2002)](https://doi.org/10.1016/S0160-791X0100047-1)
+
+&lt;br&gt;
+* enable empirical informed ethics e.g. &lt;a name=cite-fennDevelopmentValidationEmpirical2023&gt;&lt;/a&gt;&lt;a name=cite-reijersMethodsPractisingEthics2018&gt;&lt;/a&gt;[Fenn et al. (2023)](#bib-fennDevelopmentValidationEmpirical2023); [Reijers et al. (2018)](https://doi.org/10.1007/s11948-017-9961-8)
+* anticipatory governance e.g. &lt;a name=cite-foleyAnticipatoryGovernanceGeoengineering2018&gt;&lt;/a&gt;[Foley et al. (2018)](#bib-foleyAnticipatoryGovernanceGeoengineering2018)
+* ...
+
+]
+
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+emerging technologies
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Maturity of technologies
+
+**Technology readiness level**
+
+.pull-left[
+
+&lt;center&gt;
+&lt;img src="images/TRL_Straub2015.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+**Three examples**:
+
+
+* TRL 1: Technology Research – Basic principles observed and reported
+* TRL 5: Conceptual Design and Prototype Demonstration
+* TRL 10: Proven Operations
+
+**Technology assessment**:
+* ex ante: methods aiming at technology assessment at an early stage of the research and innovation process; TRL 1-3
+* intra: methods aiming at technology assessment during design and testing stage; TRL 4-8
+* ex post: methods aiming at technology assessment when research and innovation process is already finished and concrete technologies have been developed; TRL 9-10
+]
+
+
+TRL: &lt;a name=cite-straubSearchTechnologyReadiness2015&gt;&lt;/a&gt;&lt;a name=cite-vikBalancedReadinessLevel2021&gt;&lt;/a&gt;[Straub (2015)](https://doi.org/10.1016/j.ast.2015.07.007); [Vik et al. (2021)](https://doi.org/10.1016/j.techfore.2021.120854) and methods: [Reijers et al. (2018)](https://doi.org/10.1007/s11948-017-9961-8)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Researching emerging technologies
+
+**Collingridge dilemma**
+
+&lt;center&gt;
+&lt;img src="images/CollingridgeDilemma_Davis2004.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+
+&lt;a name=cite-collingridgeSocialControlTechnology1980&gt;&lt;/a&gt;&lt;a name=cite-davisPreprototypeUserAcceptance2004&gt;&lt;/a&gt;&lt;a name=cite-mollerProspectiveTechnologyAssessment2022&gt;&lt;/a&gt;[Collingridge (1980)](#bib-collingridgeSocialControlTechnology1980); [Davis et al. (2004)](https://doi.org/10.1109/TEM.2003.822468); [Möller et al. (2022)](https://doi.org/10.1177/20530196221095700)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Methods for (prospective) technology assessment
+
+possible definition: 
+
+&gt; research practice motivated through reflexive knowledge gain for the scientific analysis of dynamic and complex socio-technical configurations with the intention of advising
+
+
+&lt;br&gt;
+&lt;br&gt;
+**4 fundamental approaches:**
+
+* *classical technology assessment*: top-down, centralized approach, from experts to laypersons, aiming to predict unplanned, unanticipated negative effects after introducing an emerging technology
+* *participatory technology assessment*: include the perspective of laypersons 
+* *argumentative technology assessment*: focuses on the ongoing process of democratic debate and argumentation
+* *constructive technology assessment*: assists the development and design of technologies while technologies are still developed
+
+
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;a name=cite-boeschenTechnikfolgenabschaetzungHandbuchFuer2021&gt;&lt;/a&gt;&lt;a name=cite-grunwaldTechnikfolgenabschaetzungEinfuehrung2022&gt;&lt;/a&gt;[Böschen et al. (2021)](#bib-boeschenTechnikfolgenabschaetzungHandbuchFuer2021); [Grunwald (2022)](#bib-grunwaldTechnikfolgenabschaetzungEinfuehrung2022); see [summary of methods for (prospective) TA](https://tinyurl.com/28a6j88w)
+
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 1: Developed tools
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Overview
+
+in &lt;a name=cite-fennDatadrivenMultiMethodApproachIdentifying2023&gt;&lt;/a&gt;[Fenn et al. (2023)](#bib-fennDatadrivenMultiMethodApproachIdentifying2023) proposed a **multi-method-approach** to combine heterogeneous sources of data to identify ethical 
+concerns of laypersons
+
+
+
+&lt;center&gt;
+&lt;img src="images/multiMethod_Fenn2023.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Cognitive-Affective Maps
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Cognitive-Affective Maps
+
+CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
+
+
+&lt;center&gt;
+&lt;img src="images/CAM_example.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+
+&lt;a name=cite-sendtner_kostbare_2021&gt;&lt;/a&gt;[Sendtner (2021)](https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit); developed tools &lt;a name=cite-fennCognitiveAffectiveMaps2023&gt;&lt;/a&gt;[Fenn et al. (2023)](#bib-fennCognitiveAffectiveMaps2023) motivated by &lt;a name=cite-reuterBridgingTroubledWaters2022&gt;&lt;/a&gt;&lt;a name=cite-thagard_empathica_2010&gt;&lt;/a&gt;[Reuter (2022)](#bib-reuterBridgingTroubledWaters2022); [Thagard (2010)](https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981)
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Cognitive-Affective Maps - theory
+
+**What are CAMs?**
+
+* CAMs are „conceptual structures that people use to represent important aspects of the world“
+* „cognitive-affective map is a visual representation of the emotion values of a group of interconnected concepts“
+  + this is how CAMs differ from semantic networks, because CAMs additionally contain emotions (valence)
+  + hot cognition: emotions cannot be separated from cognitions
+  
+&lt;br&gt;
+&lt;br&gt; 
+
+**How are CAMs constructed?**
+
+* the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
+  + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
+
+&lt;br&gt;
+
+&lt;a name=cite-thagard_coherence_2000&gt;&lt;/a&gt;&lt;a name=cite-thagard_hot_2006&gt;&lt;/a&gt;&lt;a name=cite-thagard_cognitive_2021&gt;&lt;/a&gt;[Thagard (2000)](#bib-thagard_coherence_2000); [Thagard (2006)](#bib-thagard_hot_2006); [Thagard (2021)](https://www.sciencedirect.com/science/article/pii/S104620232100075X)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Cognitive-Affective Maps - fundamental hypothesis 
+
+**Hypothesis**: The generation process of CAMs is not arbitrary, but is determined by multiple processes at multiple levels, and thus CAMs from similar individuals on an identical topic exhibit systematic correlations (similar data generating process)
+
+* can be presented by a „emergent product of interaction between networks of mental representations at the individual level and networks of social communication at the group level“
+
+
+&lt;center&gt;
+&lt;img src="images/fundamentalHypothesis.jpg", height="250px"&gt;
+&lt;/center&gt;
+
+
+&gt; if stochasticity is ubiquitous in **complex networks**, these networks are not maximally random either; rather, they obey organization principles that make them functional
+
+
+
+
+&lt;a name=cite-bianconi_multilayer_2018&gt;&lt;/a&gt;&lt;a name=cite-homer-dixon_complex_2013&gt;&lt;/a&gt;[Bianconi (2018)](#bib-bianconi_multilayer_2018); [Homer-Dixon et al. (2013)](https://jspp.psychopen.eu/index.php/jspp/article/view/4763)
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Cognitive-Affective Maps - application cases
+
+* within conceptual / qualitative studies, CAMs have been applied to depict political ideologies
+*	to support conflict resolution
+* to inform international climate politics
+*	in quantitative studies, CAMs were used to investigate the perception of the Covid-19 pandemic
+*	using a mix of qualitative and quantitative procedures, CAMs have been applied to measure the perception of emerging technologies or the success of an intervention in early child-care institutions
+*	CAMs have been used in the context of agent-based modeling (Schröder &amp; Wolf, 2017; Wolf et al., 2015)
+* ...
+
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+see two sections of CAM tools online documentation: [Additional Resources](https://camtools-documentation.readthedocs.io/en/master/Additional%20Resources/); [What are the advantages of using Cognitive-Affective Maps?](https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Maps/#what-are-the-advantages-of-using-cognitive-affective-maps)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## example - study design
+
+
+
+.pull-left[
+
+**starting CAM**
+&lt;center&gt;
+&lt;img src="images/SAICAM.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+**example given to participants**
+&lt;center&gt;
+&lt;img src="images/SAICAM_example.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+]
+
+
+for more details you could read the online documentation: https://osf.io/q5hj4/
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## example - resulting CAMs
+
+
+
+.pull-left[
+
+**the expected**
+&lt;center&gt;
+&lt;img src="images/SAICAM1.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+**the outlier**
+&lt;center&gt;
+&lt;img src="images/SAICAM2.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+]
+
+
+if you want to try out the study: https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID 
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## data collection - C.A.M.E.L.
+
+we (Julius &amp; Florian) developed **Cognitive-Affective Map Extended Logic** (C.A.M.E.L.) , which is an open-source software to draw Cognitive Affective Maps. It aims to offer people an easy and intuitive interface on which they could design mind map that can be analysed by researchers
+
+
+.pull-left[
+*researcher view*
+
+&lt;center&gt;
+&lt;img src="images/slide10.png", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+*participant view*
+
+&lt;center&gt;
+&lt;img src="images/slide12.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## data collection - C.A.M.E.L.
+
+.pull-left[
+*researcher view*
+
+&lt;center&gt;
+&lt;img src="images/slide10.png", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+*possible options*
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+&lt;br&gt;
+see in detail "[Define your config file](https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file)" section in the online documentation
+]
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+try it out: [maximum settings](https://camgalaxy.github.io/?cameraFeature=true&amp;fullScreen=true&amp;ShowResearcherButtons=true&amp;hideArrows=false&amp;hideAmbivalent=false&amp;showSliderAgreementOnly=false); [minimal settings](https://camgalaxy.github.io/?cameraFeature=false&amp;fullScreen=false&amp;ShowResearcherButtons=false&amp;hideArrows=true&amp;hideAmbivalent=true&amp;showSliderAgreementOnly=true)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## data analysis - CAM-App
+
+resulting data can be analyzed using our developed data-analysis tool **CAM-App**
+
+
+.pull-left[
+
+try it out
+* online: https://fennapps.shinyapps.io/CAMtools_CAMapp/
+* or better offline using your own computer: https://github.com/Camel-app/DataAnalysis
+
+]
+
+.pull-right[
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;
+&lt;img src="images/logoShiny.png", height="150px"&gt;
+&lt;/center&gt;
+
+]
+
+* no coding is required to analyze resulting CAM data
+  + facilitate the pre-processing of the data
+  + analysis of pre-processed data
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## data analysis - CAM-App
+
+logic of the CAM-App follows the principle of a classical data-analysis pipeline
+
+
+.pull-left[
+
+&lt;img src="images/dataAnalysisPipeline.jpg", height="200px"&gt;
+
+see: &lt;a name=cite-peng_art_2016&gt;&lt;/a&gt;&lt;a name=cite-wickham_r_2017&gt;&lt;/a&gt;[Peng et al. (2016)](https://bookdown.org/rdpeng/artofdatascience/); [Wickham et al. (2017)](https://r4ds.had.co.nz/)
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+see in detail "[CAM-App](https://camtools-documentation.readthedocs.io/en/master/CAM-App/)" section in the online documentation
+]
+
+.pull-right[
+
+composed of two steps:
+
+**preprocessing step**: CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.
+
+*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in Appendix E in the online supplementary; https://osf.io/vb5qe)* - see &lt;a name=cite-fennIdentifyingKeypsychologicalFactors2023&gt;&lt;/a&gt;[Fenn et al. (2023)](https://doi.org/10.1371/journal.pclm.0000207)
+
+&lt;br&gt;
+**analysis step**
+
+* word lists
+* aggregate CAM
+* network indicators
+* network similarity
+* ...
+
+
+]
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Data structure of CAMs
+
+assuming the **fundamental hypothesis** (see slide 18) is true, the generation process of CAMs is not arbitrary, but bey organization principles (which could depend on study design, ...) 
+
+&lt;br&gt;
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+, whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; *hot cognition*, *HOTCO*, ...), which leads to the following network properties:
+
+
+.pull-left[
+
+**emotional properties**
+&lt;br&gt;
+measure how the valence of individual nodes contributes to the overall CAM (Average Valence, Percentage of each node type, &lt;span style="color:blue"&gt;Central Node Valence&lt;/span&gt;, ...)
+
+]
+
+.pull-right[
+
+**latent properties**
+&lt;br&gt;
+refer to the number of nodes, links, and their interconnectedness (Centrality, Density, Diameter, Number of Nodes, Number of Links, Triadic Closure, ...)
+
+]
+
+
+&lt;br&gt;
+using similar terminology as &lt;a name=cite-mansell_novel_2021&gt;&lt;/a&gt;&lt;a name=cite-mansell_measuring_2021&gt;&lt;/a&gt;[Mansell et al. (2021)](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627); [Mansell et al. (2021)](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A)
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Data structure of CAMs - real time analysis
+
+* **frontend**: visible content of the CAM is within a container for Scalable Vector Graphics
+* **backend**: CAM itself as well as its concepts and connectors are Java Script classes, which define the structure for these objects
+  + class definition respects the classical data model of networks; allows to use Java Script library [Cytoscape](https://js.cytoscape.org/)
+
+
+
+&lt;center&gt;
+&lt;img src="images/JSON_CAM.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+&gt; adaptive designs possible (provide fixed structure or manipulate the "Document Object Model")
+
+
+&lt;br&gt;
+if you want to try out a adaptive study: https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Overview
+
+
+**Overview of the developed CAM tools** (linking everything)
+
+&lt;center&gt;
+&lt;img src="images/OverviewCAMTools_Fenn.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+
+&lt;br&gt;
+central webpage (adminstrative panel): https://drawyourminds.de
+
+
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Empirical Ethics Scale for Technology Assessment (ESTA)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ESTA - 46 items, 6 dimensions
+
+
+
+&lt;center&gt;
+&lt;img src="images/ESTA_moraltheories.jpg", height="500px"&gt;
+&lt;/center&gt;
+
+
+[Fenn et al. (2023)](#bib-fennDevelopmentValidationEmpirical2023)
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ESTA - survey
+
+
+.pull-left[
+
+**Inform participants**
+
+&lt;br&gt; 
+
+&lt;center&gt;
+&lt;img src="images/ESTA_inform.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+**Subsequently answer scale**
+
+&lt;br&gt; 
+
+&lt;center&gt;
+&lt;img src="images/ESTA_ask.jpg", height="300px"&gt;
+&lt;/center&gt;
+
+]
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ESTA - dimensionality
+
+
+.pull-left[
+
+**Utilitarianism**
+
+* technology is morally right if it leads to the greatest good for the greatest number
+* degree of ethicalness depends on the perceived (possible) outcomes of the technology for all concerned - regardless of whether its "goodness" is equally distributed (criterion of impartiality)
+
+&lt;br&gt;
+&lt;br&gt;
+
+**Hedonism**
+
+* technology is morally right if it increases pleasure, well-being or promotes a good life of an individual agent, who is using the technology
+
+
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/ESTA_dimensionality.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+(defined a 6 factor solution)
+
+]
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ESTA - latent class analysis
+
+**Virtue Ethics**: technology is morally right if it has been developed by someone who has the character and ability to recognize what is morally required
+
+
+&lt;center&gt;
+&lt;img src="images/ESTA_LCA.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+
+&gt; virtue ethics was consistently evaluated higher
+
+
+
+
+&lt;!-- *********** HEADING ************** --&gt;
+---
+class: heading,middle
+
+
+Part 3: Empirical Results
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## aim of my two articles: 
+
+1. Fenn, J., Helm, J. F., Höfele, P., Kulbe, L., Ernst, A., &amp; Kiesel, A. (2023). Identifying key-psychological factors influencing the acceptance of yet emerging technologies–A multi-method-approach to inform climate policy. PLOS Climate, 2(6), 1–25. https://doi.org/10.1371/journal.pclm.0000207
+2. Fenn, J., Gorki, M., Höfele, P., Estadieu, L., Becht, C., Kulbe, L., de Wall, M., Gekeler, J., &amp; Kiesel, A. (2023). A Data-driven Multi-Method-Approach for Identifying Ethical Concerns of Emerging Technologies. [submitted manuscript]
+
+
+&lt;br&gt;
+&lt;br&gt;
+* propose and implement **multi-method approaches to gather data on the acceptability and ethical concerns** of Stratospheric Aerosol Injection (SAI)
+  + propose an integrative model to predict the acceptability of SAI,
+  + whereby considering ethical concerns,
+  + thereby acknowledge the significance of incorporating the perspectives of laypersons in the (ethical) assessment of climate engineering technologies in general
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Stratospheric Aerosol Injection
+
+**scenario-text approach**
+
+.pull-left[
+
+studying Stratospheric Aerosol Injection as an	use case of an emerging contested technology
+
+&lt;br&gt;
+&lt;br&gt;
+working principle: reflect a small percentage of the solar radiation back into space before it reaches the earth
+
+]
+
+.pull-right[
+
+&lt;center&gt;
+&lt;img src="images/SAI_techPrinciple.jpg", height="320px"&gt;
+&lt;/center&gt;
+
+
+]
+
+&lt;br&gt;
+&lt;br&gt;
+* “Congressionally-Mandated Report on Solar Radiation Modification” from the White House, see: https://www.whitehouse.gov/ostp/news-updates/2023/06/30/congressionally-mandated-report-on-solar-radiation-modification/
+* “Questions and Answers on a new outlook on the climate and security nexus” from the European Commission, see: https://ec.europa.eu/commission/presscorner/detail/en/qanda_23_3525
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## integrative model - theory driven and empirical informed
+
+**integrative model to predict SAI acceptability**
+
+
+&lt;center&gt;
+&lt;img src="images/SAI_integrativeModel.jpg", height="400px"&gt;
+&lt;/center&gt;
+
+
+&gt; based on the results in the step I procedure using “Cognitive-Affective Maps” measures for Climate Change Concern, Moral Hazard, and Tampering with Nature (highlighted in gray) were included
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## step I: Cognitive-Affective Maps
+
+**aggregated CAM consisting of N =58 CAMs.**
+
+
+&lt;center&gt;
+&lt;img src="images/SAI_aggregated.jpg", height="520px"&gt;
+&lt;/center&gt;
+
+
+PDF file to zoom in and out can be found on OSF (https://osf.io/jb3vk).
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## step II: estimate integrative model
+
+**integrative model to predict SAI acceptability including tampering with nature**
+
+
+&lt;center&gt;
+&lt;img src="images/SAI_estimated.jpg", height="420px"&gt;
+&lt;/center&gt;
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## Tampering with Nature
+
+
+.pull-left[
+
+**Items:**
+
+&lt;center&gt;
+&lt;img src="images/SAI_TwNitems.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+
+]
+
+.pull-right[
+
+**scatter plot:**
+
+&lt;center&gt;
+&lt;img src="images/SAI_CorrAccTwN.jpeg", height="450px"&gt;
+&lt;/center&gt;
+
+`\(r(577)=-.74, CI:[-.78, -71]\)`
+
+]
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## ethical arguments regarding climate engineering technologies (CETs)
+
+identified 21 different ethical arguments regarding CETs
+
+&lt;center&gt;
+&lt;img src="images/EAs_Table.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## multi-method approach - combining three types of data
+
+.pull-left[
+
+
+
+&lt;center&gt;
+&lt;img src="images/multiMethod_Fenn2023.jpg", height="450px"&gt;
+&lt;/center&gt;
+
+
+]
+
+.pull-right[
+
+**survey (Ethics Scale of Technology Assessment)**:
+* when answering a survey scale participants only slightly differentiate between ethical theories 
+  + the virtue of the developer was consistently evaluated high
+
+**Cognitive-Affective Maps**:
+* broad range of ethical arguments identified, also governance related arguments
+  + linked to other predefined concepts
+  + identified important arguments like "feeling that SAI mimics nature" or "brings hope"
+
+**Open Text**:
+* mainly ambivalent ethical arguments identified (“Emergency Case”, “Lesser-Evil”, “Informed Consent”)
+
+]
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## the never published analysis: certainty and acceptability I
+
+relationship between the average values of acceptability (complete scale) and the average certainty in the evaluation of the SAI technology:
+
+&lt;center&gt;
+&lt;img src="images/SAI_AccCertainty_I.jpg", height="310px"&gt;
+&lt;/center&gt;
+
+
+* if only the linear relationship (red line) would have been considered (e.g. linear regression models) we would have concluded that less certainty in the evaluation leads to a stronger subjective rejection of the technology (slightly negative relationship)
+* visible in the quadratic relation (blue line) there are groups of people who report a high certainty and a low (top left corner) or high (top right corner) acceptability of SAI
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## the never published analysis: certainty and acceptability II
+
+to identify these two groups of people we applied latent class analyses on the Acceptability scale and on three items measuring the perceived certainty of the overall evaluation of the SAI technology:
+
+&lt;center&gt;
+&lt;img src="images/SAI_AccCertainty_II.jpg", height="350px"&gt;
+&lt;/center&gt;
+
+
+* applying multiple t-tests with adjusted p-values (Bonferroni correction), we found significant mean differences on all included scales in the integrative model
+
+
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## future projects
+
+*to come :-)*
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References I
+
+&lt;a name=bib-bianconi_multilayer_2018&gt;&lt;/a&gt;[Bianconi,
+G.](#cite-bianconi_multilayer_2018) (2018). _Multilayer Networks:
+Structure and Function_. En. Google-Books-ID: 9gJfDwAAQBAJ. Oxford
+University Press. ISBN: 978-0-19-106850-8.
+
+&lt;a
+name=bib-boeschenTechnikfolgenabschaetzungHandbuchFuer2021&gt;&lt;/a&gt;[Böschen,
+S. et al.](#cite-boeschenTechnikfolgenabschaetzungHandbuchFuer2021)
+(2021). _Technikfolgenabschätzung: Handbuch für Wissenschaft und
+Praxis_. Nomos Verlag. ISBN: 978-3-7489-0199-0.
+
+&lt;a name=bib-collingridgeSocialControlTechnology1980&gt;&lt;/a&gt;[Collingridge,
+D.](#cite-collingridgeSocialControlTechnology1980) (1980). _Social
+Control of Technology_. Milton Keynes: Open University Press. ISBN:
+0-335-10031-7.
+
+&lt;a name=bib-crutzen_geology_2002&gt;&lt;/a&gt;[Crutzen, P.
+J.](#cite-crutzen_geology_2002) (2002). "Geology of mankind". En. In:
+_Nature_ 415.6867. Number: 6867 Publisher: Nature Publishing Group, pp.
+23-23. ISSN: 1476-4687. DOI:
+[10.1038/415023a](https://doi.org/10.1038%2F415023a). URL:
+[https://www.nature.com/articles/415023a](https://www.nature.com/articles/415023a)
+(visited on Jul. 20, 2022).
+
+&lt;a name=bib-davisPreprototypeUserAcceptance2004&gt;&lt;/a&gt;[Davis, F. et
+al.](#cite-davisPreprototypeUserAcceptance2004) (2004). "Toward
+Preprototype User Acceptance Testing of New Information Systems:
+Implications for Software Project Management". In: _IEEE Transactions
+on Engineering Management_ 51.1, pp. 31-46. ISSN: 1558-0040. DOI:
+[10.1109/TEM.2003.822468](https://doi.org/10.1109%2FTEM.2003.822468).
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References II
+
+
+```
+## Warning: fennIdentifyingKeypsychologicalFactors2023: unknown macro
+## '\textendash'
+```
+
+&lt;a name=bib-diffenbaughDatadrivenPredictionsTime2023&gt;&lt;/a&gt;[Diffenbaugh,
+N. S. et al.](#cite-diffenbaughDatadrivenPredictionsTime2023) (2023).
+"Data-Driven Predictions of the Time Remaining until Critical Global
+Warming Thresholds Are Reached". In: _Proceedings of the National
+Academy of Sciences_ 120.6, p. e2207183120. DOI:
+[10.1073/pnas.2207183120](https://doi.org/10.1073%2Fpnas.2207183120).
+(Visited on Nov. 18, 2023).
+
+&lt;a
+name=bib-elsemullerSensitivityAwareAmortizedBayesian2023&gt;&lt;/a&gt;[Elsemüller,
+L. et al.](#cite-elsemullerSensitivityAwareAmortizedBayesian2023)
+(2023). _Sensitivity-Aware Amortized Bayesian Inference_. DOI:
+[10.48550/arXiv.2310.11122](https://doi.org/10.48550%2FarXiv.2310.11122).
+arxiv: 2310.11122 [cs, stat]. (Visited on Nov. 18, 2023).
+
+&lt;a name=bib-fennDatadrivenMultiMethodApproachIdentifying2023&gt;&lt;/a&gt;[Fenn,
+J. et al.](#cite-fennDatadrivenMultiMethodApproachIdentifying2023)
+(2023). "A Data-driven Multi-Method-Approach for Identifying Ethical
+Concerns of Emerging Technologies". Institute of Psychology, University
+of Freiburg.
+
+&lt;a name=bib-fennCognitiveAffectiveMaps2023&gt;&lt;/a&gt;[Fenn, J. et
+al.](#cite-fennCognitiveAffectiveMaps2023) (2023). "Cognitive Affective
+Maps Tools: Proposing Multiple Software Solutions to Collect and
+Analyze Belief Systems". Institute of Psychology, University of
+Freiburg.
+
+&lt;a name=bib-fennIdentifyingKeypsychologicalFactors2023&gt;&lt;/a&gt;[Fenn, J. et
+al.](#cite-fennIdentifyingKeypsychologicalFactors2023) (2023).
+"Identifying Key-Psychological Factors Influencing the Acceptance of
+yet Emerging Technologies\textendashA Multi-Method-Approach to Inform
+Climate Policy". In: _PLOS Climate_ 2.6, pp. 1-25. ISSN: 2767-3200.
+DOI:
+[10.1371/journal.pclm.0000207](https://doi.org/10.1371%2Fjournal.pclm.0000207).
+(Visited on Jun. 07, 2023).
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References III
+
+&lt;a name=bib-fennDevelopmentValidationEmpirical2023&gt;&lt;/a&gt;[Fenn, J. et
+al.](#cite-fennDevelopmentValidationEmpirical2023) (2023). "Development
+and Validation of an Empirical Ethics Scale for Technology Assessment -
+Challenges and Perspectives for a Real Time Ethics for Emerging
+Technologies". Institute of Psychology, University of Freiburg.
+
+&lt;a name=bib-foleyAnticipatoryGovernanceGeoengineering2018&gt;&lt;/a&gt;[Foley,
+R. W. et al.](#cite-foleyAnticipatoryGovernanceGeoengineering2018)
+(2018). "Towards the Anticipatory Governance of Geoengineering". In:
+_Geoengineering Our Climate?_ Routledge, pp. 223-243. ISBN:
+978-0-203-48526-2.
+
+&lt;a name=bib-funtowiczSciencePostnormalAge1993&gt;&lt;/a&gt;[Funtowicz, S. O. et
+al.](#cite-funtowiczSciencePostnormalAge1993) (1993). "Science for the
+Post-Normal Age". In: _Futures_ 25.7, pp. 739-755. ISSN: 0016-3287.
+DOI:
+[10.1016/0016-32879390022-L](https://doi.org/10.1016%2F0016-32879390022-L).
+(Visited on Sep. 26, 2022).
+
+&lt;a
+name=bib-grunwaldTechnikfolgenabschaetzungEinfuehrung2022&gt;&lt;/a&gt;[Grunwald,
+A.](#cite-grunwaldTechnikfolgenabschaetzungEinfuehrung2022) (2022).
+_Technikfolgenabschätzung: Einführung_. Nomos Verlag. ISBN:
+978-3-8487-8498-1.
+
+&lt;a name=bib-grunwaldHandbuchTechnikethik2021&gt;&lt;/a&gt;[Grunwald, A. et
+al.](#cite-grunwaldHandbuchTechnikethik2021) (2021). _Handbuch
+Technikethik_. J. B. Metzler. ISBN: 978-3-476-04900-1. (Visited on Jul.
+12, 2022).
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References IV
+
+&lt;a name=bib-gustonRealtimeTechnologyAssessment2002&gt;&lt;/a&gt;[Guston, D. H.
+et al.](#cite-gustonRealtimeTechnologyAssessment2002) (2002).
+"Real-Time Technology Assessment". In: _Technology in Society_.
+American Perspectives on Science and Technology Policy 24.1, pp.
+93-109. ISSN: 0160-791X. DOI:
+[10.1016/S0160-791X0100047-1](https://doi.org/10.1016%2FS0160-791X0100047-1).
+(Visited on Jul. 11, 2022).
+
+&lt;a name=bib-homer-dixon_complex_2013&gt;&lt;/a&gt;[Homer-Dixon, T. et
+al.](#cite-homer-dixon_complex_2013) (2013). "A Complex Systems
+Approach to the Study of Ideology: Cognitive-Affective Structures and
+the Dynamics of Belief Systems". En. In: _Journal of Social and
+Political Psychology_ 1.1. Number: 1, pp. 337-363. ISSN: 2195-3325.
+DOI: [10.5964/jspp.v1i1.36](https://doi.org/10.5964%2Fjspp.v1i1.36).
+URL:
+[https://jspp.psychopen.eu/index.php/jspp/article/view/4763](https://jspp.psychopen.eu/index.php/jspp/article/view/4763)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-mansell_measuring_2021&gt;&lt;/a&gt;[Mansell, J. et
+al.](#cite-mansell_measuring_2021) (2021). "Measuring attitudes as a
+complex system: Structured thinking and support for the Canadian carbon
+tax". En. In: _Politics and the Life Sciences_ 40.2. Publisher:
+Cambridge University Press, pp. 179-201. ISSN: 0730-9384, 1471-5457.
+DOI: [10.1017/pls.2021.16](https://doi.org/10.1017%2Fpls.2021.16). URL:
+[https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A](https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/abs/measuring-attitudes-as-a-complex-system/751DA923AFE65ABDC61C4F39F26E151A)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-mansell_novel_2021&gt;&lt;/a&gt;[Mansell, J. et
+al.](#cite-mansell_novel_2021) (2021). "A Novel Network Approach to
+Capture Cognition and Affect: COVID-19 Experiences in Canada and
+Germany". In: _Frontiers in Psychology_ 12, pp. 1-14. ISSN: 1664-1078.
+DOI:
+[10.3389/fpsyg.2021.663627](https://doi.org/10.3389%2Ffpsyg.2021.663627).
+URL:
+[https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.663627)
+(visited on Jul. 06, 2022).
+
+&lt;a name=bib-marchauDecisionMakingDeep2019&gt;&lt;/a&gt;[Marchau, V. A. W. J. et
+al., ed.](#cite-marchauDecisionMakingDeep2019) (2019). _Decision Making
+under Deep Uncertainty_. Springer Nature. DOI:
+[10.1007/978-3-030-05252-2](https://doi.org/10.1007%2F978-3-030-05252-2).
+(Visited on Mai. 08, 2023).
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References V
+
+&lt;a name=bib-mollerProspectiveTechnologyAssessment2022&gt;&lt;/a&gt;[Möller, M.
+et al.](#cite-mollerProspectiveTechnologyAssessment2022) (2022).
+"Prospective Technology Assessment in the Anthropocene: A Transition
+toward a Culture of Sustainability". In: _The Anthropocene Review_ 9.2,
+pp. 257-275. ISSN: 2053-0196, 2053-020X. DOI:
+[10.1177/20530196221095700](https://doi.org/10.1177%2F20530196221095700).
+(Visited on Mrz. 21, 2023).
+
+&lt;a name=bib-peng_art_2016&gt;&lt;/a&gt;[Peng, R. D. et al.](#cite-peng_art_2016)
+(2016). _The Art of Data Science: A Guide for Anyone who Works with
+Data_. En. Google-Books-ID: ZDH9DAEACAAJ. Lulu.com. ISBN:
+978-1-365-06146-2. URL:
+[https://bookdown.org/rdpeng/artofdatascience/](https://bookdown.org/rdpeng/artofdatascience/).
+
+&lt;a name=bib-reijersMethodsPractisingEthics2018&gt;&lt;/a&gt;[Reijers, W. et
+al.](#cite-reijersMethodsPractisingEthics2018) (2018). "Methods for
+Practising Ethics in Research and Innovation: A Literature Review,
+Critical Analysis and Recommendations". In: _Science and Engineering
+Ethics_ 24.5, pp. 1437-1481. ISSN: 1471-5546. DOI:
+[10.1007/s11948-017-9961-8](https://doi.org/10.1007%2Fs11948-017-9961-8).
+(Visited on Jul. 13, 2022).
+
+&lt;a name=bib-reuterBridgingTroubledWaters2022&gt;&lt;/a&gt;[Reuter,
+L.](#cite-reuterBridgingTroubledWaters2022) (2022). "Bridging Over the
+Troubled Waters of Quantitative and Qualitative Methods: Exploring
+Cognitive-Affective Maps in Empirical Research".
+
+&lt;a name=bib-sendtner_kostbare_2021&gt;&lt;/a&gt;[Sendtner,
+C.](#cite-sendtner_kostbare_2021) (2021). "Kostbare Kisten: Gründe für
+Fehleinschätzungen der Kosten des eigenen Autos und deren Auswirkungen
+auf die Bewertung des ÖPNV -Masterarbeit". DOI:
+[10.13140/RG.2.2.32640.56325](https://doi.org/10.13140%2FRG.2.2.32640.56325).
+URL:
+[https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit](https://www.researchgate.net/publication/354095986_Kostbare_Kisten_Grunde_fur_Fehleinschatzungen_der_Kosten_des_eigenen_Autos_und_deren_Auswirkungen_auf_die_Bewertung_des_OPNV_-Masterarbeit).
+
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References VI
+
+&lt;a name=bib-straubSearchTechnologyReadiness2015&gt;&lt;/a&gt;[Straub,
+J.](#cite-straubSearchTechnologyReadiness2015) (2015). "In Search of
+Technology Readiness Level (TRL) 10". In: _Aerospace Science and
+Technology_ 46, pp. 312-320. ISSN: 1270-9638. DOI:
+[10.1016/j.ast.2015.07.007](https://doi.org/10.1016%2Fj.ast.2015.07.007).
+(Visited on Jul. 13, 2022).
+
+&lt;a name=bib-thagard_coherence_2000&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_coherence_2000) (2000). _Coherence in Thought and
+Action_. En. Google-Books-ID: Px0vctI8eGQC. MIT Press. ISBN:
+978-0-262-70092-4.
+
+&lt;a name=bib-thagard_hot_2006&gt;&lt;/a&gt;[Thagard, P.](#cite-thagard_hot_2006)
+(2006). _Hot Thought: Mechanisms and Applications of Emotional
+Cognition_. En. Google-Books-ID: tJV735\_ HoLAC. MIT Press. ISBN:
+978-0-262-70124-2.
+
+&lt;a name=bib-thagard_empathica_2010&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_empathica_2010) (2010). "EMPATHICA: A Computer
+Support System with Visual Representations for Cognitive-Affective
+Mapping". En. In: _Workshops at the Twenty-Fourth AAAI Conference on
+Artificial Intelligence_. , pp. 79-81. URL:
+[https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981](https://www.aaai.org/ocs/index.php/WS/AAAIW10/paper/view/1981)
+(visited on Jul. 07, 2022).
+
+&lt;a name=bib-thagard_cognitive_2021&gt;&lt;/a&gt;[Thagard,
+P.](#cite-thagard_cognitive_2021) (2021). "The cognitive science of
+COVID-19: Acceptance, denial, and belief change". En. In: _Methods_.
+COVID-19 and multidimensional epidemic patterns 195, pp. 92-102. ISSN:
+1046-2023. DOI:
+[10.1016/j.ymeth.2021.03.009](https://doi.org/10.1016%2Fj.ymeth.2021.03.009).
+URL:
+[https://www.sciencedirect.com/science/article/pii/S104620232100075X](https://www.sciencedirect.com/science/article/pii/S104620232100075X)
+(visited on Sep. 26, 2022).
+
+
+&lt;!-- *********** NEW SLIDE ************** --&gt;
+---
+## References VII
+
+
+```
+## Warning in `[[.BibEntry`(x, ind): subscript out of bounds
+```
+
+&lt;a name=bib-vikBalancedReadinessLevel2021&gt;&lt;/a&gt;[Vik, J. et
+al.](#cite-vikBalancedReadinessLevel2021) (2021). "Balanced Readiness
+Level Assessment (BRLa): A Tool for Exploring New and Emerging
+Technologies." In: _Technological Forecasting and Social Change_ 169,
+pp. 1-9. ISSN: 0040-1625. DOI:
+[10.1016/j.techfore.2021.120854](https://doi.org/10.1016%2Fj.techfore.2021.120854).
+(Visited on Jul. 13, 2022).
+
+&lt;a name=bib-wickham_r_2017&gt;&lt;/a&gt;[Wickham, H. et
+al.](#cite-wickham_r_2017) (2017). _R for Data Science: Import, Tidy,
+Transform, Visualize, and Model Data_. En. Google-Books-ID:
+I6y3DQAAQBAJ. O'Reilly Media, Inc. ISBN: 978-1-4919-1034-4. URL:
+[https://r4ds.had.co.nz/](https://r4ds.had.co.nz/).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"ratio": "16:9",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15750,Wehniger Verpflichtungen,1071.0,163.0,160.0,120.0,positive weak,334,17.0,,15:15:49,1,573
+15668,bessere Noten,1276.0,20.0,160.0,120.0,positive strong,334,16.0,,,1,573
+15663,höhere Effektivität,1039.0,20.0,160.0,120.0,positive strong,334,15.0,,15:12:21,1,573
+15660,viel Freizeit,661.0,156.0,160.0,120.0,negative strong,334,14.0,,15:13:00,1,573
+15589,Ruhe,767.0,40.0,160.0,120.0,positive,334,12.0,,15:12:25,1,573
+15562,psychische Belastung,505.969,429.969,160.0,120.0,negative strong,334,5.0,,15:12:31,0,573
+15561,Psychischer Stress,214.969,535.0,160.0,120.0,negative strong,334,6.0,,15:12:47,0,573
+15560,Einsamkeit,20.0,397.984,160.0,120.0,neutral,334,10.0, ,,0,573
+15559,Angst,332.0,219.0,160.0,120.0,negative strong,334,7.0,,15:12:28,0,573
+15558,Corona-Pandemie,889.0,330.0,160.0,120.0,neutral,334,1.0, ,,0,573
+15557,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,334,8.0, ,,0,573
+15556,physische Isolierung,784.0,544.0,160.0,120.0,negative weak,334,2.0,,15:12:51,0,573
+15555,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,334,3.0, ,,0,573
+15554,Depressivität,20.0,522.969,160.0,120.0,neutral,334,9.0, ,,0,573
+15553,Befinden,20.0,143.984,160.0,120.0,neutral,334,4.0, ,,0,573
+15552,wirtschaftliche Folgen,178.969,20.0,160.0,120.0,neutral,334,11.0, ,,0,573

@@ -1,0 +1,10 @@
+id,starting_block,ending_block,line_style,creator,num,arrow_type,timestamp,CAM
+4647,5449,5458,Solid,130,0,uni,18:50:47,221
+4642,5441,5458,Solid,130,0,uni,18:50:42,221
+4635,5441,5449,Solid-Strong,130,0,none,18:50:17,221
+4581,4579,5362,Solid,130,0,none,18:48:41,221
+4562,4592,5362,Solid-Strong,130,0,none,18:48:03,221
+4483,4570,4592,Solid-Strong,130,0,none,18:48:08,221
+4471,4570,4420,Solid,130,0,uni,18:45:37,221
+4463,4570,4579,Solid,130,0,uni,18:45:41,221
+4304,4691,4592,Solid,130,0,uni,18:43:38,221

@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24343,Flexible Schnelligkeit,251.0,20.0,160.0,120.0,positive weak,807,18.0,,,1,1562
+24340,Auch bei Müdigkeit sicher,677.0,20.0,160.0,120.0,positive weak,807,17.0,,,1,1562
+24334,Flexible Wegplanung,149.0,110.0,160.0,120.0,positive,807,15.0,,,1,1562
+24319,Vorgegebene Routen/längere Wege,760.0,453.0,160.0,120.0,negative weak,807,14.0,,,1,1562
+24318,Flexibler Ein- und Ausstieg/Pausen,328.0,159.0,160.0,120.0,positive,807,13.0,,,1,1562
+24315,Ansteckungsgefahr,570.0,471.0,160.0,120.0,negative strong,807,11.0,,21:11:19,1,1562
+24314,Fahrtzeit kann genutzt werden,544.0,180.0,160.0,120.0,positive,807,10.0,,,1,1562
+24313,Spart CO2,804.0,76.0,160.0,120.0,positive,807,9.0,,,1,1562
+24312,CO2-Ausstoß,138.0,452.0,160.0,120.0,negative,807,8.0,,21:11:27,1,1562
+24310,Kein Stau,821.0,351.0,156.663,117.0,positive weak,807,7.0,,,1,1562
+24308,Infektionsschutz,20.0,383.0,160.0,120.0,positive,807,6.0,,,1,1562
+24305,Parkplatzsuche entfällt,832.0,228.0,160.0,120.0,positive,807,4.0,,,1,1562
+24303,Unabhängige Zeitplanung,20.0,20.0,160.0,120.0,positive,807,3.0,,21:01:29,1,1562
+24300,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,807,1.0, ,,1,1562
+24299,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,807,2.0, ,,1,1562

@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16650,Gelegenheit,989.0,339.0,160.0,120.0,positive strong,383,14.0,,15:55:37,1,607
+16649,Impfung,838.0,455.0,160.0,120.0,positive strong,383,13.0,,15:55:12,1,607
+16622,Mut,515.0,45.0,160.0,120.0,positive strong,383,12.0,,15:54:11,1,607
+16553,psychische Belastung,643.983,514.983,160.0,120.0,negative strong,383,5.0,,15:53:58,0,607
+16552,Stress,243.983,340.0,160.0,120.0,negative strong,383,6.0,,15:53:55,0,607
+16550,Angst,306.0,161.0,160.0,120.0,negative strong,383,7.0,,15:53:53,0,607
+16549,Corona-Pandemie,560.983,245.983,160.0,120.0,negative strong,383,1.0,,15:51:46,0,607
+16548,Zusammenhalt,765.0,65.0,160.0,120.0,positive strong,383,8.0,,15:51:44,0,607
+16544,Befinden,962.983,206.983,160.0,120.0,ambivalent,383,4.0,,15:52:05,0,607
+16543,wirtschaftliche Folgen,344.967,492.967,160.0,120.0,negative strong,383,11.0,,15:53:56,0,607

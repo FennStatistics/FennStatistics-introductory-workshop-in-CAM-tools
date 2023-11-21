@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4631,Homemade meals,756.532,19.0,160.0,120.0,positive strong,128,11.0,,,1,218
+4503,PPE,389.986,497.0,160.0,120.0,negative weak,128,10.0,,18:29:20,1,218
+4497,Depression,279.986,333.986,160.0,120.0,negative strong,128,9.0,,18:29:22,1,218
+4489,Economy,299.991,154.986,160.0,120.0,ambivalent,128,8.0,,18:33:36,1,218
+4483,Paranoia,827.995,514.981,160.0,120.0,negative strong,128,7.0,,18:29:12,1,218
+4458,Increased Distancing,612.977,513.981,160.0,120.0,positive strong,128,6.0,,18:29:16,1,218
+4442,Reduced Store Hours,954.991,301.977,160.0,120.0,negative strong,128,5.0,,18:29:10,1,218
+4434,Travel Ban,910.986,58.9815,160.0,120.0,negative strong,128,4.0,,18:29:07,1,218
+4430,Work from Home,671.963,111.963,160.0,120.0,positive weak,128,3.0,,18:29:03,1,218
+4415,Death,472.986,47.9907,160.0,120.0,negative strong,128,2.0,,18:29:50,1,218
+4405,Coronavirus,624.986,321.968,160.0,120.0,negative strong,128,1.0,,,1,218

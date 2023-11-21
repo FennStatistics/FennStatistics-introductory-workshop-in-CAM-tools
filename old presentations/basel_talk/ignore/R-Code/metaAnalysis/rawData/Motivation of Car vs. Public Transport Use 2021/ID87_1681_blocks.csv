@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26212,Verantwortung,574.0,544.0,160.0,120.0,ambivalent,881,18.0,,11:14:10,1,1681
+26210,Transportmöglichkeit,40.0,512.0,160.0,120.0,positive strong,881,17.0,,,1,1681
+26206,Abhängigkeit,424.0,71.0,160.0,120.0,negative,881,16.0,,,1,1681
+26204,Verbindungen ländlicher Raum,883.0,511.0,160.0,120.0,negative strong,881,15.0,,11:50:15,1,1681
+26194,Kosten für mehrere Mitfahrer,341.0,544.0,160.0,120.0,ambivalent,881,13.0,,11:25:16,1,1681
+26186,Wartezeit,823.0,331.0,160.0,120.0,negative,881,12.0,,,1,1681
+26185,Verfügbarkeit,348.0,163.0,160.0,120.0,positive strong,881,11.0,,,1,1681
+26184,Kosten,202.0,467.0,160.0,120.0,ambivalent,881,10.0,,,1,1681
+26183,Parkplatzuche,34.0,340.0,160.0,120.0,negative,881,9.0,,,1,1681
+26182,Zielgnauigkeit,32.0,189.0,160.0,120.0,positive strong,881,8.0,,,1,1681
+26181,Umsteigen,602.0,85.0,160.0,120.0,negative weak,881,7.0,,11:15:09,1,1681
+26180,Umweltverträgch,889.0,231.0,160.0,120.0,positive,881,5.0,,,1,1681
+26179,Planung nötig,651.0,223.0,160.0,120.0,negative strong,881,4.0,,11:02:05,1,1681
+26178,Freiheit,206.0,227.0,160.0,120.0,positive strong,881,3.0,,,1,1681
+26177,Eigener Pkw,274.0,345.0,160.0,120.0,neutral,881,1.0, ,,1,1681
+26176,Öffentliche Verkehrsmittel,580.0,331.0,160.0,120.0,neutral,881,2.0, ,,1,1681

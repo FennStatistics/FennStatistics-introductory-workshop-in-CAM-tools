@@ -1,0 +1,25 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27788,Kein Parkproblem,645.0,84.0,160.0,120.0,positive strong,950,7.0,,14:00:27,1,1783
+27826,Fahrkartenbuchung,811.0,379.0,160.0,120.0,negative strong,950,25.0,,,1,1783
+27825,Fahrtkosten,846.0,470.0,160.0,120.0,negative strong,950,24.0,,,1,1783
+27824,Benzinkosten,46.0,352.0,160.0,120.0,negative strong,950,23.0,,,1,1783
+27823,Direkte Verbindungen,150.0,544.0,160.0,120.0,positive strong,950,22.0,,,1,1783
+27822,"Umsteigen, Anbindungen",879.0,567.0,160.0,120.0,negative strong,950,21.0,,,1,1783
+27821,Isolation,68.0,165.0,160.0,120.0,negative strong,950,20.0,,,1,1783
+27820,Soziale Kontakte,863.0,106.0,160.0,120.0,positive strong,950,19.0,,,1,1783
+27819,Planung nötig,707.0,427.0,160.0,120.0,negative strong,950,18.0,,14:04:07,1,1783
+27818,Staus,457.0,154.0,160.0,120.0,negative strong,950,17.0,,,1,1783
+27815,Kein Stau,733.0,165.0,160.0,120.0,positive strong,950,16.0,,,1,1783
+27813,Warten,732.0,552.0,160.0,120.0,negative strong,950,15.0,,,1,1783
+27798,Spontanität,291.0,240.0,160.0,120.0,positive strong,950,14.0,,,1,1783
+27797,Einfache Transportmöglichkeit,312.0,466.0,160.0,120.0,positive strong,950,13.0,,14:02:08,1,1783
+27796,Wetterunabhängigkeit,124.0,449.0,160.0,120.0,positive strong,950,11.0,,,1,1783
+27795,Unattraktivität in ländlichen. Regionen,806.0,308.0,160.0,120.0,negative strong,950,10.0,,,1,1783
+27791,Umweltbelastung,109.0,268.0,160.0,120.0,negative strong,950,9.0,,,1,1783
+27789,Umweltverträglichkeit,768.0,29.0,160.0,120.0,positive strong,950,8.0,,,1,1783
+27787,Parkproblem,318.0,85.0,160.0,120.0,negative strong,950,6.0,,,1,1783
+27786,Mögliche Unverlässkeit,872.0,223.0,160.0,120.0,negative strong,950,5.0,,,1,1783
+27765,Zeitgebundenheit,590.0,552.0,160.0,120.0,negative strong,950,4.0,,14:00:23,1,1783
+27764,Unabhängigkeit,162.0,20.0,160.0,120.0,positive strong,950,3.0,,13:56:47,1,1783
+27763,Eigener Pkw,273.0,347.0,160.0,120.0,neutral,950,1.0, ,,1,1783
+27762,Öffentliche Verkehrsmittel,577.0,343.0,160.0,120.0,neutral,950,2.0, ,,1,1783

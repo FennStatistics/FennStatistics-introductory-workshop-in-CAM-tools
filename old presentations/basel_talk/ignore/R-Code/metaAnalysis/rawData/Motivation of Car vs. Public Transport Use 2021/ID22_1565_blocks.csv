@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24368,Unfallgefahr,402.0,544.0,160.0,120.0,negative,809,10.0,,21:18:49,1,1565
+24367,Geldsparen,743.0,363.0,160.0,120.0,positive strong,809,9.0,,,1,1565
+24353,Fahrspaß,119.0,550.547,147.891,110.438,positive strong,809,8.0,,,1,1565
+24351,Corona Gefahr,590.0,487.0,160.0,120.0,negative strong,809,7.0,,,1,1565
+24348,Nicht flexibel,534.0,210.0,160.0,120.0,negative strong,809,6.0,,,1,1565
+24346,Kosten,74.0,321.0,160.0,120.0,negative strong,809,5.0,,21:07:48,1,1565
+24342,Umweltschutz,760.0,221.0,160.0,120.0,positive strong,809,4.0,,21:06:58,1,1565
+24341,Unabhängigkeit,280.0,143.0,160.0,120.0,positive strong,809,3.0,,,1,1565
+24339,Eigener Pkw,318.0,350.0,163.797,117.0,neutral,809,1.0, ,,1,1565
+24338,Öffentliche Verkehrsmittel,547.0,341.0,160.0,120.0,neutral,809,2.0, ,,1,1565

@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27675,Unterhaltungs...,481.0,544.0,160.0,120.0,negative strong,945,27.0,,23:48:34,1,1778
+27674,Reparatur,629.0,518.0,160.0,120.0,negative strong,945,26.0,,,1,1778
+27665,"Gebundenheit an Zeiten, Preise, Verfügbarkeit",938.0,330.0,160.0,120.0,negative,945,13.0,,23:23:10,1,1778
+27673,Anschaffung,592.0,429.0,160.0,120.0,negative strong,945,24.0,,23:46:59,1,1778
+27672,sehr schlechte Verfügbarkeit,946.0,211.0,160.0,120.0,negative strong,945,23.0,,,1,1778
+27671,Produktionsbelastung,20.0,460.0,160.0,120.0,negative,945,20.0,,23:42:56,1,1778
+27670,hohe Kosten,419.0,429.0,160.0,120.0,negative strong,945,19.0,,23:46:34,1,1778
+27669,"Erreichbarkeit von Orten, die nicht mit dem PKW erreicht werden können",883.0,29.0,160.0,120.0,positive strong,945,17.0,,,1,1778
+27668,Verspätung,977.0,484.0,160.0,120.0,negative strong,945,16.0,,,1,1778
+27667,"Privatheit, eigene Musik, singen",445.0,66.0,160.0,120.0,positive weak,945,15.0,,23:24:57,1,1778
+27666,Gut für die Umwelt,619.0,80.0,160.0,120.0,positive strong,945,14.0,,,1,1778
+27664,Begrenzte Personenkapazität,309.0,544.0,160.0,120.0,negative weak,945,12.0,,,1,1778
+27663,Anstrengend bei langen Fahrten,501.0,317.0,160.0,120.0,negative weak,945,11.0,,23:21:35,1,1778
+27662,Schlechte Erfahrung mit anderen Fahrgästen,761.0,438.0,160.0,120.0,negative strong,945,10.0,,,1,1778
+27661,Einfach mit viel Krimskrams/Einkäufen,33.0,335.0,160.0,120.0,positive strong,945,9.0,,,1,1778
+27660,Einfach mit Hund,177.0,53.0,160.0,120.0,positive strong,945,8.0,,,1,1778
+27659,Einfach mit Kindern,20.0,243.0,160.0,120.0,positive strong,945,7.0,,,1,1778
+27658,Komfortabel,116.0,158.0,160.0,120.0,positive weak,945,6.0,,,1,1778
+27657,Abgase,193.0,464.0,158.0,118.0,negative strong,945,5.0,,23:43:27,1,1778
+27656,Umweltbelastung,150.0,544.0,160.0,120.0,negative strong,945,4.0,,,1,1778
+27655,Zeitlich flexibel,300.0,103.0,160.0,120.0,positive strong,945,3.0,,,1,1778
+27654,Eigener Pkw,316.0,227.0,160.0,120.0,neutral,945,1.0, ,,1,1778
+27653,Öffentliche Verkehrsmittel,674.0,230.0,160.0,120.0,neutral,945,2.0, ,,1,1778

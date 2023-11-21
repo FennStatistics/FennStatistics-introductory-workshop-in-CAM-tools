@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+28479,no fatigue,684.246,462.978,160.0,120.0,positive weak,1011,15.0,,16:22:09,1,1852
+28443,not enough rest,832.496,616.955,160.0,120.0,negative strong,1011,13.0,What happens after various days without sleep?,16:24:28,1,1852
+28403,data privacy,572.0,2.0,160.0,120.0,negative weak,1011,12.0,,16:16:33,1,1852
+28391,controlled using app,182.0,256.0,160.0,120.0,neutral,1011,10.0,,,1,1852
+28386,installed in the brain,222.0,586.0,160.0,120.0,negative strong,1011,8.0,,16:15:39,1,1852
+28327,sleep regulation,538.0,580.0,160.0,120.0,neutral,1011,7.0,,16:14:54,1,1852
+28323,can decompose itself,971.969,475.973,160.0,120.0,ambivalent,1011,5.0,,16:17:50,1,1852
+28296,risk of hacking,248.0,72.0,160.0,120.0,negative,1011,4.0,Risk of someone controlling our sleep cycles,16:23:38,1,1852
+28276,repairs itself,923.25,269.237,180.647,135.0,positive weak,1011,3.0,,16:10:49,1,1852
+28264,no maintenance,854.496,77.7455,160.29,119.71,positive strong,1011,2.0,,16:10:16,1,1852
+28251,technological implant,476.996,310.0,160.0,120.0,neutral,1011,1.0, ,,1,1852

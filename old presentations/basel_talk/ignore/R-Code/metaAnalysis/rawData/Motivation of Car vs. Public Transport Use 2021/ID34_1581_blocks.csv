@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24759,schlechtere Kosten/Nutzen Bilanz,1057.0,404.0,160.0,120.0,negative weak,820,12.0,,12:00:04,1,1581
+24754,Schnellere und direkter Reisen,185.0,489.0,160.0,120.0,positive weak,820,11.0,,11:49:31,1,1581
+24743,Krankheitsübertragung durch Flächenkontakt,940.0,37.0,160.0,120.0,negative weak,820,10.0,,11:48:14,1,1581
+24735,Parken,590.0,366.0,160.0,120.0,neutral,820,9.0,,,1,1581
+24732,Zeitplangebundener Personentransport,746.0,504.0,160.0,120.0,negative weak,820,8.0,,11:46:54,1,1581
+24726,Eigenbestimmtheit über die Anzahl und Auswahl der Mitfahrer,334.0,38.0,160.0,120.0,positive,820,7.0,,11:46:08,1,1581
+24693,CO2 Ausstoß pro Person,743.0,131.0,160.0,120.0,positive weak,820,6.0,,11:45:43,1,1581
+24684,Flexibilität,598.0,537.0,160.0,120.0,ambivalent,820,4.0,,11:46:35,1,1581
+24682,Umweltfreundlichkeit,579.0,174.0,160.0,120.0,ambivalent,820,3.0,,11:46:24,1,1581
+24676,Öffentliche Verkehrsmittel,789.0,285.0,160.0,120.0,neutral,820,2.0,,11:46:32,1,1581
+24675,Eigener PKW,353.0,285.0,160.0,120.0,neutral,820,1.0,,,1,1581

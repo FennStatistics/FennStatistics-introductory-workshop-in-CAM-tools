@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5527,Less income,246.0,129.0,160.0,120.0,negative,167,16.0,,,1,267
+5482,People dying,511.0,486.0,160.0,120.0,negative strong,167,15.0,,,1,267
+5457,Feeling lonely,981.0,67.0,160.0,120.0,negative weak,167,14.0,,18:50:36,1,267
+5393,Staying home,573.0,26.0,160.0,120.0,positive,167,13.0,,,1,267
+5313,Meetings strangers,45.0,284.0,160.0,120.0,positive,167,11.0,,,1,267
+5244,Work,534.0,238.0,160.0,120.0,positive,167,10.0,,,1,267
+5230,Family,1240.0,405.0,160.0,120.0,positive strong,167,9.0,,,1,267
+5223,Friends,818.0,266.0,160.0,120.0,positive strong,167,8.0,,,1,267
+5203,Outside,337.0,358.0,160.0,120.0,positive weak,167,6.0,,,1,267
+5147,Coronavirus,671.0,361.0,160.0,120.0,positive,167,1.0,,,1,267

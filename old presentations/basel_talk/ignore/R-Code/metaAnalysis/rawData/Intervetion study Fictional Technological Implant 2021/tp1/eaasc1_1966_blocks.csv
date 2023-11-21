@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+29616,morality,997.5,108.75,160.0,120.0,ambivalent,1096,21.0,,,1,1966
+29607,side effects?,1065.0,582.5,160.0,120.0,negative strong,1096,20.0,,17:10:45,1,1966
+29606,danger,785.0,580.0,160.0,120.0,negative strong,1096,19.0,,,1,1966
+29603,work-life balance,13.0,308.75,160.0,120.0,positive strong,1096,18.0,,17:09:29,1,1966
+29601,leisure activities,162.5,65.0,160.0,120.0,positive strong,1096,17.0,,17:08:30,1,1966
+29600,misuse,1006.0,197.25,160.0,120.0,negative strong,1096,16.0,,,1,1966
+29596,free will,1065.0,300.0,160.0,120.0,negative weak,1096,15.0,,17:05:33,1,1966
+29595,choice?,900.0,345.25,160.0,120.0,negative strong,1096,14.0,,,1,1966
+29593,profits,848.75,447.5,160.0,120.0,negative,1096,13.0,,,1,1966
+29591,cost?,562.5,483.75,160.0,120.0,negative,1096,12.0,,,1,1966
+29589,coercive,128.0,578.0,160.0,120.0,negative strong,1096,11.0,,17:03:45,1,1966
+29587,studying,20.5,150.0,160.0,120.0,positive weak,1096,10.0,,,1,1966
+29585,workplace,177.5,282.5,157.988,117.988,positive weak,1096,9.0,,,1,1966
+29578,health,598.75,196.25,160.0,120.0,positive strong,1096,7.0,,,1,1966
+29576,productivity,280.0,446.984,160.0,120.0,positive strong,1096,6.0,,,1,1966
+29574,control,278.5,155.0,160.0,120.0,neutral,1096,5.0,,17:02:11,1,1966
+29570,insomnia,670.0,67.5,160.0,120.0,positive strong,1096,4.0,,,1,1966
+29568,sleep disorders,402.0,16.0,160.957,120.215,positive strong,1096,3.0,,,1,1966
+29564,technological implant,472.0,290.0,160.0,120.0,neutral,1096,1.0, ,,1,1966

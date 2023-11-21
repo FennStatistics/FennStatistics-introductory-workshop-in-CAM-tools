@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25976,Stau,81.0,497.0,160.0,120.0,negative strong,868,17.0,,,1,1664
+25975,Umwelt,896.0,474.0,160.0,120.0,positive strong,868,16.0,,,1,1664
+25974,Zeit,917.0,132.0,160.0,120.0,positive,868,15.0,,21:42:04,1,1664
+25970,Sicherheit,433.0,202.0,160.0,120.0,neutral,868,14.0,,21:40:02,1,1664
+25969,Laufende Kosten,446.0,544.0,160.0,120.0,negative,868,13.0,,21:39:09,1,1664
+25956,Freunde fahren,20.0,342.0,160.0,120.0,positive,868,12.0,,,1,1664
+25955,Flexibel,280.0,89.0,160.0,120.0,positive strong,868,11.0,,,1,1664
+25954,Teuer,269.0,462.0,160.0,120.0,negative,868,9.0,,,1,1664
+25953,mobil,640.0,76.0,160.0,120.0,positive weak,868,8.0,,21:35:28,1,1664
+25952,Ausfälle,951.0,366.0,160.0,120.0,negative strong,868,7.0,,,1,1664
+25951,Stress,948.0,233.0,160.0,120.0,negative,868,6.0,,,1,1664
+25950,Komfort,20.0,201.0,160.0,120.0,positive strong,868,5.0,,21:34:12,1,1664
+25949,Günstiger,815.0,38.0,160.0,120.0,positive strong,868,4.0,,,1,1664
+25948,Freiheit ,95.0,80.0,160.0,120.0,positive strong,868,3.0,,21:33:27,1,1664
+25947,Eigener Pkw,197.0,348.0,160.0,120.0,neutral,868,1.0, ,,1,1664
+25946,Öffentliche Verkehrsmittel,650.0,354.0,160.0,120.0,neutral,868,2.0, ,,1,1664

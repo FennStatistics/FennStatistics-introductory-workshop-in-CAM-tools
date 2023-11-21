@@ -1,0 +1,28 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24460,Steuer,23.2,240.0,160.0,120.0,negative strong,806,27.0,,,1,1571
+24459,Wartung,87.2,50.4,160.0,120.0,negative weak,806,26.0,,,1,1571
+24458,Reperatur,23.2,144.0,160.0,120.0,negative,806,25.0,,,1,1571
+24457,Kosten,175.0,227.0,160.0,120.0,negative strong,806,24.0,,,1,1571
+24456,Aufwand,142.0,588.4,160.0,120.0,negative weak,806,23.0,,,1,1571
+24455,Pflichten als Autobesitzer,23.2,505.0,160.0,120.0,negative weak,806,22.0,,,1,1571
+24454,Teuer als Nicht_Student,920.2,346.0,160.0,120.0,negative,806,21.0,,,1,1571
+24453,Öffentliche Verkehrsmittel,573.0,351.0,160.0,120.0,neutral,806,2.0, ,,1,1571
+24452,Eigener Pkw,275.0,346.0,160.0,120.0,neutral,806,1.0, ,,1,1571
+24451,Benzinkosten,278.0,143.0,160.0,120.0,negative,806,3.0,,20:57:54,1,1571
+24450,Parkplatzsuche,61.0,326.0,160.0,120.0,negative weak,806,4.0,,20:58:08,1,1571
+24449,Schnell,356.0,218.0,160.0,120.0,positive,806,6.0,,,1,1571
+24448,garantiertes sitzen,169.0,445.0,160.0,120.0,positive weak,806,7.0,,20:59:22,1,1571
+24447,wenig Kontakt mit Menschen,298.0,528.0,160.0,120.0,positive,806,8.0,,,1,1571
+24446,Kostenlos (Student),763.0,297.0,160.0,120.0,positive strong,806,9.0,,,1,1571
+24445,Meistens entspannt,793.0,20.0,160.0,120.0,positive strong,806,10.0,,21:06:37,1,1571
+24444,Kontakt mit vielen Menschen,887.0,544.0,160.0,120.0,negative weak,806,11.0,,,1,1571
+24443,Verspätungen,555.0,544.0,160.0,120.0,negative strong,806,12.0,,,1,1571
+24442,meist langsamer,834.0,436.0,160.0,120.0,negative weak,806,13.0,,,1,1571
+24441,gut für Umwelt,645.0,88.0,160.0,120.0,positive,806,14.0,,21:01:50,1,1571
+24440,Luftverschmutzung,261.0,50.4,160.0,120.0,negative,806,15.0,,,1,1571
+24439,kein garantierter Sitzplatz,729.0,544.0,160.0,120.0,negative weak,806,16.0,,,1,1571
+24438,Stress,23.2,413.0,160.0,120.0,negative,806,5.0,,20:58:29,1,1571
+24437,spontan,431.0,50.4,160.0,120.0,positive,806,17.0,,,1,1571
+24436,Umwelt,518.0,188.0,160.0,120.0,neutral,806,18.0,,,1,1571
+24435,Bessere Möglichkeit für Partys (Alkohol),864.0,192.0,160.0,120.0,positive weak,806,19.0,,21:09:19,1,1571
+24434,sicherer,847.0,107.0,160.0,120.0,positive weak,806,20.0,,,1,1571

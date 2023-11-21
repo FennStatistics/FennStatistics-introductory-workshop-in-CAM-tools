@@ -1,0 +1,29 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16230,,1990.0,1002.0,160.0,120.0,neutral,360,28.0,,,1,593
+16225,,2304.0,998.0,160.0,120.0,neutral,360,27.0,,15:39:04,1,593
+16219,Zeitersparnisse,2024.0,504.0,160.0,120.0,positive,360,26.0,,15:38:43,1,593
+16205,Hände waschen,1202.0,744.0,160.0,120.0,positive strong,360,25.0,,15:40:38,1,593
+16203,Abstand einhalten,1532.0,744.0,160.0,120.0,positive strong,360,24.0,,15:40:25,1,593
+16202,MNS tragen,1370.0,746.0,160.0,120.0,positive strong,360,23.0,,15:40:33,1,593
+16200,Lockdown,1188.0,532.0,160.0,120.0,positive strong,360,22.0,,15:40:42,1,593
+16195,Maßnahmen,1383.0,527.0,160.0,120.0,positive strong,360,21.0,,15:40:22,1,593
+16194,Isolierung,959.0,526.0,160.0,120.0,negative strong,360,20.0,,15:40:44,1,593
+16192,Einkommensverlust,1339.0,209.0,160.0,120.0,negative strong,360,19.0,,15:39:58,1,593
+16169,Weniger Einkommen,1124.0,77.0,160.0,120.0,negative,360,18.0,,15:39:59,1,593
+16146,Arbeitslosigkeit,2034.0,61.0,160.0,120.0,negative strong,360,17.0,,15:40:02,1,593
+16145,Wirtschaftliche Folgen,1581.0,353.0,160.0,120.0,negative strong,360,16.0,,15:39:57,1,593
+16144,Familie,2230.0,647.0,160.0,120.0,positive weak,360,15.0,,15:39:46,1,593
+16139,Home Office,1815.0,507.0,160.0,120.0,positive weak,360,14.0,,15:37:09,1,593
+16137,Freizeit,2231.0,401.0,160.0,120.0,negative weak,360,13.0,,15:39:27,1,593
+16134,Existenzängste,1785.0,195.0,160.0,120.0,negative strong,360,12.0,,15:40:01,1,593
+16123,psychische Belastung,718.969,521.969,160.0,120.0,negative strong,360,5.0,,15:40:47,0,593
+16122,Stress,1813.97,694.0,160.0,120.0,negative weak,360,6.0,,15:38:26,0,593
+16121,Einsamkeit,488.0,707.969,160.0,120.0,negative strong,360,10.0,,15:40:50,0,593
+16120,Angst,20.0,146.0,160.0,120.0,neutral,360,7.0, ,,0,593
+16119,Corona-Pandemie,1578.97,524.969,160.0,120.0,neutral,360,1.0, ,,0,593
+16118,Zusammenhalt,20.0,20.0,160.0,120.0,neutral,360,8.0, ,,0,593
+16117,physische Isolierung,20.0,523.99,160.0,120.0,neutral,360,2.0, ,,0,593
+16116,soziale Isolierung,30.0,267.969,160.0,120.0,neutral,360,3.0, ,,0,593
+16115,Depressivität,488.969,513.969,160.0,120.0,negative strong,360,9.0,,15:41:07,0,593
+16114,Befinden,177.984,144.987,160.0,120.0,neutral,360,4.0, ,,0,593
+16113,wirtschaftliche Folgen,177.969,398.974,160.0,120.0,neutral,360,11.0, ,,0,593

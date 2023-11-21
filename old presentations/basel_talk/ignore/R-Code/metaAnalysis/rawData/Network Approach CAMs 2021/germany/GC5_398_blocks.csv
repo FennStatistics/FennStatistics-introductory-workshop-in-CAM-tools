@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12163,Öffentlichkeit leerer,583.0,485.0,160.0,120.0,positive weak,246,13.0,"z.B. öffentliche Plätze, Supermärkte, Fitnesstudios ",11:32:59,1,398
+12152,Unklare Gesamtsituation,618.0,51.0,160.0,120.0,negative weak,246,10.0,z.B. über Dauer der Einschränkungen,11:31:53,1,398
+12144,Maskenpflicht,836.0,413.0,160.0,120.0,negative weak,246,7.0,,,1,398
+12135,soziale Kontakte,138.0,93.0,160.0,120.0,positive strong,246,5.0,,11:35:49,1,398
+12140,Angst vor Krankheit,282.0,359.0,160.0,120.0,negative weak,246,6.0,,,1,398
+12131,Home-Office,1129.0,21.0,160.0,120.0,positive,246,4.0,,,1,398
+12129,Mehr Zeit Zuhause,929.0,197.0,160.0,120.0,positive weak,246,3.0,,,1,398
+12125,Corona,608.0,216.0,155.313,116.0,neutral,246,1.0,,11:28:39,1,398

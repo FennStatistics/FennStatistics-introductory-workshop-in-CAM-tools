@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27595,Verspätung durch Stau,24.0,99.0,160.0,120.0,negative,941,15.0,"Äquivalent zu ""an Fahrzeiten gebunden, meistens zu spät""",11:28:22,1,1773
+27594,Parkplatzsuche,20.0,226.0,160.0,120.0,negative strong,941,14.0,,,1,1773
+27593,"an Fahrzeiten gebunden, meistens zu spät",759.0,242.0,160.0,120.0,negative,941,13.0,"Äquivalent zu ""Verspätung durch Stau""",11:27:49,1,1773
+27592,freie Zeitwahl,23.0,344.0,160.0,120.0,positive strong,941,12.0,,,1,1773
+27591,"Fahrradfahrrer, die sich nicht an die StVO halten",472.0,201.0,160.0,120.0,negative strong,941,11.0,,,1,1773
+27590,"Möglichkeit mehr zu transportieren, als man tragen kann",31.0,471.0,160.0,120.0,positive strong,941,10.0,,,1,1773
+27589,ungepflegte Waggons,1152.0,442.0,160.0,120.0,negative strong,941,9.0,,,1,1773
+27588,teuer,579.0,494.0,160.0,120.0,negative strong,941,8.0,,,1,1773
+27587,Bahn,983.0,345.0,160.0,120.0,ambivalent,941,7.0,,,1,1773
+27586,gut für die Umwelt,1147.0,59.0,160.0,120.0,positive strong,941,6.0,,,1,1773
+27585,"unangenehme Menschen, die in meine Comfortzone eindringen",934.0,164.0,160.0,120.0,negative strong,941,5.0,,11:14:45,1,1773
+27584,Corona,322.0,26.0,160.0,120.0,ambivalent,941,4.0,,11:15:27,1,1773
+27583,Bus (E-Busse),672.0,60.0,160.0,120.0,ambivalent,941,3.0,,11:19:03,1,1773
+27582,Eigener Pkw,272.0,344.0,160.0,120.0,neutral,941,1.0, ,,1,1773
+27581,Öffentliche Verkehrsmittel,574.0,345.0,160.0,120.0,neutral,941,2.0, ,,1,1773

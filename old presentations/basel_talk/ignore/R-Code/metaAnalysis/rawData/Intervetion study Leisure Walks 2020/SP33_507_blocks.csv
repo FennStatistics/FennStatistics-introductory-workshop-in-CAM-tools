@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14583,Arbeitslosigkeit,134.0,648.0,160.0,120.0,negative strong,337,21.0,,14:28:30,1,507
+14540,Mehr Zeit für Hobbys,1710.0,34.0,160.0,120.0,positive weak,337,20.0,,14:27:35,1,507
+14531,"Menschen, die Regeln missachten",662.0,0.0,160.0,120.0,negative strong,337,19.0,,14:25:33,1,507
+14529,gemeinsam gegen den Virus kämpfen,396.0,36.0,160.0,120.0,positive strong,337,18.0,,14:25:03,1,507
+14433,Verluste,736.0,982.0,160.0,120.0,negative weak,337,16.0,z.B. Todesfall von Angehörigen,14:24:20,1,507
+13645,psychische Belastung,1003.91,873.906,160.0,120.0,ambivalent,337,5.0,,13:58:50,0,507
+13644,Stress,1009.91,498.938,160.0,120.0,negative weak,337,6.0,,13:58:32,0,507
+13643,Einsamkeit,1963.94,435.938,160.0,120.0,negative weak,337,10.0,,13:58:39,0,507
+13642,Angst,740.892,510.875,160.0,120.0,negative,337,7.0,,13:59:06,0,507
+13641,Corona-Pandemie,518.955,348.933,160.0,120.0,neutral,337,1.0, ,,0,507
+13640,Zusammenhalt,842.969,69.9375,160.0,120.0,ambivalent,337,8.0,,14:15:33,0,507
+13639,physische Isolierung,1375.97,421.938,160.0,120.0,ambivalent,337,2.0,"ambivalent, da man keine Angst haben muss etwas zu verpassen",14:16:39,0,507
+13638,soziale Isolierung,1290.97,65.0,160.0,120.0,ambivalent,337,3.0,"ambivalent, da man keine Angst haben muss etwas zu verpassen",14:16:35,0,507
+13637,Depressivität,1221.88,623.906,160.0,120.0,negative strong,337,9.0,,13:58:19,0,507
+13636,Befinden,1077.92,230.938,160.0,120.0,neutral,337,4.0,,14:29:34,0,507
+13635,wirtschaftliche Folgen,495.938,857.906,160.0,120.0,neutral,337,11.0, ,,0,507

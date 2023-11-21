@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15914,Von Zuhause arbeiten,351.411,120.821,160.0,120.0,ambivalent,396,17.0,,15:25:31,1,572
+15829,Krank zu werden,1259.86,144.0,160.0,120.0,negative,396,16.0,,15:22:52,1,572
+15802,Telefonate,237.75,559.25,160.0,120.0,positive weak,396,15.0,,15:21:24,1,572
+15799,Familie,536.232,558.991,160.0,120.0,positive weak,396,14.0,,15:21:19,1,572
+15667,Weniger mit Freunde unterwegs,1090.94,523.964,160.0,120.0,negative,396,13.0,,15:22:39,1,572
+15665,Großeltern nicht besuchen,1341.96,384.973,160.0,120.0,negative,396,12.0,,15:13:39,1,572
+15536,Stress,589.946,23.9687,160.0,120.0,negative,396,6.0,,15:22:15,0,572
+15535,Einsamkeit,1286.93,700.915,160.0,120.0,negative weak,396,10.0,,15:11:46,0,572
+15534,Angst,971.0,81.0,160.0,120.0,negative strong,396,7.0,,15:22:42,0,572
+15533,Corona-Pandemie,638.984,269.984,160.0,120.0,neutral,396,1.0, ,,0,572
+15532,Zusammenhalt,378.98,409.984,160.0,120.0,positive strong,396,8.0,,15:19:36,0,572
+15530,soziale Isolierung,1087.98,365.964,160.0,120.0,negative strong,396,3.0,,15:22:19,0,572

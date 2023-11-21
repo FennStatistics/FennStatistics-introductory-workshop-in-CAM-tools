@@ -1,0 +1,29 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25338,Reisezeit nicht nutzbar,357.0,452.0,160.0,120.0,negative weak,846,28.0,,,1,1625
+25336,Zeit für sich selbst,351.0,122.0,160.0,120.0,positive weak,846,27.0,,,1,1625
+25335,Parken,20.0,358.0,160.0,120.0,negative,846,26.0,,,1,1625
+25333,Spaß am Fahren,341.0,222.0,160.0,120.0,positive weak,846,25.0,,,1,1625
+25332,Tanken,20.0,544.0,160.0,120.0,negative,846,24.0,,,1,1625
+25331,Reparaturen,292.0,544.0,160.0,120.0,negative,846,23.0,,13:22:55,1,1625
+25330,Versicherung,146.0,544.0,160.0,120.0,negative,846,22.0,,,1,1625
+25329,hohe Kosten,156.0,446.0,160.0,120.0,negative,846,21.0,,,1,1625
+25327,kann überall hinfahren,20.0,74.0,160.0,120.0,positive strong,846,20.0,,,1,1625
+25326,freie Zeiteinteilung,164.0,20.0,160.0,120.0,positive strong,846,19.0,,,1,1625
+25320,unangenehme Gerüche,831.0,532.0,160.0,120.0,negative weak,846,18.0,,,1,1625
+25318,Lautstärke,700.0,544.0,160.0,120.0,negative weak,846,17.0,,,1,1625
+25317,unbequem,569.0,544.0,160.0,120.0,negative,846,16.0,,,1,1625
+25315,Möglichkeit für sozialen Kontakt,561.0,56.0,160.0,120.0,positive weak,846,15.0,,,1,1625
+25303,Reisezeit frei nutzbar,516.0,144.0,160.0,120.0,positive weak,846,14.0,,,1,1625
+25301,schlecht für die Umwelt,83.0,235.0,160.0,120.0,negative strong,846,13.0,,,1,1625
+25299,umweltfreundlich,580.0,234.0,160.0,120.0,positive strong,846,12.0,,,1,1625
+25298,hohe Fahrtkosten,772.0,435.0,160.0,120.0,negative weak,846,11.0,,13:17:25,1,1625
+25297,schlechte Anbindung,890.0,336.0,160.0,120.0,negative strong,846,10.0,,13:16:46,1,1625
+25296,überfüllt,592.0,452.0,160.0,120.0,negative strong,846,9.0,,,1,1625
+25295,keine freie Zeiteinteilung,890.0,187.0,160.0,120.0,negative,846,8.0,,13:15:53,1,1625
+25291,Wochenenden/ Feiertage,702.0,20.0,160.0,120.0,negative strong,846,7.0,,,1,1625
+25289,zu wenig Auswahlmöglichkeiten,879.0,71.0,160.0,120.0,negative strong,846,6.0,,13:14:30,1,1625
+25288,Fahrplan,739.0,139.0,160.0,120.0,negative,846,5.0,,,1,1625
+25287,Abhängigkeit,749.0,283.0,160.0,120.0,negative,846,4.0,,,1,1625
+25285,Unabhängigkeit,160.0,120.0,160.0,120.0,positive strong,846,3.0,,,1,1625
+25281,Eigener Pkw,274.0,345.0,160.0,120.0,neutral,846,1.0, ,,1,1625
+25280,Öffentliche Verkehrsmittel,573.0,347.0,160.0,120.0,neutral,846,2.0, ,,1,1625

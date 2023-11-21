@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5907,Kaum sozialer Kontakt,413.0,37.0,160.0,120.0,negative weak,185,15.0,,,1,292
+5852,Kein richtiger Abschluss,245.0,425.0,160.0,120.0,negative weak,185,13.0,,19:09:44,1,292
+5791,Tod,683.0,462.0,160.0,120.0,negative strong,185,12.0,,19:08:10,1,292
+5773,Risikogruppe,902.0,372.0,160.0,120.0,negative weak,185,11.0,,19:08:13,1,292
+5764,Nicht feiern,96.0,388.0,160.0,120.0,negative weak,185,10.0,,19:07:42,1,292
+5734,Mehr Zeit,142.0,20.0,160.0,120.0,positive,185,9.0,,19:04:41,1,292
+5717,Geburtstage,52.0,263.0,160.0,120.0,negative,185,8.0,Geburtstage aufgrund des Viruses nicht feiern können,19:05:56,1,292
+5703,Überbelastung,1240.0,177.0,160.0,120.0,negative,185,7.0,,19:08:15,1,292
+5690,Freunde nicht treffen können,48.0,124.0,160.0,120.0,negative strong,185,6.0,,,1,292
+5678,Zu Hause bleiben,286.0,187.0,160.0,120.0,ambivalent,185,5.0,,19:03:53,1,292
+5669,Gefahren,1026.0,182.0,160.0,120.0,negative,185,4.0,,19:08:18,1,292
+5653,Maßnahmen,472.0,318.0,160.0,120.0,ambivalent,185,3.0,,19:08:25,1,292
+5642,Infektion,622.0,148.0,160.0,120.0,negative,185,2.0,,19:08:20,1,292
+5637,COVID-19,841.0,31.0,160.0,120.0,ambivalent,185,1.0,,19:08:31,1,292

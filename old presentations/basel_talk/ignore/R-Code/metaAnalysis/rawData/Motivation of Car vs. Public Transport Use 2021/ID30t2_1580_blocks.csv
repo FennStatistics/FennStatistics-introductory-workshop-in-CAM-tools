@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24646,Schlechte Infrastruktur in kleineren Städten,401.0,132.0,160.0,120.0,negative strong,819,23.0,,,1,1580
+24645,Begrenzte Streckenmöglichkeiten,506.0,471.333,160.0,120.0,negative,819,22.0,,,1,1580
+24644,Häufig Umsteigen,511.0,570.667,160.0,120.0,negative strong,819,21.0,,,1,1580
+24643,Kein Umsteigen,30.0,489.0,160.0,120.0,positive strong,819,20.0,,,1,1580
+24641,Freundlichkeit der Angestellten,698.333,443.0,160.0,120.0,ambivalent,819,19.0,,,1,1580
+24638,Weniger Umweltschäden,323.0,468.0,160.0,120.0,positive strong,819,18.0,,,1,1580
+24635,Luftverschmutzung,191.0,75.0,160.0,120.0,negative strong,819,16.0,,,1,1580
+24633,Freiheitsgefühl,21.3333,369.0,160.0,120.0,positive strong,819,15.0,,11:37:00,1,1580
+24632,Sauberkeit und Platz,23.0,272.0,160.0,120.0,positive strong,819,14.0,,,1,1580
+24613,keine Parkplatzsuche,699.667,45.0,160.0,120.0,positive strong,819,13.0,,,1,1580
+24610,Sauberkeit,698.333,247.0,160.0,120.0,negative strong,819,12.0,,,1,1580
+24608,Ansteckungsgefahr (Corona),624.0,156.0,160.0,120.0,negative strong,819,11.0,,,1,1580
+24607,Zeitaufwand,686.0,564.667,160.0,120.0,ambivalent,819,10.0,,11:35:04,1,1580
+24604,Nicht selber fahren müssen,525.0,20.6667,160.0,120.0,positive strong,819,9.0,,,1,1580
+24602,Preise immer noch hoch,426.0,230.0,160.0,120.0,negative strong,819,8.0,,11:34:18,1,1580
+24593,Tankkosten,21.3333,20.0,160.0,120.0,negative strong,819,4.0,,,1,1580
+24588,Bequeme Fahrt,21.3333,159.0,160.0,120.0,positive strong,819,3.0,,,1,1580
+24587,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,819,1.0,,11:32:41,1,1580
+24586,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,819,2.0,,11:34:42,1,1580

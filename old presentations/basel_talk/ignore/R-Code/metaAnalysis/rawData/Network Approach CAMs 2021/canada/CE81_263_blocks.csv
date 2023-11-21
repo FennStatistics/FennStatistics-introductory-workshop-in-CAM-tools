@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5635,Not conducted properly,470.0,794.286,160.0,120.0,negative strong,165,12.0,,19:00:26,1,263
+5621,Done properly,88.5714,732.857,160.0,120.0,positive strong,165,11.0,Tested extensively on animals before testing on humans.,19:00:36,1,263
+5597,Clinical trials,437.143,471.429,160.0,120.0,neutral,165,10.0,,,1,263
+5559,Doesn't take too long,651.429,624.286,160.0,120.0,positive,165,9.0,,18:55:20,1,263
+5522,Takes too long,958.571,557.143,160.0,120.0,negative strong,165,8.0,,18:54:16,1,263
+5481,Time,741.0,370.0,160.0,120.0,neutral,165,7.0,,,1,263
+5419,Not observing,736.0,184.0,160.0,120.0,negative strong,165,6.0,,,1,263
+5338,Observing,803.0,50.0,160.0,120.0,positive strong,165,5.0,,,1,263
+5277,Social distancing,558.0,47.0,160.0,120.0,positive strong,165,4.0,,,1,263
+5197,Developing vaccine,559.0,283.0,160.0,120.0,positive,165,3.0,,,1,263
+5065,Lockdown,95.0,275.0,160.0,120.0,positive,165,2.0,,18:42:01,1,263
+5026,Curing coronavirus,339.0,139.0,160.0,120.0,neutral,165,1.0,,,1,263

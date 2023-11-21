@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15904,Atembeschwerden,377.0,153.0,160.0,120.0,negative strong,345,20.0,,,1,577
+15870,eine Maske tragen,584.0,20.0,160.0,120.0,negative weak,345,19.0,,,1,577
+15864,mehr Zeit mit der Familie,782.0,538.0,160.0,120.0,positive strong,345,18.0,,,1,577
+15831,weniger Zeitdruck,376.0,367.0,160.0,120.0,positive,345,17.0,,,1,577
+15801,bessere Arbeitszeiten,381.0,533.0,160.0,120.0,positive,345,16.0,,,1,577
+15795,Möglichkeit von zu Hause aus zu arbeiten,588.0,446.0,160.0,120.0,positive strong,345,15.0,,,1,577
+15692,schlimmeres Wohlbefinden,1073.0,221.0,160.0,120.0,negative,345,14.0,,,1,577
+15666,Langeweile,833.0,358.0,160.0,120.0,negative weak,345,13.0,,,1,577
+15664,Stress,830.0,103.0,160.0,120.0,negative,345,12.0,,,1,577
+15654,Corona-Pandemie,575.984,240.984,160.0,120.0,neutral,345,1.0, ,,0,577

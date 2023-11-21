@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15471,Finanzkrise,578.0,28.0,160.0,120.0,negative strong,379,16.0,,,1,553
+14935,psychische Belastung,1041.95,641.922,160.0,120.0,negative,379,5.0,,14:54:38,0,553
+14934,Stress,678.938,734.922,160.0,120.0,negative,379,6.0,,14:51:00,0,553
+14933,Einsamkeit,416.958,608.937,160.0,120.0,negative weak,379,10.0,,14:50:50,0,553
+14932,Angst,358.911,278.906,160.0,120.0,negative,379,7.0,,14:50:41,0,553
+14931,Corona-Pandemie,749.953,252.937,160.0,120.0,negative,379,1.0,,14:52:12,0,553
+14930,Zusammenhalt,344.969,60.9688,160.0,120.0,neutral,379,8.0, ,,0,553
+14929,physische Isolierung,931.958,444.948,160.0,120.0,ambivalent,379,2.0,,14:54:45,0,553
+14928,soziale Isolierung,574.995,435.969,160.0,120.0,ambivalent,379,3.0,,14:54:42,0,553
+14927,Depressivität,202.844,802.818,160.0,120.0,negative strong,379,9.0,,14:50:28,0,553
+14926,Befinden,207.969,480.969,160.0,120.0,neutral,379,4.0, ,,0,553
+14925,wirtschaftliche Folgen,812.938,49.9375,160.0,120.0,ambivalent,379,11.0,,14:55:03,0,553

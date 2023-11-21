@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26062,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,873,2.0, ,,1,1673
+26061,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,873,1.0, ,,1,1673
+26060,Schneller am ziel,266.0,137.0,160.0,120.0,positive weak,873,17.0,,22:54:04,1,1673
+26059,oft verspätung,715.0,65.0,158.0,118.0,negative strong,873,20.0,,,1,1673
+26058,kostet geld,491.0,175.0,160.0,120.0,neutral,873,21.0,,23:12:36,1,1673
+26057,nicht umweltfreundlich,70.0,263.0,160.0,120.0,negative,873,22.0,,,1,1673
+26056,besser für umwelt,770.0,515.0,160.0,120.0,positive weak,873,24.0,,,1,1673
+26055,kontakt zu mitmenschen,456.0,504.0,160.0,120.0,neutral,873,25.0,,22:56:23,1,1673
+26054,stau,163.0,480.0,160.0,120.0,negative,873,28.0,,,1,1673

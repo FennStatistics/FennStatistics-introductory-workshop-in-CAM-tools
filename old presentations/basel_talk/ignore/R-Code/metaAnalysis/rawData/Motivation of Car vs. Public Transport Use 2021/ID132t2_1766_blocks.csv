@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27491,Dauer der Fahrt,697.0,98.0,160.0,120.0,positive weak,935,8.0,,12:11:43,1,1766
+27490,Fahrplan,415.0,58.0,160.0,120.0,negative weak,935,7.0,,12:06:05,1,1766
+27489,Bequemlichkeit,262.0,514.0,160.0,120.0,positive weak,935,6.0,,12:03:25,1,1766
+27488,Sicherheit,591.0,521.0,160.0,120.0,positive strong,935,5.0,,12:03:29,1,1766
+27487,Umwelt,170.0,76.0,160.0,120.0,positive strong,935,3.0,,12:01:09,1,1766
+27486,Eigener Pkw,273.0,346.0,160.0,120.0,neutral,935,1.0, ,,1,1766
+27485,Öffentliche Verkehrsmittel,633.0,339.0,160.0,120.0,neutral,935,2.0, ,,1,1766
+27484,Fahrtkosten,84.0,464.0,160.0,120.0,negative strong,935,9.0,,13:27:16,1,1766

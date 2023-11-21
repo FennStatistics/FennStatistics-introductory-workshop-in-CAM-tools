@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+3701,more internet content,672.0,328.0,160.0,120.0,positive,62,7.0,,,1,128
+3699,hygiene prioritization,279.0,368.0,160.0,120.0,positive strong,62,6.0,,,1,128
+3697,social isolation,528.0,401.0,160.0,120.0,negative strong,62,5.0,,,1,128
+3695,more time at home,501.0,20.0,160.0,120.0,positive strong,62,4.0,,,1,128
+3694,food/job scarcity,629.0,135.0,160.0,120.0,negative strong,62,3.0,,,1,128
+3693,quarantine,300.0,147.0,160.0,120.0,positive,62,2.0,,,1,128
+3692,Coronavirus Pandemic,449.0,235.0,160.0,120.0,neutral,62,1.0,,,1,128

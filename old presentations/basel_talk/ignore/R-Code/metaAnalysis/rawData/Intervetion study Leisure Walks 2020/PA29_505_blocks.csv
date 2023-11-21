@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13830,Arbeitslosigkeit,1161.0,375.0,160.0,120.0,negative strong,331,14.0,,,1,505
+13742,Freunde nicht sehen,519.0,298.0,160.0,120.0,negative,331,13.0,,,1,505
+13718,Distanz zu Verwandten,343.0,230.0,160.0,120.0,negative strong,331,12.0,,13:57:51,1,505
+13599,psychische Belastung,208.983,94.9833,160.0,120.0,negative,331,5.0,,13:59:55,0,505
+13598,Stress,1101.98,54.0,160.0,120.0,negative strong,331,6.0,,13:54:38,0,505
+13597,Einsamkeit,670.0,220.983,160.0,120.0,negative weak,331,10.0,,13:58:20,0,505
+13596,Angst,1113.0,215.0,160.0,120.0,negative strong,331,7.0,,13:54:59,0,505
+13595,Corona-Pandemie,439.983,544.0,160.0,120.0,negative,331,1.0,,13:59:49,0,505
+13594,Zusammenhalt,111.0,397.0,160.0,120.0,positive,331,8.0,,13:55:44,0,505
+13593,physische Isolierung,873.0,20.0,160.0,120.0,negative,331,2.0,,13:57:13,0,505
+13592,soziale Isolierung,684.0,20.0,160.0,120.0,negative strong,331,3.0,,13:57:17,0,505
+13591,Depressivität,928.983,152.967,160.0,120.0,negative,331,9.0,,13:58:22,0,505
+13590,Befinden,792.983,404.983,160.0,120.0,negative strong,331,4.0,,13:54:47,0,505
+13589,wirtschaftliche Folgen,957.967,524.967,160.0,120.0,negative,331,11.0,,13:59:52,0,505

@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24226,Unfallgefahr,382.0,543.0,160.0,120.0,negative,803,18.0,,,1,1555
+24222,Kosten,1065.0,206.0,160.0,120.0,ambivalent,803,17.0,,,1,1555
+24200,Umweltschädlich,501.0,90.0,160.0,120.0,negative,803,15.0,,,1,1555
+24198,kann müde oder betrunken genutzt werden,859.0,536.0,160.0,120.0,positive,803,14.0,,,1,1555
+24194,Zeit zum lesen,873.0,277.0,160.0,120.0,positive,803,13.0,,,1,1555
+24190,Unabhängigkeit,88.0,262.0,160.0,120.0,positive,803,12.0,,,1,1555
+24184,Zuverlässig,126.0,538.0,160.0,120.0,positive,803,11.0,,,1,1555
+24181,keine Wartezeiten,323.0,225.0,160.0,120.0,positive,803,10.0,,,1,1555
+24179,Anstrengend bei langen Fahrten,80.0,351.0,160.0,120.0,negative,803,9.0,,,1,1555
+24178,Zeitersparniss bei ICE Fahrten,893.0,387.0,160.0,120.0,positive,803,8.0,,,1,1555
+24168,Umweltfreundlichkeit,853.0,115.0,160.0,120.0,positive,803,7.0,,,1,1555
+24155,Fahrfreude,291.0,77.0,160.0,120.0,positive weak,803,4.0,,,1,1555
+24151,Verfügbarkeit,44.0,79.0,160.0,120.0,positive strong,803,3.0,,,1,1555
+24149,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,803,1.0, ,,1,1555
+24148,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,803,2.0, ,,1,1555

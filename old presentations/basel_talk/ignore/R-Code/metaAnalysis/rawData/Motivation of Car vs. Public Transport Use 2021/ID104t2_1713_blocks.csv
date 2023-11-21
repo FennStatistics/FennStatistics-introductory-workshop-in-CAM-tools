@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26728,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,900,2.0, ,,1,1713
+26727,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,900,1.0, ,,1,1713
+26726,Entscheidungsfreiheit/Flexibilität,315.0,84.0,160.0,120.0,positive strong,900,3.0,,13:02:10,1,1713
+26725,Kosten,271.0,471.0,160.0,120.0,negative weak,900,4.0,,,1,1713
+26724,Unterhalt des Autos,117.0,544.0,160.0,120.0,negative weak,900,5.0,,,1,1713
+26723,Spritpreise,396.0,541.0,160.0,120.0,negative,900,6.0,,,1,1713
+26722,Parkmöglichkeiten,155.0,109.0,160.0,120.0,negative,900,7.0,,,1,1713
+26721,Unflexibel,635.0,148.0,160.0,120.0,negative strong,900,8.0,,,1,1713
+26720,,580.0,545.0,34.0,25.0,negative,900,9.0,,13:04:10,1,1713
+26719,keine Probleme bei Parkplatzsuche,724.0,528.0,160.0,120.0,positive,900,10.0,,,1,1713
+26718,Entspannung während Fahrt möglich,769.0,418.0,160.0,120.0,positive,900,12.0,,13:00:50,1,1713
+26717,schlechte Anbindung auf dem Land,804.0,170.0,160.0,120.0,negative,900,14.0,,,1,1713
+26716,meist schneller,91.0,259.0,160.0,120.0,positive,900,15.0,,13:02:31,1,1713
+26715,hohe Kosten für Tickets,556.0,477.0,160.0,120.0,negative,900,16.0,,,1,1713
+26714,gut für die Umwelt,490.0,206.0,160.0,120.0,positive strong,900,17.0,,,1,1713
+26713,bessere Transportmöglichkeiten,466.0,30.0,160.0,120.0,positive,900,18.0,,,1,1713
+26712,geringere Ansteckungsmöglichkeiten in Zeiten von Corona,409.0,424.0,160.0,120.0,positive,900,19.0,,,1,1713
+26711,Staugefahr,20.0,359.0,160.0,120.0,negative,900,20.0,,,1,1713
+26710,Blitzer/Knöllchen,243.0,544.0,160.0,120.0,negative weak,900,21.0,,,1,1713
+26709,Unfallgefahr,123.0,445.0,160.0,120.0,negative weak,900,22.0,,,1,1713
+26708,CO2 Produktion & entstehende Kosten,20.0,485.0,160.0,120.0,negative,900,23.0,,,1,1713

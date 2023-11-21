@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16303,Steigende Arbeitslosigkeit,953.495,46.25,160.0,120.0,negative,362,18.0,,15:43:49,1,594
+16302,Keine Arbeit für Studienabsolventen,1383.0,154.5,160.0,120.0,negative,362,17.0,,15:43:52,1,594
+16301,Unsicherheit,1616.75,38.75,160.0,120.0,negative,362,16.0,,15:43:56,1,594
+16168,psychische Belastung,992.859,706.901,160.0,120.0,negative,362,5.0,,15:38:13,0,594
+16224,Gut für die Umwelt,315.24,708.25,160.0,120.0,positive weak,362,15.0,,15:39:11,1,594
+16220,Home Office,178.953,361.958,160.0,120.0,positive,362,14.0,,15:38:39,1,594
+16218,Mehr Zeit für sich,122.234,98.2344,160.0,120.0,positive,362,13.0,,15:38:42,1,594
+16167,Stress,695.865,768.984,160.0,120.0,negative weak,362,6.0,,15:38:20,0,594
+16166,Einsamkeit,1612.97,657.938,160.0,120.0,negative,362,10.0,,15:38:05,0,594
+16165,Angst,1444.99,311.922,160.0,120.0,negative,362,7.0,,15:37:53,0,594
+16164,Corona-Pandemie,1082.97,333.979,160.0,120.0,negative strong,362,1.0,,15:35:29,0,594
+16163,Zusammenhalt,501.953,267.99,160.0,120.0,positive strong,362,8.0,,15:37:46,0,594
+16162,physische Isolierung,1713.98,438.953,160.0,120.0,negative,362,2.0,,15:37:56,0,594
+16161,soziale Isolierung,1319.97,430.917,160.0,120.0,negative,362,3.0,,15:38:02,0,594
+16160,Depressivität,1343.89,796.984,160.0,120.0,negative weak,362,9.0,,15:38:10,0,594
+16159,Befinden,688.833,461.849,160.0,120.0,neutral,362,4.0,,15:38:21,0,594
+16158,wirtschaftliche Folgen,781.932,166.953,160.0,120.0,negative,362,11.0,,15:37:51,0,594

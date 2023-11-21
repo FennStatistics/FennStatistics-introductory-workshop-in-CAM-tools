@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26216,bequem,452.0,547.0,160.0,120.0,positive strong,882,25.0,,,1,1682
+26215,kann lesen,506.0,453.0,160.0,120.0,positive weak,882,23.0,,,1,1682
+26214,kontakt mit andere leute,654.0,544.0,160.0,120.0,negative weak,882,22.0,,11:15:02,1,1682
+26213,unzuverlassig,596.0,57.0,160.0,120.0,negative,882,21.0,,11:13:58,1,1682
+26211,braucht mehr zeit,690.0,155.0,160.0,120.0,negative strong,882,20.0,,11:15:23,1,1682
+26209,kosten freunclich auf der dauer,717.0,462.0,160.0,120.0,positive strong,882,19.0,,11:18:40,1,1682
+26208,kompliziert,710.0,247.0,160.0,120.0,negative strong,882,18.0,,,1,1682
+26207,schnell,20.0,509.0,160.0,120.0,positive strong,882,17.0,,,1,1682
+26191,normales Pkw,244.0,453.0,160.0,120.0,neutral,882,3.0,,11:06:59,1,1682
+26205,unabhangigkeit,20.0,414.0,160.0,120.0,positive strong,882,16.0,,,1,1682
+26203,leicht parkplatz zu finden,20.0,147.0,160.0,120.0,positive strong,882,15.0,,,1,1682
+26201,benzin kaufen,260.0,544.0,160.0,120.0,negative weak,882,13.0,,,1,1682
+26200,macht spass,20.0,328.0,160.0,120.0,positive,882,12.0,,11:11:45,1,1682
+26199,kein heizung,386.0,192.0,160.0,120.0,negative,882,11.0,,,1,1682
+26198,monatliche akku meite,363.0,51.0,160.0,120.0,negative weak,882,9.0,,11:08:50,1,1682
+26196,kein benzin kaufen,190.0,20.0,160.0,120.0,positive,882,8.0,,11:08:22,1,1682
+26195,umweldfreundlich,22.0,41.0,160.0,120.0,ambivalent,882,7.0,,,1,1682
+26193,elektro Pkw,154.0,241.0,160.0,120.0,neutral,882,6.0,,,1,1682
+26190,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,882,1.0, ,,1,1682
+26189,Öffentliche Verkehrsmittel,557.6,334.0,160.0,120.0,neutral,882,2.0, ,,1,1682

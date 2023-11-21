@@ -1,0 +1,9 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16306,Stress,345.0,499.0,160.0,120.0,negative weak,355,8.0,,15:43:43,1,527
+16300,Familie,411.0,21.0,160.0,120.0,positive,355,7.0,,15:47:37,1,527
+16229,Entspannung,652.0,522.0,160.0,120.0,positive,355,6.0,,15:42:39,1,527
+16228,Zeit fuer Hobbys,907.0,454.0,160.0,120.0,positive,355,5.0,,15:42:43,1,527
+16223,Kontakt zu Menschen,808.0,177.0,183.313,137.0,positive strong,355,4.0,,15:47:40,1,527
+16213,Bewegung,532.0,362.0,160.0,120.0,positive,355,3.0,,15:42:21,1,527
+16142,Corona,274.0,86.0,160.0,120.0,neutral,355,1.0,,,1,527
+16125,,306.0,82.0,160.0,120.0,neutral,355,1.0,,15:34:10,1,527

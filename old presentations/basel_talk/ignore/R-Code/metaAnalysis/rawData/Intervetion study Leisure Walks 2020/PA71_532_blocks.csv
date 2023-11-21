@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14693,Kündigung,666.974,826.979,160.0,120.0,negative strong,360,21.0,,14:31:23,1,532
+14692,Weniger Einkommen,473.667,666.667,160.0,120.0,negative strong,360,20.0,,14:31:25,1,532
+14642,Keine Jobangebote,800.995,677.292,160.0,120.0,negative strong,360,19.0,,14:31:22,1,532
+14537,Lockdown,1183.65,71.3333,160.0,120.0,positive weak,360,18.0,,14:26:31,1,532
+14536,Wenig Bewegung,1436.33,71.3073,160.0,120.0,negative,360,17.0,,14:26:34,1,532
+14532,Körperliche Probleme,926.307,73.6458,160.0,120.0,negative weak,360,16.0,,14:26:24,1,532
+14439,Abstände einhalten,1274.25,635.835,160.0,120.0,positive strong,360,15.0,,14:24:15,1,532
+14436,Maske aufsetzen,1012.51,634.237,160.0,120.0,positive strong,360,14.0,,14:24:13,1,532
+14429,Regeln einhalten,1058.89,438.911,160.0,120.0,positive strong,360,13.0,,14:24:12,1,532
+14424,Aufeinander Acht geben,1179.99,243.991,160.0,120.0,positive strong,360,12.0,,14:21:54,1,532
+14349,psychische Belastung,335.958,371.953,160.0,120.0,negative strong,360,5.0,,14:29:14,0,532
+14348,Stress,175.969,20.0,160.0,120.0,negative strong,360,6.0,,14:28:58,0,532
+14347,Einsamkeit,76.974,365.964,160.0,120.0,negative strong,360,10.0,,14:29:16,0,532
+14346,Angst,75.9427,195.937,160.0,120.0,negative strong,360,7.0,,14:29:02,0,532
+14345,Corona-Pandemie,688.984,243.984,160.0,120.0,neutral,360,1.0, ,,0,532
+14344,Zusammenhalt,931.987,244.982,160.0,120.0,positive strong,360,8.0,,14:21:51,0,532
+14343,physische Isolierung,73.9896,541.953,160.0,120.0,negative strong,360,2.0,,14:29:21,0,532
+14342,soziale Isolierung,331.906,196.927,160.0,120.0,negative strong,360,3.0,,14:29:09,0,532
+14341,Depressivität,319.943,538.953,160.0,120.0,negative strong,360,9.0,,14:29:31,0,532
+14340,Befinden,686.948,72.974,160.0,120.0,negative weak,360,4.0,,14:26:42,0,532
+14339,wirtschaftliche Folgen,691.922,476.953,160.0,120.0,negative strong,360,11.0,,14:31:19,0,532

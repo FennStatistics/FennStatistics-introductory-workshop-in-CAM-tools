@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27041,co2 ausstoß teurer,20.0,20.0,160.0,120.0,negative strong,915,20.0,,,1,1733
+27040,Gesamtkosten teurer,486.0,19.0,160.0,120.0,negative,915,19.0,,12:52:37,1,1733
+27039,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,915,2.0, ,,1,1733
+27038,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,915,1.0, ,,1,1733
+27037,Stau,216.0,178.0,160.0,120.0,negative strong,915,3.0,,,1,1733
+27036,unabhängig,277.0,20.0,160.0,120.0,positive weak,915,4.0,,,1,1733
+27035,Abgase,20.0,129.0,160.0,120.0,negative strong,915,5.0,,,1,1733
+27034,schlecht für die Umwelt,42.0,254.0,160.0,120.0,negative strong,915,6.0,,,1,1733
+27033,keine wartezeit beim einsteigen,20.0,372.0,160.0,120.0,positive strong,915,7.0,,12:27:08,1,1733
+27032,Benzinkosten,145.0,72.0,160.0,120.0,negative,915,8.0,,,1,1733
+27031,komplett durchfahren,32.0,510.0,160.0,120.0,positive strong,915,9.0,,,1,1733
+27030,konzentration beim fahren,34.0,636.0,160.0,120.0,neutral,915,10.0,,,1,1733
+27029,Haltestelle suchen,628.0,219.0,160.0,120.0,neutral,915,11.0,,,1,1733
+27028,Wartezeit,458.0,622.0,160.0,120.0,negative,915,12.0,,12:29:28,1,1733
+27027,überfüllt,660.0,498.0,160.0,120.0,negative strong,915,13.0,,,1,1733
+27026,keine sitzplätze,669.0,619.0,160.0,120.0,negative strong,915,14.0,,,1,1733
+27025,viele haltestellen,458.0,498.0,160.0,120.0,negative weak,915,15.0,,,1,1733
+27024,Umweltbewusster,349.0,718.0,160.0,120.0,positive strong,915,16.0,,12:30:29,1,1733
+27023,Keine konzentration beim fahren,577.0,741.0,160.0,120.0,positive weak,915,17.0,,,1,1733
+27022,Verspätungen möglich,425.0,159.0,160.0,120.0,negative,915,18.0,,12:31:29,1,1733

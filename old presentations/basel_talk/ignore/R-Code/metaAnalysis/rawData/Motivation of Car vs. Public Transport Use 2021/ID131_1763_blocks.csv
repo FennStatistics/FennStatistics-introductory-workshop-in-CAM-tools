@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27464,1x Zahlen für mehrere Fahrten,387.0,64.0,160.0,120.0,positive weak,934,26.0,,,1,1763
+27463,Zahlen bei jeder  Fahrt/ jeden Tag,556.0,20.0,160.0,120.0,negative weak,934,25.0,,,1,1763
+27462,weniger Kosten,315.0,191.0,160.0,120.0,positive weak,934,23.0,,,1,1763
+27461,"Pflege des Autos (Benzin, Reperaturen, TÜV) vorausgesezt",229.0,20.0,160.0,120.0,negative weak,934,22.0,,,1,1763
+27460,Enges Zusamensein bei vollen Bussen/Zügen,1175.0,543.0,160.0,120.0,negative weak,934,20.0,,,1,1763
+27459,Kein Stau,1079.0,292.0,160.0,120.0,positive weak,934,19.0,,,1,1763
+27458,"Abhängig von Fahrplänen, mögl. Störungen, Wetter",895.0,373.0,160.0,120.0,negative weak,934,18.0,,,1,1763
+27457,Schadstoffausstoß/benötigt Benzin,263.0,533.0,160.0,120.0,negative strong,934,16.0,,,1,1763
+27456,Verbindungen überall hin & jeder Zeit,34.0,490.0,160.0,120.0,positive weak,934,15.0,,12:00:01,1,1763
+27455,man kann nebenbei anderes machen,1068.0,72.0,160.0,120.0,positive weak,934,12.0,,,1,1763
+27454,Umweltbewusst,729.0,524.0,160.0,120.0,positive strong,934,11.0,,11:51:23,1,1763
+27453,teuer,704.0,116.0,160.0,120.0,negative weak,934,10.0,,,1,1763
+27452,Ansteckungsrisiko durch andere Passagiere,970.0,510.0,160.0,120.0,negative,934,9.0,,11:46:19,1,1763
+27451,suche nach parkplatz,20.0,350.0,160.0,120.0,negative,934,8.0,,,1,1763
+27450,stau,28.0,225.0,160.0,120.0,negative weak,934,7.0,,,1,1763
+27449,verspätungen/ausfall,911.0,194.0,160.0,120.0,negative,934,6.0,,11:45:00,1,1763
+27448,Unfallrisiko,20.0,25.0,160.0,120.0,negative,934,5.0,,,1,1763
+27447,weniger Stress ,841.0,62.0,160.0,120.0,ambivalent,934,4.0,,11:58:53,1,1763
+27446,schnelle Fahrtzeit,125.0,126.0,160.0,120.0,positive strong,934,3.0,,,1,1763
+27445,Eigener Pkw,231.0,345.0,160.0,120.0,neutral,934,1.0, ,,1,1763
+27444,Öffentliche Verkehrsmittel,647.0,342.0,160.0,120.0,neutral,934,2.0, ,,1,1763

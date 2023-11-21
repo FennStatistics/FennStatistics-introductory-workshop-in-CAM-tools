@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24405,sicherer,847.0,107.0,160.0,120.0,positive weak,806,20.0,,,1,1560
+24349,Bessere Möglichkeit für Partys (Alkohol),864.0,192.0,160.0,120.0,positive weak,806,19.0,,21:09:19,1,1560
+24344,Umwelt,494.0,166.0,160.0,120.0,neutral,806,18.0,,,1,1560
+24311,spontan,297.0,20.0,160.0,120.0,positive,806,17.0,,,1,1560
+24288,Stress,20.0,350.0,160.0,120.0,negative,806,5.0,,20:58:29,1,1560
+24309,kein garantierter Sitzplatz,818.0,552.0,160.0,120.0,negative weak,806,16.0,,,1,1560
+24307,Luftverschmutzung,30.0,20.0,160.0,120.0,negative,806,15.0,,,1,1560
+24304,gut für Umwelt,645.0,88.0,160.0,120.0,positive,806,14.0,,21:01:50,1,1560
+24302,meist langsamer,886.0,347.0,160.0,120.0,negative weak,806,13.0,,,1,1560
+24301,Verspätungen,649.0,544.0,160.0,120.0,negative strong,806,12.0,,,1,1560
+24296,Kontakt mit vielen Menschen,860.0,448.0,160.0,120.0,negative weak,806,11.0,,,1,1560
+24295,Meistens entspannt,793.0,20.0,160.0,120.0,positive strong,806,10.0,,21:06:37,1,1560
+24293,Kostenlos (Student),763.0,297.0,160.0,120.0,positive strong,806,9.0,,,1,1560
+24292,wenig Kontakt mit Menschen,298.0,528.0,160.0,120.0,positive,806,8.0,,,1,1560
+24290,garantiertes sitzen,169.0,445.0,160.0,120.0,positive weak,806,7.0,,20:59:22,1,1560
+24289,Schnell,320.0,193.0,160.0,120.0,positive,806,6.0,,,1,1560
+24273,Parkplatzsuche,61.0,246.0,160.0,120.0,negative weak,806,4.0,,20:58:08,1,1560
+24272,Benzinkosten,160.0,140.0,160.0,120.0,negative,806,3.0,,20:57:54,1,1560
+24271,Eigener Pkw,275.0,346.0,160.0,120.0,neutral,806,1.0, ,,1,1560
+24270,Öffentliche Verkehrsmittel,573.0,351.0,160.0,120.0,neutral,806,2.0, ,,1,1560

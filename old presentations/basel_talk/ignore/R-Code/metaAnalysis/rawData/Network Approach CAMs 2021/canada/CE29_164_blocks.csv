@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4355,lonliness/sadness,489.0,28.0,160.0,120.0,negative,91,11.0,,18:24:39,1,164
+4298,less financial stress,260.0,437.0,160.0,120.0,positive,91,10.0,,,1,164
+4268,more mental health problems,37.0,209.0,160.0,120.0,negative,91,9.0,,,1,164
+4241,less social interaction,295.0,34.0,160.0,120.0,ambivalent,91,8.0,,18:24:13,1,164
+4165,less responsibilities,496.0,415.0,160.0,120.0,positive weak,91,7.0,,18:21:24,1,164
+4126,more health concerns,128.0,356.0,160.0,120.0,negative strong,91,6.0,,,1,164
+4102,stress,224.0,240.0,160.0,120.0,positive,91,5.0,,,1,164
+4064,time to relax,423.0,288.0,160.0,120.0,positive,91,4.0,,,1,164
+4007,boredom,735.0,133.0,160.0,120.0,negative weak,91,3.0,,,1,164
+3979,more free time,608.0,248.0,160.0,120.0,positive,91,2.0,,,1,164
+3924,My experience with Corona Virus,425.0,145.0,160.0,120.0,neutral,91,1.0,,,1,164

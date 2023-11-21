@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27001,Zeit,43.0,20.0,160.0,120.0,positive,914,11.0,,,1,1731
+27000,Zeit,762.0,20.0,160.0,120.0,negative,914,10.0,"Sind oft unpünktlich, viel umsteigen",09:51:46,1,1731
+26999,Stressreduzierung,542.0,20.0,160.0,120.0,positive weak,914,9.0,Man kann Zeit für sich nutzen,09:53:36,1,1731
+26998,Teuer,747.0,245.0,160.0,120.0,negative weak,914,8.0,Fahrkarten sind teuer geworden,09:48:06,1,1731
+26997,Umwelt,741.0,125.0,160.0,120.0,positive strong,914,7.0,,,1,1731
+26996,Komfort,265.0,20.0,160.0,120.0,positive strong,914,6.0,,09:44:00,1,1731
+26995,Umwelt,40.0,142.0,160.0,120.0,negative,914,5.0,,09:43:21,1,1731
+26994,Teuer,45.0,270.0,160.0,120.0,negative,914,4.0,,,1,1731
+26993,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,914,1.0, ,,1,1731
+26992,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,914,2.0, ,,1,1731

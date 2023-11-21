@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25196,Kosten,559.0,20.0,160.0,120.0,ambivalent,829,13.0,,12:56:45,1,1618
+25191,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,829,2.0, ,,1,1618
+25190,Eigener Pkw,208.0,347.0,160.0,120.0,neutral,829,1.0, ,,1,1618
+25189,Parkplatz,20.0,21.0,159.297,119.0,negative strong,829,3.0,,11:55:33,1,1618
+25188,Jobticket,731.0,171.0,160.0,120.0,positive strong,829,5.0,,,1,1618
+25187,Sprit,221.0,103.0,160.0,120.0,negative,829,6.0,,12:15:32,1,1618
+25186,umweltfreundlich,438.0,193.0,160.0,120.0,positive strong,829,8.0,,11:56:23,1,1618
+25185,Fahrtzeit,477.0,547.0,160.0,120.0,neutral,829,9.0,,,1,1618
+25184,Umsteigen,893.0,451.0,160.0,120.0,negative,829,10.0,,11:57:53,1,1618
+25183,Stau,244.0,522.0,160.0,120.0,negative strong,829,11.0,,11:59:25,1,1618
+25182,Flexibilität,432.0,445.0,160.0,120.0,positive strong,829,12.0,,,1,1618

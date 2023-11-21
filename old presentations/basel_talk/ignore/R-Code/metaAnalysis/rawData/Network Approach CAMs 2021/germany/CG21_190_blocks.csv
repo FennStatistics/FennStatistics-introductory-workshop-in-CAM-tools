@@ -1,0 +1,6 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4277,Bequem,782.0,354.0,160.0,120.0,neutral,111,5.0,,18:24:18,1,190
+4260,Umweltfreundlich,878.0,228.0,160.0,120.0,positive strong,111,4.0,,18:23:02,1,190
+4195,Geschlossener Raum,334.0,290.0,160.0,120.0,negative strong,111,2.0,,,1,190
+4208,Viele Leute,570.0,354.0,160.0,120.0,negative strong,111,3.0,,18:21:26,1,190
+4137,Mit dem Zug fahren,626.0,148.0,160.0,120.0,neutral,111,1.0,,18:22:59,1,190

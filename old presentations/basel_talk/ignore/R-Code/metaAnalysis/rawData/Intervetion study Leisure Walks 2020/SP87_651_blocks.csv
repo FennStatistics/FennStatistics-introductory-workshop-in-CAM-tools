@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17707,Familienangehörige,240.0,396.0,160.0,120.0,negative,406,13.0,,,1,651
+17706,Tod der Mitmenschen,68.0,163.0,160.0,120.0,negative weak,406,12.0,,17:01:12,1,651
+17700,psychische Belastung,1153.97,266.969,160.0,120.0,negative weak,406,5.0,,17:02:03,0,651
+17699,Stress,1149.97,79.0,160.0,120.0,negative weak,406,6.0,,16:55:58,0,651
+17698,Einsamkeit,955.0,477.969,160.0,120.0,negative weak,406,10.0,,16:57:41,0,651
+17697,Angst,245.0,165.0,160.0,120.0,negative,406,7.0,,17:00:13,0,651
+17696,Corona-Pandemie,714.984,255.0,160.0,120.0,negative strong,406,1.0,,17:02:09,0,651
+17695,Zusammenhalt,715.0,20.0,160.0,120.0,positive,406,8.0,,16:55:22,0,651
+17694,physische Isolierung,971.0,268.984,160.0,120.0,negative,406,2.0,,17:02:06,0,651
+17693,soziale Isolierung,719.0,475.984,160.0,120.0,negative,406,3.0,,16:57:43,0,651
+17692,Depressivität,470.969,41.9688,160.0,120.0,negative weak,406,9.0,,17:02:13,0,651
+17691,Befinden,470.969,251.984,160.0,120.0,negative,406,4.0,,16:56:07,0,651
+17690,wirtschaftliche Folgen,453.969,474.969,160.0,120.0,negative strong,406,11.0,,16:59:32,0,651

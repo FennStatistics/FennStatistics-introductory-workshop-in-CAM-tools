@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17077,Freiheit,1244.0,862.0,160.0,120.0,positive,366,16.0,,16:10:56,1,615
+16955,kein Mundschutz,526.406,435.281,160.0,120.0,neutral,366,15.0,,,1,615
+16950,Fremde Menschen,573.0,612.0,160.0,120.0,neutral,366,14.0,,,1,615
+16948,Ansteckung,68.9688,333.969,160.0,120.0,negative weak,366,13.0,,16:06:05,1,615
+16897,Spaziergang,784.969,912.969,160.0,120.0,ambivalent,366,12.0,,16:02:39,1,615
+16785,psychische Belastung,1144.94,210.969,160.0,120.0,negative weak,366,5.0,,16:09:27,0,615
+16784,Stress,1147.94,436.969,160.0,120.0,negative weak,366,6.0,,16:09:24,0,615
+16783,Einsamkeit,328.0,930.969,160.0,120.0,negative weak,366,10.0,,16:01:07,0,615
+16782,Angst,546.969,126.969,160.0,120.0,negative weak,366,7.0,,16:00:48,0,615
+16781,Corona-Pandemie,804.969,58.9688,160.0,120.0,negative,366,1.0,,16:00:37,0,615
+16780,Zusammenhalt,1213.97,655.969,160.0,120.0,positive weak,366,8.0,,16:00:56,0,615
+16779,physische Isolierung,3.0,780.969,160.0,120.0,negative weak,366,2.0,,16:11:44,0,615
+16778,soziale Isolierung,36.0,532.969,160.0,120.0,negative weak,366,3.0,,16:04:45,0,615
+16775,wirtschaftliche Folgen,1310.97,59.9375,160.0,120.0,ambivalent,366,11.0,,16:00:58,0,615

@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5264,Loss of trust in govt / corporations,17.0,348.0,160.0,120.0,negative weak,100,13.0,,18:46:34,1,178
+4476,Political Tension,751.0,523.0,160.0,120.0,negative,100,4.0,,18:45:00,1,178
+4960,Increased Spirituality,1227.0,327.717,160.0,120.0,ambivalent,100,12.0,,18:38:40,1,178
+4954,Depression,1126.43,529.717,160.0,120.0,negative strong,100,11.0,,18:41:20,1,178
+4951,Can't use cash,472.283,515.567,160.0,120.0,negative weak,100,10.0,,18:44:56,1,178
+4946,Protests,844.717,673.717,160.0,120.0,ambivalent,100,9.0,,18:43:10,1,178
+4874,Price Gouging,187.85,677.15,160.0,120.0,negative strong,100,8.0,,18:36:10,1,178
+4692,Introspection,1082.0,243.0,160.0,120.0,positive,100,7.0,,18:34:49,1,178
+4680,Loneliness,918.0,391.0,160.0,120.0,negative strong,100,6.0,,18:31:55,1,178
+4542,Product Shortages,303.0,142.0,160.0,120.0,negative strong,100,5.0,,,1,178
+4296,Increased Hygiene,399.0,367.0,160.0,120.0,positive,100,3.0,"More people washing their hands, using hand sanitizer, etc.",18:30:16,1,178
+4274,Self Isolation,848.0,217.0,160.0,120.0,ambivalent,100,2.0,,18:31:18,1,178
+4247,Coronavirus Outbreak,738.0,14.0,160.0,120.0,negative strong,100,1.0,,,1,178

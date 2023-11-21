@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26458,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,889,2.0, ,,1,1698
+26457,Eigener Pkw,260.0,353.0,160.0,120.0,neutral,889,1.0, ,,1,1698
+26456,Zeit,418.0,544.0,160.0,120.0,negative strong,889,3.0,,18:32:52,1,1698
+26455,Umweltschutz,426.0,224.0,160.0,120.0,positive strong,889,4.0,,18:28:52,1,1698
+26454,Gedränge,687.0,187.0,160.0,120.0,negative strong,889,5.0,,18:25:52,1,1698
+26453,Verbraucht Sprit,31.0,245.0,160.0,120.0,negative,889,6.0,,18:24:36,1,1698
+26452,Versicherunngskostenn,286.0,30.0,160.0,120.0,negative,889,7.0,,,1,1698
+26451,Anschaffungskosten,100.0,90.0,160.0,120.0,negative,889,8.0,,18:25:24,1,1698
+26450,Kosten,242.0,210.0,160.0,120.0,negative strong,889,9.0,,18:25:41,1,1698
+26449,Komfort,421.0,450.0,160.0,120.0,positive strong,889,10.0,,,1,1698
+26448,Braucht Ticket,704.0,487.0,160.0,120.0,neutral,889,11.0,,,1,1698
+26447,Flexibilität,425.0,80.0,160.0,120.0,positive strong,889,13.0,,,1,1698
+26446,Paralleltätigkeiten,775.0,379.0,160.0,120.0,positive strong,889,14.0,,,1,1698

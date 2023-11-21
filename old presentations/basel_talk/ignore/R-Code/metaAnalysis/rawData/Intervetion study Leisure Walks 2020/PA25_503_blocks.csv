@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13871,höhere effektivität,532.0,456.0,160.0,120.0,positive strong,334,16.0,,14:02:46,1,503
+13866,bessere Noten,246.0,433.0,160.0,120.0,positive strong,334,15.0,,14:02:48,1,503
+13747,wehniger Ablenkungen,429.0,177.0,160.0,120.0,ambivalent,334,13.0,,14:00:00,1,503
+13719,Langeweile,748.0,514.0,160.0,120.0,negative strong,334,12.0,,13:59:37,1,503
+13549,physische Isolierung,934.0,389.984,160.0,120.0,negative weak,334,2.0,,13:59:34,0,503
+13550,Zusammenhalt,21.0,20.0,160.0,120.0,neutral,334,8.0, ,,0,503
+13555,psychische Belastung,1267.97,528.969,160.0,120.0,negative strong,334,5.0,,13:59:28,0,503
+13554,Stress,1231.97,40.0,160.0,120.0,positive strong,334,6.0,,13:59:22,0,503
+13553,Einsamkeit,20.0,262.969,160.0,120.0,neutral,334,10.0, ,,0,503
+13552,Angst,1174.0,209.0,160.0,120.0,negative strong,334,7.0,,13:59:25,0,503
+13551,Corona-Pandemie,671.984,27.9844,160.0,120.0,neutral,334,1.0, ,,0,503
+13548,soziale Isolierung,20.0,140.984,160.0,120.0,neutral,334,3.0, ,,0,503
+13547,Depressivität,20.0,383.969,160.0,120.0,neutral,334,9.0, ,,0,503
+13546,Befinden,173.969,20.0,160.0,120.0,neutral,334,4.0, ,,0,503
+13545,wirtschaftliche Folgen,20.0,504.969,160.0,120.0,neutral,334,11.0, ,,0,503

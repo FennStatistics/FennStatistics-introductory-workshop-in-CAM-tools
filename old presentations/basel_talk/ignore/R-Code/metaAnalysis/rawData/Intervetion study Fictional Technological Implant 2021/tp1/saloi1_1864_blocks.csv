@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+28538,security,528.0,108.0,160.0,120.0,ambivalent,1002,10.0,,,1,1864
+28519,can be hacked,296.0,52.0,160.0,120.0,negative strong,1002,11.0,,,1,1864
+28509,security,528.0,108.0,160.0,120.0,ambivalent,1002,10.0,,16:25:41,1,1864
+28476,uses energy from body,997.0,157.0,160.0,120.0,positive weak,1002,9.0,,,1,1864
+28472,less accidents due to fatigue,777.0,100.0,160.0,120.0,positive strong,1002,8.0,,,1,1864
+28462,efficient,711.0,221.0,160.0,120.0,positive weak,1002,7.0,,,1,1864
+28458,creates social classes,964.0,343.0,160.0,120.0,negative strong,1002,6.0,,,1,1864
+28452,dividing,723.0,502.0,160.0,120.0,negative strong,1002,4.0,,,1,1864
+28447,no maintenance,207.0,419.0,160.0,120.0,positive weak,1002,3.0,,16:18:51,1,1864
+28440,doesn't affect the body,153.0,191.0,160.0,120.0,positive strong,1002,2.0,,16:18:28,1,1864
+28433,technological implant,472.0,290.0,160.0,120.0,neutral,1002,1.0, ,,1,1864

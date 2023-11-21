@@ -1,0 +1,16 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15830,Angst um Welt/Wirtschaft/ärmere Länder mit schlechten Gesundheitssystemen etc,2107.31,407.313,160.0,120.0,negative,391,20.0,,15:19:27,1,564
+15485,Partnersuche,1358.63,401.906,160.0,120.0,negative,391,17.0,,15:07:44,1,564
+15355,Angst um Angehörige,1817.27,370.286,160.0,120.0,negative strong,391,13.0,,15:19:10,1,564
+15354,Angst um mich,2190.66,175.656,160.0,120.0,negative weak,391,12.0,,14:59:35,1,564
+15318,psychische Belastung,705.875,971.844,160.0,120.0,negative weak,391,5.0,,15:02:11,0,564
+15317,Stress,1807.81,565.781,160.0,120.0,positive weak,391,6.0,,15:03:55,0,564
+15316,Einsamkeit,965.964,447.943,160.0,120.0,negative weak,391,10.0,,15:07:57,0,564
+15315,Angst,1762.97,46.9323,160.0,120.0,neutral,391,7.0, ,,0,564
+15314,Corona-Pandemie,1201.97,40.0,160.0,120.0,neutral,391,1.0, ,,0,564
+15313,Zusammenhalt,447.0,74.0,160.0,120.0,neutral,391,8.0,,15:08:33,0,564
+15312,physische Isolierung,1170.88,632.865,160.0,120.0,negative strong,391,2.0,,14:59:22,0,564
+15311,soziale Isolierung,1147.96,214.917,160.0,120.0,negative weak,391,3.0,,15:07:37,0,564
+15310,Depressivität,962.906,739.844,160.0,120.0,negative,391,9.0,,15:02:02,0,564
+15309,Befinden,1424.94,984.906,160.0,120.0,ambivalent,391,4.0,,15:04:28,0,564
+15308,wirtschaftliche Folgen,516.813,428.906,160.0,120.0,ambivalent,391,11.0,Ausgaben und Einnahmen gleichermaßen gesunken,15:13:17,0,564

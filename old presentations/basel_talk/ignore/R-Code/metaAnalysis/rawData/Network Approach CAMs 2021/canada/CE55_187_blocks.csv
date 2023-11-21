@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+4873,Mental health problems,185.0,480.0,160.0,120.0,negative strong,109,16.0,,18:36:01,1,187
+4846,Historical,20.0,276.0,160.0,120.0,positive,109,15.0,,,1,187
+4808,End of cash,1000.0,325.0,160.0,120.0,positive,109,14.0,,,1,187
+4790,Technology prevailing,764.0,369.0,160.0,120.0,positive,109,13.0,,,1,187
+4697,Economy,591.0,408.0,160.0,120.0,negative strong,109,12.0,,18:31:50,1,187
+4623,Uncertainty,80.0,66.0,160.0,120.0,negative,109,11.0,,18:30:16,1,187
+4613,Job loss,402.0,378.0,160.0,120.0,negative strong,109,10.0,,,1,187
+4329,More time,959.0,194.0,160.0,120.0,positive weak,109,9.0,,18:26:33,1,187
+4285,More time at home with family,939.0,61.0,160.0,120.0,ambivalent,109,8.0,,18:23:05,1,187
+4229,Sense of community,264.0,332.0,160.0,120.0,ambivalent,109,7.0,,18:22:40,1,187
+4214,Increased sanitization,572.0,23.0,160.0,120.0,negative weak,109,6.0,,18:22:18,1,187
+4196,More time indoors,743.0,76.0,160.0,120.0,ambivalent,109,5.0,,18:22:07,1,187
+4189,Scary,271.0,189.0,160.0,120.0,negative strong,109,4.0,,18:22:30,1,187
+4173,Relaxing,748.0,242.0,160.0,120.0,positive,109,3.0,,18:22:26,1,187
+4142,Contagious,363.0,35.0,160.0,120.0,negative strong,109,2.0,,18:20:36,1,187
+4122,Coronavirus Outbreak,516.0,195.0,160.0,120.0,neutral,109,1.0,,,1,187

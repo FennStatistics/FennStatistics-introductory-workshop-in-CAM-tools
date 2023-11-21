@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5383,Maskenpflicht,72.0,165.0,160.0,120.0,ambivalent,162,12.0,,18:48:23,1,260
+5345,Einkaufen dauert länger,241.0,400.0,160.0,120.0,negative weak,162,11.0,,18:47:48,1,260
+5326,Langeweile,953.0,294.0,160.0,120.0,negative weak,162,10.0,,,1,260
+5303,Mehr Zeit für Haushalt,284.0,237.0,160.0,120.0,positive,162,9.0,,18:46:15,1,260
+5273,Soziales Leben,1021.0,37.0,160.0,120.0,negative,162,8.0,,,1,260
+5242,Änderung des Lebensstils,443.0,25.0,160.0,120.0,ambivalent,162,7.0,,18:44:46,1,260
+5224,Mehr Freizeit,509.0,403.0,160.0,120.0,positive,162,6.0,,18:43:55,1,260
+5167,Home Office,774.0,324.0,160.0,120.0,ambivalent,162,4.0,,18:42:44,1,260
+5055,Staatl. Maßnahmen,760.0,93.0,160.0,120.0,negative weak,162,2.0,,18:40:28,1,260
+5020,Corona,539.0,206.0,160.0,120.0,neutral,162,1.0,,,1,260

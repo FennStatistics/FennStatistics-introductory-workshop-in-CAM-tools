@@ -1,0 +1,10 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26314,Zeitplan,121.0,429.0,160.0,120.0,positive strong,886,11.0,,,1,1689
+26312,nicht mitfahren müssen,710.0,235.0,160.0,120.0,positive strong,886,10.0,,,1,1689
+26310,bequem,428.0,516.0,187.312,140.0,ambivalent,886,9.0,,15:27:24,1,1689
+26307,Streik,700.0,534.0,160.0,120.0,negative strong,886,8.0,,15:25:45,1,1689
+26304,Umweltfreundlich ,499.0,164.0,160.641,120.0,positive strong,886,5.0,,15:24:24,1,1689
+26302,Parkhaus,75.0,228.0,160.0,120.0,negative strong,886,4.0,,,1,1689
+26301,Benzin,295.0,176.0,160.0,120.0,negative strong,886,3.0,,,1,1689
+26294,Eigener Pkw,282.0,345.0,160.0,120.0,neutral,886,1.0, ,,1,1689
+26293,Öffentliche Verkehrsmittel,572.0,350.0,165.188,120.0,neutral,886,2.0, ,,1,1689

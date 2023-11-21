@@ -1,0 +1,29 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26340,Umweltfreundlich,76.0,1.0,160.0,120.0,positive strong,887,30.0,,,1,1690
+26339,Umweltschädlic,20.0,100.0,160.0,120.0,negative strong,887,29.0,,,1,1690
+26338,Zeit für Arbeit,557.0,20.0,160.0,120.0,neutral,887,28.0,,,1,1690
+26328,Landschaft genießen,377.0,20.0,160.0,120.0,positive weak,887,27.0,,,1,1690
+26327,Zeit für Lesen/Musik/Gespräche,205.0,20.0,160.0,120.0,positive weak,887,26.0,,,1,1690
+26326,Langeweile,287.0,126.0,160.0,120.0,negative,887,25.0,,,1,1690
+26325,Zurücklehnen & nichts tun,462.0,111.0,160.0,120.0,ambivalent,887,24.0,,15:45:01,1,1690
+26324,geringere Unfallgefahr,446.0,261.0,160.0,120.0,positive strong,887,23.0,,15:43:53,1,1690
+26323,Verlässlich,218.0,224.0,160.0,120.0,positive strong,887,22.0,,,1,1690
+26322,hohe Kosten,20.0,196.0,160.0,120.0,negative strong,887,20.0,,,1,1690
+26321,keine Menschen,621.0,481.0,160.0,120.0,positive strong,887,19.0,,15:39:12,1,1690
+26320,eigene Musik,507.0,552.0,160.0,120.0,positive weak,887,17.0,,15:38:55,1,1690
+26319,Komfort,419.0,460.0,160.0,120.0,positive strong,887,16.0,,,1,1690
+26318,Kälte,736.0,370.0,160.0,120.0,negative weak,887,15.0,,,1,1690
+26317,häufiges Umsteigen,685.0,256.987,160.0,120.0,negative,887,14.0,,15:36:14,1,1690
+26316,Unfallgefahr,333.0,544.0,160.0,120.0,negative strong,887,13.0,,15:32:42,1,1690
+26315,Stadtverkehr,131.0,544.0,160.0,120.0,negative weak,887,12.0,,,1,1690
+26313,wenig Verkehr/ländliche Region,20.0,487.0,160.0,120.0,positive weak,887,11.0,,15:31:34,1,1690
+26311,Verspätungen,829.0,467.0,160.0,120.0,negative strong,887,10.0,,15:28:36,1,1690
+26309,Stress,859.0,204.0,160.0,120.0,negative strong,887,9.0,,15:48:24,1,1690
+26308,stündliche Verbindungen,724.0,16.0,160.0,120.0,negative strong,887,8.0,,,1,1690
+26306,schlechtes Streckennetz,888.0,62.0,160.0,120.0,negative strong,887,7.0,,15:25:12,1,1690
+26305,Ruhe,233.0,457.0,160.0,120.0,positive strong,887,6.0,,16:08:13,1,1690
+26303,Menschen,879.0,337.0,160.0,120.0,negative,887,5.0,,15:27:09,1,1690
+26300,Anbindung,664.0,148.0,160.0,120.0,negative strong,887,4.0,,15:23:38,1,1690
+26299,selbstbestimmt,52.0,321.0,160.0,120.0,positive strong,887,3.0,,,1,1690
+26298,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,887,1.0, ,,1,1690
+26297,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,887,2.0, ,,1,1690

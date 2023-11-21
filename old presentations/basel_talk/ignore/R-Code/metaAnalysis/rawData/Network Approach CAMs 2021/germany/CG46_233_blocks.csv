@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5569,Kommunkation,592.0,325.0,160.0,120.0,positive weak,140,17.0,,,1,233
+5523,Online Gaming,1205.0,20.0,160.0,120.0,positive strong,140,16.0,,,1,233
+4909,Online Vorlesungen,1004.0,190.0,160.0,120.0,positive weak,140,4.0,,18:36:44,1,233
+5498,Wirtschaft,20.0,400.0,160.0,120.0,ambivalent,140,15.0,,18:52:16,1,233
+5401,Solidarität und Zusammenhalt,288.0,245.0,160.0,120.0,positive,140,14.0,,,1,233
+5331,Tod,558.0,41.0,160.0,120.0,neutral,140,13.0,,18:47:23,1,233
+5325,Krankheit (Virus),559.0,127.0,160.0,120.0,neutral,140,12.0,,,1,233
+5314,Verunsicherung,162.0,37.0,160.0,120.0,negative strong,140,11.0,,,1,233
+5291,"Abstandsreglung, Maskenpflicht, Kontaktsperre etc.",89.0,246.0,160.0,120.0,positive weak,140,10.0,,18:48:22,1,233
+5211,Hygienedemos und unsolidarisches Verhalten,429.0,473.0,160.0,120.0,negative strong,140,9.0,,,1,233
+5117,Öffentliches Leben,158.0,400.0,160.0,120.0,ambivalent,140,8.0,,18:43:10,1,233
+5114,Fehlinformationen und Verschwörungstheorien,636.0,472.0,160.0,120.0,negative strong,140,7.0,,,1,233
+5005,Informationen ,919.0,378.0,160.0,120.0,ambivalent,140,6.0,,18:39:31,1,233
+4942,Erhöhter Arbeitsaufwand,1221.0,146.0,160.0,120.0,negative weak,140,5.0,,18:42:35,1,233
+4847,Digitaler Freundestreffpunkt,999.0,20.0,160.0,120.0,positive strong,140,3.0,,18:51:01,1,233
+4820,Internet,797.0,145.0,160.0,120.0,positive weak,140,2.0,,18:51:10,1,233
+4785,Coronavirus Epidemie ,560.0,210.0,160.0,120.0,neutral,140,1.0,,18:33:46,1,233

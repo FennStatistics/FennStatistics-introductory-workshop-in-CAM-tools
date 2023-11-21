@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15954,Zeit für den Partner,626.995,386.714,160.0,120.0,positive,328,25.0,,,1,575
+15926,Langeweile,253.835,670.853,160.0,120.0,neutral,328,24.0,,,1,575
+15725,Zeit,398.085,396.545,160.0,120.0,positive strong,328,15.0,,15:16:15,1,575
+15724,Alkoholkonsum,26.6339,667.112,160.0,120.0,ambivalent,328,14.0,,15:22:03,1,575
+15694,Erholung der Natur,48.567,276.268,160.0,120.0,positive strong,328,13.0,,15:21:51,1,575
+15669,Krise des Kapitalismus,596.683,15.1161,204.643,152.991,ambivalent,328,12.0,,15:21:05,1,575
+15614,psychische Belastung,1621.97,215.964,160.0,120.0,negative,328,5.0,,15:17:25,0,575
+15613,Stress,1724.95,615.987,160.0,120.0,ambivalent,328,6.0,,15:18:06,0,575
+15612,Einsamkeit,470.946,624.929,160.0,120.0,negative weak,328,10.0,,15:19:17,0,575
+15611,Angst,1468.95,703.0,160.0,120.0,negative,328,7.0,,15:17:04,0,575
+15610,Corona-Pandemie,946.915,336.924,160.0,120.0,neutral,328,1.0, ,,0,575
+15609,Zusammenhalt,236.96,40.9554,160.0,120.0,positive strong,328,8.0,,15:21:26,0,575
+15608,physische Isolierung,735.991,517.969,160.0,120.0,ambivalent,328,2.0,,15:19:54,0,575
+15607,soziale Isolierung,754.973,680.937,160.0,120.0,ambivalent,328,3.0,,15:19:11,0,575
+15606,Depressivität,85.9554,407.942,160.0,120.0,negative,328,9.0,,15:21:59,0,575
+15605,Befinden,1151.94,20.9643,160.0,120.0,neutral,328,4.0, ,,0,575
+15604,wirtschaftliche Folgen,1278.92,378.951,160.0,120.0,neutral,328,11.0, ,,0,575

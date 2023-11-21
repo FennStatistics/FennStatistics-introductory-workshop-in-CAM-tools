@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12297,relaxed school schedule,839.484,250.219,160.0,120.0,positive weak,248,12.0,,,1,400
+12272,international deaths,330.734,16.5,160.0,120.0,negative strong,248,11.0,,,1,400
+12263,fear of disease spreading,589.145,59.4453,160.0,120.0,negative strong,248,10.0,,,1,400
+12212,,1163.75,326.25,160.0,120.0,neutral,248,9.0,,,1,400
+12207,live entertainment halted,369.652,191.391,160.0,120.0,negative strong,248,8.0,,11:36:10,1,400
+12202,,1163.75,557.5,160.0,120.0,neutral,248,7.0,,,1,400
+12190,not interacting with friends,906.695,18.4219,160.0,120.0,negative,248,6.0,,,1,400
+12179,social distancing,354.688,430.133,160.0,120.0,negative strong,248,5.0,,11:35:16,1,400
+12161,online shopping,995.973,169.984,160.0,120.0,positive,248,4.0,,,1,400
+12147,businesses closing down,967.965,400.961,160.0,120.0,negative strong,248,2.0,,,1,400
+12141,coronavirus outbreak,63.9375,347.941,160.0,120.0,neutral,248,1.0,,,1,400

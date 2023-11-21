@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5037,weather dependent,834.0,224.0,160.0,120.0,positive,133,14.0,,,1,225
+4937,Social Distancing,461.0,472.455,160.0,120.0,negative weak,133,13.0,,18:37:38,1,225
+4929,Unable to socialize,701.0,431.0,160.0,120.0,negative,133,12.0,,18:37:33,1,225
+4821,Stuck in province,543.0,54.0,160.0,120.0,negative,133,10.0,,,1,225
+4721,OPEC+,21.0,26.9886,160.0,120.0,neutral,133,9.0,,18:41:57,1,225
+4713,Outdoors,776.0,75.9886,160.0,120.0,positive strong,133,8.0,,,1,225
+4635,Job Market Oversupply,219.0,471.0,160.0,120.0,negative weak,133,7.0,,18:41:55,1,225
+4608,Increase free time,528.0,350.0,160.0,120.0,ambivalent,133,6.0,,18:34:57,1,225
+4600,Cheaper Gasoline,374.0,222.989,160.0,120.0,positive weak,133,5.0,,18:42:07,1,225
+4585,Covid-19,340.0,27.0,160.0,120.0,negative,133,4.0,,18:41:49,1,225
+4582,Oil oversupply,49.0,212.989,160.0,120.0,negative weak,133,3.0,,18:31:33,1,225
+4562,Hiking,662.0,209.989,160.0,120.0,positive strong,133,2.0,,18:35:10,1,225
+4536,Loss of Job,247.0,333.0,160.0,120.0,negative strong,133,1.0,,18:41:53,1,225

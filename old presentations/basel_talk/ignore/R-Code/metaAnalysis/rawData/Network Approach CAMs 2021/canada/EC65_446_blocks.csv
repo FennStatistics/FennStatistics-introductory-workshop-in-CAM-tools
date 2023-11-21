@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12721,health care,525.0,142.0,160.0,120.0,positive,290,7.0,,,1,446
+12707,depression,266.0,515.0,160.0,120.0,negative,290,6.0,,,1,446
+12696,salary payment,91.0,126.0,160.0,120.0,negative,290,5.0,,,1,446
+12672,feelings,122.0,321.0,160.0,120.0,negative,290,4.0,,,1,446
+12657,lose of jobs,325.0,354.0,160.0,120.0,negative,290,3.0,,,1,446
+12647,negative effects,533.0,316.0,160.0,120.0,positive weak,290,2.0,,,1,446
+12615,corona virus outbreak,274.0,134.0,160.0,120.0,neutral,290,1.0,,,1,446

@@ -1,0 +1,8 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15080,gesellschaftlicher Zusammenhalt,757.0,408.0,160.0,120.0,positive strong,375,7.0,,,1,549
+15028,Reisebeschränkungen,521.0,497.0,160.0,120.0,negative strong,375,6.0,,,1,549
+15022,Telearbeit,277.0,51.0,160.0,120.0,positive strong,375,5.0,,,1,549
+15017,Soziale Distanzierung,816.0,250.0,160.0,120.0,positive,375,4.0,,,1,549
+15011,Todesfälle,254.0,333.0,160.0,120.0,negative strong,375,3.0,,14:41:58,1,549
+14964,Wirtschaftskrise,585.0,52.0,160.0,120.0,negative strong,375,2.0,,,1,549
+14959,Corona-Pandemie,530.0,267.0,160.0,120.0,neutral,375,1.0,,,1,549

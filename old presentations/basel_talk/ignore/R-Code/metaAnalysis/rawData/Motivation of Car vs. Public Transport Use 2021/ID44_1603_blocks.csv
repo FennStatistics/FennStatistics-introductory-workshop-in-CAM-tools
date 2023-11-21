@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24987,Hygiene / Sauberkeit,20.0,92.8438,160.0,120.0,positive weak,832,13.0,,12:47:18,1,1603
+25003,Kosten,1127.97,214.844,160.0,120.0,positive weak,832,22.0,,12:28:44,1,1603
+25002,Umweltschutz,486.844,229.422,160.0,120.0,negative strong,832,21.0,,,1,1603
+25000,Zeit,1019.84,39.0,160.0,120.0,ambivalent,832,20.0,,12:31:57,1,1603
+24993,Komfort / Bequemlichkeit,839.562,25.8438,160.0,120.0,negative weak,832,18.0,,12:26:52,1,1603
+24991,Sicherheit,475.266,115.0,160.0,120.0,ambivalent,832,16.0,,12:35:14,1,1603
+24990,Entspannung ,24.2857,291.286,160.0,120.0,neutral,832,14.0,,12:47:08,1,1603
+24974,Umweltschutz,663.969,232.969,160.0,120.0,positive,832,11.0,,12:22:57,1,1603
+24973,Entspannung,1113.95,320.969,160.0,120.0,positive,832,10.0,,12:23:30,1,1603
+24972,Sicherheit,680.953,91.0,160.0,120.0,ambivalent,832,9.0,,12:32:14,1,1603
+24971,Hygiene / Sauberkeit,1116.92,126.953,160.0,120.0,negative weak,832,8.0,,12:25:28,1,1603
+24949,Kosten,20.0,191.984,160.0,120.0,negative weak,832,5.0,,12:45:44,1,1603
+24948,Komfort / Bequemlichkeit,350.0,11.9911,160.0,120.0,positive,832,4.0,,12:18:42,1,1603
+24942,Zeit,134.0,20.0,160.0,120.0,positive strong,832,3.0,,12:32:01,1,1603
+24939,Eigener Pkw,272.0,345.0,160.0,120.0,neutral,832,1.0, ,,1,1603
+24938,Öffentliche Verkehrsmittel,748.969,344.938,160.0,120.0,neutral,832,2.0, ,,1,1603

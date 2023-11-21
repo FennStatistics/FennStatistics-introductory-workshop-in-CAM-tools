@@ -1,0 +1,22 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15319,Onlinezeitalter,2408.0,370.0,160.0,120.0,positive strong,372,25.0,,14:54:58,1,545
+15024,Teamwork,3118.0,312.0,160.0,120.0,positive strong,372,21.0,,14:43:59,1,545
+15020,Geimeinsam sind wir stark,3016.0,130.0,160.0,120.0,positive strong,372,20.0,,14:44:01,1,545
+15018,Regeln befolgen,2764.0,132.0,160.0,120.0,positive weak,372,19.0,Regeln tragen auch zur Einsamkeit bei,14:52:33,1,545
+14955,Abstand,1480.0,128.0,160.0,120.0,ambivalent,372,18.0,Sowohl gut als auch stressig,14:51:20,1,545
+14951,Corona Gegner,2274.0,832.0,160.0,120.0,negative strong,372,17.0,,14:43:45,1,545
+14949,Angespannt,3098.0,810.0,160.0,120.0,negative weak,372,16.0,,14:43:53,1,545
+14946,Stress zwischen den Menschen,3170.0,602.0,160.0,120.0,negative,372,15.0,,14:43:51,1,545
+14943,Schlechter Zusammenhalt,2882.0,644.0,160.0,120.0,negative strong,372,14.0,,14:43:42,1,545
+14942,Guter Zusammenhalt,2872.0,308.0,160.0,120.0,positive strong,372,13.0,,14:43:57,1,545
+14750,psychische Belastung,2530.98,199.958,160.0,120.0,negative weak,372,5.0, Kinder sind stark betroffen,14:51:50,0,545
+14749,Stress,1730.96,654.0,160.0,120.0,negative weak,372,6.0,,14:37:15,0,545
+14748,Einsamkeit,2296.0,40.0,160.0,120.0,negative weak,372,10.0,,14:55:06,0,545
+14747,Angst,1688.98,279.979,160.0,120.0,negative,372,7.0, Angst vor Corona und Menschen,14:47:20,0,545
+14746,Corona-Pandemie,2272.96,578.958,160.0,120.0,neutral,372,1.0, ,,0,545
+14745,Zusammenhalt,2660.0,484.0,160.0,120.0,ambivalent,372,8.0," Teilweise gut, teilweise schlecht",14:47:35,0,545
+14744,physische Isolierung,1230.0,311.979,160.0,120.0,negative,372,2.0,"Keine Sportgruppen, Arbeit teilweise gestoppt, Bewegungsangebote unterbrochen, Drinnen bleiben",14:46:43,0,545
+14743,soziale Isolierung,1982.0,163.979,160.0,120.0,negative strong,372,3.0,,14:39:23,0,545
+14742,Depressivität,2124.96,349.958,160.0,120.0,negative weak,372,9.0,,14:38:54,0,545
+14741,Befinden,1895.96,448.958,160.0,120.0,ambivalent,372,4.0,,14:34:15,0,545
+14740,wirtschaftliche Folgen,1510.96,482.958,160.0,120.0,negative weak,372,11.0,,14:37:43,0,545

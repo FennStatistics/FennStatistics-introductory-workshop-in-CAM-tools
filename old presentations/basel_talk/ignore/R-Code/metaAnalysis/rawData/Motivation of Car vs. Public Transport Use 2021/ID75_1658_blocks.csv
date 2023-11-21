@@ -1,0 +1,21 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25873,Anbindung meiner Ziele,362.0,20.0,160.0,120.0,positive,865,20.0,,,1,1658
+25872,tägliches Pendeln (10km),709.0,5.0,160.0,120.0,neutral,865,19.0,,,1,1658
+25871,Gepäckmitnahme,540.0,0.0,160.0,120.0,neutral,865,18.0,,,1,1658
+25870,Reisen ab 800 km,436.0,522.6,160.0,120.0,positive weak,865,17.0,,17:12:13,1,1658
+25869,Freie Zeitwahl,408.0,43.0,160.0,120.0,positive,865,16.0,,17:11:26,1,1658
+25868,Baustellen/Verzögerung,588.0,85.0,160.0,120.0,neutral,865,15.0,,,1,1658
+25867,Parkplatzsuche,151.0,66.0,160.0,120.0,negative weak,865,14.0,,,1,1658
+25866,ab 400km,568.0,476.0,160.0,120.0,positive,865,13.0,,,1,1658
+25865,Preissystem (DB),792.0,120.0,160.0,120.0,negative,865,12.0,,,1,1658
+25864,Ticketbuchung,837.0,221.0,160.0,120.0,negative weak,865,11.0,,,1,1658
+25863,Mitreisende,612.0,520.0,160.0,120.0,negative weak,865,10.0,,,1,1658
+25862,Privatssphäre,240.0,529.0,160.0,120.0,positive strong,865,9.0,,,1,1658
+25861,Anschluss gefährdet,816.0,480.0,160.0,120.0,negative strong,865,8.0,,,1,1658
+25860,Geschwindigkeit,44.0,392.0,160.0,120.0,positive strong,865,7.0,,,1,1658
+25859,Dauer,827.0,352.0,160.0,120.0,negative strong,865,6.0,,,1,1658
+25858,umstiegsfreie Verbindung,636.0,195.0,160.0,120.0,positive strong,865,5.0,,,1,1658
+25857,Spritkosten vs Bahnticket,57.0,170.0,160.0,120.0,positive weak,865,4.0,,17:07:25,1,1658
+25856,Komfort,290.0,156.0,160.0,120.0,positive strong,865,3.0,,17:04:38,1,1658
+25855,Eigener Pkw,272.0,346.0,160.0,120.0,neutral,865,1.0, ,,1,1658
+25854,Öffentliche Verkehrsmittel,574.0,347.0,160.0,120.0,neutral,865,2.0, ,,1,1658

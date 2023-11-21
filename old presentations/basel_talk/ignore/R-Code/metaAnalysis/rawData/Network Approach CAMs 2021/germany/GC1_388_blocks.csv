@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12059,Panik,874.268,183.134,160.0,120.0,negative,237,20.0,,11:42:30,1,388
+12057,Medien,759.857,326.857,160.0,120.0,ambivalent,237,18.0,,11:41:49,1,388
+12058,Hamsterkäufe,974.973,326.848,160.0,120.0,negative,237,19.0,,11:42:34,1,388
+12054,Sport/Freizeit/Hobbies,57.0,463.857,160.0,120.0,positive strong,237,17.0,,11:39:43,1,388
+12043,Ärger/Wut,86.4241,81.8393,160.0,120.0,negative strong,237,15.0,,11:33:00,1,388
+12042,Lebensfreude,686.835,701.143,160.0,120.0,positive,237,14.0,,11:31:43,1,388
+12039,WHO,909.393,671.134,160.0,120.0,ambivalent,237,11.0,,11:36:20,1,388
+12038,China,913.121,510.683,160.0,120.0,negative strong,237,10.0,Technische Probleme. Es soll nur die negative Unterstützung von China zu Corona sein. Verbindung lässt sich nicht löschen.,11:38:20,1,388
+12037,Maskenpflicht,855.835,20.2679,160.0,120.0,positive weak,237,9.0,,11:38:53,1,388
+12036,Reisen/Urlaub,685.272,490.853,160.0,120.0,positive strong,237,8.0,,11:31:32,1,388
+12035,Finanzen,487.103,608.241,160.0,120.0,negative weak,237,7.0,,11:25:45,1,388
+12034,Arbeit,283.129,495.982,160.0,120.0,negative strong,237,6.0,Technische Probleme. Es soll nur der Pfeil als Verbindung zur Sorge bestehen. Verbindungslinie lässt sich nicht löschen.,11:37:24,1,388
+12033,Sorge,92.9777,298.121,160.0,120.0,negative strong,237,5.0,,11:33:06,1,388
+12032,Infektionsschutzgesetz,485.991,10.5446,160.0,120.0,ambivalent,237,4.0,,11:34:44,1,388
+12031,Quarantäne,681.411,169.241,160.0,120.0,ambivalent,237,3.0,,11:34:59,1,388
+12030,Isolation,279.384,160.0,160.0,120.0,ambivalent,237,2.0,,11:33:14,1,388
+12029,Coronavirus,489.96,328.951,160.0,120.0,negative strong,237,1.0,,11:40:48,1,388

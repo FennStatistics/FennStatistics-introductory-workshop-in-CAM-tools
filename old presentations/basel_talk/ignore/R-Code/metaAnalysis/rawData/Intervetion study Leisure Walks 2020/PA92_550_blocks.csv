@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15200,Existenzangst,722.0,531.0,160.0,120.0,negative strong,376,19.0,,14:50:41,1,550
+15023,Technik,435.0,36.0,160.0,120.0,positive strong,376,17.0,,,1,550
+15015,Regeln,551.0,523.0,160.0,120.0,positive,376,16.0,,,1,550
+15014,Ordnung,786.0,264.0,160.0,120.0,positive strong,376,15.0,,,1,550
+14962,Zeit für mich,925.0,155.0,160.0,120.0,positive strong,376,14.0,,14:41:40,1,550
+14958,Routine,937.0,283.0,160.0,120.0,positive strong,376,13.0,,14:41:31,1,550
+14954,Entschleunigung,731.0,20.0,160.0,120.0,positive strong,376,12.0,,14:41:24,1,550
+14864,Angst,20.0,321.0,160.0,120.0,negative strong,376,7.0,,14:39:21,0,550
+14865,Einsamkeit,170.0,516.969,160.0,120.0,negative strong,376,10.0,,14:51:08,0,550
+14866,Stress,212.969,20.0,160.0,120.0,negative strong,376,6.0,,14:39:14,0,550
+14867,psychische Belastung,190.969,368.969,160.0,120.0,negative strong,376,5.0,,14:40:33,0,550
+14863,Corona-Pandemie,508.984,268.984,160.0,120.0,neutral,376,1.0, ,,0,550
+14862,Zusammenhalt,701.0,370.0,160.0,120.0,ambivalent,376,8.0,,14:40:09,0,550
+14861,physische Isolierung,916.0,20.0,160.0,120.0,negative,376,2.0,,14:52:02,0,550
+14860,soziale Isolierung,370.0,463.984,160.0,120.0,ambivalent,376,3.0,,14:51:10,0,550
+14859,Depressivität,81.9688,163.969,160.0,120.0,negative strong,376,9.0,,14:40:55,0,550
+14858,Befinden,306.969,206.984,160.0,120.0,ambivalent,376,4.0,,14:40:12,0,550
+14857,wirtschaftliche Folgen,897.969,438.969,160.0,120.0,negative strong,376,11.0,,14:40:41,0,550

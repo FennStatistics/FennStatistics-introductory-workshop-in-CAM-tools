@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24333,Öffentliche Verkehrsmittel,571.0,348.0,160.0,120.0,neutral,805,2.0, ,,1,1564
+24332,Eigener Pkw,248.0,343.0,160.0,120.0,neutral,805,1.0, ,,1,1564
+24331,Komplett flexibel,157.0,164.0,160.0,120.0,positive strong,805,5.0,,,1,1564
+24330,Schlecht ür die Umwelt,62.0,417.0,160.0,120.0,negative strong,805,6.0,,,1,1564
+24329,Gut fuer die Umwelt,897.0,374.0,160.0,120.0,positive strong,805,7.0,,,1,1564
+24328,Ticketpreise sind zu hoch,898.0,224.0,160.0,120.0,negative strong,805,8.0,,,1,1564
+24327,Keine Parkplatzsuche,668.0,178.0,160.0,120.0,positive weak,805,9.0,,,1,1564
+24326,Höhere Corona-Gefahr,957.0,106.0,160.0,120.0,negative weak,805,10.0,,,1,1564
+24325,Kann fahren wann und wohin iwill,92.0,41.0,160.0,120.0,positive strong,805,11.0,,20:50:07,1,1564
+24324,Wenn man eh schon ein Auto hat teilweise gütiger als ÖPNV,267.0,557.0,160.0,120.0,positive weak,805,12.0,,,1,1564
+24323,kein corona,416.0,253.0,160.0,120.0,positive weak,805,13.0,,,1,1564
+24322,macht Spaß,68.0,296.0,160.0,120.0,positive weak,805,14.0,,,1,1564
+24321,mögliche Versptung auf die ich keinen Einfluss habe,782.0,518.0,160.0,120.0,negative weak,805,15.0,,,1,1564
+24320,Möglicher Stau,488.0,524.0,160.0,120.0,negative weak,805,16.0,,,1,1564

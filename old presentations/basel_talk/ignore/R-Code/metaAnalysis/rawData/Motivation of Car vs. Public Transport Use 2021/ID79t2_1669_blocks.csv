@@ -1,0 +1,19 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26030,kann die Stopps bestimmen,108.0,272.0,160.0,120.0,positive weak,871,25.0,,,1,1669
+26029,man trifft Fremde,754.0,215.0,160.0,120.0,ambivalent,871,24.0,,,1,1669
+26028,mehr Gepäckraum,294.0,148.0,160.0,120.0,positive weak,871,22.0,,,1,1669
+26027,flexible Zeitplanung,20.0,376.0,160.0,120.0,positive weak,871,20.0,,,1,1669
+26026,kann laut singen und sprechen,178.0,22.0,160.0,120.0,positive weak,871,18.0,,22:47:35,1,1669
+26021,Verkehr,441.0,488.0,160.0,120.0,negative,871,16.0,,,1,1669
+26020,Metro kann schneller sein,1032.0,288.0,160.0,120.0,positive weak,871,15.0,,,1,1669
+26019,mehr green Lösung,1070.0,174.0,160.0,120.0,positive strong,871,14.0,,22:44:38,1,1669
+26014,muss warten,882.0,535.0,160.0,120.0,negative strong,871,13.0,,22:49:07,1,1669
+26013,muss nicht organisieren,30.0,100.0,160.0,120.0,positive weak,871,12.0,,22:43:12,1,1669
+26012,Kosten hängen vom Kraftstoff ab,289.0,547.0,160.0,120.0,negative weak,871,11.0,,22:42:53,1,1669
+26011,Instandhaltung,53.0,521.0,128.667,96.0,negative weak,871,9.0,,22:42:18,1,1669
+26010,überfüllt,863.0,400.0,160.0,120.0,negative strong,871,8.0,,,1,1669
+26009,Verzögerungen,648.0,534.0,160.0,120.0,negative strong,871,6.0,,,1,1669
+26008,muss nicht vorsichtig sein,706.0,120.0,160.0,120.0,positive weak,871,5.0,,,1,1669
+26007,comfort,463.0,166.0,160.0,120.0,ambivalent,871,4.0,,22:46:51,1,1669
+26006,Eigener Pkw,270.0,353.0,167.0,119.283,neutral,871,1.0, ,,1,1669
+26005,Öffentliche Verkehrsmittel,600.0,356.0,160.0,120.0,neutral,871,2.0, ,,1,1669

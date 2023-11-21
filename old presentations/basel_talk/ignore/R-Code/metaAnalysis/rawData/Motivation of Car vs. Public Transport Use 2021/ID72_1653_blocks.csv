@@ -1,0 +1,12 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25778,genauere Zielorte,367.0,199.0,160.0,120.0,positive weak,862,12.0,,,1,1653
+25777,Konzentration,43.0,415.0,160.0,120.0,neutral,862,11.0,,,1,1653
+25775,Pausen wann man will,200.0,497.0,160.0,120.0,positive weak,862,10.0,,,1,1653
+25774,muss nicht selbst fahren,583.0,212.0,160.0,120.0,positive weak,862,9.0,,,1,1653
+25773,laut,627.0,491.0,160.0,120.0,negative weak,862,8.0,,,1,1653
+25772,Klogänge,834.0,381.0,160.0,120.0,negative,862,7.0,,,1,1653
+25771,tanken,106.0,317.0,160.0,120.0,negative,862,6.0,,,1,1653
+25769,laute Musik,183.0,201.0,160.0,120.0,positive weak,862,5.0,,,1,1653
+25768,Fahrgäste,760.0,264.0,160.0,120.0,ambivalent,862,4.0,,,1,1653
+25767,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,862,1.0, ,,1,1653
+25766,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,862,2.0, ,,1,1653

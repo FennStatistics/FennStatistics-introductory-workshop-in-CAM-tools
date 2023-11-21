@@ -1,0 +1,28 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+5727,Motivation,912.562,538.625,160.0,120.0,negative weak,180,15.0,,19:08:10,1,286
+5919,soziale Angst/Anspannung,1146.0,656.0,160.0,120.0,positive strong,180,27.0,,19:15:32,1,286
+5913,gesunkene Ausgaben,604.0,2.0,160.0,120.0,positive,180,26.0,,19:13:40,1,286
+5911,Schlaf,1334.0,608.0,160.0,120.0,positive,180,25.0,,19:14:55,1,286
+5904,Erledigung lange aufgeschobener Aufgaben,1520.0,294.0,160.0,120.0,positive strong,180,24.0,,19:12:55,1,286
+5881,Sorge potenziell ansteckend zu sein,560.0,420.0,160.0,120.0,neutral,180,23.0,,,1,286
+5872,Weiterbildung,1535.66,134.969,160.0,120.0,positive weak,180,22.0,,19:13:02,1,286
+5868,Medienkonsum,1293.98,308.312,160.0,120.0,negative,180,21.0,,19:11:25,1,286
+5850,Verfügbarkeit von Konsumgütern,750.625,22.9688,160.0,120.0,negative weak,180,20.0,,19:09:09,1,286
+5835,sinnvoll investierte Zeit,1303.62,145.281,160.0,120.0,positive weak,180,19.0,,19:12:59,1,286
+5788,Allgemeines Wohlbefinden,1341.33,441.328,160.0,120.0,positive strong,180,18.0,,19:07:11,1,286
+5732,Effektivität der Arbeit,1005.62,464.219,160.0,120.0,negative weak,180,16.0,,19:06:23,1,286
+5736,Zeit in der Natur,1246.33,27.0,160.0,120.0,positive strong,180,17.0,,19:05:30,1,286
+5721,Studienorganisation,787.625,485.984,160.0,120.0,positive weak,180,14.0,,19:03:28,1,286
+5709,direkter Kontakt,341.667,445.0,160.0,120.0,negative,180,13.0,,19:03:03,1,286
+5700,Kommunikation,206.0,396.0,160.0,120.0,positive weak,180,12.0,,19:02:32,1,286
+5677,ältere Verwandte,346.0,222.0,160.0,120.0,negative weak,180,11.0,,19:01:40,1,286
+5657,Stress,1040.99,278.958,160.0,120.0,positive strong,180,10.0,,19:00:41,1,286
+5652,Freizeit,985.964,33.9635,160.0,120.0,positive,180,9.0,,19:00:34,1,286
+5650,Einkäufe,647.969,118.0,160.0,120.0,negative weak,180,8.0,,19:00:36,1,286
+5647,Alltag,612.969,253.969,160.0,120.0,positive weak,180,7.0,,19:00:29,1,286
+5638,Respekt gegenüber anderen Mitmenschen aus der Risikogruppe,156.0,214.0,160.0,120.0,positive weak,180,6.0,,19:06:31,1,286
+5632,Karriere (Studium),838.969,353.969,160.0,120.0,neutral,180,5.0,,,1,286
+5623,körperliche Inaktivität,453.99,19.0,160.0,120.0,negative strong,180,4.0,,,1,286
+5580,Sicherheit durch präventive Maßnahmen,40.0,149.0,160.0,120.0,positive strong,180,3.0,,18:57:14,1,286
+5572,Einsamkeit,17.0,20.0,160.0,120.0,negative weak,180,2.0,,18:55:13,1,286
+5562,Social Distancing,241.0,45.0,160.0,120.0,positive weak,180,1.0,,18:55:19,1,286

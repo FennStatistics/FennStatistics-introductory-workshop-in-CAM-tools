@@ -1,0 +1,20 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17450,Mehr kontakt über Zoom z.b.,834.276,283.234,160.0,120.0,positive weak,380,22.0,,16:24:27,1,624
+17444,Einschränkungen,1173.29,293.26,133.984,100.0,negative weak,380,21.0,,16:23:42,1,624
+17439,mehr Zeit für die Familie,1085.55,462.167,160.0,120.0,positive strong,380,20.0,,16:23:10,1,624
+17369,Urlaub fällt aus,918.641,726.271,160.0,120.0,negative,380,19.0,,16:22:21,1,624
+17363,Armut,2053.67,234.667,160.0,120.0,negative strong,380,18.0,,16:20:38,1,624
+17277,Arbeitslosigkeit (kurzarbeit),1559.64,22.9635,130.0,96.9792,negative strong,380,17.0,,16:18:01,1,624
+17275,mehr Zeit für Sich,1348.3,782.313,160.0,120.0,positive strong,380,16.0,,16:17:04,1,624
+17250,weniger ausgaben,1800.65,518.333,160.0,120.0,positive weak,380,15.0,,16:16:17,1,624
+17120,Maske tragen,1651.64,717.974,160.0,120.0,negative weak,380,14.0,,16:12:22,1,624
+17052,psychische Belastung,1708.93,177.922,160.0,120.0,negative strong,380,5.0,,16:12:48,0,624
+17051,Stress,22.9219,145.958,160.0,120.0,neutral,380,6.0, ,,0,624
+17050,Einsamkeit,20.0,397.984,160.0,120.0,neutral,380,10.0, ,,0,624
+17049,Angst,1902.97,45.9687,160.0,120.0,negative weak,380,7.0,,16:19:43,0,624
+17048,Corona-Pandemie,1140.94,112.911,160.0,120.0,neutral,380,1.0, ,,0,624
+17047,Zusammenhalt,812.896,541.854,160.0,120.0,positive strong,380,8.0,,16:21:37,0,624
+17046,physische Isolierung,20.0,523.99,160.0,120.0,neutral,380,2.0, ,,0,624
+17045,soziale Isolierung,20.0,271.99,160.0,120.0,neutral,380,3.0, ,,0,624
+17044,Depressivität,19.9531,647.938,160.0,120.0,neutral,380,9.0, ,,0,624
+17043,Befinden,1509.87,363.885,160.0,120.0,ambivalent,380,4.0,,16:13:36,0,624

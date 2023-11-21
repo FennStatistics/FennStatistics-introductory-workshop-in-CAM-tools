@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27817,Teuer,94.0,322.0,160.0,120.0,negative strong,949,18.0,,,1,1785
+27816,laufende Kosten,214.0,20.0,160.0,120.0,negative,949,17.0,,,1,1785
+27814,Anschaffungskosten,61.0,61.0,160.0,120.0,negative,949,16.0,,,1,1785
+27812,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,949,2.0, ,,1,1785
+27811,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,949,1.0, ,,1,1785
+27810,Pünktlichkeit,554.0,138.0,160.0,120.0,negative strong,949,3.0,,,1,1785
+27809,Dreck,730.0,88.0,160.0,120.0,negative weak,949,4.0,,13:37:00,1,1785
+27808,Corona Infektion,737.0,196.0,160.0,120.0,negative weak,949,5.0,,,1,1785
+27807,Stau,254.0,187.0,160.0,120.0,negative weak,949,6.0,,,1,1785
+27806,Flexibel,421.0,514.0,154.0,115.0,ambivalent,949,7.0,,13:38:32,1,1785
+27805,keine Maske,20.0,418.0,160.0,120.0,positive weak,949,8.0,,,1,1785
+27804,Parkplatz,164.0,531.0,160.0,120.0,negative,949,10.0,,,1,1785
+27803,Benzin,99.0,165.0,160.0,120.0,negative weak,949,11.0,,,1,1785
+27802,teuer,768.0,317.0,160.0,120.0,negative,949,12.0,,,1,1785
+27801,Umweltfreundlich,684.0,556.0,160.0,120.0,positive weak,949,13.0,,,1,1785
+27800,Heim nach dem Feiern,537.0,38.0,160.0,120.0,positive strong,949,14.0,,,1,1785
+27799,Umkreis nicht begrenzt,279.0,85.0,160.0,120.0,positive weak,949,15.0,,,1,1785

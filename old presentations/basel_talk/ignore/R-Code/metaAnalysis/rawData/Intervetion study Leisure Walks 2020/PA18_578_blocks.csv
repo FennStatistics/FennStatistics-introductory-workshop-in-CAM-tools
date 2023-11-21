@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+16015,,35.0,485.0,28.6563,21.0,neutral,326,13.0,,15:30:05,1,578
+16014,,42.0,544.0,11.3125,8.0,neutral,326,12.0,,,1,578
+15691,Job-Verlust,605.969,20.0,160.0,120.0,negative,326,5.0,,15:20:27,0,578
+15690,Home-Office,736.969,150.0,160.0,120.0,positive,326,6.0,,15:17:26,0,578
+15689,Einsamkeit,771.0,481.969,160.0,120.0,negative weak,326,10.0,,15:23:33,0,578
+15688,Angst,573.0,517.0,160.0,120.0,negative strong,326,7.0,,15:23:40,0,578
+15687,Corona-Pandemie,510.99,258.99,160.0,120.0,neutral,326,1.0, ,,0,578
+15686,Sport,255.0,476.0,160.0,120.0,ambivalent,326,8.0,,15:20:38,0,578
+15685,keine Struktur im Alltag,340.0,30.9844,160.0,120.0,negative strong,326,2.0," dadurch, dass man sich alles selbst einteilen kann und man keine Termine mehr hat, ist es mir schwer gefallen meine Alltag zu strukrurieren",15:29:30,0,578
+15684,soziale Isolierung,909.0,312.984,160.0,120.0,negative weak,326,3.0,,15:23:29,0,578
+15683,neue Möglichkeiten,84.0,307.969,160.0,120.0,positive strong,326,9.0,,15:23:45,0,578
+15682,Internet,120.0,124.984,160.0,120.0,positive strong,326,4.0,,15:23:49,0,578
+15681,wirtschaftliche Folgen,905.969,20.0,160.0,120.0,negative,326,11.0,,15:17:36,0,578

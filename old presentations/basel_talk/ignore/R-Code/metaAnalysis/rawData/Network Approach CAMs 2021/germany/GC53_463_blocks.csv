@@ -1,0 +1,24 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13168,Abstand halten,206.0,587.0,103.328125,77.0,negative weak,307,37.0,,,1,463
+13163,Mund-Nase-Bedeckung,287.0,531.0,100.65625,75.0,negative weak,307,35.0,,,1,463
+13160,Neue Verpflichtungen,47.0,537.0,160.0,120.0,negative weak,307,33.0,,,1,463
+12936,Corona-Ausbruch,381.0,20.0,128.65625,96.0,neutral,307,1.0,,,1,463
+13113,Keine menschliche Nähe,181.0,443.0,108.65625,81.0,negative,307,31.0,,,1,463
+13108,Beatmung,459.0,436.0,131.328125,98.0,negative strong,307,30.0,,,1,463
+13106,Talkshows,445.0,302.0,100.65625,75.0,neutral,307,29.0,,,1,463
+13102,FakeNews,284.0,381.0,115.328125,86.0,negative,307,28.0,,,1,463
+13098,Websites,281.0,282.0,119.328125,89.0,positive weak,307,27.0,,,1,463
+13096,Insolvenzen,672.0,156.0,138.0,103.0,negative,307,26.0,,,1,463
+13093,Arbeitsplatzverlust,542.0,134.0,130.65625,97.484375,negative,307,25.0,,,1,463
+13091,Wirtschaftliche Folgen,670.34375,20.0,155.328125,116.0,negative,307,24.0,,,1,463
+13088,Informationsbedürfnis,334.0,156.0,190.0,142.0,positive weak,307,22.0,,,1,463
+13082,Impfung,20.0,127.0,116.65625,87.0,positive,307,21.0,,,1,463
+13077,Erkenntnisse,145.0,172.0,160.0,120.0,positive,307,19.0,,,1,463
+13072,Therapie,20.0,225.0,119.328125,89.0,positive,307,17.0,,,1,463
+13062,Forschung,107.0,20.0,160.0,120.0,positive,307,14.0,,,1,463
+13057,Abwesenheit,672.671875,457.0,131.328125,98.0,negative strong,307,13.0,,,1,463
+13047,Tod,393.0,548.0,123.328125,92.0,negative strong,307,12.0,,,1,463
+13041,Krankenhausaufenthalt,572.0,377.0,122.0,91.0,negative strong,307,9.0,,,1,463
+12974,Keine Veranstaltungen,20.0,432.0,115.328125,86.0,negative,307,4.0,,12:30:37,1,463
+12963,Gesundheitliche Folgen,664.0,280.0,143.328125,107.0,negative strong,307,3.0,,,1,463
+12950,Isolation,92.0,343.0,131.328125,98.0,negative strong,307,2.0,,,1,463

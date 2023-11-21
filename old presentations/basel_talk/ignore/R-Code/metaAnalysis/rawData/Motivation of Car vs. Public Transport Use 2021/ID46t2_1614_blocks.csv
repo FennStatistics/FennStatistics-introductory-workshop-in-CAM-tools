@@ -1,0 +1,18 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25133,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,833,2.0, ,,1,1614
+25132,Eigener Pkw,273.0,345.0,160.0,120.0,neutral,833,1.0, ,,1,1614
+25131,Flexibilität Zeit/Destination,258.0,110.0,160.0,120.0,positive strong,833,3.0,,,1,1614
+25130,Kosten,98.9826,257.0,160.0,120.0,negative,833,4.0,,12:26:48,1,1614
+25129,Nachhaltigkeit / Umweltschutz,763.986,541.997,160.0,120.0,positive weak,833,7.0,,,1,1614
+25128,Fahrplan / Appunterstützung,600.986,5.00002,160.0,120.0,positive weak,833,8.0,,12:21:07,1,1614
+25127,Fahrtkosten,799.0,267.0,160.0,120.0,positive weak,833,9.0,,12:25:05,1,1614
+25126,Parkgebühren,26.9931,350.965,160.0,120.0,negative weak,833,10.0,,,1,1614
+25125,Verfügbarkeit Parkplatz,252.997,-15.0104,160.0,120.0,negative weak,833,11.0,,12:22:37,1,1614
+25124,Umsteigen und Wartezeiten,943.0,133.0,160.0,120.0,negative weak,833,12.0,,12:22:57,1,1614
+25123,Mitnahme von Personen und Ware,65.0,20.0,160.0,120.0,positive weak,833,14.0,,12:23:23,1,1614
+25122,Sauberkeit und Hygiene,572.99,144.99,160.0,120.0,negative weak,833,15.0,,12:23:40,1,1614
+25121,Covid-19 Risiko,444.99,45.9861,160.0,120.0,negative weak,833,16.0,,,1,1614
+25120,Orte mit schlechter Anbindung,816.99,-3.00343,160.0,120.0,negative weak,833,18.0,,,1,1614
+25119,Kofferraum für Waren,25.0,113.0,160.0,120.0,positive weak,833,5.0,,,1,1614
+25118,Fixkosten,141.0,171.76,160.0,120.0,negative,833,20.0,,12:27:19,1,1614
+25117,Flexibilität,760.0,96.2222,160.0,120.0,negative strong,833,21.0,,,1,1614

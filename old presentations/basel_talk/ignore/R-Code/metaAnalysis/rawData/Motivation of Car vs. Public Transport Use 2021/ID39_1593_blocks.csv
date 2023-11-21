@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24881,Flexibilität,432.0,445.0,160.0,120.0,positive strong,829,12.0,,,1,1593
+24841,Stau,244.0,522.0,160.0,120.0,negative strong,829,11.0,,11:59:25,1,1593
+24833,Umsteigen,893.0,451.0,160.0,120.0,negative,829,10.0,,11:57:53,1,1593
+24831,Fahrtzeit,477.0,547.0,160.0,120.0,neutral,829,9.0,,,1,1593
+24811,umweltfreundlich,438.0,193.0,160.0,120.0,positive strong,829,8.0,,11:56:23,1,1593
+24807,Sprit,161.0,36.0,160.0,120.0,negative,829,6.0,,12:15:32,1,1593
+24802,Jobticket,673.0,89.0,160.0,120.0,positive strong,829,5.0,,,1,1593
+24783,Parkplatz,20.0,249.0,159.312,119.0,negative strong,829,3.0,,11:55:33,1,1593
+24779,Eigener Pkw,208.0,347.0,160.0,120.0,neutral,829,1.0, ,,1,1593
+24778,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,829,2.0, ,,1,1593

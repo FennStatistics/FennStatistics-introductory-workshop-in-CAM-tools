@@ -1,0 +1,14 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25776,Verkehr,200.0,428.0,177.0,126.425,negative,860,18.0,,,1,1650
+25762,Freizeit,679.0,544.0,160.0,120.0,positive,860,11.0,"Ich kann andere Dinge tun, wie zum Beispiel lesen, wenn ich öffentliche Verkehrsmittel benutze.",15:03:36,1,1650
+25770,Verkehrsprobleme vermeiden.,554.0,367.0,160.0,120.0,positive,860,16.0,,,1,1650
+25763,Weniger Stress,889.0,462.0,160.0,120.0,positive strong,860,13.0,Kein Stress beim Fahren oder Beobachten der Straße während der Fahrt.,15:05:47,1,1650
+25761,Wartungs- und Versicherungskosten,307.0,290.0,186.2,133.0,negative,860,10.0,,,1,1650
+25760,Fahrgemeinschaften.,20.0,20.0,175.325,131.0,ambivalent,860,9.0,,15:19:54,1,1650
+25751,Wartezeit/ kann sich verspäten.,684.0,20.0,182.0,136.0,negative weak,860,7.0,,,1,1650
+25750,Flexibilität,272.0,20.0,185.475,132.488,positive,860,6.0,"Ich kann es fahren, wann immer ich will.",14:56:48,1,1650
+25749,Umweltverschmutzung,20.0,481.0,193.2,138.0,negative strong,860,5.0,,14:52:07,1,1650
+25748,Weniger Kosten,604.0,264.0,160.0,120.0,positive,860,4.0,,15:07:34,1,1650
+25744,Umweltfreundlich,497.675,502.0,173.6,124.0,positive strong,860,3.0,,14:50:22,1,1650
+25733,Eigener Pkw,154.0,172.0,160.0,120.0,neutral,860,1.0, ,,1,1650
+25732,Öffentliche Verkehrsmittel,871.0,161.988,160.0,120.0,neutral,860,2.0, ,,1,1650

@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25068,Preis,619.0,138.0,160.0,120.0,positive,834,21.0,,,1,1605
+25067,Preis,76.0,234.0,160.0,120.0,negative,834,20.0,,,1,1605
+25063,Netzausdehnung,1010.0,432.0,160.0,120.0,negative weak,834,18.0,,,1,1605
+25061,zeitlich,1006.0,530.0,160.0,120.0,negative weak,834,17.0,,,1,1605
+25054,Nutzung (z. B. Transport von Gegenständen),86.0,541.0,160.0,120.0,positive,834,15.0,,12:34:45,1,1605
+25050,zeitlich,448.0,556.0,160.0,120.0,positive,834,14.0,,,1,1605
+25044,Praktisch,811.0,90.0,160.0,120.0,positive,834,11.0,,12:33:41,1,1605
+25039,Umweltschonend,1015.0,164.0,160.0,120.0,positive strong,834,10.0,,12:33:07,1,1605
+25038,Abhängigkeit,1014.0,289.0,160.0,120.0,negative strong,834,9.0,,12:36:13,1,1605
+25037,Unflexibel,772.0,498.0,160.0,120.0,negative strong,834,8.0,,,1,1605
+25034,Privatssphäre,364.0,131.0,160.0,120.0,positive,834,7.0,,12:32:22,1,1605
+25027,Spaß,165.0,135.0,160.0,120.0,positive strong,834,5.0,,,1,1605
+25024,Umweltverschmutzung,35.0,346.0,160.0,120.0,negative strong,834,4.0,,,1,1605
+25019,Flexibilität,263.0,490.0,160.0,120.0,positive strong,834,3.0,,,1,1605
+24954,Eigener Pkw,274.0,345.0,160.0,120.0,neutral,834,1.0, ,,1,1605
+24953,Öffentliche Verkehrsmittel,572.0,346.0,160.0,120.0,neutral,834,2.0, ,,1,1605

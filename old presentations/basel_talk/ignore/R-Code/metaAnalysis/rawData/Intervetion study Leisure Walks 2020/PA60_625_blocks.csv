@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17441,Work-Life-balance,379.0,139.25,160.0,120.0,positive,364,14.0,,,1,625
+17438,Telearbeit,142.484,191.738,160.0,120.0,positive strong,364,13.0,,,1,625
+17076,psychische Belastung,770.953,556.953,160.0,120.0,negative,364,5.0,,16:22:25,0,625
+17075,Stress & Angst,397.965,402.988,160.0,120.0,neutral,364,6.0,,16:24:37,0,625
+17074,Einsamkeit,1469.0,207.969,160.0,120.0,neutral,364,10.0, ,,0,625
+17072,Corona-Pandemie,837.965,172.969,160.0,120.0,negative strong,364,1.0,,16:13:28,0,625
+17071,Zusammenhalt,145.969,47.9844,160.0,120.0,positive weak,364,8.0,,16:22:28,0,625
+17070,physische Isolierung,1259.0,209.984,160.0,120.0,neutral,364,2.0, ,,0,625
+17069,soziale Isolierung,1044.98,264.957,160.0,120.0,neutral,364,3.0, ,,0,625
+17068,Depressivität,1259.97,358.949,160.0,120.0,neutral,364,9.0, ,,0,625
+17067,Befinden,591.957,192.969,160.0,120.0,neutral,364,4.0, ,,0,625
+17066,wirtschaftliche Folgen,162.926,401.949,160.0,120.0,negative,364,11.0,,16:22:16,0,625

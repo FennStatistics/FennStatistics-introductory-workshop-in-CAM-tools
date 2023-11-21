@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+15902,Engagement,91.0,236.0,160.0,120.0,positive,335,14.0,,,1,580
+15868,probleme Grenzen zu ziehen,103.0,466.0,160.0,120.0,negative,335,13.0,,,1,580
+15865,HomeOffice,455.0,472.0,160.0,120.0,positive,335,12.0,,,1,580
+15747,psychische Belastung,900.983,208.983,160.0,120.0,negative strong,335,5.0,,15:18:05,0,580
+15746,Stress,697.983,75.0,160.0,120.0,negative strong,335,6.0,,15:16:42,0,580
+15745,Einsamkeit,701.0,321.983,160.0,120.0,neutral,335,10.0, ,,0,580
+15744,Angst,400.0,55.0,160.0,120.0,negative strong,335,7.0,,15:17:49,0,580
+15743,Corona-Pandemie,509.983,254.983,160.0,120.0,neutral,335,1.0, ,,0,580
+15742,Zusammenhalt,135.0,78.0,160.0,120.0,positive strong,335,8.0,,15:17:04,0,580
+15740,soziale Isolierung,924.0,358.983,160.0,120.0,neutral,335,3.0, ,,0,580
+15738,Befinden,878.983,523.983,160.0,120.0,negative weak,335,4.0,,15:18:17,0,580
+15737,wirtschaftliche Folgen,244.967,285.967,160.0,120.0,negative strong,335,11.0,,15:21:07,0,580

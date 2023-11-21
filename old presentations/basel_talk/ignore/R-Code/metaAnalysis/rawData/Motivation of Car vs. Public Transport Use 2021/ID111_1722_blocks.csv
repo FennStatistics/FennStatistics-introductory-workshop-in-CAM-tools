@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+26878,Zuverlässig,351.0,272.0,160.0,120.0,positive strong,908,21.0,,,1,1722
+26877,Fahrgemeinschaft,410.0,178.0,160.0,120.0,positive strong,908,20.0,,18:17:37,1,1722
+26876,kann arbeiten erledigen,1175.0,187.0,160.0,120.0,positive,908,19.0,,18:15:30,1,1722
+26875,Umweltbelastung,372.0,428.0,160.0,120.0,negative weak,908,18.0,,18:14:16,1,1722
+26874,Umsteigen,1332.0,482.0,160.0,120.0,negative,908,17.0,,,1,1722
+26873,öffentliche Verkehrsmittel,950.0,363.0,160.0,120.0,neutral,908,12.0,,,1,1722
+26872,kosten,982.0,20.0,160.0,120.0,positive,908,9.0,,18:11:02,1,1722
+26871,kosten,555.0,499.0,160.0,120.0,negative,908,8.0,,18:10:42,1,1722
+26870,Verspätung,1141.0,481.0,160.0,120.0,negative strong,908,7.0,,,1,1722
+26869,kann ein Nickerchen machen,1092.0,113.0,160.0,120.0,positive,908,6.0,,18:10:20,1,1722
+26868,entspannter,1209.0,283.0,160.0,120.0,positive weak,908,5.0,,18:10:22,1,1722
+26867,schneller am Ziel,666.0,20.0,160.0,120.0,positive strong,908,4.0,,18:17:31,1,1722
+26866,flexibel,507.0,95.0,160.0,120.0,positive strong,908,3.0,,18:17:29,1,1722
+26865,Eigener Pkw,680.0,361.0,160.0,120.0,neutral,908,1.0, ,,1,1722

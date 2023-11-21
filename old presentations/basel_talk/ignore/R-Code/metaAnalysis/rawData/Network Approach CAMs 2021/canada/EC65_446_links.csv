@@ -1,0 +1,9 @@
+id,starting_block,ending_block,line_style,creator,num,arrow_type,timestamp,CAM
+12291,12615,12721,Solid-Strong,290,0,none,12:16:40,446
+12286,12696,12615,Solid-Strong,290,0,none,12:16:30,446
+12284,12696,12672,Solid-Strong,290,0,none,12:16:20,446
+12279,12672,12615,Solid,290,0,none,12:16:10,446
+12275,12672,12657,Dashed-Weak,290,0,none,12:15:54,446
+12269,12657,12615,Solid,290,0,none,12:15:32,446
+12267,12657,12707,Solid,290,0,none,12:15:21,446
+12259,12647,12615,Solid-Strong,290,0,none,12:15:12,446

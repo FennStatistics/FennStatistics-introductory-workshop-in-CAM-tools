@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+25048,Umwelt,574.003,220.977,159.996,120.0,positive strong,831,10.0,,12:34:14,1,1602
+24980,Parkplatzsuche,259.0,77.0,159.996,120.0,negative strong,831,9.0,,12:22:29,1,1602
+24943,Planbarkeit,155.997,520.992,159.996,120.0,positive weak,831,8.0,,12:20:20,1,1602
+24941,Sauberkeit,356.999,533.992,159.996,120.0,positive strong,831,7.0,,12:20:44,1,1602
+24940,Flexibilität,20.0,428.983,159.996,120.0,positive weak,831,6.0,,12:20:06,1,1602
+24935,Komfort,64.982,194.984,159.996,120.0,positive strong,831,5.0,,12:19:47,1,1602
+24934,Corona / Ansteckungsgefahr,572.003,499.981,159.996,120.0,negative strong,831,4.0,,12:18:53,1,1602
+24933,Kosten,418.997,172.995,159.996,120.0,negative strong,831,3.0,,12:32:33,1,1602
+24932,Eigener Pkw,273.997,344.987,159.996,120.0,neutral,831,1.0, ,,1,1602
+24931,Öffentliche Verkehrsmittel,574.0,346.0,160.0,120.0,neutral,831,2.0, ,,1,1602

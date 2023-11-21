@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17004,Arbeit im Home Office,541.0,473.0,160.0,120.0,neutral,325,15.0,,,1,596
+16252,psychische Belastung,669.983,119.0,160.0,120.0,negative strong,325,5.0,,16:02:02,0,596
+16251,Stress,1023.98,230.0,160.0,120.0,negative strong,325,6.0,,16:01:44,0,596
+16250,Einsamkeit,672.0,310.983,160.0,120.0,negative strong,325,10.0,,16:02:03,0,596
+16249,Angst,982.0,79.0,160.0,120.0,negative strong,325,7.0,,16:01:42,0,596
+16248,Corona-Pandemie,237.983,156.0,160.0,120.0,negative strong,325,1.0,,15:41:14,0,596
+16247,Zusammenhalt,1345.0,44.0,160.0,120.0,positive strong,325,8.0,,16:00:36,0,596
+16246,physische Isolierung,424.0,54.9833,160.0,120.0,negative strong,325,2.0,,15:47:12,0,596
+16245,soziale Isolierung,420.0,270.983,160.0,120.0,negative strong,325,3.0,,15:47:10,0,596
+16244,Depressivität,960.983,399.967,160.0,120.0,negative strong,325,9.0,,16:02:00,0,596
+16243,Befinden,1339.98,233.983,160.0,120.0,neutral,325,4.0, ,,0,596
+16242,wirtschaftliche Folgen,39.9667,504.967,160.0,120.0,neutral,325,11.0, ,,0,596

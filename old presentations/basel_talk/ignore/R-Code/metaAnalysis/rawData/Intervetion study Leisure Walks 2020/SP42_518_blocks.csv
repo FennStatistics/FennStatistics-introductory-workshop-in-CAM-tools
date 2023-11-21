@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+14526,Folgen im Alltag,366.0,281.0,160.0,120.0,positive,347,20.0,,,1,518
+14281,Hygiene-/Infektionsschutzmaßnahmen,366.0,20.0,160.0,120.0,ambivalent,347,18.0,,14:19:51,1,518
+14185,beschränkter persönl. Kontakt mit Freunden/Familie,20.0,524.0,160.0,120.0,negative weak,347,17.0,,14:16:16,1,518
+14177,Konzerte/Parties,20.0,322.0,160.0,120.0,negative,347,16.0,,14:16:44,1,518
+14170,Folgen in Freizeit,225.0,420.0,160.0,120.0,positive,347,15.0,,,1,518
+14128,mehr Kontakte über Internet,528.0,108.0,160.0,120.0,positive weak,347,14.0,,,1,518
+14043,Folgen für Schule und Beruf,265.0,133.0,160.0,120.0,positive,347,13.0,,,1,518
+14042,digitale Infrastruktur,20.0,176.0,160.0,120.0,ambivalent,347,12.0,,14:26:06,1,518
+13966,psychische Belastung,686.983,317.983,160.0,120.0,neutral,347,5.0,,14:23:58,0,518
+13964,Einsamkeit,938.0,20.0,160.0,120.0,negative weak,347,10.0,,14:11:53,0,518
+13962,Corona-Pandemie,538.983,248.983,160.0,120.0,negative strong,347,1.0,,14:15:19,0,518
+13961,Zusammenhalt,1173.0,142.0,160.0,120.0,positive weak,347,8.0,,14:11:31,0,518
+13960,physische Isolierung,441.0,501.983,160.0,120.0,negative weak,347,2.0,,14:09:53,0,518
+13959,soziale Isolierung,798.0,191.983,160.0,120.0,negative weak,347,3.0,,14:06:24,0,518
+13958,Depressivität,920.983,363.967,160.0,120.0,negative weak,347,9.0,,14:10:16,0,518
+13956,wirtschaftliche Folgen,20.0,29.0,160.0,120.0,neutral,347,11.0, ,,0,518

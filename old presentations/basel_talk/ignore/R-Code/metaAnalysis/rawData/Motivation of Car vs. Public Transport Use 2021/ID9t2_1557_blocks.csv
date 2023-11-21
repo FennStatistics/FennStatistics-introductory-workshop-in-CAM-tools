@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+24214,Öffentliche Verkehrsmittel,573.0,346.0,160.0,120.0,neutral,794,2.0, ,,1,1557
+24213,Eigener Pkw,272.0,345.0,160.0,120.0,neutral,794,1.0, ,,1,1557
+24212,Umwelt negativ gewissen,51.0,429.0,160.0,120.0,negative strong,794,5.0,,20:13:01,1,1557
+24211,Bewusst fahren,183.0,574.0,160.0,120.0,positive weak,794,7.0,,20:13:52,1,1557
+24210,Ablenkungen,423.0,205.2,160.0,120.0,ambivalent,794,8.0,,20:23:21,1,1557
+24209,Fremde,619.0,174.0,160.0,120.0,negative,794,9.0,,,1,1557
+24208,Unbeeinflussbare Dauer,767.0,298.0,160.0,120.0,negative weak,794,10.0,,,1,1557
+24207,Preis nur bei vielfahren günstig,787.0,438.0,160.0,120.0,negative strong,794,12.0,,,1,1557
+24206,Verspätungen,787.0,136.0,160.0,120.0,negative weak,794,13.0,,,1,1557
+24205,Stau,178.0,176.0,160.0,120.0,negative weak,794,14.0,,,1,1557
+24204,Aufmerksamkeit,421.0,483.0,160.0,120.0,neutral,794,6.0,,,1,1557
+24203,Ungestört,334.0,84.0,160.0,120.0,positive,794,3.0,,20:12:04,1,1557
+24202,Gedanken nachhängen,606.0,570.0,160.0,120.0,positive weak,794,11.0,,,1,1557
+24201,Spritverbrauch,21.0,259.0,160.0,120.0,negative strong,794,4.0,,20:12:30,1,1557

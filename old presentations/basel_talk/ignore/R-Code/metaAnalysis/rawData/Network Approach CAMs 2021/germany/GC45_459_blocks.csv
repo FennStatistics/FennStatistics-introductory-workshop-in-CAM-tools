@@ -1,0 +1,11 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+13084,Ausgangsbeschränkungen,668.0,383.0,160.0,120.0,ambivalent,303,8.0,,12:40:36,1,459
+13111,wirtschaftliche Schäden,39.0,397.0,160.0,120.0,negative strong,303,13.0,,,1,459
+13105,Tote,31.0,89.0,160.0,120.0,negative strong,303,12.0,,,1,459
+13104,wirtschaftliche Schäden,441.0,410.0,160.0,120.0,negative strong,303,11.0,,,1,459
+13100,Online-Vorlesungen,525.0,544.0,160.0,120.0,positive strong,303,10.0,,,1,459
+13087,Homeoffice,758.0,544.0,160.0,120.0,positive strong,303,9.0,,,1,459
+13076,Folgen des Coronavirus,177.0,240.0,160.0,120.0,negative strong,303,7.0,,,1,459
+13048,Maßnahmen gegen Coronavirus,669.0,239.0,160.0,120.0,positive strong,303,5.0,,12:36:34,1,459
+13021,Masken,669.0,94.0,160.0,120.0,ambivalent,303,4.0,,12:34:03,1,459
+12900,Coronavirus,425.0,241.0,160.0,120.0,neutral,303,1.0,,,1,459

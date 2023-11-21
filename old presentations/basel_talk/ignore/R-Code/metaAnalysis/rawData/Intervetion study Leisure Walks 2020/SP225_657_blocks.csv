@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+17883,Gesundheit,117.0,368.0,160.0,120.0,positive strong,409,22.0,Körperliche Gesundheit stark angestiegen (durch Home-Workouts),19:14:55,1,657
+17881,Lernen,309.0,37.0,160.0,120.0,positive strong,409,20.0,Die Langeweile führt zur Motivation neue Sachen zu lernen; Generell lernt man insgesamt in dieser Situation,19:13:44,1,657
+17875,Besitz,1595.0,264.0,160.0,120.0,negative strong,409,14.0,"Hab ich alles was ich brauche, um im Notfall alles zu haben ?",19:00:00,1,657
+17872,psychische Belastung,936.969,528.969,160.0,120.0,negative,409,5.0,,19:11:28,0,657
+17871,Stress,1193.97,388.0,160.0,120.0,negative weak,409,6.0,,19:11:14,0,657
+17870,Einsamkeit,652.0,341.969,160.0,120.0,negative weak,409,10.0,,19:08:25,0,657
+17869,Angst,937.0,274.0,160.0,120.0,negative strong,409,7.0,,19:04:49,0,657
+17868,Corona-Pandemie,935.984,20.0,160.0,120.0,negative weak,409,1.0,,19:08:09,0,657
+17867,Zusammenhalt,652.0,42.0,160.0,120.0,positive strong,409,8.0,,19:08:21,0,657
+17866,physische Isolierung,481.0,39.9844,160.0,120.0,ambivalent,409,2.0," Alleine sein kann schön sein, aber manchmal will man auch mit anderen Menschen was unternehmen",19:07:29,0,657
+17865,soziale Isolierung,114.0,36.9844,160.0,120.0,ambivalent,409,3.0," Alleine sein kann schön sein, aber manchmal will man auch mit anderen Menschen was unternehmen",19:07:33,0,657
+17864,Depressivität,334.969,341.969,160.0,120.0,negative strong,409,9.0,,19:08:31,0,657
+17863,Befinden,334.969,529.0,160.0,120.0,ambivalent,409,4.0," Ich selbst habe keine große Unterschiede empfunden, also kann ich dazu nicht viel schreiben",19:10:52,0,657
+17862,wirtschaftliche Folgen,1396.97,20.0,160.0,120.0,ambivalent,409,11.0,,19:04:29,0,657

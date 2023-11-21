@@ -1,0 +1,17 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+18011,Weniger verkehr,1666.67,787.635,160.0,120.0,positive strong,356,18.0,,21:34:39,1,661
+18010,klarerer Himmel,1861.33,650.333,160.0,120.0,positive strong,356,17.0,,21:34:07,1,661
+18009,Arbeitslosigkeit,1082.32,830.333,160.0,120.0,negative,356,16.0,,21:33:17,1,661
+18006,Umwelteinflüsse,1554.98,548.667,160.0,120.0,neutral,356,15.0,,,1,661
+18004,Zeit für sich selber,1843.31,358.641,160.0,120.0,positive,356,14.0,,21:31:47,1,661
+18002,Ruhe,1527.0,37.974,160.0,120.0,positive strong,356,13.0,,,1,661
+17979,Psychische Belastung,600.656,283.286,160.0,120.0,negative weak,356,12.0,,21:30:15,1,661
+17977,Stress,201.932,523.953,160.0,120.0,neutral,356,6.0,,21:30:32,0,661
+17976,Einsamkeit,214.995,47.9167,160.0,120.0,neutral,356,10.0,,21:30:43,0,661
+17975,Angst,211.984,271.958,160.0,120.0,negative strong,356,7.0,,21:30:34,0,661
+17974,Corona-Pandemie,852.922,384.87,160.0,120.0,neutral,356,1.0, ,,0,661
+17972,physische Isolierung,1245.97,140.917,160.0,120.0,negative weak,356,2.0,,21:30:24,0,661
+17971,soziale Isolierung,989.969,117.948,160.0,120.0,negative weak,356,3.0,,21:30:19,0,661
+17970,Depressivität,509.948,50.9375,160.0,120.0,negative weak,356,9.0,,21:30:47,0,661
+17969,Befinden,794.948,707.911,160.0,120.0,neutral,356,4.0, ,,0,661
+17968,wirtschaftliche Folgen,1256.9,707.917,160.0,120.0,negative weak,356,11.0,,21:30:29,0,661

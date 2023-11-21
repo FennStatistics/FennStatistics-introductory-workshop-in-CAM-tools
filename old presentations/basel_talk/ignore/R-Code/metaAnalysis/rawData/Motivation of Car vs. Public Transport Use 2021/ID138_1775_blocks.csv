@@ -1,0 +1,13 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+27627,Menschenkontakt,461.0,461.0,160.0,120.0,ambivalent,942,15.0,,,1,1775
+27626,Teuer,753.0,189.0,160.0,120.0,negative weak,942,14.0,,,1,1775
+27625,Schneller und Einfacher,20.0,345.0,160.0,120.0,positive,942,13.0,,,1,1775
+27624,Mehr Zeitaufwand,469.0,301.0,160.0,120.0,ambivalent,942,11.0,,,1,1775
+27623,Ärger über andere Autofahrer,310.0,37.0,160.0,120.0,negative strong,942,9.0,,,1,1775
+27622,Stau/Viel Verkehr,196.0,139.0,160.0,120.0,negative,942,7.0,,,1,1775
+27621,Umweltfreundlicher,646.0,65.0,160.0,120.0,positive strong,942,6.0,,,1,1775
+27620,Unabhängigkeit,272.0,544.0,160.0,120.0,positive strong,942,5.0,,,1,1775
+27619,Unzuverlässigkeit,593.0,544.0,160.0,120.0,negative strong,942,4.0,,,1,1775
+27618,Spritkosten,401.0,162.0,160.0,120.0,negative weak,942,3.0,,,1,1775
+27617,Eigener Pkw,273.0,344.0,160.0,120.0,neutral,942,1.0, ,,1,1775
+27616,Öffentliche Verkehrsmittel,646.0,343.0,160.0,120.0,neutral,942,2.0, ,,1,1775

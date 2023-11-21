@@ -1,0 +1,15 @@
+id,title,x_pos,y_pos,width,height,shape,creator,num,comment,timestamp,modifiable,CAM
+12666,Öffentliche Veranstaltungen finden nicht statt,550.0,20.0,160.0,120.0,negative,283,19.0,,12:10:42,1,437
+12640,Weniger Soziale Kontakte,529.0,503.0,160.0,120.0,negative,283,18.0,,12:08:56,1,437
+12614,Viele Geschäfte haben geschlossen,843.0,172.0,160.0,120.0,negative weak,283,17.0,,,1,437
+12599,Black Lives Matter,106.0,233.0,160.0,120.0,positive,283,16.0,,,1,437
+12589,Chaos in den USA,310.0,231.0,160.0,120.0,negative,283,15.0,,,1,437
+12573,Mehr Zeit mit der Familie,723.0,481.0,160.0,120.0,positive,283,13.0,,,1,437
+12540,Weniger Verkehr,423.0,351.0,160.0,120.0,positive weak,283,12.0,,12:04:36,1,437
+12533,Einige sind nicht bereit sich an die Einschränkungen zu halten,137.0,74.0,160.0,120.0,negative,283,10.0,,12:00:40,1,437
+12529,Viele Menschen sterben,367.0,83.0,160.0,120.0,negative strong,283,9.0,,12:00:36,1,437
+12519,Ich hatte Glück,950.0,504.0,160.0,120.0,positive,283,7.0,Ich habe meinen Job nicht verloren,11:59:47,1,437
+12510,Viel Zeit zu Hause,623.0,317.0,160.0,120.0,ambivalent,283,6.0,,12:03:02,1,437
+12504,Viele Menschen verlieren ihre Jobs,864.0,329.0,160.0,120.0,negative,283,5.0,,11:57:02,1,437
+12480,Studium von zu Hause aus,765.0,20.0,160.0,120.0,positive weak,283,4.0,,,1,437
+12465,Corona,592.0,178.0,140.641,105.0,neutral,283,1.0,,11:53:49,1,437
