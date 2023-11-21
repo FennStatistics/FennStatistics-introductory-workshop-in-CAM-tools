@@ -1,0 +1,1081 @@
+---
+title: "Bayesian Statistics"
+subtitle: "Introduction with examples in `R` and `brms`"
+author: "Marvin Schmitt"
+format:
+  revealjs:
+    theme: [simple, slide_styles.scss]
+    footer: "Bayesian statistics workshop | Marvin Schmitt | [marvinschmitt.github.io/bayes-workshop](https://marvinschmitt.github.io/bayes-workshop)"
+    logo: /assets/ms_icon.png
+    
+    title-slide-attributes:
+        data-background-color: "#FFFFFF"
+    preview-links: false
+    
+    slide-number: c
+    
+    transition: fade
+    transition-speed: fast
+    
+    width: 1600
+    height: 900
+    echo: true
+  
+highlight-style: "dracula"
+---
+
+# Introduction
+
+## `> whoami`
+
+```{r setup}
+#| echo: false
+
+library(tidyverse)
+library(bayesplot)
+library(loo)
+library(brms)
+
+library(ggridges)   # Ridge plots
+library(patchwork)  # Lay out multiple ggplot plots; install from https://github.com/thomasp85/patchwork
+library(viridisLite)
+
+theme_set(theme_default(base_size=18))
+options(width = 90)
+options(scipen=999)
+
+set.seed(127)
+
+knitr::opts_chunk$set(fig.align = "center")
+```
+
+
+```
+[1] marvin at location 0xFF35AFEE5801, display_name: "Marvin Schmitt"
+
+
+> marvin$education
+
+[1] Now: PhD candidate, Cluster of Excellence SimTech, University of Stuttgart
+[2] MSc in Data & Computer Science, Heidelberg University
+[3] MSc in Psychology, Heidelberg University
+
+
+> marvin$research
+
+[1] Bayesian inference, deep learning, uncertainty quantification
+[4] simulation-based inference, trustworthy ML
+```
+
+::::{.columns}
+:::{.column width=70%}
+<br/><br/><br/>
+```
+> marvin$print_image()
+```
+:::
+:::{.column width=20%}
+![](/assets/ms_portrait.png)
+:::
+::::
+
+## `> whoareyou`
+
+![](slide_assets/menti_instructions.png)
+
+## Open the course website
+
+:::{style="text-align: center;margin:100px; font-size: 1.3em"}
+[marvinschmitt.github.io/bayes-workshop](https://marvinschmitt.github.io/bayes-workshop)
+:::
+
+## Inverse problems{auto-animate=true}
+
+![](slide_assets/inverse_problems.png)
+
+## Bayesian inference{auto-animate=true}
+
+::::{.columns}
+:::{.column width=50%}
+![](slide_assets/inverse_problems.png)
+:::
+:::{.column width=50%}
+
+:::{style="fontsize: 1.5em;border: 1px solid #000;text-align: center; margin-bottom:30px"}
+
+$$
+p(\theta\,|\,y) = \dfrac{p(y\,|\,\theta)\,p(\theta)}{p(y)} = \dfrac{p(y\,|\,\theta)\,p(\theta)}{\int p(y\,|\,\theta)\,p(\theta)\mathrm{d}\theta}
+$$
+:::
+
+### Important terms
+
+- **Prior** $p(\theta)$
+- **Likelihood** $p(y\,|\,\theta)$
+- **Marginal likelihood** $p(y)$
+- **Posterior** $p(\theta\,|\,y)$
+
+:::
+
+::::
+
+. . . 
+
+For discrete parameters $\theta$, the integral turns into a sum:
+
+$$
+p(\theta\,|\,y) = \dfrac{p(y\,|\,\theta)\,p(\theta)}{p(y)} = \dfrac{p(y\,|\,\theta)\,p(\theta)}{\sum p(y\,|\,\theta)\,p(\theta)}
+$$
+
+## Example: Eye color, setting{auto-animate=true}
+
+:::{.callout-tip}
+## Reasoning about eye color
+
+- Among the world population, a proportion $\theta$ of humans have brown eyes
+- Each human either has at least one brown eye ($y_i=1$) or not ($y_i=0$)
+- We have data on $N=20$ humans and observe $y=11$ with brown eyes
+- **Simplification:** Suppose that $\theta$ can only take on the values $.20, .50, .80$
+:::
+
+. . .
+
+We assume a Binomial likelihood: $p(y\,|\,\theta, N) = \binom{n}{y}\,\theta^y\,(1-\theta)^{N-y}$
+
+. . .
+
+```{r}
+#| echo: False
+df_binom = data.frame(
+  rbind(
+    cbind(y=rbinom(n=1000, size=20, prob=0.20), theta=0.20),
+    cbind(y=rbinom(n=1000, size=20, prob=0.50), theta=0.50),
+    cbind(y=rbinom(n=1000, size=20, prob=0.80), theta=0.80)
+  )
+)
+df_binom$theta = as.factor(df_binom$theta)
+
+ggplot(df_binom, aes(x=y, color=theta)) +
+  geom_histogram(aes(fill=theta, y=..density..), bins=20, alpha=0.30) +
+  geom_density(size=2, adjust = 1.5)+
+  scale_y_continuous(expand=c(0,0)) +
+  labs(x="Number of brown-eyed people (y)",
+       y="",
+       title="Simulated distributions for different values of the parameter theta")
+```
+
+
+
+## Example: Eye color, prior{auto-animate=true}
+
+:::{.callout-tip}
+## Reasoning about eye color
+
+- Among the world population, a proportion $\theta$ of humans have brown eyes
+- Each human either has at least one brown eye ($y_i=1$) or not ($y_i=0$)
+- We have data on $N=20$ humans and observe $y=11$ with brown eyes
+- **Simplification:** Suppose that $\theta$ can only take on the values $.20, .50, .80$
+:::
+
+Suppose we have the following prior belief about the rate $\theta$ of brown-eyed people:
+
+- $p(\theta = 0.20) = 0.10$
+- $p(\theta = 0.50) = 0.40$
+- $p(\theta = 0.80) = 0.50$
+
+## Example: Eye color, posterior (I){auto-animate=true}
+
+:::{.callout-tip}
+## Reasoning about eye color
+
+- Among the world population, a proportion $\theta$ of humans have brown eyes
+- Each human either has at least one brown eye ($y_i=1$) or not ($y_i=0$)
+- We have data on $N=20$ humans and observe $y=11$ with brown eyes
+- **Simplification:** Suppose that $\theta$ can only take on the values $.20, .50, .80$
+:::
+
+We compute the joint distribution $p(\theta, y)$ as $p(\theta)\cdot p(y\,|\,\theta)$
+
+. . .
+
+|Prior $p(\theta)$|Likelihood $p(y\,|\,\theta)$|Joint $p(\theta, y)$|
+|---------|---|-----|
+|$p(\theta=0.20)=0.10$|$p(y = 11\,|\,\theta=0.20, N=20)=0.0005$|$0.00005$|
+|$p(\theta=0.50)=0.40$|$p(y = 11\,|\,\theta=0.50, N=20)=0.1602$|$0.06408$|
+|$p(\theta=0.80)=0.50$|$p(y = 11\,|\,\theta=0.80, N=20)=0.0074$|$0.00370$|
+
+. . .
+
+Marginal likelihood $p(y) = \sum_{\theta}p(\theta, y) = 0.00005 + 0.06408 + 0.00370 = 0.06783$
+
+
+## Example: Eye color, posterior (II){auto-animate=true}
+
+:::{.callout-tip}
+## Reasoning about eye color
+
+- Among the world population, a proportion $\theta$ of humans have brown eyes
+- Each human either has at least one brown eye ($y_i=1$) or not ($y_i=0$)
+- We have data on $N=20$ humans and observe $y=11$ with brown eyes
+- **Simplification:** Suppose that $\theta$ can only take on the values $.20, .50, .80$
+:::
+
+Marginal likelihood $p(y) = \sum_{\theta}p(\theta, y) = 0.00005 + 0.06408 + 0.00370 = 0.06783$
+
+. . .
+
+We compute the posterior as $p(\theta\,|\,y)=\dfrac{p(y)\,p(y\,|\,\theta)}{p(y)}$
+
+. . .
+
+|Parameter $\theta$ | Joint $p(\theta, y)$|Posterior $p(\theta\,|\,y)$|
+|---|---|---|
+|$\theta=0.20$|$p(\theta=0.20, y=11) = 0.00005$ | $p(\theta=0.20\,|\,y=11) = 0.0007$|
+|$\theta=0.50$|$p(\theta=0.50, y=11) = 0.06408$ | $p(\theta=0.50\,|\,y=11) = 0.9447$|
+|$\theta=0.80$|$p(\theta=0.80, y=11) = 0.00370$ | $p(\theta=0.80\,|\,y=11) = 0.0545$|
+
+
+## Example: Eye color, `R` code
+
+<!-- add decimal notation -->
+
+```{r}
+N = 20
+y = 11
+
+theta = c(0.20, 0.50, 0.80)
+prior = c(0.10, 0.40, 0.50)
+likelihood = dbinom(y, N, theta)
+joint = prior * likelihood
+
+posterior = joint / sum(joint)
+
+print(cbind(theta, prior, likelihood, posterior))
+```
+
+## Example: Eye color, fine-grained $\theta$
+
+```{r}
+N = 20
+y = 11
+
+theta = seq(0, 1, by=0.01)
+prior = dbeta(theta, 1, 1)
+likelihood = dbinom(y, N, theta)
+joint = prior * likelihood
+
+posterior = joint / sum(joint)
+```
+
+```{r}
+#| echo: False
+prior = prior / sum(prior)
+plot(theta, posterior, type="l", col="orange", lwd=5, xlim=c(0,1), xlab="theta", ylab="", axes=FALSE)
+lines(theta, prior, col="darkblue", lwd=5)
+legend("topleft", legend=c("Prior", "Posterior"),
+       col=c("darkblue", "orange"), lty=1, cex=1.7, lwd=10)
+axis(1, pos=0)
+```
+
+
+
+## Joint distribution
+
+The joint distribution $p(y, \theta)$ can be visualized for 1-dimensional data $y$ and parameters $\theta$:
+
+```{r}
+#| echo: False
+
+N = 20
+
+theta = seq(0, 1, by=0.01)
+y = 0:N
+
+M = matrix(NA, nrow=length(theta), ncol=length(y))
+
+for (i in 1:length(theta)){
+  for (j in 1:length(y)){
+    theta_val = theta[i]
+    y_val = y[j]
+    
+    prior = dbeta(theta_val, 3, 2)
+    likelihood = dbinom(y_val, N, theta_val)
+    joint = prior * likelihood
+    M[i, j ] = joint
+  }
+}
+
+Noax <- list(
+  title = "",
+  zeroline = FALSE,
+  showline = FALSE,
+  showticklabels = FALSE,
+  showgrid = FALSE
+)
+
+library(plotly)
+plot_ly(x=y, y=theta, z=~M, type="surface", hoverinfo="none") %>% 
+  layout(scene = list(
+    xaxis=list(title="y"),
+    yaxis=list(title="theta"),
+    zaxis=Noax))
+
+```
+
+
+
+
+## Exercise
+
+:::{.callout-tip}
+
+{{< include /exercises/_exercise_1_tasks.qmd >}}
+
+:::
+
+# Linear regression modeling
+
+## Linear regression models: basics
+
+$y = \underbrace{a + b_1x_1 + \ldots + b_Kx_K}_{\text{mean}\ \mu} + \varepsilon\quad\text{with}\;\varepsilon\sim\mathcal{N}(0, \sigma)$
+
+:::{.callout-tip}
+
+## Components of the linear model
+
+- Data $y$
+- Parameters: $\theta = (a, b_1, \ldots, b_K, \sigma)$
+  - Intercept $a$
+  - Regression weights $b_1,\ldots,b_K$
+  - Error $\sigma$
+- Posterior distribution: $p(a, b_1, \ldots, b_K, \sigma\,|\,y)$
+:::
+
+
+```{r}
+#| echo: False
+N = 50
+x = rnorm(N, mean = 0, sd=1)
+x = x + abs(min(x))
+epsilon = rnorm(N, mean = 0, sd = 1 + 0.5*(5-x)**2)
+y = x + epsilon
+y = y + abs(min(y))
+df = data.frame(x = x, y = y)
+
+ggplot(df, aes(x, y)) +
+  geom_point()
+```
+
+
+## Sampling from the posterior: MCMC
+
+Analytic models are desirable, but the real world is continuous and more complex. Computing the marginal likelihood $p(y)=\int p(y,\theta)\mathrm{d}\theta$ is usually infeasible.
+
+**Solution:** Markov-Chain Monte Carlo (MCMC), for our purpose treat it as:
+
+- Define the prior $p(\theta)$ and likelihood $p(y\,|\,\theta)$
+- Run MCMC
+- ???
+- Profit: get samples from the posterior $p(\theta\,|\,y)$
+
+
+## The `brms` package
+
+:::: {.columns}
+
+::: {.column width="80%"}
+ `brms` is an `R` interface to the probabilistic programming language `Stan` for Bayesian inference. It is designed to be accessible and usable by people who would otherwise use packages like `lme4`.
+:::
+
+::: {.column width="15%"}
+![](slide_assets/brms.png){width=100%}
+:::
+
+::::
+
+. . .
+
+### Why use `brms`?
+
+- Generated `Stan` code can be accessed
+- Very flexible: MLM, hurdle models, distributional regression, ...
+- Actively maintained
+- Formula syntax based on `lme4`
+- Integration to post-processing and visualization libraries like `bayesplot`
+
+## Live footage right now
+
+![](slide_assets/pepe_silvia.jpg)
+
+## Fitting a `brms` model
+
+The `brm()` function is the core entry point into `brms` to sample from the posterior distribution:
+
+```{r}
+#| output: False
+
+lm_base = brm(
+  formula = y ~ x,
+  family = gaussian(),
+  data = df,
+  iter = 4000,
+  chains = 4,
+  file = "models/lm_base.rds"
+)
+```
+
+
+## Visualize MCMC chains
+
+```{r}
+#| fig-height: 3
+mcmc_plot(lm_base, type = "trace")
+```
+
+## Visualize the posterior draws
+
+```{r}
+#| fig-height: 3
+mcmc_plot(lm_base, type = "dens")
+```
+
+## Side-by-side: MCMC chains and posterior draws
+
+::::{.columns}
+:::{.column width=50%}
+```{r}
+#| fig-height: 3
+mcmc_plot(lm_base, type = "trace")
+```
+:::
+
+:::{.column width=50%}
+```{r}
+#| fig-height: 3
+mcmc_plot(lm_base, type = "dens")
+```
+:::
+
+::::
+
+:::{.callout}
+The density plots show the *stationary distributions* of the Markov chains.
+:::
+
+## The posterior is a multidimensional distribution
+
+$$
+p(\theta\,|\,y) = p(a, b, \sigma\,|\,y)
+$$
+
+Inspecting the posterior draws $(a, b)$ shows a pattern:
+
+```{r}
+mcmc_pairs(lm_base, pars=c("b_Intercept", "b_x"))
+```
+
+
+## Model summary
+
+```{r}
+summary(lm_base)
+```
+
+## Visualize modeled expectation
+
+```{r}
+ce <- conditional_effects(lm_base, method = "pp_expect")
+plot(ce, points = TRUE)
+```
+
+. . .
+
+The expectation is the mean $\mu$ in the linear model (no noise $\varepsilon$):
+
+$$y = \underbrace{a + b_1x_1 + \ldots + b_Kx_K}_{\text{mean}\ \mu} + \varepsilon\quad\text{with}\;\varepsilon\sim\mathcal{N}(0, \sigma)$$
+
+
+## Defining a prior in `brms`
+
+```{r}
+priors = prior(normal(0, 100), class = "Intercept") +
+         prior(normal(0, 50), class = "b", coef = "x") +
+         prior(cauchy(0, 50), class = "sigma")
+```
+
+. . .
+
+### Features of `brms` priors
+
+- Priors can be combined with the `+` operator
+- The `class` argument defines the type of parameter the `coef` argument further defines the target parameter
+  * `class= 'b'` and `coef='x'` refers to the regression weight for the variable `x`
+- The distribution is easy to define with many available options (see the [Stan reference](https://mc-stan.org/) for all available distributions)
+
+
+## Passing the prior to the `brms` model
+
+We use the `prior` argument to set the custom prior:
+
+```{r}
+#| output: False
+
+lm_prior = brm(y ~ x, 
+              data = df, 
+              prior = priors,
+              file = "models/lm_prior.rds")
+```
+
+## Exercise
+
+:::{.callout-tip}
+
+{{< include /exercises/_exercise_2_tasks.qmd >}}
+
+:::
+
+```{r}
+#| echo: False
+icecream = read.csv("../../data/icecream.csv")
+ggplot(icecream, aes(temp, units)) + 
+  geom_point() +
+  #geom_smooth(method="lm") +
+  labs(x = "Temperature [°C]",
+       y = "Units sold")
+```
+
+## Posterior predictive distribution: Theory
+
+Distribution of model-implied data $\tilde{y}$ conditional on the existing data $y$:
+
+$$
+p(\tilde{y}\,|\,y) = \int p(\tilde{y}\,|\,y,\theta)\,p(\theta\,|\,y)\mathrm{d}\theta
+$$
+
+:::{.callout-tip}
+The posterior predictive distribution lives on the data domain but incorporates the uncertainty from the Bayesian update!
+:::
+
+## Posterior predictive distribution: Practice
+
+Imagine the posterior predictive distribution as a multi-step sampling process:
+
+- Sample $\hat{\theta}^{(s)}$ from the posterior distribution
+- Plug the sample $\hat{\theta}^{(s)}$ into the likelihood
+- Result: one draw from the posterior predictive distribution
+
+. . .
+
+::::{.columns}
+
+:::{.column width="50%"}
+
+### Pseudocode
+
+```
+for s in [1...S]:
+  theta_sample = posterior_samples[s]
+  y_hat = likelihood_function(theta_sample)
+```
+
+:::
+
+:::{.column width="50%"}
+
+### For an imaginary Gaussian model
+
+```
+for s in [1...S]:
+  mu_sample = posterior_samples[s, "mu"]
+  sigma_sample = posterior_samples[s, "sigma"]
+  y_hat = rnorm(N, mu_sample, sigma_sample)
+```
+
+:::
+
+::::
+
+:::{.callout-tip}
+
+## Intuitive phrasing
+
+posterior predictive = mean prediction + noise
+
+:::
+
+## Posterior predictive distribution: Expectations I
+
+```{r}
+ce <- conditional_effects(lm_prior, method = "pp_expect", spaghetti = TRUE, ndraws=50)
+plot(ce, points = TRUE, spaghetti_args = list(alpha=1.0, colour="blue"))
+```
+
+## Posterior predictive distribution: Expectations II
+
+```{r}
+ce <- conditional_effects(lm_prior, method = "pp_expect")
+plot(ce, points = TRUE)
+```
+
+## Posterior predictive distribution: Data domain
+
+```{r}
+#| column: screen-inset-shaded
+#| layout-nrow: 1
+
+posterior_draws = posterior_samples(lm_prior)
+
+for (i in 1:3){
+  plot(df$x, df$y, pch=16, cex=1.5, col="gray", ylim=c(0, 60))
+  mu = posterior_draws[i, "b_Intercept"] + posterior_draws[i, "b_x"] * df$x
+  lines(df$x, mu, col="blue", lwd=4)
+  
+  sigma = posterior_draws[i, "sigma"]
+  y_sim = rnorm(50, mean=mu, sd = sigma)
+  points(df$x, y_sim, col="orange", pch=16, cex=1.5) 
+}
+```
+
+## Posterior predictive distribution: Data domain (`brms`)
+
+```{r}
+ce <- conditional_effects(lm_prior, method = "pp")
+plot(ce, points = TRUE)
+```
+
+
+## Comparing models with predictive fit: LOO-CV
+
+**Leave-One-Out Cross-Validation (LOO-CV)** computes the expected fit on unseen data:
+
+1. Split the data $y$ into test set (one observation) and training set (rest of $y$)
+2. Fit posterior on training set
+3. Compute predictive fit on test observation
+4. Repeat 1--3 on many different splits
+
+
+## Exercise
+
+:::{.callout-tip}
+
+{{< include /exercises/_exercise_3_tasks.qmd >}}
+
+:::
+
+
+
+# Bayesian multilevel modeling
+
+## Ice cream sales at different locations: simple model
+
+
+```{r}
+#| echo: False
+icecream2 = read.csv("../../data/icecream2.csv") %>% 
+  filter(location %in% 1:6) %>% 
+  mutate(location = as.factor(location))
+```
+
+
+```{r}
+#| echo: False
+icecream2 %>% filter(location %in% 1:6) %>%
+  ggplot(aes(x=temp, y=units)) + 
+  geom_point(aes(color=location)) + 
+  labs(x = "Temperature [°C]",
+       y = "Units sold")
+```
+
+
+## Simple linear model in `brms`
+
+```{r}
+#| output: False
+
+icecream_lm <- brm(
+  units ~ temp, 
+  data = icecream2,
+  file = "models/icecream_lm.rds"
+)
+```
+
+## Model summary
+
+```{r}
+summary(icecream_lm)
+```
+
+## Visualize mean predictions
+
+```{r}
+ce <- conditional_effects(icecream_lm, method = "pp_expect")
+plot(ce, points = TRUE)
+```
+
+## Visualize data predictions
+
+```{r}
+ce <- conditional_effects(icecream_lm, method = "pp")
+plot(ce, points = TRUE)
+```
+
+## Respecting the multilevel structure
+
+```{r}
+#| echo: False
+
+icecream2 %>% filter(location %in% 1:6) %>%
+  ggplot(aes(temp, units, color=location)) + 
+  geom_point() + 
+  # geom_smooth(method="lm") +
+  facet_wrap("location", labeller = label_both) +
+  labs(x = "Temperature [°C]",
+       y = "Units sold")
+```
+
+## Multilevel model in `brms`
+
+```{r}
+#| output: False
+
+icecream_mlm_1 = brm(
+  units ~ temp + (1 | location),
+  data = icecream2,
+  file = "models/icecream_mlm_1.rds",
+  control = list(adapt_delta = 0.99)
+)
+```
+
+:::{.callout-tip}
+## The `adapt_delta` parameter
+
+Increasing `adapt_delta` slows down the sampler but creates fewer divergent transitions. 
+
+**Rule of thumb:** increase `adapt_delta` if you get warnings about divergent transitions.
+:::
+
+## Model summary
+
+```{r}
+summary(icecream_mlm_1)
+```
+
+## Visualize the posterior
+
+```{r}
+mcmc_plot(icecream_mlm_1, pars = "r_location", type = "dens")
+```
+
+
+## Visualize mean predictions
+
+```{r}
+conds <- data.frame(location = unique(icecream2$location))
+me <- conditional_effects(icecream_mlm_1, "temp", conditions = conds,
+                          re_formula = NULL, method = "pp_expect")
+plot(me, points = TRUE)
+```
+
+
+## Visualize data predictions
+
+```{r}
+conds <- data.frame(location = unique(icecream2$location))
+me <- conditional_effects(icecream_mlm_1, "temp", conditions = conds,
+                          re_formula = NULL, method = "pp")
+plot(me, points = TRUE)
+```
+
+## Comparing the simple and multilevel model
+
+```{r}
+loo_lm = loo(icecream_lm)
+loo_mlm_1 = loo(icecream_mlm_1)
+
+loo_compare(loo_lm, loo_mlm_1)
+```
+
+## Exercise
+
+:::{.callout-tip}
+
+{{< include /exercises/_exercise_4_tasks.qmd >}}
+
+:::
+
+
+# Modeling group comparisons
+
+## IMDB movies
+
+```{r}
+#| echo: False
+movies = read.csv("../../data/movies.csv")
+
+# Make a custom theme
+# I'm using Asap Condensed; download from 
+# https://fonts.google.com/specimen/Asap+Condensed
+theme_fancy <- function() {
+  theme_minimal() +
+    theme(panel.grid.minor = element_blank())
+}
+
+eda_boxplot <- ggplot(movies, aes(x = genre, y = rating, fill = genre)) +
+  geom_boxplot() +
+  scale_fill_manual(values = c("#0288b7", "#a90010"), guide = FALSE) + 
+  scale_y_continuous(breaks = seq(2, 10, 2)) +
+  labs(x = NULL, y = "Rating") +
+  theme_fancy()
+
+eda_histogram <- ggplot(movies, aes(x = rating, fill = genre)) +
+  geom_histogram(binwidth = 1, color = "white") +
+  scale_fill_manual(values = c("#0288b7", "#a90010"), guide = FALSE) + 
+  scale_y_continuous(breaks = c(0, 60)) +
+  scale_x_continuous(breaks = seq(1, 10, 1)) +
+  labs(y = "Count", x = "Rating") +
+  facet_wrap(~ genre, nrow = 2) +
+  theme_fancy() +
+  theme(panel.grid.major.x = element_blank())
+
+eda_ridges <- ggplot(movies, aes(x = rating, y = fct_rev(genre), fill = genre)) +
+  stat_density_ridges(quantile_lines = TRUE, quantiles = 2, scale = 3, color = "white") + 
+  scale_fill_manual(values = c("#0288b7", "#a90010"), guide = FALSE) +
+  scale_x_continuous(breaks = seq(0, 10, 2)) +
+  labs(x = "Rating", y = NULL,
+       subtitle = "White line shows median rating") +
+  theme_fancy()
+
+(eda_boxplot | eda_histogram) / 
+    eda_ridges + 
+  plot_annotation(title = "Do comedies get higher ratings than action movies?",
+                  subtitle = "Sample of 400 movies from IMDB",
+                  theme = theme(text = element_text(),
+                                plot.title = element_text(face = "bold",
+                                                          size = rel(1.5))))
+```
+
+Source of idea, data, and visualization: [Andrew Heiss (Link)](https://github.com/andrewheiss/diff-means-half-dozen-ways)
+
+## Group means as regression models
+
+Formulating a group mean comparison as a regression:
+
+```{r}
+#| output: False
+
+lm_means = brm(
+  rating ~ 0 + genre,
+  data = movies,
+  file = "models/movies_lm_means.rds"
+)
+```
+
+## Model summary: `rating ~ 0 + genre`
+
+```{r}
+summary(lm_means)
+```
+
+## Modeling distributional parameters
+
+We can also estimate the standard deviation $\sigma$ of each group in addition to the mean:
+
+```{r}
+#| output: False
+
+lm_means_sd = brm(
+  bf(rating ~ 0 + genre, sigma ~ 0 + genre),
+  data = movies,
+  file = "models/movies_lm_means_sd.rds"
+)
+```
+
+## Model summary: `rating ~ 0 + genre, sigma ~ 0 + genre`
+
+```{r}
+summary(lm_means_sd)
+```
+
+
+## Retrieving the standard deviations
+
+For [mathy reasons (Link)](https://vuorre.netlify.app/posts/2017-01-02-how-to-compare-two-groups-with-robust-bayesian-estimation-using-r-stan-and-brms/), the `sigma` draws are on a log scale, so we need to exponentiate them back to the data scale:
+
+```{r}
+#| output: False
+post_samples = posterior_samples(lm_means_sd) %>% 
+  mutate_at(vars(contains("sigma")), funs(exp))
+```
+
+```{r}
+#| echo: False
+#| column: screen-inset-shaded
+#| layout-nrow: 1
+
+posterior_samples(lm_means_sd) %>% 
+  ggplot(.) + 
+  geom_histogram(aes(x = b_sigma_genreAction, y=..density..), bins=100, color="darkblue", fill="white") +
+  geom_histogram(aes(x = b_sigma_genreComedy, y=..density..), bins=100, color="orange", fill="white") +
+  geom_density(aes(x = b_sigma_genreAction), color="darkblue", size=2) +
+  geom_density(aes(x = b_sigma_genreComedy), color="orange", size=2) +
+  scale_y_continuous(expand=c(0, 0)) +
+  labs(x = "sigma",
+       title = 'Posterior draws of sigma (log scale)'
+  )
+
+post_samples %>% 
+  ggplot(.) + 
+  geom_histogram(aes(x = b_sigma_genreAction, y=..density..), bins=100, color="darkblue", fill="white") +
+  geom_histogram(aes(x = b_sigma_genreComedy, y=..density..), bins=100, color="orange", fill="white") +
+  geom_density(aes(x = b_sigma_genreAction), color="darkblue", size=2) +
+  geom_density(aes(x = b_sigma_genreComedy), color="orange", size=2) +
+  scale_y_continuous(expand=c(0, 0)) +
+  labs(x = "sigma",
+       title = "Posterior draws of sigma (data scale)"
+  )
+
+```
+
+
+## Computing custom posterior quantities
+
+We can treat the posterior samples like a data frame and compute arbitrary quantities for each draw.
+
+```{r}
+post_samples_diff = post_samples %>% 
+  mutate(mean_diff = b_genreAction - b_genreComedy)
+```
+
+```{r}
+#| echo: False
+ggplot(post_samples_diff, aes(x = mean_diff)) +
+  geom_density(size=1) +
+  labs(x = "Mean difference (Action - Comedy)") +
+  expand_limits(x = 0) +
+  scale_y_continuous(expand=c(0,0))
+```
+
+
+## Region of practical equivalence (ROPE)
+
+Define a region that is practically equivalent to a point value.
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+:::{.callout-tip}
+
+## Example: Coin flip
+
+**Coin flip** with Binomial parameter $\theta$: ROPE = $[0.45, 0.55]$ for a fair coin
+
+```{r}
+#| echo: False
+y = 4
+N = 20
+posterior <- rbeta(100000, 0.5 + y, 0.5 + N - y)
+plot(density(posterior), 
+     xlim = c(0.035, 1), 
+     xlab = "", ylab = "", type = "l", main = "",
+     mar = c(5, 2, 2, 0) + 0.1, cex = 2,
+     xaxt = 'n')
+axis(1, at = seq(0, 1, by = 0.1))
+interval_quantile <- quantile(posterior, probs = c(0.025, 0.975))
+abline(v = interval_quantile, col = "blue")
+abline(v = c(0.45, 0.55), col = "green")
+mtext(expression(theta), side = 1, line = 2)
+mtext("Blue: credible interval; Green: ROPE = [0.45, 0.55]", side = 1, line = 3)
+mtext(expression(p(theta)), side = 2, line = 2)
+mtext("Posterior distribution", side = 3, line = 1)
+```
+
+:::
+:::
+
+::: {.column width="40%"}
+
+**Other Examples**
+
+- Correlation coefficient $r$: $[-0.10, 0.10]$
+- Odd's ratio $OR$: $[0.95, 1.05]$
+
+:::
+::::
+
+## Exercise
+
+:::{.callout-tip}
+
+{{< include /exercises/_exercise_5_tasks.qmd >}}
+
+:::
+
+
+Use the definition $d = \dfrac{\mu_1 - \mu_2}{\sqrt{\frac{1}{2}(\sigma_1^2 + \sigma_2^2)}}$
+
+:::{.callout-warning}
+## Attention: Variance $\leftrightarrow$ SD
+
+Remember to square the `sigma` draws for the computation of Cohen's $d$!
+:::
+
+
+# Outlook
+
+## Using Bayesian inference for your own projects
+
+::: {.callout-tip}
+## 3 questions about your own research projects
+
+- Which concrete statistical models am I currently using?
+- How might these models benefit from Bayesian inference?
+- What knowledge am I missing to use a Bayesian approach?
+:::
+
+Work through these guiding questions. Let your answers be *as specific as possible*. If applicable, you can also sketch out concrete next steps or some equations.
+
+:::{style="font-size:1.3em;"}
+- {{< fa regular face-smile >}} **Think** (*5min*)
+- {{< fa masks-theater >}} **Pair** (*15min*)
+- {{< fa regular comment-dots >}} **Share**
+:::
+
+
+## Reading tips
+
+- Richard McElreath (2020). *Statistical Rethinking: A Bayesian course with examples in R and Stan*. CRC Press.
+  * The best book to start with Bayesian inference. Highly recommended!
+  * Great free lectures on YouTube ([Link](https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&feature=shared))
+- Andrew Gelman, John Carlin, Has Stern, David Dunson, Aki Vehtari, & Donald Rubin (2021). *Bayesian Data Analysis*. Volume 3.
+  * Much more technical, probably more of a reference
+  * Accompanying online course by Aki Vehtari ([Link](https://github.com/avehtari/BDA_course_Aalto))
+
+
+## Contact
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+**Marvin Schmitt**
+
+{{< fa brands twitter >}} [@MarvinSchmittML](https://twitter.com/MarvinSchmittML)
+
+{{< fa brands mastodon >}} [@MarvinSchmitt@mastodon.online](https://mastodon.online/@MarvinSchmitt)
+
+{{< fa globe >}} [www.marvinschmitt.com](https://www.marvinschmitt.com)
+
+{{< fa envelope >}} [mail.marvinschmitt@gmail.com](mailto:mail.marvinschmitt@gmail.com)
+
+:::
+
+::: {.column width="22%"}
+![](/assets/ms_portrait.png)
+:::
+
+::::
+
+### Credits
+
+Special thanks to [Paul Bürkner](https://paul-buerkner.github.io) for providing me with workshop material on Bayesian modeling with `brms`. The `brms` introduction is heavily inspired by Paul's material.

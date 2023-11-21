@@ -1,0 +1,17 @@
+---
+title: "Slides"
+slide-format: revealjs
+---
+
+This website contains the slides of the workshop for your reference. You can check back later to go through the material again.
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="slide_deck/"></iframe>
+```
+
+</div>
+
+
+If you prefer to view the presentation in a standalone browser tab, you can do that [here](slide_deck/){target="_blank"}.
