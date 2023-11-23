@@ -102,8 +102,7 @@ It's important to note that CAMs are just one of several approaches to understan
 * the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
   + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
 
-`r Citet(bib, c("thagard_coherence_2000", "thagard_hot_2006", "thagard_cognitive_2021"))`
-
+`r Citet(bib, c("thagardCoherenceThoughtAction2000", "thagardHotThoughtMechanisms2006", "thagardCognitiveScienceCOVID192021"))`
 
 ## Motivating Graph Theory (Network Analysis)
 
