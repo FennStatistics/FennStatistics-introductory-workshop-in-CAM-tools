@@ -66,9 +66,23 @@ This is how you itemize:
 This is regular text with a citation
 `r Citet(bib, "aggarwalNeuralNetworksDeep2023")`
 
+## Slide with code
+This code chunk will be printed...
+
+```{r}
+#| echo: true
+1 + 1
+```
+
+... this one won't:
+
+```{r}
+#| echo: false
+1 + 1
+```
 
 
-# Content {.smaller}
+# Table of Contents {.smaller}
 This talk will consist of 4 main parts:
 
 - Part 1: Fundamentals
@@ -204,25 +218,8 @@ place holder
 ## Graph Theory: ...
 place holder
 
-
-
 ## Literature related to CAMs
-
-
-This code chunk will be printed...
-
-```{r}
-#| echo: true
-1 + 1
-```
-
-... this one won't:
-
-```{r}
-#| echo: false
-1 + 1
-```
-
+place holder
 
 # Part II: CAMs
 CAMs and the informations we can get from them  
@@ -233,6 +230,81 @@ CAMs and the informations we can get from them
 
 ## Recap: Existing Literature
 place holder
+
+## Current Work
+
+By analyzing the content of CAMs
+* CAMs offer added value compared to a survey, as the latter can only consider pre-identified influential factors
+* CAMs allow to identify similar concerns as more time consuming interview / focus group based methods - [Fenn, et al. (accepted revision)](#bib1); `r Citet(bib, c("reuter_direct_2022"))`
+* ...
+
+<br>
+by using CAMs for experimental and correlation studies 
+* CAMs have been used for intervention, e.g. mediation `r Citet(bib, c("gros_camediaid_2021"))` or cost intervention `r Citet(bib, c("sendtner_kostbare_2021"))`
+* correlations between CAMs’ emotional properties and latent properties and survey scales - `r Citet(bib, c("mansell_measuring_2021", "mansell_novel_2021"))`
+* ...
+
+
+---
+## current work publication list I - emperical articles
+
+
+* Höfele, P., Reuter, L., Estadieu, L., Livanec, S., Stumpf, M., & Kiesel, A. (2022). Connecting the methods of psychology and philosophy: Applying Cognitive-Affective Maps (CAMs) to identify ethical principles underlying the evaluation of bioinspired technologies. Philosophical Psychology, 0(0), 1–24. https://doi.org/10.1080/09515089.2022.2113770
+* **Luthardt**, J., Morgan, J. H., Bormann, I., & Schröder, T. (2022). Quantifying emotionally grounded discursive knowledge with cognitive-affective maps. Quality & Quantity, 56(3), 1557–1595. https://doi.org/10.1007/s11135-021-01195-7
+* **Luthardt**, J., Schröder, T., Hildebrandt, F., & Bormann, I. (2020). “And Then We’ll Just Check If It Suits Us” – Cognitive-Affective Maps of Social Innovation in Early Childhood Education. Frontiers in Education, 5, 1–19. https://doi.org/10.3389/feduc.2020.00033
+* **Mansell**, J., Mock, S., Rhea, C., Tecza, A., & Piereder, J. (2021). Measuring attitudes as a complex system: Structured thinking and support for the Canadian carbon tax. Politics and the Life Sciences, 40(2), 179–201. https://doi.org/10.1017/pls.2021.16
+* **Mansell**, J., Reuter, L., Rhea, C., & Kiesel, A. (2021). A Novel Network Approach to Capture Cognition and Affect: COVID-19 Experiences in Canada and Germany. Frontiers in Psychology, 12, 1–14. https://doi.org/10.3389/fpsyg.2021.663627
+* Reuter, L., Fenn, J., Bilo, T. A., Schulz, M., Weyland, A. L., Kiesel, A., & Thomaschke, R. (2021). Leisure walks modulate the cognitive and affective representation of the corona pandemic: Employing Cognitive-Affective Maps within a randomized experimental design. Applied Psychology: Health and Well-Being, 13(4), 952–967. https://doi.org/10.1111/aphw.12283
+* **Fenn**, J., Helm, J., Höfele, P., Kulbe, L., Ernst, A., & Kiesel, A. (2023). Identifying Key-Psychological Factors Influencing the Acceptance of yet Emerging Technologies – A Multi-Method-Approach to Inform Climate Policy.
+
+
+---
+## current work publication list II - bachelor, master theses I
+
+* Bilo, T., & Helm, J. (2021). A Further Step Towards Sustainable Development – Re-evaluating and Expanding Cognitive-Affective Mapping for Technology Acceptance Prediction. https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/bachelorthesis_bilo-helm_2021_english.pdf
+* Dörr, M. (2020). Eine Qualitative Analyse von Kognitiv-Affektiven Karten: Können Daten von Kognitiv-Affektiven Karten im Vergleich zu Fragebögen zusätzliche Informationen geben? https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_doerr_2021_german.pdf
+* Gros, W., Reuter, L., Stumpf, M., & Kiesel, A. (2021). CAMediaid: Multimethod approach to assess Cognitive-Affective Maps in mediation - A quantitative validation study. https://doi.org/10.13140/RG.2.2.12436.78726
+* Koloczek, N. (2020). Förderung der Benutzerfreundlichkeit für die Methode „Cognitive-Affective-Mapping“. https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_koloczek_2020_german.pdf
+* Kreil, A. (2018). Cognitive-Affective Mapping within the context of staircase and elevator use. Evaluating a new method in empirical psychological research [Master’s Thesis]. Albert-Ludwigs-Universität Freiburg i. Br.
+Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics in the Context of the German Energy Transition.
+* Reuter, L. (2019). Collection and evaluation of basal attributes of living materials systems [University of Freiburg]. https://doi.org/10.13140/RG.2.2.27832.90889
+
+
+---
+## current work publication list II - bachelor, master theses II
+
+* Ricken, D. (2020). A Step towards Sustainable Development: Predicting the Acceptance of life-like Materials Systems with Cognitive-Affective Mapping. https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_ricken_2020_english.pdf
+* Rothmann, W. (2022). Cognitive-Affective Maps—Verständnis für Konzeptzusammenhänge in Abhängigkeit der Valenzen. https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/rothmann2022.pdf
+* Sendtner, C. (2021). Kostbare Kisten: Gründe für Fehleinschätzungen der Kosten des eigenen Autos und deren Auswirkungen auf die Bewertung des ÖPNV -Masterarbeit [University of Freiburg]. https://doi.org/10.13140/RG.2.2.32640.56325
+
+
+---
+## current work publication list III  - conceptual articles
+
+
+
+* Homer-Dixon, T., Maynard, J. L., Mildenberger, M., Milkoreit, M., Mock, S. J., Quilley, S., Schröder, T., & Thagard, P. (2013). A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems. Journal of Social and Political Psychology, 1(1), Article 1. https://doi.org/10.5964/jspp.v1i1.36
+* Homer-Dixon, T., Milkoreit, M., Mock, S. J., Schröder, T., & Thagard, P. (2014). The Conceptual Structure of Social Disputes: Cognitive-Affective Maps as a Tool for Conflict Analysis and Resolution. SAGE Open, 4(1), 1–20. https://doi.org/10.1177/2158244014526210
+* Livanec, S., Stumpf, M., Reuter, L., Fenn, J., & Kiesel, A. (2022). Who’s gonna use this? Acceptance prediction of emerging technologies with Cognitive-Affective Mapping and transdisciplinary considerations in the Anthropocene. The Anthropocene Review, 1–20. https://doi.org/10.1177/20530196221078924
+* **Reuter**, L., Mansell, J., Rhea, C., & Kiesel, A. (2022). Direct assessment of individual connotation and experience: An introduction to cognitive-affective mapping. Politics and the Life Sciences, 41(1), 131–139. https://doi.org/10.1017/pls.2021.31
+
+<br>
+
+* Thagard, P. (2000). Coherence in Thought and Action. MIT Press.
+* Thagard, P. (2006). Hot Thought: Mechanisms and Applications of Emotional Cognition. MIT Press.
+* **Thagard**, P. (2021). The cognitive science of COVID-19: Acceptance, denial, and belief change. Methods, 195, 92–102. https://doi.org/10.1016/j.ymeth.2021.03.009
+
+
+---
+## current work useful links
+
+* all bachelor / master theses of Freiburg:  https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/
+* CAM articles: https://paulthagard.com/links/cognitive-affective-maps/
+
+<br>
+* main webpage CAM tools: https://drawyourminds.de/
+* documentation CAM tools: https://camtools-documentation.readthedocs.io/en/master/
+* all CAM tools uploaded on GitHub: https://github.com/Camel-app?tab=repositories
 
 ## Coherence Theory and the HOTCO Model
 place holder
