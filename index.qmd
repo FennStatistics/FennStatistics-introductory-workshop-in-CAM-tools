@@ -57,7 +57,7 @@ bib <- ReadBib(file.name)
 
 # Part I: Overview
 
-## CAMS Overview
+## Test Slide
 This is how you itemize:
 
 - Main point
@@ -67,6 +67,42 @@ This is how you itemize:
 
 This is regular text with a citation
 `r Citet(bib, "aggarwalNeuralNetworksDeep2023")`
+
+## Potentials of Cognitive Affective Maps (CAMs)
+
+1. Understanding the relationship between cognition and emotion: CAMs provide a framework for studying the complex interplay between cognitive processes (such as perception, attention, memory, and decision-making) and emotions.
+
+2. Explaining emotional regulation: CAMs can help to explain how emotions are regulated and controlled through cognitive processes, such as attention and working memory.
+
+## Potentials of Cognitive Affective Maps (CAMs)
+
+3. Improving decision-making: CAMs can be used to study how emotions influence decision-making and can provide insights into how decision-making can be improved through emotional regulation.
+
+4. Understanding the role of emotions in motivation: CAMs can help to explain the role of emotions in motivation and how emotions can drive behavior and action.
+
+## Potentials of Cognitive Affective Maps (CAMs)
+
+5. Improving our understanding of mental disorders: CAMs can be used to study the relationship between cognition, emotion, and mental disorders, such as depression and anxiety, and provide insights into how these disorders can be treated.
+
+It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs***.
+
+
+## CAMs: Theory
+
+**What are CAMs?**
+
+* CAMs are „conceptual structures that people use to represent important aspects of the world“
+* „cognitive-affective map is a visual representation of the emotion values of a group of interconnected concepts“
+  + this is how CAMs differ from semantic networks, because CAMs additionally contain emotions (valence)
+  + hot cognition: emotions cannot be separated from cognitions
+
+## CAMs: Theory
+**How are CAMs constructed?**
+
+* the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
+  + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
+
+`r Citet(bib, c("thagard_coherence_2000", "thagard_hot_2006", "thagard_cognitive_2021"))`
 
 
 ## Motivating Graph Theory (Network Analysis)
