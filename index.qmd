@@ -49,7 +49,7 @@ BibOptions(check.entries = FALSE,
            dashed = TRUE,
            longnamesfirst = FALSE,
            max.names = 1,
-           no.print.fields = c("urldate", "note"))
+           no.print.fields = c("urldate", "note", "language"))
 file.name <- "JuliusLibrary.bib"
 bib <- ReadBib(file.name)
 ```
