@@ -55,9 +55,6 @@ file.name <- "JuliusLibrary.bib"
 bib <- ReadBib(file.name)
 ```
 
-
-# Part I: Overview
-
 ## Test Slide
 This is how you itemize:
 
@@ -69,7 +66,40 @@ This is how you itemize:
 This is regular text with a citation
 `r Citet(bib, "aggarwalNeuralNetworksDeep2023")`
 
-## Potentials of Cognitive Affective Maps (CAMs)
+
+
+# Content {.smaller}
+This talk will consist of 4 main parts:
+
+- Part 1: Fundamentals
+  - CAMs - an Overview
+  - Data Generation Process + Graph Theory (Network Ananlysis)
+  - Literature related to CAMs
+- Part 2: CAMs 
+  - Recap: Existing Literature
+  - Coherence Theory and the HOTCO Model (Paul Thagard)
+  - CAM Study Designs and resulting Network Topologies
+- Part 3: CAM Tools 
+  - Data Collection - C.A.M.E.L.
+  - Data Analysis - CAM-App
+  - Setting up Studies using dashbord + JATOS
+- Part 4: Extensions and the Future of CAMs
+  - Possible Extensions
+  - Discussing the "Future" of CAMs
+
+# Part I: Fundamentals
+An overview regarding the most important fundamentals for Cognitive Affective Maps 
+
+- CAMs - an Overview
+- Motivating Graph Theory (Network Ananlysis)
+  - Random Graphs - CAM Data Generation 
+- Literature related to CAMs
+  - Mental Models
+  - Semantic Networks
+  - Fuzzy Networks
+
+
+## Overview: Potentials of Cognitive Affective Maps (CAMs)
 
 1. Understanding the relationship between cognition and emotion: CAMs provide a framework for studying the complex interplay between cognitive processes (such as perception, attention, memory, and decision-making) and emotions.
 
@@ -83,7 +113,7 @@ This is regular text with a citation
 
 It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs**.
 
-## CAMs: Introduction
+## Overview: CAMs - Introduction
 
 CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
 
@@ -94,7 +124,7 @@ CAMs as a quantitative and qualitative research method first became popular thro
 `r Citet(bib, c("sendtnerKostbareKistenGrunde2021", "thagardEMPATHICAComputerSupport2010"))`
 
 
-## CAMs: Theory
+## Overview: CAMs - Theory
 
 **What are CAMs?**
 
@@ -111,7 +141,7 @@ CAMs as a quantitative and qualitative research method first became popular thro
 `r Citet(bib, c("thagardCoherenceThoughtAction2000", "thagardHotThoughtMechanisms2006", "thagardCognitiveScienceCOVID192021"))`
 
 
-## CAMs: Fields of Application
+## Overview: CAMs - Fields of Application
 
 * to study if CAMs are supplementary to questionnaires -  `r Citet(bib, c("mansellNovelNetworkApproach2021", "mansellMeasuringAttitudesComplex2021"))`
 * agent-based modelling - e.g. `r Citet(bib, c("wolfChangingMindsElectric2015", "schroderModelingMultilevelMechanisms2017"))`
@@ -119,7 +149,7 @@ CAMs as a quantitative and qualitative research method first became popular thro
 * evaluate via CAMs the success of an intervention - e.g. `r Citet(bib, c("reuterLeisureWalksModulate2021", "luthardtThenWeLl2020"))`
 * ...
 
-## CAMs: Fundamental Hypothesis
+## Overview: CAMs - Fundamental Hypothesis
 
 **Hypothesis**: The generation process of CAMs is not arbitrary, but is determined by multiple processes at multiple levels, and thus CAMs from similar individuals on an identical topic exhibit systematic correlations (similar data generating process)
 
@@ -133,7 +163,7 @@ CAMs as a quantitative and qualitative research method first became popular thro
 
 
 
-# Motivating Graph Theory (Network Analysis)
+## Data Generation Process + Graph Theory (Network Analysis)
 
 ## Keep focused - it's going to be exciting
 
@@ -148,7 +178,7 @@ CAMs as a quantitative and qualitative research method first became popular thro
 
 
 
-## Stochastic Process of DGP of CAMs
+## DGP: Stochastic Process of DGP of CAMs
 
 Data generation process (DGP): When [...] data set has been created, a good model has to be constructed for the data generation process. This is the stage at which the actual [...] analysis begins... When an [...] model has been constructed for the DGP, it should **only be used for the analysis if it reflects the ongoings in the system of interest properly**
 
@@ -162,8 +192,22 @@ Hands on example: Shiny App
 
 ![](images/logoShiny.png){height=150}
 
+## DGP: ...
+place holder
 
-## Related literature
+## DGP: ...
+place holder
+
+## Graph Theory: ...
+place holder
+
+## Graph Theory: ...
+place holder
+
+
+
+## Literature related to CAMs
+
 
 This code chunk will be printed...
 
@@ -181,31 +225,53 @@ This code chunk will be printed...
 
 
 # Part II: CAMs
+CAMs and the informations we can get from them  
+
+- Recap: Existing Literature
+- Coherence Theory and the HOTCO Model (Paul Thagard)
+- CAM Study Designs and resulting Network Topologies
 
 ## Recap: Existing Literature
-
-
+place holder
 
 ## Coherence Theory and the HOTCO Model
+place holder
 
-
-## CAM Study Designs and Resulting Network Topologies
-
+## CAM Study Designs and resulting Network Topologies
+place holder
 
 
 # Part III: Developed CAM Tools
+The technological solutions for eliciting CAMs
+
+- Data Collection - C.A.M.E.L.
+- Data Analysis - CAM-App
+- Setting up Studie using dashbord + JATOS
+
+## C.A.M.E.L. 
+place holder
+
+## CAM-App
+place holder
+
+## Study-Setup: ...
+place hodler
+
+## Study-Setup: ...
+place hodler
 
 
-## Data Collection: C.A.M.E.L
+# Part IV: Extensions and the Future of CAMs
+What we'll have in the future...
 
+- Possible Extensions
+- Discussing the "Future" of CAMs
 
+## Possible Extensions
+place holder
 
-## Data Analysis: CAM-App
-
-
-## Setting Up Studies
-
-
+## Future of CAMs
+place holder 
 
 # Don't forget to thank the DFG :-)
 
