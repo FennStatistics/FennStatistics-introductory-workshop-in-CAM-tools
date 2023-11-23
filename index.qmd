@@ -133,7 +133,34 @@ CAMs as a quantitative and qualitative research method first became popular thro
 
 
 
-## Motivating Graph Theory (Network Analysis)
+# Motivating Graph Theory (Network Analysis)
+
+## Keep focused - it's going to be exciting
+
+::: {layout-ncol=2}
+![](https://media4.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif?cid=ecf05e47hmf8l7kqh12kn3rbuh885rmbgzgiyjan1n0v137g&rid=giphy.gif&ct=g)
+
+![](https://media1.giphy.com/media/1kYx8tpKGbfee2drT7/giphy.gif?cid=790b7611d38e7d9633b5e62c5857c72dfa16e5b014d7e358&rid=giphy.gif&ct=g)
+
+:::
+
+> a short excursion into the world of distributions
+
+
+
+## Stochastic Process of DGP of CAMs
+
+Data generation process (DGP): When [...] data set has been created, a good model has to be constructed for the data generation process. This is the stage at which the actual [...] analysis begins... When an [...] model has been constructed for the DGP, it should **only be used for the analysis if it reflects the ongoings in the system of interest properly**
+
+> a model should make a parsimonious, plausible and substantially meaningful contribution to the data generation process
+
+
+>  in statistics, we assume that we can represent the DGP by discrete and continuous (univariate, multivariate, mixture of) distributions
+
+
+Hands on example: Shiny App
+
+![](images/logoShiny.png){height=150}
 
 
 ## Related literature
