@@ -9,6 +9,7 @@ format:
   revealjs:
     theme: white # gerne herumspielen!
     #theme: [white, custom.scss] # gerne herumspielen!
+    smaller: true # more space on the slides
 ---
 
 ```{r}
@@ -74,17 +75,23 @@ This is regular text with a citation
 
 2. Explaining emotional regulation: CAMs can help to explain how emotions are regulated and controlled through cognitive processes, such as attention and working memory.
 
-## Potentials of Cognitive Affective Maps (CAMs)
-
 3. Improving decision-making: CAMs can be used to study how emotions influence decision-making and can provide insights into how decision-making can be improved through emotional regulation.
 
 4. Understanding the role of emotions in motivation: CAMs can help to explain the role of emotions in motivation and how emotions can drive behavior and action.
 
-## Potentials of Cognitive Affective Maps (CAMs)
-
 5. Improving our understanding of mental disorders: CAMs can be used to study the relationship between cognition, emotion, and mental disorders, such as depression and anxiety, and provide insights into how these disorders can be treated.
 
-It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs***.
+It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs**.
+
+## CAMs: Introduction
+
+CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
+
+
+![](images/CAM_example.jpg){height=450 fig-align="center"}
+
+
+`r Citet(bib, c("sendtnerKostbareKistenGrunde2021", "thagardEMPATHICAComputerSupport2010"))`
 
 
 ## CAMs: Theory
@@ -96,13 +103,35 @@ It's important to note that CAMs are just one of several approaches to understan
   + this is how CAMs differ from semantic networks, because CAMs additionally contain emotions (valence)
   + hot cognition: emotions cannot be separated from cognitions
 
-## CAMs: Theory
 **How are CAMs constructed?**
 
 * the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
   + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
 
 `r Citet(bib, c("thagardCoherenceThoughtAction2000", "thagardHotThoughtMechanisms2006", "thagardCognitiveScienceCOVID192021"))`
+
+
+## CAMs: Fields of Application
+
+* to study if CAMs are supplementary to questionnaires -  `r Citet(bib, c("mansellNovelNetworkApproach2021", "mansellMeasuringAttitudesComplex2021"))`
+* agent-based modelling - e.g. `r Citet(bib, c("wolfChangingMindsElectric2015", "schroderModelingMultilevelMechanisms2017"))`
+* use CAMs for conflict mediation - e.g. `r Citet(bib, c("grosCAMediaidMultimethodApproach2021"))`
+* evaluate via CAMs the success of an intervention - e.g. `r Citet(bib, c("reuterLeisureWalksModulate2021", "luthardtThenWeLl2020"))`
+* ...
+
+## CAMs: Fundamental Hypothesis
+
+**Hypothesis**: The generation process of CAMs is not arbitrary, but is determined by multiple processes at multiple levels, and thus CAMs from similar individuals on an identical topic exhibit systematic correlations (similar data generating process)
+
+* can be presented by a „emergent product of interaction between networks of mental representations at the individual level and networks of social communication at the group level“
+
+![](images/fundamentalHypothesis.jpg){height=250 fig-align="center"}
+
+> if stochasticity is ubiquitous in **complex networks**, these networks are not maximally random either; rather, they obey organization principles that make them functional
+
+`r Citet(bib, c("bianconiMultilayerNetworksStructure2018", "homer-dixonComplexSystemsApproach2013"))`
+
+
 
 ## Motivating Graph Theory (Network Analysis)
 
@@ -160,10 +189,18 @@ This research was funded by the Deutsche Forschungsgemeinschaft (DFG), grant 227
 
 <!-- *********** NEW SLIDE ************** -->
 ---
-## References I
+## References I {.smaller}
 
 ```{r}
 #| echo: false
 #| results: asis
 PrintBibliography(bib, start = 1, end = 5)
+```
+
+## References II {.smaller}
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 6, end = 10)
 ```
