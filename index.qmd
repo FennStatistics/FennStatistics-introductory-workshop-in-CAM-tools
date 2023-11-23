@@ -13,7 +13,45 @@ format:
 
 ```{r}
 knitr::opts_chunk$set(echo = FALSE, collapse = TRUE)
+
 # load packages and define functions here
+
+################
+# Packages
+################
+# if packages are not already installed, the function will install and activate them
+usePackage <- function(p) {
+  if (!is.element(p, installed.packages()[,1]))
+    install.packages(p, dep = TRUE)
+  require(p, character.only = TRUE)
+}
+
+usePackage("stargazer") # create tables
+
+usePackage("tidyverse")
+
+usePackage("DT")
+
+usePackage("RefManageR")
+
+usePackage("meta")
+
+usePackage("lsa")
+
+usePackage("mvtnorm")
+
+################
+# Data Bib file
+################
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           style = "markdown",
+           dashed = TRUE,
+           longnamesfirst = FALSE,
+           max.names = 1,
+           no.print.fields = c("urldate", "note"))
+file.name <- "JuliusLibrary.bib"
+bib <- ReadBib(file.name)
 ```
 
 
@@ -27,7 +65,9 @@ This is how you itemize:
     - Sub-point (level 2)
 
 
-This is regular text.
+This is regular text with a citation
+`r Citet(bib, "aggarwalNeuralNetworksDeep2023")`
+
 
 ## Motivating Graph Theory (Network Analysis)
 
@@ -79,3 +119,16 @@ This code chunk will be printed...
 # Don't forget to thank the DFG :-)
 
 This research was funded by the Deutsche Forschungsgemeinschaft (DFG), grant 2277, Research Training Group ``Statistical Modeling in Psychology" (SMiP)
+
+
+# References
+
+<!-- *********** NEW SLIDE ************** -->
+---
+## References I
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 1, end = 5)
+```
