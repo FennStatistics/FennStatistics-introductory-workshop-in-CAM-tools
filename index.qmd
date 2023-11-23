@@ -1,7 +1,8 @@
 ---
-title: "The title"
-author: "Your Name"
-subtitle: Some subtitle
+title: "CAMtools"
+subtitle: "An introductory workshop"
+author: "Julius Fenn"
+# institute: Your Affiliation
 output:
   ioslides_presentation: default
   beamer_presentation:
@@ -9,7 +10,6 @@ output:
     theme: AnnArbor
     keep_tex: no
   slidy_presentation: default
-institute: Your Affiliation
 header-includes:
 - \input{subfiles/smipstyle.tex}
 - \titlegraphic{\includegraphics[width=4cm]{subfiles/mannheim}}
