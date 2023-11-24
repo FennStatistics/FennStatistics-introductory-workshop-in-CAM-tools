@@ -41,6 +41,8 @@ usePackage("lsa")
 
 usePackage("mvtnorm")
 
+usePackage("plotly")
+
 ################
 # Data Bib file
 ################
@@ -413,6 +415,10 @@ The technological solutions for eliciting CAMs
 
 - Data Collection - C.A.M.E.L.
 - Data Analysis - CAM-App
+  - Structure of CAM Data
+  - 2 Step Data Analysis
+    - Pre-Processing
+    - Analysis
 - Setting up Studie using dashbord + JATOS
 
 ## C.A.M.E.L.
@@ -581,6 +587,114 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 :::
 ::::
 
+## CAM-App - implemented functions
+
+::::{.columns}
+
+:::{.column width="50%"}
+**pre-processing step**
+
+1.	Import/Upload data
+2.	Draw CAMs
+3.	Approximate matching
+4.	Searching terms
+5.	Search for synonyms
+6.	Apply word2vec model
+7.	Overview of non-summarized concepts
+8.	Compute inter-rater reliability
+9.	Train raters for summarizing of concepts
+
+:::
+
+
+:::{.column width="50%"}
+**analysis step**
+
+1.	Import/Upload data
+2.	Draw CAMs
+3.	Compute network indicators
+4.	Compute neighborhood indicators
+5.	Compute descriptive statistics on network indicators
+6.	Create wordlist
+7.	Create wordcloud
+8.	Get table, pie chart
+9.	Get summary statistics
+10.	Aggregate CAMs
+11.	Concept co-occurrences
+12.	Valence co-occurrences
+13.	Similarity Algorithms
+14.	Slice CAMs
+15.	Get summary statistics
+16.	Get Report
+
+:::
+
+::::
+
+
+> functionalities are based on 31 R functions, Python code divided in 28 modules (server, UI seperated); see: <https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing>
+
+
+## Pre-Processing: reduce number of unique concepts
+
+* Approximate matching: closeness of two concepts is measured in terms of the number of primitive operations necessary to convert the concept into an exact match (e.g. substitution: coat -> cost)
+* Searching terms: using regular expressions
+
+<br>
+
+* Search for synonyms: automatically searching for synonyms in a dictionary (Reverso)
+* Apply word2vec model: automatically generating suggestions for clustering and summarizing concepts according to semantic similarity between concepts
+  + Categories of words found by word2vec:
+
+![](images/word2vec_example.jpg){height=350, fig-align="center"}
+
+## Pre-Processing: Reliability module
+
+To start the module please click on one of the the module option on the sidebar panel. The options for this module are the following:
+
+* Train Reliability: Here you can create word lists of your concepts, which can be summarized by (independet) raters.
+* Get Reliability: Based on multiple summarized wordlists (at least 2) you can compute multiple reliability coefficients.
+* Information: Further information regarding this module.
+
+## Analysis: Aggregate CAMs - multilayer networks
+
+
+Multilayer networks are defined by:
+
+$$ G = (V, E, D)$$
+
+, whereby D is a set of dimensions (or layers = CAMs). 
+
+![](images/multilayerNetworkExample.jpg){height=380 fig-align="center"} 
+
+e.g. `r Citet(bib, c("bianconiMultilayerNetworksStructure2018", "domenicoMultilayerNetworksAnalysis2022"))`
+
+
+## Analysis:  Aggregated CAM
+
+to highlight the inter-relatedness of all summarized concepts, the CAMs (between X groups) can be aggregated by creating a so-called *“canonical adjacency matrix”*; example of 58 summarized CAMs: 
+
+![](images/aggregatedCAMExample.jpg) {height=450 fig-align="center"}
+[Fenn, et al. (accepted revision)](#bib1)
+
+
+
+## Analysis: Slice CAMs
+
+
+*If you have a CAM structure, which can be separated (e.g. pre-defined opposing concepts) the CAMs can be automatically sliced according to two possible criteria: (a) delete a connection between two concepts, or (b) delete a concept. Automatically the CAM changed this way is checked according to multiple criteria (e.g. number of expected network components) to validate the slicing process.*
+
+![](images/sliceCAMs.jpg){height=450 fig-align="center"}
+
+
+## Analysis: Concept co-occurrences
+
+*Computing the concept-co-occurrences between all CAMs by setting up multiple contingency tables, followed by computing the phi coefficient, groups of concepts with similar concept-co-occurrences in CAMs are identified.*
+
+
+#```{r, message = FALSE, warning=FALSE}
+#interactiveHeatmap %>% plotly::layout(height=500,width=1000)
+#```
 
 
 

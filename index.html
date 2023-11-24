@@ -790,7 +790,15 @@ Julius Fenn
 <p>The technological solutions for eliciting CAMs</p>
 <ul>
 <li>Data Collection - C.A.M.E.L.</li>
-<li>Data Analysis - CAM-App</li>
+<li>Data Analysis - CAM-App
+<ul>
+<li>Structure of CAM Data</li>
+<li>2 Step Data Analysis
+<ul>
+<li>Pre-Processing</li>
+<li>Analysis</li>
+</ul></li>
+</ul></li>
 <li>Setting up Studie using dashbord + JATOS</li>
 </ul>
 </section>
@@ -893,7 +901,7 @@ Julius Fenn
 </div>
 <p>see: <a name="cite-pengArtDataScience2016" href=""></a><a name="cite-wickhamDataScienceImport2017" href=""></a><a href="#/bib-pengArtDataScience2016">Peng et al.&nbsp;(2016)</a>; <a href="#/bib-wickhamDataScienceImport2017">Wickham et al.&nbsp;(2017)</a></p>
 <p><br> <a href="https://fennapps.shinyapps.io/shinyCAMEL_v02/" class="uri">https://fennapps.shinyapps.io/shinyCAMEL_v02/</a></p>
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure>
 <p><img data-src="images/logoShiny.png" height="150"></p>
 </figure>
@@ -913,6 +921,104 @@ Julius Fenn
 </ul>
 </div>
 </div>
+</section>
+<section id="cam-app---implemented-functions" class="slide level2">
+<h2>CAM-App - implemented functions</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>pre-processing step</strong></p>
+<ol type="1">
+<li>Import/Upload data</li>
+<li>Draw CAMs</li>
+<li>Approximate matching</li>
+<li>Searching terms</li>
+<li>Search for synonyms</li>
+<li>Apply word2vec model</li>
+<li>Overview of non-summarized concepts</li>
+<li>Compute inter-rater reliability</li>
+<li>Train raters for summarizing of concepts</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<p><strong>analysis step</strong></p>
+<ol type="1">
+<li>Import/Upload data</li>
+<li>Draw CAMs</li>
+<li>Compute network indicators</li>
+<li>Compute neighborhood indicators</li>
+<li>Compute descriptive statistics on network indicators</li>
+<li>Create wordlist</li>
+<li>Create wordcloud</li>
+<li>Get table, pie chart</li>
+<li>Get summary statistics</li>
+<li>Aggregate CAMs</li>
+<li>Concept co-occurrences</li>
+<li>Valence co-occurrences</li>
+<li>Similarity Algorithms</li>
+<li>Slice CAMs</li>
+<li>Get summary statistics</li>
+<li>Get Report</li>
+</ol>
+</div>
+</div>
+<blockquote>
+<p>functionalities are based on 31 R functions, Python code divided in 28 modules (server, UI seperated); see: <a href="https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing" class="uri">https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing</a></p>
+</blockquote>
+</section>
+<section id="pre-processing-reduce-number-of-unique-concepts" class="slide level2">
+<h2>Pre-Processing: reduce number of unique concepts</h2>
+<ul>
+<li>Approximate matching: closeness of two concepts is measured in terms of the number of primitive operations necessary to convert the concept into an exact match (e.g.&nbsp;substitution: coat -&gt; cost)</li>
+<li>Searching terms: using regular expressions</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Search for synonyms: automatically searching for synonyms in a dictionary (Reverso)</li>
+<li>Apply word2vec model: automatically generating suggestions for clustering and summarizing concepts according to semantic similarity between concepts
+<ul>
+<li>Categories of words found by word2vec:</li>
+</ul></li>
+</ul>
+
+<img data-src="images/word2vec_example.jpg" class="r-stretch quarto-figure-center"></section>
+<section id="pre-processing-reliability-module" class="slide level2">
+<h2>Pre-Processing: Reliability module</h2>
+<p>To start the module please click on one of the the module option on the sidebar panel. The options for this module are the following:</p>
+<ul>
+<li>Train Reliability: Here you can create word lists of your concepts, which can be summarized by (independet) raters.</li>
+<li>Get Reliability: Based on multiple summarized wordlists (at least 2) you can compute multiple reliability coefficients.</li>
+<li>Information: Further information regarding this module.</li>
+</ul>
+</section>
+<section id="analysis-aggregate-cams---multilayer-networks" class="slide level2">
+<h2>Analysis: Aggregate CAMs - multilayer networks</h2>
+<p>Multilayer networks are defined by:</p>
+<p><span class="math display">\[ G = (V, E, D)\]</span></p>
+<p>, whereby D is a set of dimensions (or layers = CAMs).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/multilayerNetworkExample.jpg" height="380"></p>
+</figure>
+</div>
+<p>e.g.&nbsp;<a name="cite-domenicoMultilayerNetworksAnalysis2022" href=""></a><a href="#/bib-bianconiMultilayerNetworksStructure2018">Bianconi (2018)</a>; <a href="#/bib-domenicoMultilayerNetworksAnalysis2022">Domenico (2022)</a></p>
+</section>
+<section id="analysis-aggregated-cam" class="slide level2">
+<h2>Analysis: Aggregated CAM</h2>
+<p>to highlight the inter-relatedness of all summarized concepts, the CAMs (between X groups) can be aggregated by creating a so-called <em>“canonical adjacency matrix”</em>; example of 58 summarized CAMs:</p>
+<p><img data-src="images/aggregatedCAMExample.jpg"> {height=450 fig-align=“center”} <a href="#/bib1">Fenn, et al.&nbsp;(accepted revision)</a></p>
+</section>
+<section id="analysis-slice-cams" class="slide level2">
+<h2>Analysis: Slice CAMs</h2>
+<p><em>If you have a CAM structure, which can be separated (e.g.&nbsp;pre-defined opposing concepts) the CAMs can be automatically sliced according to two possible criteria: (a) delete a connection between two concepts, or (b) delete a concept. Automatically the CAM changed this way is checked according to multiple criteria (e.g.&nbsp;number of expected network components) to validate the slicing process.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/sliceCAMs.jpg" height="450"></p>
+</figure>
+</div>
+</section>
+<section id="analysis-concept-co-occurrences" class="slide level2">
+<h2>Analysis: Concept co-occurrences</h2>
+<p><em>Computing the concept-co-occurrences between all CAMs by setting up multiple contingency tables, followed by computing the phi coefficient, groups of concepts with similar concept-co-occurrences in CAMs are identified.</em></p>
+<p>#<code>{r, message = FALSE, warning=FALSE} #interactiveHeatmap %&gt;% plotly::layout(height=500,width=1000) #</code></p>
 </section>
 <section id="study-setup" class="slide level2">
 <h2>Study-Setup: …</h2>
@@ -953,17 +1059,17 @@ Julius Fenn
 <h2>References I</h2>
 <p><a name="bib-aggarwalNeuralNetworksDeep2023" href=""></a><a href="#/cite-aggarwalNeuralNetworksDeep2023">Aggarwal, C. C.</a> (2023). <em>Neural Networks and Deep Learning: A Textbook</em>. Cham: Springer International Publishing. ISBN: 978-3-031-29641-3. DOI: <a href="https://doi.org/10.1007%2F978-3-031-29642-0">10.1007/978-3-031-29642-0</a>.</p>
 <p><a name="bib-bianconiMultilayerNetworksStructure2018" href=""></a><a href="#/cite-bianconiMultilayerNetworksStructure2018">Bianconi, G.</a> (2018). <em>Multilayer Networks: Structure and Function</em>. Oxford University Press. ISBN: 978-0-19-106850-8.</p>
+<p><a name="bib-domenicoMultilayerNetworksAnalysis2022" href=""></a><a href="#/cite-domenicoMultilayerNetworksAnalysis2022">Domenico, M. D.</a> (2022). <em>Multilayer Networks: Analysis and Visualization: Introduction to MuxViz with R</em>. Springer Nature. ISBN: 978-3-030-75718-2.</p>
 <p><a name="bib-grosCAMediaidMultimethodApproach2021" href=""></a><a href="#/cite-grosCAMediaidMultimethodApproach2021">Gros, W. et al.</a> (2021). “CAMediaid: Multimethod Approach to Assess Cognitive-Affective Maps in Mediation - A Quantitative Validation Study”. DOI: <a href="https://doi.org/10.13140%2FRG.2.2.12436.78726">10.13140/RG.2.2.12436.78726</a>.</p>
 <p><a name="bib-homer-dixonComplexSystemsApproach2013" href=""></a><a href="#/cite-homer-dixonComplexSystemsApproach2013">Homer-Dixon, T. et al.</a> (2013). “A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems”. In: <em>Journal of Social and Political Psychology</em> 1.1, pp.&nbsp;337-363. ISSN: 2195-3325. DOI: <a href="https://doi.org/10.5964%2Fjspp.v1i1.36">10.5964/jspp.v1i1.36</a>.</p>
-<p><a name="bib-luthardtThenWeLl2020" href=""></a><a href="#/cite-luthardtThenWeLl2020">Luthardt, J. et al.</a> (2020). “``And Then We’ll Just Check If It Suits Us’’ Cognitive-Affective Maps of Social Innovation in Early Childhood Education”. In: <em>Frontiers in Education</em> 5, pp.&nbsp;1-19. ISSN: 2504-284X. DOI: <a href="https://doi.org/10.3389%2Ffeduc.2020.00033">10.3389/feduc.2020.00033</a>.</p>
 </section>
 <section id="references-ii" class="slide level2 smaller">
 <h2>References II</h2>
+<p><a name="bib-luthardtThenWeLl2020" href=""></a><a href="#/cite-luthardtThenWeLl2020">Luthardt, J. et al.</a> (2020). “``And Then We’ll Just Check If It Suits Us’’ Cognitive-Affective Maps of Social Innovation in Early Childhood Education”. In: <em>Frontiers in Education</em> 5, pp.&nbsp;1-19. ISSN: 2504-284X. DOI: <a href="https://doi.org/10.3389%2Ffeduc.2020.00033">10.3389/feduc.2020.00033</a>.</p>
 <p><a name="bib-mansellMeasuringAttitudesComplex2021" href=""></a><a href="#/cite-mansellMeasuringAttitudesComplex2021">Mansell, J. et al.</a> (2021). “Measuring Attitudes as a Complex System: Structured Thinking and Support for the Canadian Carbon Tax”. In: <em>Politics and the Life Sciences</em> 40.2, pp. 179-201. ISSN: 0730-9384, 1471-5457. DOI: <a href="https://doi.org/10.1017%2Fpls.2021.16">10.1017/pls.2021.16</a>.</p>
 <p><a name="bib-mansellNovelNetworkApproach2021" href=""></a><a href="#/cite-mansellNovelNetworkApproach2021">Mansell, J. et al.</a> (2021). “A Novel Network Approach to Capture Cognition and Affect: COVID-19 Experiences in Canada and Germany”. In: <em>Frontiers in Psychology</em> 12, pp.&nbsp;1-14. ISSN: 1664-1078. DOI: <a href="https://doi.org/10.3389%2Ffpsyg.2021.663627">10.3389/fpsyg.2021.663627</a>.</p>
 <p><a name="bib-pengArtDataScience2016" href=""></a><a href="#/cite-pengArtDataScience2016">Peng, R. D. et al.</a> (2016). <em>The Art of Data Science: A Guide for Anyone Who Works with Data</em>. Lulu.com. ISBN: 978-1-365-06146-2.</p>
 <p><a name="bib-reuterLeisureWalksModulate2021" href=""></a><a href="#/cite-reuterLeisureWalksModulate2021">Reuter, L. et al.</a> (2021). “Leisure Walks Modulate the Cognitive and Affective Representation of the Corona Pandemic: Employing Cognitive-Affective Maps within a Randomized Experimental Design”. In: <em>Applied Psychology: Health and Well-Being</em> 13.4, pp.&nbsp;952-967. ISSN: 1758-0854. DOI: <a href="https://doi.org/10.1111%2Faphw.12283">10.1111/aphw.12283</a>.</p>
-<p><a name="bib-schroderModelingMultilevelMechanisms2017" href=""></a><a href="#/cite-schroderModelingMultilevelMechanisms2017">Schröder, T. et al.</a> (2017). “Modeling Multi-Level Mechanisms of Environmental Attitudes and Behaviours: The Example of Carsharing in Berlin”. In: <em>Journal of Environmental Psychology</em> 52, pp.&nbsp;136-148. ISSN: 02724944. DOI: <a href="https://doi.org/10.1016%2Fj.jenvp.2016.03.007">10.1016/j.jenvp.2016.03.007</a>.</p>
 <div class="footer footer-default">
 
 </div>
