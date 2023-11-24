@@ -415,8 +415,72 @@ The technological solutions for eliciting CAMs
 - Data Analysis - CAM-App
 - Setting up Studie using dashbord + JATOS
 
-## C.A.M.E.L. 
-place holder
+## C.A.M.E.L.
+
+**Cognitive-Affective Map Extended Logic** (C.A.M.E.L. 🐪) is an open-source software to draw Cognitive-Affective Maps. It aims to offer people an easy and intuitive interface on which they could drawn their own mind map that can be analysed by researchers
+
+::::{.columns}
+
+:::{.column width="50%"}
+*researcher view*
+![](images/slide10.png){height=300 fig-align="center"}
+:::
+
+:::{.column width="50%"}
+*participant view*
+![](images/slide12.jpg){height=300 fig-align="center"}
+:::
+
+::::
+
+## C.A.M.E.L. - features
+
+::::{.columns}
+
+:::{.column width="50%"}
+*researcher view*
+![](images/slide10.png){height=300 fig-align="center"}
+:::
+
+:::{.column width="50%"}
+*possible options*
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+<br>
+see in detail documentation: <https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file>
+
+:::
+
+::::
+<br>
+try it out: [maximum settings](<https://camgalaxy.github.io/?cameraFeature=true&fullScreen=true&ShowResearcherButtons=true&hideArrows=false&hideAmbivalent=false&showSliderAgreementOnly=false>); [minimal settings](<https://camgalaxy.github.io/?cameraFeature=false&fullScreen=false&ShowResearcherButtons=false&hideArrows=true&hideAmbivalent=true&showSliderAgreementOnly=true>)
+
+
+## C.A.M.E.L. - overview of features 
+
+*Parameter you can change using the user researcher view:*
+
+![](images/featuresCAMEL.jpg){height=500 fig-align="center"}
+
+
+## adaptive designs
+
+e.g. by sending the CAM JSON object between components of a study (e.g. session data capabilities of JATOS) it is possible to set up adaptive designs, e.g. for intervention studies: 
+
+![](images/interventionDesign.jpg){height=300 fig-align="center"}
+
+> possible to implement sequential collaboration (event file is created)
+
+
+and to analyze the CAM data in real-time to adaptively ask questions using [Cytoscape.js](<https://js.cytoscape.org/>)
+
+
+<br>
+try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu>
+ 
 
 ## CAM-App
 place holder
