@@ -307,7 +307,105 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 place holder
 
 ## CAM Study Designs and resulting Network Topologies
-place holder
+
+
+## hypothesis: SAI study has a different DGP I
+:::: {.columns}
+
+::: {.column width="50%"}
+**starting CAM**
+
+![](images/SAICAM.jpg){height=400 fig-align="center"}
+:::
+
+::: {.column width="50%"}
+**example**
+
+![](images/SAICAM_example.jpg){height=400 fig-align="center"}
+:::
+
+::::
+if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID> 
+
+
+## hypothesis: SAI study has a different DGP II
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+
+**example I**
+
+![](images/SAICAM1.jpg){height=400 fig-align="center"}
+
+:::
+
+::: {.column width="50%"}
+
+
+
+**example II**
+
+![](images/SAICAM2.jpg){height=400 fig-align="center"}
+
+:::
+
+::::
+
+
+if you want to try it out: https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID 
+
+## Understand the influence of study designs on network parameters
+
+![](images/networkTopology_CAMsIdea.jpg){height=300 fig-align="center"} 
+
+it could be assumed that:
+* star -> overall: high density, locally: high density
+* bus -> overall: medium density, locally: high density
+* tree -> overall: low density, locally: low density
+
+
+## side-note: Network Topology I
+
+![](images/networkTopology_CAMs.jpg){height=400 fig-align="center"} 
+
+> Network topology is the topological structure of a network
+
+> depending on the topology various X-ities can be enhanced (evolvability, scalability, reliability, verifiability, deployability, adaptability, ...)
+
+see [Chiang Princeton University](<https://www.cs.princeton.edu/~jrex/allerton.pdf>)
+
+
+## side-note: Network Topology II - importance
+
+::::{.columns}
+
+::: {.column width="50%"}
+
+**Mesh Topology**
+
+in a mesh topology, every device is connected to another device
+
+![](images/Topology_Mesh.jpg){height=250 fig-align="center"} 
+
+> The cost of maintenance is high.
+:::
+
+::: {.column width="50%"}
+**Star Topology**
+
+all the devices are connected to a single hub , which is the central node and all other nodes are connected to this central node
+
+![](images/Topology_Star.jpg){height=250 fig-align="center"}
+
+> If the concentrator (hub) on which the whole topology relies fails, the whole system will crash down.
+:::
+::::
+
+>  thats (partly) our reality: AWS has 33% market share for cloud infrastructure while the next two competitors Microsoft Azure and Google Cloud have 21%, and 10% 
+
 
 
 # Part III: Developed CAM Tools
