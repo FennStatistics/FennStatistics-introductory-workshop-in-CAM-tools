@@ -845,9 +845,74 @@ Julius Fenn
 <p>and to analyze the CAM data in real-time to adaptively ask questions using <a href="https://js.cytoscape.org/">Cytoscape.js</a></p>
 <p><br> try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <a href="https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu" class="uri">https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu</a></p>
 </section>
-<section id="cam-app" class="slide level2">
-<h2>CAM-App</h2>
-<p>place holder</p>
+<section id="cam-app---structure-of-cam-data" class="slide level2">
+<h2>CAM-App - Structure of CAM Data</h2>
+<p>A CAM (graph) is in general defined by: <span class="math display">\[ G = (V, E)\]</span> , whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; <em>hot cognition</em>, <em>HOTCO</em>, …), which leads to the following network properties:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>emotional properties</strong> <br> measure how the valence of individual nodes contributes to the overall CAM (Average Valence, Percentage of each node type, <span style="color:blue">Central Node Valence</span>, …)</p>
+</div><div class="column" style="width:50%;">
+<p><strong>latent properties</strong> <br> refer to the number of nodes, links, and their interconnectedness (Centrality, Density, Diameter, Number of Nodes, Number of Links, Triadic Closure, …)</p>
+</div>
+</div>
+<blockquote>
+<p>remark: it would also be possible to include position information (x, y) of drawn nodes and number of changes / movements (event log)</p>
+</blockquote>
+<p><br> using similar terminology as</p>
+<p><a href="https://doi.org/10.3389/fpsyg.2021.663627">Mansell et al.&nbsp;(2021)</a>; <a href="https://doi.org/10.1017/pls.2021.16">Mansell et al.&nbsp;(2021)</a></p>
+</section>
+<section id="example-cams" class="slide level2">
+<h2>Example CAMs</h2>
+<div class="columns">
+<div class="column" data-width="50">
+<p><strong>low density, high assortativity</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/SAICAM1.jpg%22" height="400"></p>
+</figure>
+</div>
+</div><div class="column" data-width="50">
+<p><strong>high density, low assortativity</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/SAICAM2.jpg" height="400"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="cam-app---two-steps" class="slide level2">
+<h2>CAM-App - two steps</h2>
+<p>logic of the CAM-App follows the principle of a classical data-analysis pipeline</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dataAnalysisPipeline.jpg" height="200"></p>
+</figure>
+</div>
+<p>see: <a name="cite-pengArtDataScience2016" href=""></a><a name="cite-wickhamDataScienceImport2017" href=""></a><a href="#/bib-pengArtDataScience2016">Peng et al.&nbsp;(2016)</a>; <a href="#/bib-wickhamDataScienceImport2017">Wickham et al.&nbsp;(2017)</a></p>
+<p><br> <a href="https://fennapps.shinyapps.io/shinyCAMEL_v02/" class="uri">https://fennapps.shinyapps.io/shinyCAMEL_v02/</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/logoShiny.png" height="150"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>composed of two steps: <br> <strong>pre-processing step</strong></p>
+<p>CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.</p>
+<p><em>Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in D in the online supplementary; <a href="https://osf.io/vb5qe" class="uri">https://osf.io/vb5qe</a>)</em> - <a href="#/bib1">Fenn, et al.&nbsp;(accepted revision)</a></p>
+<p><br> <br> <strong>analysis step</strong></p>
+<ul>
+<li>word lists / word clouds</li>
+<li>co-occurrence maps</li>
+<li>aggregate CAM</li>
+<li>network indicators</li>
+<li>network similarity (! in development)</li>
+<li>…</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="study-setup" class="slide level2">
 <h2>Study-Setup: …</h2>
@@ -896,9 +961,9 @@ Julius Fenn
 <h2>References II</h2>
 <p><a name="bib-mansellMeasuringAttitudesComplex2021" href=""></a><a href="#/cite-mansellMeasuringAttitudesComplex2021">Mansell, J. et al.</a> (2021). “Measuring Attitudes as a Complex System: Structured Thinking and Support for the Canadian Carbon Tax”. In: <em>Politics and the Life Sciences</em> 40.2, pp. 179-201. ISSN: 0730-9384, 1471-5457. DOI: <a href="https://doi.org/10.1017%2Fpls.2021.16">10.1017/pls.2021.16</a>.</p>
 <p><a name="bib-mansellNovelNetworkApproach2021" href=""></a><a href="#/cite-mansellNovelNetworkApproach2021">Mansell, J. et al.</a> (2021). “A Novel Network Approach to Capture Cognition and Affect: COVID-19 Experiences in Canada and Germany”. In: <em>Frontiers in Psychology</em> 12, pp.&nbsp;1-14. ISSN: 1664-1078. DOI: <a href="https://doi.org/10.3389%2Ffpsyg.2021.663627">10.3389/fpsyg.2021.663627</a>.</p>
+<p><a name="bib-pengArtDataScience2016" href=""></a><a href="#/cite-pengArtDataScience2016">Peng, R. D. et al.</a> (2016). <em>The Art of Data Science: A Guide for Anyone Who Works with Data</em>. Lulu.com. ISBN: 978-1-365-06146-2.</p>
 <p><a name="bib-reuterLeisureWalksModulate2021" href=""></a><a href="#/cite-reuterLeisureWalksModulate2021">Reuter, L. et al.</a> (2021). “Leisure Walks Modulate the Cognitive and Affective Representation of the Corona Pandemic: Employing Cognitive-Affective Maps within a Randomized Experimental Design”. In: <em>Applied Psychology: Health and Well-Being</em> 13.4, pp.&nbsp;952-967. ISSN: 1758-0854. DOI: <a href="https://doi.org/10.1111%2Faphw.12283">10.1111/aphw.12283</a>.</p>
 <p><a name="bib-schroderModelingMultilevelMechanisms2017" href=""></a><a href="#/cite-schroderModelingMultilevelMechanisms2017">Schröder, T. et al.</a> (2017). “Modeling Multi-Level Mechanisms of Environmental Attitudes and Behaviours: The Example of Carsharing in Berlin”. In: <em>Journal of Environmental Psychology</em> 52, pp.&nbsp;136-148. ISSN: 02724944. DOI: <a href="https://doi.org/10.1016%2Fj.jenvp.2016.03.007">10.1016/j.jenvp.2016.03.007</a>.</p>
-<p><a name="bib-sendtnerKostbareKistenGrunde2021" href=""></a><a href="#/cite-sendtnerKostbareKistenGrunde2021">Sendtner, C.</a> (2021). “Kostbare Kisten: Gründe Für Fehleinschätzungen Der Kosten Des Eigenen Autos Und Deren Auswirkungen Auf Die Bewertung Des ÖPNV -Masterarbeit”. DOI: <a href="https://doi.org/10.13140%2FRG.2.2.32640.56325">10.13140/RG.2.2.32640.56325</a>.</p>
 <div class="footer footer-default">
 
 </div>

@@ -482,8 +482,107 @@ and to analyze the CAM data in real-time to adaptively ask questions using [Cyto
 try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu>
  
 
-## CAM-App
-place holder
+## CAM-App - Structure of CAM Data
+
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+, whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; *hot cognition*, *HOTCO*, ...), which leads to the following network properties:
+
+
+::::{.columns}
+:::{.column width="50%"}
+
+**emotional properties**
+<br>
+measure how the valence of individual nodes contributes to the overall CAM (Average Valence, Percentage of each node type, <span style="color:blue">Central Node Valence</span>, ...)
+
+:::
+
+:::{.column width="50%"}
+**latent properties**
+<br>
+refer to the number of nodes, links, and their interconnectedness (Centrality, Density, Diameter, Number of Nodes, Number of Links, Triadic Closure, ...)
+
+:::
+
+::::
+
+> remark: it would also be possible to include position information (x, y) of drawn nodes and number of changes / movements (event log)
+
+
+<br>
+using similar terminology as 
+
+`r Citet(bib, c("mansellNovelNetworkApproach2021", "mansellMeasuringAttitudesComplex2021"))`
+
+## Example CAMs
+
+::::{.columns}
+
+:::{.column Width="50"}
+
+**low density, high assortativity**
+
+![](images/SAICAM1.jpg"){height=400 fig-align="center"}
+
+:::
+
+:::{.column Width="50"}
+
+**high density, low assortativity**
+
+![](images/SAICAM2.jpg){height=400 fig-align="center"}
+
+:::
+
+::::
+
+
+## CAM-App - two steps
+
+logic of the CAM-App follows the principle of a classical data-analysis pipeline
+
+
+::::{.columns}
+
+:::{.column width="50%"}
+
+![](images/dataAnalysisPipeline.jpg){height=200 fig-align="center"}
+
+see: `r Citet(bib, c("pengArtDataScience2016", "wickhamDataScienceImport2017"))`
+
+<br>
+<https://fennapps.shinyapps.io/shinyCAMEL_v02/>
+
+![](images/logoShiny.png){height=150 fig-align="left"}
+
+:::
+:::{.column width="50%"}
+
+composed of two steps:
+<br>
+**pre-processing step**
+
+CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.
+
+*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in D in the online supplementary; <https://osf.io/vb5qe>)* - [Fenn, et al. (accepted revision)](#bib1)
+
+<br>
+<br>
+**analysis step**
+
+* word lists / word clouds
+* co-occurrence maps
+* aggregate CAM
+* network indicators
+* network similarity (! in development)
+* ...
+
+:::
+::::
+
+
+
 
 ## Study-Setup: ...
 place hodler
