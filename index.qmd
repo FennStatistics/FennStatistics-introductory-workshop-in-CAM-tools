@@ -85,23 +85,32 @@ This code chunk will be printed...
 
 
 # Table of Contents {.smaller}
+
 This talk will consist of 4 main parts:
 
-- Part 1: Fundamentals
+::::{.columns}
+
+:::{.column width="50%"}
+- **Part 1: Fundamentals**
   - CAMs - an Overview
   - Data Generation Process + Graph Theory (Network Ananlysis)
   - Literature related to CAMs
-- Part 2: CAMs 
+- **Part 2: CAMs**
   - Recap: Existing Literature
   - Coherence Theory and the HOTCO Model (Paul Thagard)
   - CAM Study Designs and resulting Network Topologies
-- Part 3: CAM Tools 
+:::
+::: {.column width="50%"}
+- **Part 3: CAM Tools**
   - Data Collection - C.A.M.E.L.
   - Data Analysis - CAM-App
   - Setting up Studies using dashbord + JATOS
-- Part 4: Extensions and the Future of CAMs
+- **Part 4: Extensions and the Future of CAMs**
   - Possible Extensions
   - Discussing the "Future" of CAMs
+:::
+::::
+
 
 # Part I: Fundamentals
 An overview regarding the most important fundamentals for Cognitive Affective Maps 
@@ -113,6 +122,8 @@ An overview regarding the most important fundamentals for Cognitive Affective Ma
   - Mental Models
   - Semantic Networks
   - Fuzzy Networks
+
+
 
 
 ## Overview: Potentials of Cognitive Affective Maps (CAMs)
