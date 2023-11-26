@@ -7,8 +7,8 @@ date: "2023-11-23"
 
 format:
   revealjs:
-    theme: white # gerne herumspielen!
-    #theme: [white, custom.scss] # gerne herumspielen!
+    #theme: white # gerne herumspielen!
+    theme: [white, custom.scss] # gerne herumspielen!
     smaller: true # more space on the slides
 ---
 
@@ -342,21 +342,24 @@ if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/q
 ::::
 
 
-if you want to try it out: https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID 
+if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID>
 
 ## Understand the Influence of Study Designs on Network Parameters
 
-![](images/networkTopology_CAMsIdea.jpg){height=300 fig-align="center"} 
+![](images/networkTopology_CAMsIdea.jpg){height=300 fig-align="center"}
 
 it could be assumed that:
-* star -> overall: high density, locally: high density
-* bus -> overall: medium density, locally: high density
-* tree -> overall: low density, locally: low density
+
+- star -> overall: high density, locally: high density
+
+- bus -> overall: medium density, locally: high density
+
+- tree -> overall: low density, locally: low density
 
 
 ## Side-Note: Network Topology I
 
-![](images/networkTopology_CAMs.jpg){height=400 fig-align="center"} 
+![](images/networkTopology_CAMs.jpg){height=300 fig-align="center"}
 
 > Network topology is the topological structure of a network
 
@@ -375,7 +378,7 @@ see [Chiang Princeton University](<https://www.cs.princeton.edu/~jrex/allerton.p
 
 in a mesh topology, every device is connected to another device
 
-![](images/Topology_Mesh.jpg){height=250 fig-align="center"} 
+![](images/Topology_Mesh.jpg){height=200 fig-align="center"}
 
 > The cost of maintenance is high.
 :::
@@ -385,7 +388,7 @@ in a mesh topology, every device is connected to another device
 
 all the devices are connected to a single hub , which is the central node and all other nodes are connected to this central node
 
-![](images/Topology_Star.jpg){height=250 fig-align="center"}
+![](images/Topology_Star.jpg){height=200 fig-align="center"}
 
 > If the concentrator (hub) on which the whole topology relies fails, the whole system will crash down.
 :::
@@ -576,9 +579,10 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 
 ::::{.columns}
 
-:::{.column width="50%"}
+:::{.column width="50%" }
 **pre-processing step**
 
+:::{.small-font}
 1.	Import/Upload data
 2.	Draw CAMs
 3.	Approximate matching
@@ -588,13 +592,14 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 7.	Overview of non-summarized concepts
 8.	Compute inter-rater reliability
 9.	Train raters for summarizing of concepts
-
+:::
 :::
 
 
 :::{.column width="50%"}
 **analysis step**
 
+:::{.small-font}
 1.	Import/Upload data
 2.	Draw CAMs
 3.	Compute network indicators
@@ -611,7 +616,7 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 14.	Slice CAMs
 15.	Get summary statistics
 16.	Get Report
-
+:::
 :::
 
 ::::
@@ -659,7 +664,8 @@ e.g. `r Citet(bib, c("bianconiMultilayerNetworksStructure2018", "domenicoMultila
 
 to highlight the inter-relatedness of all summarized concepts, the CAMs (between X groups) can be aggregated by creating a so-called *“canonical adjacency matrix”*; example of 58 summarized CAMs: 
 
-![](images/aggregatedCAMExample.jpg) {height=450 fig-align="center"}
+![](images/aggregatedCAMExample.jpg){height=450 fig-align="center"}
+
 [Fenn, et al. (accepted revision)](#bib1)
 
 
