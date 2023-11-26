@@ -57,32 +57,6 @@ file.name <- "JuliusLibrary.bib"
 bib <- ReadBib(file.name)
 ```
 
-## Test Slide
-This is how you itemize:
-
-- Main point
-  - Sub-point (level 1) 
-    - Sub-point (level 2)
-
-
-This is regular text with a citation
-`r Citet(bib, "aggarwalNeuralNetworksDeep2023")`
-
-## Slide with code
-This code chunk will be printed...
-
-```{r}
-#| echo: true
-1 + 1
-```
-
-... this one won't:
-
-```{r}
-#| echo: false
-1 + 1
-```
-
 
 # Table of Contents {.smaller}
 
