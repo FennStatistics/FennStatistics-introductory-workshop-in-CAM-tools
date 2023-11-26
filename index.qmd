@@ -13,6 +13,9 @@ format:
 ---
 
 ```{r}
+#| message: false
+#| warning: false
+#| results: hide
 knitr::opts_chunk$set(echo = FALSE, collapse = TRUE)
 
 # load packages and define functions here
@@ -852,7 +855,7 @@ The technological solutions for eliciting CAMs
   - 2 Step Data Analysis
     - Pre-Processing
     - Analysis
-- Setting up Studie using dashbord + JATOS
+- Setting up Studies using dashbord + JATOS
 
 ## C.A.M.E.L.
 
@@ -1136,11 +1139,15 @@ interactiveHeatmap %>% plotly::layout(height=500,width=1000)
 
 
 
-## Study-Setup: ...
-place hodler
+## Study-Setup: Dashboard
 
-## Study-Setup: ...
-place hodler
+![](images/slide14.png){height=300 fig-align=center}
+
+
+further information see online presentation about the developed Cognitive-Affective Maps tools: <https://studien.psychologie.uni-freiburg.de/publix/4ON9vgMG7Mm>
+current website design (not connected to API): <https://camel-server.vercel.app/>
+
+
 
 
 # Part IV: Extensions and the Future of CAMs
