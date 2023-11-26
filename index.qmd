@@ -514,7 +514,7 @@ using similar terminology as
 
 **low density, high assortativity**
 
-![](images/SAICAM1.jpg"){height=400 fig-align="center"}
+![](images/SAICAM1.jpg){height=400 fig-align="center"}
 
 :::
 
