@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -404,32 +339,6 @@ Julius Fenn
 
   <p class="date">2023-11-23</p>
 </section>
-<section id="test-slide" class="slide level2">
-<h2>Test Slide</h2>
-<p>This is how you itemize:</p>
-<ul>
-<li>Main point
-<ul>
-<li>Sub-point (level 1)
-<ul>
-<li>Sub-point (level 2)</li>
-</ul></li>
-</ul></li>
-</ul>
-<p>This is regular text with a citation <a name="cite-aggarwalNeuralNetworksDeep2023" href=""></a><a href="https://doi.org/10.1007/978-3-031-29642-0">Aggarwal (2023)</a></p>
-</section>
-<section id="slide-with-code" class="slide level2">
-<h2>Slide with code</h2>
-<p>This code chunk will be printed…</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="do">## [1] 2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>… this one won’t:</p>
-<div class="cell">
-<pre><code>## [1] 2</code></pre>
-</div>
-</section>
 <section id="table-of-contents" class="title-slide slide level1 smaller center">
 <h1>Table of Contents</h1>
 <p>This talk will consist of 4 main parts:</p>
@@ -628,8 +537,8 @@ Julius Fenn
 <p><br></p>
 <p>by using CAMs for experimental and correlation studies * CAMs have been used for intervention, e.g.&nbsp;mediation or cost intervention * correlations between CAMs’ emotional properties and latent properties and survey scales - * …</p>
 </section>
-<section id="current-work-publication-list-i---emperical-articles" class="slide level2">
-<h2>current work publication list I - emperical articles</h2>
+<section id="current-work-publication-list-i---empirical-articles" class="slide level2">
+<h2>Current Work Publication List I - Empirical Articles</h2>
 <ul>
 <li>Höfele, P., Reuter, L., Estadieu, L., Livanec, S., Stumpf, M., &amp; Kiesel, A. (2022). Connecting the methods of psychology and philosophy: Applying Cognitive-Affective Maps (CAMs) to identify ethical principles underlying the evaluation of bioinspired technologies. Philosophical Psychology, 0(0), 1–24. <a href="https://doi.org/10.1080/09515089.2022.2113770" class="uri">https://doi.org/10.1080/09515089.2022.2113770</a></li>
 <li><strong>Luthardt</strong>, J., Morgan, J. H., Bormann, I., &amp; Schröder, T. (2022). Quantifying emotionally grounded discursive knowledge with cognitive-affective maps. Quality &amp; Quantity, 56(3), 1557–1595. <a href="https://doi.org/10.1007/s11135-021-01195-7" class="uri">https://doi.org/10.1007/s11135-021-01195-7</a></li>
@@ -641,7 +550,7 @@ Julius Fenn
 </ul>
 </section>
 <section id="current-work-publication-list-ii---bachelor-master-theses-i" class="slide level2">
-<h2>current work publication list II - bachelor, master theses I</h2>
+<h2>Current Work Publication List II - Bachelor, Master Theses I</h2>
 <ul>
 <li>Bilo, T., &amp; Helm, J. (2021). A Further Step Towards Sustainable Development – Re-evaluating and Expanding Cognitive-Affective Mapping for Technology Acceptance Prediction. <a href="https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/bachelorthesis_bilo-helm_2021_english.pdf" class="uri">https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/bachelorthesis_bilo-helm_2021_english.pdf</a></li>
 <li>Dörr, M. (2020). Eine Qualitative Analyse von Kognitiv-Affektiven Karten: Können Daten von Kognitiv-Affektiven Karten im Vergleich zu Fragebögen zusätzliche Informationen geben? <a href="https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_doerr_2021_german.pdf" class="uri">https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_doerr_2021_german.pdf</a></li>
@@ -652,7 +561,7 @@ Julius Fenn
 </ul>
 </section>
 <section id="current-work-publication-list-ii---bachelor-master-theses-ii" class="slide level2">
-<h2>current work publication list II - bachelor, master theses II</h2>
+<h2>Current Work Publication List II - Bachelor, Master Theses II</h2>
 <ul>
 <li>Ricken, D. (2020). A Step towards Sustainable Development: Predicting the Acceptance of life-like Materials Systems with Cognitive-Affective Mapping. <a href="https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_ricken_2020_english.pdf" class="uri">https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_ricken_2020_english.pdf</a></li>
 <li>Rothmann, W. (2022). Cognitive-Affective Maps—Verständnis für Konzeptzusammenhänge in Abhängigkeit der Valenzen. <a href="https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/rothmann2022.pdf" class="uri">https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/rothmann2022.pdf</a></li>
@@ -660,7 +569,7 @@ Julius Fenn
 </ul>
 </section>
 <section id="current-work-publication-list-iii---conceptual-articles" class="slide level2">
-<h2>current work publication list III - conceptual articles</h2>
+<h2>Current Work Publication List III - Conceptual Articles</h2>
 <ul>
 <li>Homer-Dixon, T., Maynard, J. L., Mildenberger, M., Milkoreit, M., Mock, S. J., Quilley, S., Schröder, T., &amp; Thagard, P. (2013). A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems. Journal of Social and Political Psychology, 1(1), Article 1. <a href="https://doi.org/10.5964/jspp.v1i1.36" class="uri">https://doi.org/10.5964/jspp.v1i1.36</a></li>
 <li>Homer-Dixon, T., Milkoreit, M., Mock, S. J., Schröder, T., &amp; Thagard, P. (2014). The Conceptual Structure of Social Disputes: Cognitive-Affective Maps as a Tool for Conflict Analysis and Resolution. SAGE Open, 4(1), 1–20. <a href="https://doi.org/10.1177/2158244014526210" class="uri">https://doi.org/10.1177/2158244014526210</a></li>
@@ -674,8 +583,8 @@ Julius Fenn
 <li><strong>Thagard</strong>, P. (2021). The cognitive science of COVID-19: Acceptance, denial, and belief change. Methods, 195, 92–102. <a href="https://doi.org/10.1016/j.ymeth.2021.03.009" class="uri">https://doi.org/10.1016/j.ymeth.2021.03.009</a></li>
 </ul>
 </section>
-<section id="current-work-useful-links" class="slide level2">
-<h2>current work useful links</h2>
+<section id="current-work---useful-links" class="slide level2">
+<h2>Current Work - Useful Links</h2>
 <ul>
 <li>all bachelor / master theses of Freiburg: <a href="https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/" class="uri">https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/</a></li>
 <li>CAM articles: <a href="https://paulthagard.com/links/cognitive-affective-maps/" class="uri">https://paulthagard.com/links/cognitive-affective-maps/</a></li>
@@ -695,7 +604,7 @@ Julius Fenn
 <h2>CAM Study Designs and resulting Network Topologies</h2>
 </section>
 <section id="hypothesis-sai-study-has-a-different-dgp-i" class="slide level2">
-<h2>hypothesis: SAI study has a different DGP I</h2>
+<h2>Hypothesis: SAI study has a different DGP I</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>starting CAM</strong></p>
@@ -716,7 +625,7 @@ Julius Fenn
 <p>if you want to try it out: <a href="https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID" class="uri">https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID</a></p>
 </section>
 <section id="hypothesis-sai-study-has-a-different-dgp-ii" class="slide level2">
-<h2>hypothesis: SAI study has a different DGP II</h2>
+<h2>Hypothesis: SAI study has a different DGP II</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>example I</strong></p>
@@ -737,7 +646,7 @@ Julius Fenn
 <p>if you want to try it out: https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID</p>
 </section>
 <section id="understand-the-influence-of-study-designs-on-network-parameters" class="slide level2">
-<h2>Understand the influence of study designs on network parameters</h2>
+<h2>Understand the Influence of Study Designs on Network Parameters</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/networkTopology_CAMsIdea.jpg" height="300"></p>
@@ -746,7 +655,7 @@ Julius Fenn
 <p>it could be assumed that: * star -&gt; overall: high density, locally: high density * bus -&gt; overall: medium density, locally: high density * tree -&gt; overall: low density, locally: low density</p>
 </section>
 <section id="side-note-network-topology-i" class="slide level2">
-<h2>side-note: Network Topology I</h2>
+<h2>Side-Note: Network Topology I</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/networkTopology_CAMs.jpg" height="400"></p>
@@ -761,7 +670,7 @@ Julius Fenn
 <p>see <a href="https://www.cs.princeton.edu/~jrex/allerton.pdf">Chiang Princeton University</a></p>
 </section>
 <section id="side-note-network-topology-ii---importance" class="slide level2">
-<h2>side-note: Network Topology II - importance</h2>
+<h2>Side-Note: Network Topology II - Importance</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Mesh Topology</strong></p>
@@ -821,7 +730,7 @@ Julius Fenn
 </div>
 </section>
 <section id="c.a.m.e.l.---features" class="slide level2">
-<h2>C.A.M.E.L. - features</h2>
+<h2>C.A.M.E.L. - Features</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><em>researcher view</em> <img data-src="images/slide10.png" data-fig-align="center" height="300"></p>
@@ -838,7 +747,7 @@ Julius Fenn
 <p><br> try it out: <a href="https://camgalaxy.github.io/?cameraFeature=true&amp;fullScreen=true&amp;ShowResearcherButtons=true&amp;hideArrows=false&amp;hideAmbivalent=false&amp;showSliderAgreementOnly=false">maximum settings</a>; <a href="https://camgalaxy.github.io/?cameraFeature=false&amp;fullScreen=false&amp;ShowResearcherButtons=false&amp;hideArrows=true&amp;hideAmbivalent=true&amp;showSliderAgreementOnly=true">minimal settings</a></p>
 </section>
 <section id="c.a.m.e.l.---overview-of-features" class="slide level2">
-<h2>C.A.M.E.L. - overview of features</h2>
+<h2>C.A.M.E.L. - Overview of Features</h2>
 <p><em>Parameter you can change using the user researcher view:</em></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -847,7 +756,7 @@ Julius Fenn
 </div>
 </section>
 <section id="adaptive-designs" class="slide level2">
-<h2>adaptive designs</h2>
+<h2>Adaptive Designs</h2>
 <p>e.g.&nbsp;by sending the CAM JSON object between components of a study (e.g.&nbsp;session data capabilities of JATOS) it is possible to set up adaptive designs, e.g.&nbsp;for intervention studies:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -897,7 +806,7 @@ Julius Fenn
 </div>
 </section>
 <section id="cam-app---two-steps" class="slide level2">
-<h2>CAM-App - two steps</h2>
+<h2>CAM-App - Two Steps</h2>
 <p>logic of the CAM-App follows the principle of a classical data-analysis pipeline</p>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -930,7 +839,7 @@ Julius Fenn
 </div>
 </section>
 <section id="cam-app---implemented-functions" class="slide level2">
-<h2>CAM-App - implemented functions</h2>
+<h2>CAM-App - Implemented Functions</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>pre-processing step</strong></p>
@@ -972,7 +881,7 @@ Julius Fenn
 </blockquote>
 </section>
 <section id="pre-processing-reduce-number-of-unique-concepts" class="slide level2">
-<h2>Pre-Processing: reduce number of unique concepts</h2>
+<h2>Pre-Processing: Reduce Number of Unique Concepts</h2>
 <ul>
 <li>Approximate matching: closeness of two concepts is measured in terms of the number of primitive operations necessary to convert the concept into an exact match (e.g.&nbsp;substitution: coat -&gt; cost)</li>
 <li>Searching terms: using regular expressions</li>
@@ -1023,7 +932,7 @@ Julius Fenn
 </div>
 </section>
 <section id="analysis-concept-co-occurrences" class="slide level2">
-<h2>Analysis: Concept co-occurrences</h2>
+<h2>Analysis: Concept Co-Occurrences</h2>
 <p><em>Computing the concept-co-occurrences between all CAMs by setting up multiple contingency tables, followed by computing the phi coefficient, groups of concepts with similar concept-co-occurrences in CAMs are identified.</em></p>
 <p>#<code>{r, message = FALSE, warning=FALSE} #interactiveHeatmap %&gt;% plotly::layout(height=500,width=1000) #</code></p>
 </section>
@@ -1064,19 +973,29 @@ Julius Fenn
 </section>
 <section id="references-i" class="slide level2 smaller">
 <h2>References I</h2>
-<p><a name="bib-aggarwalNeuralNetworksDeep2023" href=""></a><a href="#/cite-aggarwalNeuralNetworksDeep2023">Aggarwal, C. C.</a> (2023). <em>Neural Networks and Deep Learning: A Textbook</em>. Cham: Springer International Publishing. ISBN: 978-3-031-29641-3. DOI: <a href="https://doi.org/10.1007%2F978-3-031-29642-0">10.1007/978-3-031-29642-0</a>.</p>
 <p><a name="bib-bianconiMultilayerNetworksStructure2018" href=""></a><a href="#/cite-bianconiMultilayerNetworksStructure2018">Bianconi, G.</a> (2018). <em>Multilayer Networks: Structure and Function</em>. Oxford University Press. ISBN: 978-0-19-106850-8.</p>
 <p><a name="bib-domenicoMultilayerNetworksAnalysis2022" href=""></a><a href="#/cite-domenicoMultilayerNetworksAnalysis2022">Domenico, M. D.</a> (2022). <em>Multilayer Networks: Analysis and Visualization: Introduction to MuxViz with R</em>. Springer Nature. ISBN: 978-3-030-75718-2.</p>
 <p><a name="bib-grosCAMediaidMultimethodApproach2021" href=""></a><a href="#/cite-grosCAMediaidMultimethodApproach2021">Gros, W. et al.</a> (2021). “CAMediaid: Multimethod Approach to Assess Cognitive-Affective Maps in Mediation - A Quantitative Validation Study”. DOI: <a href="https://doi.org/10.13140%2FRG.2.2.12436.78726">10.13140/RG.2.2.12436.78726</a>.</p>
 <p><a name="bib-homer-dixonComplexSystemsApproach2013" href=""></a><a href="#/cite-homer-dixonComplexSystemsApproach2013">Homer-Dixon, T. et al.</a> (2013). “A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems”. In: <em>Journal of Social and Political Psychology</em> 1.1, pp.&nbsp;337-363. ISSN: 2195-3325. DOI: <a href="https://doi.org/10.5964%2Fjspp.v1i1.36">10.5964/jspp.v1i1.36</a>.</p>
-</section>
-<section id="references-ii" class="slide level2 smaller">
-<h2>References II</h2>
 <p><a name="bib-luthardtThenWeLl2020" href=""></a><a href="#/cite-luthardtThenWeLl2020">Luthardt, J. et al.</a> (2020). “``And Then We’ll Just Check If It Suits Us’’ Cognitive-Affective Maps of Social Innovation in Early Childhood Education”. In: <em>Frontiers in Education</em> 5, pp.&nbsp;1-19. ISSN: 2504-284X. DOI: <a href="https://doi.org/10.3389%2Ffeduc.2020.00033">10.3389/feduc.2020.00033</a>.</p>
 <p><a name="bib-mansellMeasuringAttitudesComplex2021" href=""></a><a href="#/cite-mansellMeasuringAttitudesComplex2021">Mansell, J. et al.</a> (2021). “Measuring Attitudes as a Complex System: Structured Thinking and Support for the Canadian Carbon Tax”. In: <em>Politics and the Life Sciences</em> 40.2, pp. 179-201. ISSN: 0730-9384, 1471-5457. DOI: <a href="https://doi.org/10.1017%2Fpls.2021.16">10.1017/pls.2021.16</a>.</p>
 <p><a name="bib-mansellNovelNetworkApproach2021" href=""></a><a href="#/cite-mansellNovelNetworkApproach2021">Mansell, J. et al.</a> (2021). “A Novel Network Approach to Capture Cognition and Affect: COVID-19 Experiences in Canada and Germany”. In: <em>Frontiers in Psychology</em> 12, pp.&nbsp;1-14. ISSN: 1664-1078. DOI: <a href="https://doi.org/10.3389%2Ffpsyg.2021.663627">10.3389/fpsyg.2021.663627</a>.</p>
 <p><a name="bib-pengArtDataScience2016" href=""></a><a href="#/cite-pengArtDataScience2016">Peng, R. D. et al.</a> (2016). <em>The Art of Data Science: A Guide for Anyone Who Works with Data</em>. Lulu.com. ISBN: 978-1-365-06146-2.</p>
+</section>
+<section id="references-ii" class="slide level2 smaller">
+<h2>References II</h2>
 <p><a name="bib-reuterLeisureWalksModulate2021" href=""></a><a href="#/cite-reuterLeisureWalksModulate2021">Reuter, L. et al.</a> (2021). “Leisure Walks Modulate the Cognitive and Affective Representation of the Corona Pandemic: Employing Cognitive-Affective Maps within a Randomized Experimental Design”. In: <em>Applied Psychology: Health and Well-Being</em> 13.4, pp.&nbsp;952-967. ISSN: 1758-0854. DOI: <a href="https://doi.org/10.1111%2Faphw.12283">10.1111/aphw.12283</a>.</p>
+<p><a name="bib-schroderModelingMultilevelMechanisms2017" href=""></a><a href="#/cite-schroderModelingMultilevelMechanisms2017">Schröder, T. et al.</a> (2017). “Modeling Multi-Level Mechanisms of Environmental Attitudes and Behaviours: The Example of Carsharing in Berlin”. In: <em>Journal of Environmental Psychology</em> 52, pp.&nbsp;136-148. ISSN: 02724944. DOI: <a href="https://doi.org/10.1016%2Fj.jenvp.2016.03.007">10.1016/j.jenvp.2016.03.007</a>.</p>
+<p><a name="bib-sendtnerKostbareKistenGrunde2021" href=""></a><a href="#/cite-sendtnerKostbareKistenGrunde2021">Sendtner, C.</a> (2021). “Kostbare Kisten: Gründe Für Fehleinschätzungen Der Kosten Des Eigenen Autos Und Deren Auswirkungen Auf Die Bewertung Des ÖPNV -Masterarbeit”. DOI: <a href="https://doi.org/10.13140%2FRG.2.2.32640.56325">10.13140/RG.2.2.32640.56325</a>.</p>
+<p><a name="bib-thagardCoherenceThoughtAction2000" href=""></a><a href="#/cite-thagardCoherenceThoughtAction2000">Thagard, P.</a> (2000). <em>Coherence in Thought and Action</em>. MIT Press. ISBN: 978-0-262-70092-4.</p>
+<p><a name="bib-thagardHotThoughtMechanisms2006" href=""></a><a href="#/cite-thagardHotThoughtMechanisms2006">Thagard, P.</a> (2006). <em>Hot Thought: Mechanisms and Applications of Emotional Cognition</em>. MIT Press. ISBN: 978-0-262-70124-2.</p>
+<p><a name="bib-thagardEMPATHICAComputerSupport2010" href=""></a><a href="#/cite-thagardEMPATHICAComputerSupport2010">Thagard, P.</a> (2010a). “EMPATHICA: A Computer Support System with Visual Representations for Cognitive-Affective Mapping”. In: <em>Workshops at the Twenty-Fourth AAAI Conference on Artificial Intelligence</em>. , pp.&nbsp;79-81.</p>
+<p><a name="bib-thagardCognitiveScienceCOVID192021" href=""></a><a href="#/cite-thagardCognitiveScienceCOVID192021">Thagard, P.</a> (2021). “The Cognitive Science of COVID-19: Acceptance, Denial, and Belief Change”. In: <em>Methods</em>. COVID-19 and Multidimensional Epidemic Patterns 195, pp. 92-102. ISSN: 1046-2023. DOI: <a href="https://doi.org/10.1016%2Fj.ymeth.2021.03.009">10.1016/j.ymeth.2021.03.009</a>.</p>
+<p><a name="bib-wickhamDataScienceImport2017" href=""></a><a href="#/cite-wickhamDataScienceImport2017">Wickham, H. et al.</a> (2017). <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>. “O’Reilly Media, Inc.”. ISBN: 978-1-4919-1034-4.</p>
+<p><a name="bib-wolfChangingMindsElectric2015" href=""></a><a href="#/cite-wolfChangingMindsElectric2015">Wolf, I. et al.</a> (2015). “Changing Minds about Electric Cars: An Empirically Grounded Agent-Based Modeling Approach”. In: <em>Technological Forecasting and Social Change</em> 94, pp.&nbsp;269-285. ISSN: 00401625. DOI: <a href="https://doi.org/10.1016%2Fj.techfore.2014.10.010">10.1016/j.techfore.2014.10.010</a>.</p>
+</section>
+<section id="references-iii" class="slide level2 smaller">
+<h2>References III</h2>
 <div class="footer footer-default">
 
 </div>

@@ -234,7 +234,7 @@ by using CAMs for experimental and correlation studies
 
 
 
-## current work publication list I - emperical articles
+## Current Work Publication List I - Empirical Articles
 
 * Höfele, P., Reuter, L., Estadieu, L., Livanec, S., Stumpf, M., & Kiesel, A. (2022). Connecting the methods of psychology and philosophy: Applying Cognitive-Affective Maps (CAMs) to identify ethical principles underlying the evaluation of bioinspired technologies. Philosophical Psychology, 0(0), 1–24. <https://doi.org/10.1080/09515089.2022.2113770>
 * **Luthardt**, J., Morgan, J. H., Bormann, I., & Schröder, T. (2022). Quantifying emotionally grounded discursive knowledge with cognitive-affective maps. Quality & Quantity, 56(3), 1557–1595. <https://doi.org/10.1007/s11135-021-01195-7>
@@ -245,7 +245,7 @@ by using CAMs for experimental and correlation studies
 * **Fenn**, J., Helm, J., Höfele, P., Kulbe, L., Ernst, A., & Kiesel, A. (2023). Identifying Key-Psychological Factors Influencing the Acceptance of yet Emerging Technologies – A Multi-Method-Approach to Inform Climate Policy.
 
 
-## current work publication list II - bachelor, master theses I
+## Current Work Publication List II - Bachelor, Master Theses I
 
 * Bilo, T., & Helm, J. (2021). A Further Step Towards Sustainable Development – Re-evaluating and Expanding Cognitive-Affective Mapping for Technology Acceptance Prediction. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/bachelorthesis_bilo-helm_2021_english.pdf>
 * Dörr, M. (2020). Eine Qualitative Analyse von Kognitiv-Affektiven Karten: Können Daten von Kognitiv-Affektiven Karten im Vergleich zu Fragebögen zusätzliche Informationen geben? <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_doerr_2021_german.pdf>
@@ -256,15 +256,14 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 * Reuter, L. (2019). Collection and evaluation of basal attributes of living materials systems [University of Freiburg]. <https://doi.org/10.13140/RG.2.2.27832.90889>
 
 
-## current work publication list II - bachelor, master theses II
+## Current Work Publication List II - Bachelor, Master Theses II
 
 * Ricken, D. (2020). A Step towards Sustainable Development: Predicting the Acceptance of life-like Materials Systems with Cognitive-Affective Mapping. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_ricken_2020_english.pdf>
 * Rothmann, W. (2022). Cognitive-Affective Maps—Verständnis für Konzeptzusammenhänge in Abhängigkeit der Valenzen. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/rothmann2022.pdf>
 * Sendtner, C. (2021). Kostbare Kisten: Gründe für Fehleinschätzungen der Kosten des eigenen Autos und deren Auswirkungen auf die Bewertung des ÖPNV -Masterarbeit [University of Freiburg]. <https://doi.org/10.13140/RG.2.2.32640.56325>
 
 
-## current work publication list III  - conceptual articles
-
+## Current Work Publication List III  - Conceptual Articles
 
 
 * Homer-Dixon, T., Maynard, J. L., Mildenberger, M., Milkoreit, M., Mock, S. J., Quilley, S., Schröder, T., & Thagard, P. (2013). A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems. Journal of Social and Political Psychology, 1(1), Article 1. <https://doi.org/10.5964/jspp.v1i1.36>
@@ -279,7 +278,7 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 * **Thagard**, P. (2021). The cognitive science of COVID-19: Acceptance, denial, and belief change. Methods, 195, 92–102. <https://doi.org/10.1016/j.ymeth.2021.03.009>
 
 
-## current work useful links
+## Current Work - Useful Links
 
 * all bachelor / master theses of Freiburg:  <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/>
 * CAM articles: <https://paulthagard.com/links/cognitive-affective-maps/>
@@ -290,13 +289,14 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 * documentation CAM tools: <https://camtools-documentation.readthedocs.io/en/master/>
 * all CAM tools uploaded on GitHub: <https://github.com/Camel-app?tab=repositories>
 
+
 ## Coherence Theory and the HOTCO Model
 place holder
 
 ## CAM Study Designs and resulting Network Topologies
 
 
-## hypothesis: SAI study has a different DGP I
+## Hypothesis: SAI study has a different DGP I
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -315,7 +315,7 @@ place holder
 if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID> 
 
 
-## hypothesis: SAI study has a different DGP II
+## Hypothesis: SAI study has a different DGP II
 
 :::: {.columns}
 
@@ -344,7 +344,7 @@ if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/q
 
 if you want to try it out: https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID 
 
-## Understand the influence of study designs on network parameters
+## Understand the Influence of Study Designs on Network Parameters
 
 ![](images/networkTopology_CAMsIdea.jpg){height=300 fig-align="center"} 
 
@@ -354,7 +354,7 @@ it could be assumed that:
 * tree -> overall: low density, locally: low density
 
 
-## side-note: Network Topology I
+## Side-Note: Network Topology I
 
 ![](images/networkTopology_CAMs.jpg){height=400 fig-align="center"} 
 
@@ -365,7 +365,7 @@ it could be assumed that:
 see [Chiang Princeton University](<https://www.cs.princeton.edu/~jrex/allerton.pdf>)
 
 
-## side-note: Network Topology II - importance
+## Side-Note: Network Topology II - Importance
 
 ::::{.columns}
 
@@ -424,7 +424,7 @@ The technological solutions for eliciting CAMs
 
 ::::
 
-## C.A.M.E.L. - features
+## C.A.M.E.L. - Features
 
 ::::{.columns}
 
@@ -450,14 +450,14 @@ see in detail documentation: <https://camtools-documentation.readthedocs.io/en/m
 try it out: [maximum settings](<https://camgalaxy.github.io/?cameraFeature=true&fullScreen=true&ShowResearcherButtons=true&hideArrows=false&hideAmbivalent=false&showSliderAgreementOnly=false>); [minimal settings](<https://camgalaxy.github.io/?cameraFeature=false&fullScreen=false&ShowResearcherButtons=false&hideArrows=true&hideAmbivalent=true&showSliderAgreementOnly=true>)
 
 
-## C.A.M.E.L. - overview of features 
+## C.A.M.E.L. - Overview of Features 
 
 *Parameter you can change using the user researcher view:*
 
 ![](images/featuresCAMEL.jpg){height=500 fig-align="center"}
 
 
-## adaptive designs
+## Adaptive Designs
 
 e.g. by sending the CAM JSON object between components of a study (e.g. session data capabilities of JATOS) it is possible to set up adaptive designs, e.g. for intervention studies: 
 
@@ -529,7 +529,7 @@ using similar terminology as
 ::::
 
 
-## CAM-App - two steps
+## CAM-App - Two Steps
 
 logic of the CAM-App follows the principle of a classical data-analysis pipeline
 
@@ -572,7 +572,7 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 :::
 ::::
 
-## CAM-App - implemented functions
+## CAM-App - Implemented Functions
 
 ::::{.columns}
 
@@ -620,7 +620,7 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 > functionalities are based on 31 R functions, Python code divided in 28 modules (server, UI seperated); see: <https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing>
 
 
-## Pre-Processing: reduce number of unique concepts
+## Pre-Processing: Reduce Number of Unique Concepts
 
 * Approximate matching: closeness of two concepts is measured in terms of the number of primitive operations necessary to convert the concept into an exact match (e.g. substitution: coat -> cost)
 * Searching terms: using regular expressions
@@ -672,7 +672,7 @@ to highlight the inter-relatedness of all summarized concepts, the CAMs (between
 ![](images/sliceCAMs.jpg){height=450 fig-align="center"}
 
 
-## Analysis: Concept co-occurrences
+## Analysis: Concept Co-Occurrences
 
 *Computing the concept-co-occurrences between all CAMs by setting up multiple contingency tables, followed by computing the phi coefficient, groups of concepts with similar concept-co-occurrences in CAMs are identified.*
 
@@ -716,7 +716,7 @@ This research was funded by the Deutsche Forschungsgemeinschaft (DFG), grant 227
 ```{r}
 #| echo: false
 #| results: asis
-PrintBibliography(bib, start = 1, end = 5)
+PrintBibliography(bib, start = 1, end = 8)
 ```
 
 ## References II {.smaller}
@@ -724,5 +724,13 @@ PrintBibliography(bib, start = 1, end = 5)
 ```{r}
 #| echo: false
 #| results: asis
-PrintBibliography(bib, start = 6, end = 10)
+PrintBibliography(bib, start = 9, end = 17)
+```
+
+## References III {.smaller}
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 18, end = 26)
 ```
