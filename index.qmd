@@ -30,21 +30,7 @@ usePackage <- function(p) {
   require(p, character.only = TRUE)
 }
 
-usePackage("stargazer") # create tables
-
-usePackage("tidyverse")
-
-usePackage("DT")
-
 usePackage("RefManageR")
-
-usePackage("meta")
-
-usePackage("lsa")
-
-usePackage("mvtnorm")
-
-usePackage("plotly")
 
 ################
 # Data Bib file
@@ -58,6 +44,27 @@ BibOptions(check.entries = FALSE,
            no.print.fields = c("urldate", "note", "language"))
 file.name <- "JuliusLibrary.bib"
 bib <- ReadBib(file.name)
+
+
+#######################################
+#######################################
+
+
+usePackage("stargazer") # create tables
+
+usePackage("tidyverse")
+
+usePackage("DT")
+
+
+
+usePackage("lsa")
+
+usePackage("mvtnorm")
+
+usePackage("plotly")
+
+usePackage("meta")
 
 
 ################
@@ -546,22 +553,6 @@ An overview regarding the most important fundamentals for Cognitive Affective Ma
   - Fuzzy Networks
 
 
-
-
-## Overview: Potentials of Cognitive Affective Maps (CAMs)
-
-1. Understanding the relationship between cognition and emotion: CAMs provide a framework for studying the complex interplay between cognitive processes (such as perception, attention, memory, and decision-making) and emotions.
-
-2. Explaining emotional regulation: CAMs can help to explain how emotions are regulated and controlled through cognitive processes, such as attention and working memory.
-
-3. Improving decision-making: CAMs can be used to study how emotions influence decision-making and can provide insights into how decision-making can be improved through emotional regulation.
-
-4. Understanding the role of emotions in motivation: CAMs can help to explain the role of emotions in motivation and how emotions can drive behavior and action.
-
-5. Improving our understanding of mental disorders: CAMs can be used to study the relationship between cognition, emotion, and mental disorders, such as depression and anxiety, and provide insights into how these disorders can be treated.
-
-It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs**.
-
 ## Overview: CAMs - Introduction
 
 CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
@@ -596,7 +587,14 @@ CAMs as a quantitative and qualitative research method first became popular thro
 * agent-based modelling - e.g. `r Citet(bib, c("wolfChangingMindsElectric2015", "schroderModelingMultilevelMechanisms2017"))`
 * use CAMs for conflict mediation - e.g. `r Citet(bib, c("grosCAMediaidMultimethodApproach2021"))`
 * evaluate via CAMs the success of an intervention - e.g. `r Citet(bib, c("reuterLeisureWalksModulate2021", "luthardtThenWeLl2020"))`
+* use CAMs as a pre-study to entrich subsequent survey studies - e.g. `r Citet(bib, c("fennIdentifyingKeypsychologicalFactors2023"))`
 * ...
+
+<br>
+<br>
+
+see two sections of CAM tools online documentation: [Additional Resources](https://camtools-documentation.readthedocs.io/en/master/Additional%20Resources/); [What are the advantages of using Cognitive-Affective Maps?](https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Maps/#what-are-the-advantages-of-using-cognitive-affective-maps)
+
 
 ## Overview: CAMs - Fundamental Hypothesis
 
@@ -612,9 +610,9 @@ CAMs as a quantitative and qualitative research method first became popular thro
 
 
 
-## Data Generation Process + Graph Theory (Network Analysis)
+## Motivating Graph Theory 
 
-## Keep focused - it's going to be exciting
+keep focused - it's going to be exciting
 
 ::: {layout-ncol=2}
 ![](https://media4.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif?cid=ecf05e47hmf8l7kqh12kn3rbuh885rmbgzgiyjan1n0v137g&rid=giphy.gif&ct=g)
@@ -623,11 +621,11 @@ CAMs as a quantitative and qualitative research method first became popular thro
 
 :::
 
-> a short excursion into the world of distributions
+> a short excursion into the world of graph theory + distributions
 
 
 
-## DGP: Stochastic Process of DGP of CAMs
+## DGP: Stochastic Process
 
 Data generation process (DGP): When [...] data set has been created, a good model has to be constructed for the data generation process. This is the stage at which the actual [...] analysis begins... When an [...] model has been constructed for the DGP, it should **only be used for the analysis if it reflects the ongoings in the system of interest properly**
 
@@ -637,24 +635,131 @@ Data generation process (DGP): When [...] data set has been created, a good mode
 >  in statistics, we assume that we can represent the DGP by discrete and continuous (univariate, multivariate, mixture of) distributions
 
 
+we noramlly assume that data arose from a statistical model
+$$ Y = f(x) + \epsilon $$
+
+, where the random error $\epsilon$ has $E(\epsilon) = 0$ and is independent of $X$
+
+> All models are wrong, some are useful . (George Box, 1976)
+
+
+## DGP: Stochastic Process of CAMs
+
 Hands on example: Shiny App
 
-![](images/logoShiny.png){height=150}
+<br>
 
-## DGP: ...
-place holder
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+, whereby V = set of vertices, E = set of edges
 
-## DGP: ...
-place holder
+CAM is now generated by:
+$$G = (V + K, p(E))$$
 
-## Graph Theory: ...
-place holder
+, whereby we assume the following distributional assumptions:
+$$\text{number of vertices } V \sim Binomial(20, \pi_V)$$
+$$\text{> influence of knowledge on number of vertices } K \sim Binomial(10, \pi_K)$$
+$$\text{> valence is influenced by the overall attitude (truncated from [-3,3]) } A \sim N(\mu, \sigma)$$
+$$\text{probability for drawing an edge } p \sim Beta(\alpha, \beta)$$
+, each edge has a fixed probability of being present or absent, independently of the other edges and , the probability for generating each graph that has V vertices and E edges is (**Erdos–Renyi model**)
+$$p^E * (1-p)^{{V \choose 2}-E}$$
 
-## Graph Theory: ...
-place holder
+
+
+
+## graph theory
+
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+
+, whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; *hot cognition*, *HOTCO*, ...)
+
+
+where elements of $E$ are unordered pairs ${u, v}$ of distinct vertices $u, v \in V$
+
+* number of vertices $N_v = |V|$ is called order
+* number of edges $N_e = |E|$ is called size
+
+<br>
+**subgraph:**
+
+A graph $H=(V_H, E_H)$ is a subgraph of another graph $G =(V_G, E_G)$ if $V_H ⊆ V_G$ and $E_H ⊆ E_G$
+
+## DGP: Erdos–Renyi model
+
+$$p^E * (1-p)^{{V \choose 2}-E}$$
+
+, whereby ${V \choose 2}$ is the **binomial coefficient** defined as $\frac{N_v (N_v - 1)}{2}$ (for every edge an independent coin toss)
+
+<br>
+
+![](images/visual_adjacencyMatrix.png){height=350 fig-align="center"}
+
+
+## DGP: Erdos–Renyi model - visualization
+
+$$p^E * (1-p)^{{V \choose 2}-E}$$
+
+, whereby ${V \choose 2}$ is the **binomial coefficient** defined as $\frac{N_v (N_v - 1)}{2}$
+
+
+```{r}
+#| echo: true
+p <- seq(0, 1, by = .01)
+E <- 3
+binomial_coefficient <- choose(n = 4, 2)
+
+probabilities <- p^E * (1-p)^(binomial_coefficient - E)
+plot(p, probabilities)
+abline(v = .5)
+```
+
+## DGP: Erdos–Renyi model - not plausible (!)
+
+* not all edges (connections) have equal probability (for every edge an independent coin toss, whereby success means a edge is drawn)
+
+<br>
+
+* CAMs are more a **scale-free network**, which is a network whose degree distribution follows a power law, at least asymptotically; fraction $P(k)$ of nodes in the network having $k$ connections to other nodes goes for large values of $k$ as: 
+
+$$ P(k) \approx k^{-\gamma} $$
+
+
+![](images/scaleFreeNetwork.png){height=350 fig-align="center"}
+
+
+## DGP: more plausible models (outlook)
+
+**Growing network models**
+
+* preferential attachment mechanism, also called the ‘rich gets richer’ mechanism, describes the phenomenon observed in real complex networks (such as the World Wide Web, ..) according to which nodes with larger degree have a higher probability of acquiring new links than nodes with smaller degree
+* the Barabási–Albert model has two main ingredients:
+  + *Growth*: a node is added to the network. The node establishes $m$ new connections with nodes of the rest of the + *Linear preferential attachment*: Every new link of the new node is attached to an existing node *i* of the network not already linked to the new node with probability
+  
+$$\Pi_i = \frac{k_i}{\sum_j k_j}$$,
+where $k_i$ is the degree of node $i$
+
+
+```{r}
+#| echo: true
+degree_distribution <- c(8, 7, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+degree_distribution / sum(degree_distribution)
+degree_distribution <- c(55, 8, 7, 6, 4, 3, 2, 1, 1, 1, 1, 1)
+degree_distribution / sum(degree_distribution)
+```
+
+`r Citet(bib, c("bianconiMultilayerNetworksStructure2018"))`
 
 ## Literature related to CAMs
-place holder
+
+* **Mental models** are internal representations of the world that individuals create to interpret, understand, and interact with their environment. These models are shaped by personal experiences, knowledge, and beliefs, and they guide how people perceive situations, make decisions, and solve problems. Mental models are dynamic and can evolve with new information and experiences.
+* **Semantic networks** are a type of knowledge representation in cognitive science, artificial intelligence, and computer science. These networks are used to model the relational structure of knowledge, showing how different concepts are interconnected. Semantic networks can be used for information retrieval, understanding language, and in artificial intelligence for tasks like reasoning and decision-making.
+* **Fuzzy Cognitive Map** is a cognitive model that represents the causal reasoning and decision-making processes of individuals or systems. Causal relationships between concepts are depicted as weighted, directed edges. The weights (degrees of influence) can have positive or negative values, indicating the type and strength of the influence one concept has on another.
+
+<br>
+<br>
+semantic memory: `r Citet(bib, c("kumarSemanticMemoryReview2021"))`
+
 
 # Part II: CAMs
 CAMs and the informations we can get from them  
@@ -663,19 +768,19 @@ CAMs and the informations we can get from them
 - Coherence Theory and the HOTCO Model (Paul Thagard)
 - CAM Study Designs and resulting Network Topologies
 
-## Recap: Existing Literature
-place holder
 
 ## Current Work
 By analyzing the content of CAMs
 
-* CAMs offer added value compared to a survey, as the latter can only consider pre-identified influential factors
-* CAMs allow to identify similar concerns as more time consuming interview / focus group based  methods - [Fenn, et al. (accepted revision)](#bib1); `r Citet(bib, c("reuter_direct_2022"))`
+* CAMs offer added value compared to a survey, as the latter can only consider pre-identified influential factors - `r Citet(bib, c("fennIdentifyingKeypsychologicalFactors2023"))`
+* CAMs allow to identify similar concerns as more time consuming interview / focus group based methods - [Fenn, et al. (under review)](#bib1)
+* *CAM parameters show quantitative test-retest reliabilities up to .78. Furthermore, two raters identified on average 52% of repeated or at least semantically similar concepts drawn by the participants between the two measurement time points. Taken together, these findings are promising for a method with this amount of degrees of freedom.*  - [Gros, et al. (under review)](#bib1)
 * ...
 
 <br>
 
 by using CAMs for experimental and correlation studies 
+
 * CAMs have been used for intervention, e.g. mediation `r Citet(bib, c("gros_camediaid_2021"))` or cost intervention `r Citet(bib, c("sendtner_kostbare_2021"))`
 * correlations between CAMs’ emotional properties and latent properties and survey scales - `r Citet(bib, c("mansell_measuring_2021", "mansell_novel_2021"))`
 * ...
@@ -713,7 +818,6 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 
 ## Current Work Publication List III  - Conceptual Articles
 
-
 * Homer-Dixon, T., Maynard, J. L., Mildenberger, M., Milkoreit, M., Mock, S. J., Quilley, S., Schröder, T., & Thagard, P. (2013). A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems. Journal of Social and Political Psychology, 1(1), Article 1. <https://doi.org/10.5964/jspp.v1i1.36>
 * Homer-Dixon, T., Milkoreit, M., Mock, S. J., Schröder, T., & Thagard, P. (2014). The Conceptual Structure of Social Disputes: Cognitive-Affective Maps as a Tool for Conflict Analysis and Resolution. SAGE Open, 4(1), 1–20. <https://doi.org/10.1177/2158244014526210>
 * Livanec, S., Stumpf, M., Reuter, L., Fenn, J., & Kiesel, A. (2022). Who’s gonna use this? Acceptance prediction of emerging technologies with Cognitive-Affective Mapping and transdisciplinary considerations in the Anthropocene. The Anthropocene Review, 1–20. <https://doi.org/10.1177/20530196221078924>
@@ -735,16 +839,41 @@ Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics 
 
 * main webpage CAM tools: <https://drawyourminds.de/>
 * documentation CAM tools: <https://camtools-documentation.readthedocs.io/en/master/>
-* all CAM tools uploaded on GitHub: <https://github.com/Camel-app?tab=repositories>
+* all CAM tools uploaded on GitHub: <https://github.com/Camel-app>
+
 
 
 ## Coherence Theory and the HOTCO Model
-place holder
+
+* the HOTCO model (short for "HOT COgnition") is a cognitive model developed by Paul Thagard
+  + model is designed to explain how decisions are made based not only on logical reasoning but also on emotional factors
+  + decision-making is seen as a process that involves both evaluative (emotional, value-based) and inferential (logical, fact-based) components; integration of both "hot" (emotional) and "cold" (logical, rational) cognitive processes
+* Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
+
+`r Citet(bib, c("thagardCoherenceThoughtAction2000", "thagardHotThoughtMechanisms2006", "thagardCognitiveScienceCOVID192021"))`
+
+
+## Coherence Theory example
+
+Example: a skeptic’s representation of climate change
+
+![](images/dixon2014figure.png){height=450 fig-align="center"}
+
+
+`r Citet(bib, c("homer-dixonConceptualStructureSocial2014"))`
+
 
 ## CAM Study Designs and resulting Network Topologies
 
+* Single concept in the middle: this design likely evokes a network which is equivalent to a physical star topology, where all concepts are connected to a central concept. This often results in high local and global density.
+* Two contradictory concepts: specifying two contradictory concepts as a starting point is an interesting way of analyzing the perception of opposite poles or concepts. The two sub-networks of the resulting CAMs can be analyzed and compared separately in a future analyzing step (see module “slice CAMs” within CAM-App).
+* Tree Topology: an initial hierarchical arrangement of concepts supposably nudges participants towards “adding leaves to a predefined tree” in a hierarchical manner, differentiating and diversifying the initial network hierarchically. In contrast to star networks, tree networks typically have low overall and local density.
+*  No predefined concepts: letting participants start off with clean slate typically results in a partially connected mesh topologies.
+* ...
 
-## Hypothesis: SAI study has a different DGP I
+see section of CAM tools online documentation: [Possible CAM study designs](https://camtools-documentation.readthedocs.io/en/master/Set%20up%20study/#possible-cam-study-designs)
+
+## Example: study design
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -754,7 +883,7 @@ place holder
 :::
 
 ::: {.column width="50%"}
-**example**
+**example given to participants**
 
 ![](images/SAICAM_example.jpg){height=400 fig-align="center"}
 :::
@@ -762,16 +891,14 @@ place holder
 ::::
 if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID> 
 
-
-## Hypothesis: SAI study has a different DGP II
+## Study design: result
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
 
-
-**example I**
+**the expected**
 
 ![](images/SAICAM1.jpg){height=400 fig-align="center"}
 
@@ -779,18 +906,13 @@ if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/q
 
 ::: {.column width="50%"}
 
-
-
-**example II**
+**the outlier**
 
 ![](images/SAICAM2.jpg){height=400 fig-align="center"}
 
 :::
 
 ::::
-
-
-if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID>
 
 ## Understand the Influence of Study Designs on Network Parameters
 
@@ -857,9 +979,19 @@ The technological solutions for eliciting CAMs
     - Analysis
 - Setting up Studies using dashbord + JATOS
 
+
+## Overview
+
+Overview of the developed CAM tools (linking everything)
+
+![](images/OverviewCAMTools_Fenn.jpg){height=500 fig-align="center"}
+
+
+ central webpage (adminstrative panel): <https://drawyourminds.de>
+
 ## C.A.M.E.L.
 
-**Cognitive-Affective Map Extended Logic** (C.A.M.E.L. 🐪) is an open-source software to draw Cognitive-Affective Maps. It aims to offer people an easy and intuitive interface on which they could drawn their own mind map that can be analysed by researchers
+we (Julius & Florian) developed **Cognitive-Affective Map Extended Logic (C.A.M.E.L.)**, which is an open-source software to draw Cognitive Affective Maps. It aims to offer people an easy and intuitive interface on which they could design mind map that can be analysed by researchers
 
 ::::{.columns}
 
@@ -874,6 +1006,7 @@ The technological solutions for eliciting CAMs
 :::
 
 ::::
+
 
 ## C.A.M.E.L. - Features
 
@@ -892,14 +1025,13 @@ The technological solutions for eliciting CAMs
 * enable / disable certain features
 
 <br>
-see in detail documentation: <https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file>
+see section of CAM tools online documentation: [Define your config file](https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file)
 
 :::
 
 ::::
 <br>
 try it out: [maximum settings](<https://camgalaxy.github.io/?cameraFeature=true&fullScreen=true&ShowResearcherButtons=true&hideArrows=false&hideAmbivalent=false&showSliderAgreementOnly=false>); [minimal settings](<https://camgalaxy.github.io/?cameraFeature=false&fullScreen=false&ShowResearcherButtons=false&hideArrows=true&hideAmbivalent=true&showSliderAgreementOnly=true>)
-
 
 ## C.A.M.E.L. - Overview of Features 
 
@@ -908,21 +1040,37 @@ try it out: [maximum settings](<https://camgalaxy.github.io/?cameraFeature=true&
 ![](images/featuresCAMEL.jpg){height=500 fig-align="center"}
 
 
-## Adaptive Designs
+## Data structure of CAMs - real time analysis
+
+* **frontend**: visible content of the CAM is within a container for Scalable Vector Graphics
+* **backend**: CAM itself as well as its concepts and connectors are Java Script classes, which define the structure for these objects
+  + class definition respects the classical data model of networks; allows to use Java Script library [Cytoscape](https://js.cytoscape.org/)
+
+
+![](images/JSON_CAM.jpg){height=300 fig-align="center"}
+
+
+> adaptive designs possible (provide fixed structure or manipulate the "Document Object Model")
+
+
+<br>
+try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu>
+
+
+## Adaptive Designs - advantage
 
 e.g. by sending the CAM JSON object between components of a study (e.g. session data capabilities of JATOS) it is possible to set up adaptive designs, e.g. for intervention studies: 
 
 ![](images/interventionDesign.jpg){height=300 fig-align="center"}
-
-> possible to implement sequential collaboration (event file is created)
 
 
 and to analyze the CAM data in real-time to adaptively ask questions using [Cytoscape.js](<https://js.cytoscape.org/>)
 
 
 <br>
-try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu>
+recent example (multi-component study): <https://studien.psychologie.uni-freiburg.de/publix/BouM0e5AbxG?PROLIFIC_PID=111>
  
+
 
 ## CAM-App - Structure of CAM Data
 
@@ -994,7 +1142,7 @@ logic of the CAM-App follows the principle of a classical data-analysis pipeline
 see: `r Citet(bib, c("pengArtDataScience2016", "wickhamDataScienceImport2017"))`
 
 <br>
-<https://fennapps.shinyapps.io/shinyCAMEL_v02/>
+<https://fennapps.shinyapps.io/CAMtools_CAMapp/>
 
 ![](images/logoShiny.png){height=150 fig-align="left"}
 
@@ -1007,7 +1155,7 @@ composed of two steps:
 
 CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.
 
-*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in D in the online supplementary; <https://osf.io/vb5qe>)* - [Fenn, et al. (accepted revision)](#bib1)
+*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in D in the online supplementary; <https://osf.io/vb5qe>)*
 
 <br>
 <br>
@@ -1070,7 +1218,9 @@ CAM data is often messy and the number of unique concepts drawn is in general qu
 ::::
 
 
-> functionalities are based on 31 R functions, Python code divided in 28 modules (server, UI seperated); see: <https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing>
+> functionalities are based on over 31 R functions, Python code divided in 28 modules (server, UI seperated)
+
+see section of CAM tools online documentation: [CAM-App](https://camtools-documentation.readthedocs.io/en/master/CAM-App/)
 
 
 ## Pre-Processing: Reduce Number of Unique Concepts
@@ -1114,7 +1264,7 @@ to highlight the inter-relatedness of all summarized concepts, the CAMs (between
 
 ![](images/aggregatedCAMExample.jpg){height=450 fig-align="center"}
 
-[Fenn, et al. (accepted revision)](#bib1)
+`r Citet(bib, c("fennIdentifyingKeypsychologicalFactors2023"))`
 
 
 
@@ -1134,20 +1284,35 @@ to highlight the inter-relatedness of all summarized concepts, the CAMs (between
 ```{r}
 #| message: false
 #| warning: false
+
 interactiveHeatmap %>% plotly::layout(height=500,width=1000)
 ```
 
 
+## Hands on: CAM-App
 
-## Study-Setup: Dashboard
+*time to check out the CAM-App hands on*
+
+<br>
+if your R Studio is not set up / not working, you could use the online version: <https://fennapps.shinyapps.io/CAMtools_CAMapp/>
+
+
+## Study-Setup: Dashboard + JATOS
+
+**Dashboard:**
 
 ![](images/slide14.png){height=300 fig-align=center}
 
 
-further information see online presentation about the developed Cognitive-Affective Maps tools: <https://studien.psychologie.uni-freiburg.de/publix/4ON9vgMG7Mm>
-current website design (not connected to API): <https://camel-server.vercel.app/>
+for further information see following section of CAM tools online documentation: [Set up study](https://camtools-documentation.readthedocs.io/en/master/Set%20up%20study/)
 
+<br>
 
+**JATOS:**
+
+If you are using a JATOS server (or others), you are able to set up "adaptive" studies, which pre-process the CAM data in real-time!
+
+for further information see: [Program "on scratch"](https://camtools-documentation.readthedocs.io/en/master/Set%20up%20study/#program-on-scratch)
 
 
 # Part IV: Extensions and the Future of CAMs
@@ -1157,10 +1322,14 @@ What we'll have in the future...
 - Discussing the "Future" of CAMs
 
 ## Possible Extensions
-place holder
+
+will be added or not
 
 ## Future of CAMs
-place holder 
+
+What do you think?
+
+
 
 # Don't forget to thank the DFG :-)
 
