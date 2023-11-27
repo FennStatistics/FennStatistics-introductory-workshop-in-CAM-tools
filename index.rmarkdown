@@ -1,0 +1,1200 @@
+---
+title: "CAMtools"
+subtitle: "An introductory workshop"
+author: "Julius Fenn"
+date: "2023-11-23"
+# institute: Your Affiliation
+
+format:
+  revealjs:
+    #theme: white # gerne herumspielen!
+    theme: [white, custom.scss] # gerne herumspielen!
+    smaller: true # more space on the slides
+---
+
+```{r}
+#| message: false
+#| warning: false
+#| results: hide
+knitr::opts_chunk$set(echo = FALSE, collapse = TRUE)
+
+# load packages and define functions here
+
+################
+# Packages
+################
+# if packages are not already installed, the function will install and activate them
+usePackage <- function(p) {
+  if (!is.element(p, installed.packages()[,1]))
+    install.packages(p, dep = TRUE)
+  require(p, character.only = TRUE)
+}
+
+usePackage("stargazer") # create tables
+
+usePackage("tidyverse")
+
+usePackage("DT")
+
+usePackage("RefManageR")
+
+usePackage("meta")
+
+usePackage("lsa")
+
+usePackage("mvtnorm")
+
+usePackage("plotly")
+
+################
+# Data Bib file
+################
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           style = "markdown",
+           dashed = TRUE,
+           longnamesfirst = FALSE,
+           max.names = 1,
+           no.print.fields = c("urldate", "note", "language"))
+file.name <- "JuliusLibrary.bib"
+bib <- ReadBib(file.name)
+
+
+################
+# Data
+################
+# load data
+
+data_dir <- "data/metaAnalysis/"
+files_xlsx <- list.files(path = data_dir, pattern = "*.xlsx", full.names = FALSE)
+
+
+list_NetworkParams <- list(); h=1
+for(f in files_xlsx){
+  tmp_name <- str_remove_all(string = paste0(data_dir, f), pattern = "CAMindicator_|\\.xlsx")
+  tmp_dat <-  xlsx::read.xlsx2(file = paste0(data_dir, f), sheetIndex = 1)
+
+
+  list_NetworkParams[[tmp_name]] <- tmp_dat
+
+  tmp_dat$group <- tmp_name
+  if(h==1){
+    allstudies <- tmp_dat
+  }else{
+    allstudies <- rbind(allstudies, tmp_dat)
+  }
+
+  h=h+1
+}
+
+allstudies <- as.data.frame(allstudies)
+allstudies$X. <- NULL
+allstudies$CAM_ID <- NULL
+allstudies$participantCAM <- NULL
+
+
+allstudies[, 1:26] <- as.data.frame(sapply(allstudies[, 1:26], as.numeric))
+
+########################################
+# load packages
+########################################
+library(shiny)
+# library(shinyWidgets)
+library(shinyjs)
+
+
+# library(shinycssloaders) %>% withSpinner(color="#0dc5c1")
+
+library(tidyverse)
+
+
+library(rjson) # write JSON files
+
+
+library(igraph)
+
+library(stats)
+# library(sortable)
+
+library(heatmaply)
+
+library(psych)
+
+########################################
+# Daten
+########################################
+# create files
+source("functions_CAM/create_CAMfiles.R", encoding = "utf-8")
+source("functions_CAM/create_ValenceFiles.R", encoding = "utf-8")
+# > fix Valence data
+source("functions_CAM/fix_ValenceData.R", encoding = "utf-8")
+
+
+# draw CAMs
+source("functions_CAM/draw_CAM.R", encoding = "utf-8")
+
+# compute network indicators
+source("functions_CAM/compute_indicatorsCAM.R", encoding = "utf-8")
+
+
+# helper functions for protocol
+source("functions_CAM/protocolFunctions.R", encoding = "utf-8")
+
+
+# create wordlist
+source("functions_CAM/create_wordlist2.R", encoding = "utf-8")
+
+
+
+heatmap_data_dir <- "data/heatmap_data/"
+
+# protocol <- jsonlite::read_json(path = "protocol.txt")
+protocol <- rjson::fromJSON(file = paste0(heatmap_data_dir, "protocol.txt"))
+
+
+
+CAMfiles = list()
+# readLines("CAM_nodes_raw.txt")
+CAMfiles[[1]] <- vroom::vroom(file = paste0(heatmap_data_dir, "CAM_nodes_raw.txt"), delim = "\t",
+                              show_col_types = FALSE)
+CAMfiles[[2]] <- vroom::vroom(file = paste0(heatmap_data_dir, "CAM_connectors_raw.txt"), delim = "\t",
+                              show_col_types = FALSE)
+CAMfiles[[3]] <- vroom::vroom(file = paste0(heatmap_data_dir, "CAM_merged_raw.txt"), delim = "\t",
+                              show_col_types = FALSE)
+
+CAMfiles[[1]]$text_summarized <- CAMfiles[[1]]$text
+tmp_out <- overwriteTextNodes(protocolDat = protocol, nodesDat = CAMfiles[[1]])
+CAMfiles[[1]]$text_summarized <- tmp_out[[1]]$text_summarized
+
+##################################
+
+
+###### CONFIG ######
+showOnlySignificant <- TRUE #If TRUE, only those concepts are shown in the heatmap, that correlate significantly with at least one other variable
+levelOfSignicifance <- 0.05
+useSummarized <- FALSE #If TRUE, heatmap/correlation is calculated based on summarized concepts, if false, raw (not-summarized) concepts are used
+binaryCorr <- FALSE #If TRUE, Phi correlation is used and the co-occurrence of concepts is analyzed dichotomously (i.e. concept A and B occur together in same CAM), if FALSE, number of occurences of a concept within a CAM are counted and Pearson correlations calculated
+interactiveDots <- TRUE #Only important for interactive heatmap. Uses dots in the heatmap which vary in size according to p value
+####################
+
+### Input data ###
+CAMsConsInput <- CAMfiles[[1]]
+
+
+
+
+
+################
+# Functions for analyzing correlation of occurence of concepts
+################
+
+### create (and return) data frame of concepts per CAM (column) from CAM-data
+listConcepts <- function(datCAM = CAMfiles[[1]], useSummarized = TRUE, removeSuffix = TRUE){
+
+  if(removeSuffix) {
+    datCAM$text_summarized <-
+      str_remove(string = datCAM$text_summarized , pattern = "_positive$|_negative$|_neutral$|_ambivalent$")
+
+  }
+
+  conceptList <- list()
+  for(i in unique(datCAM$CAM)) {
+    if (useSummarized == TRUE) {
+      concepts <- unlist(datCAM[datCAM$CAM == i, "text_summarized"])
+    } else {
+      concepts <- unlist(datCAM[datCAM$CAM == i, "text"])
+    }
+    conceptList[[i]] <- concepts
+  }
+  conceptsDF <- data.frame(lapply(conceptList, "length<-", max(lengths(conceptList))))
+  rownames(conceptsDF) <- NULL
+  return(conceptsDF)
+}
+
+
+# tmp_listConcepts <- listConcepts(datCAM = CAMsConsInput, useSummarized = TRUE, removeSuffix = TRUE)
+# head(tmp_listConcepts)
+
+
+
+
+### Takes a data frame the concepts mentioned in the CAMs (one CAM one column)
+### Returns a data frame with all concepts mentioned in more than one CAM (columns "concept") and the number of CAMS where it occurs (column "numCAMoccurences")
+countDuplicates <- function(concepts = conceptsDF, oderFrequency = FALSE){
+  allCons <- c()
+
+  for(i in 1:ncol(concepts)) {       # for-loop over columns
+    CAMcons <- unlist(concepts[ , i], use.names=FALSE)
+    allCons <- append(allCons,unique(CAMcons))
+  }
+
+  duplicateCons <- names(table(allCons))[table(allCons) >=2]
+
+
+  duplicateDF <- matrix(nrow = length(duplicateCons), ncol = 2)
+  for(i in 1:length(duplicateCons)) {
+    duplicateDF[i,] = c(duplicateCons[i], sum(allCons==duplicateCons[i], na.rm=TRUE))
+  }
+  colnames(duplicateDF) = c("concept","numCAMoccurences")
+  duplicateDF <- as.data.frame(duplicateDF)
+  duplicateDF$numCAMoccurences <- as.numeric(duplicateDF$numCAMoccurences)
+
+
+  if( oderFrequency ) {
+    duplicateDF <- duplicateDF[order(duplicateDF$numCAMoccurences, decreasing = TRUE),]
+  }
+
+  return(duplicateDF)
+}
+
+# tmp_countDuplicates <- countDuplicates(concepts = tmp_listConcepts, orderFrequency = TRUE)
+# head(tmp_countDuplicates)
+
+## Creating a Table with binary encoding for duplicate concepts. I.e., each concept mentioned more than once is a column, each CAM is a row.
+# If the concept is mentioned in the respective CAM, cell is 1, if not cell is 0
+binaryEncoding <- function(conDF = conceptsDF, duplDF = duplicateDF) {
+  binaryDF <- data.frame(matrix(nrow = ncol(conDF), ncol = length(duplDF$concept))) # Create an empty dataframe where each column is going to represent a concept and each row a CAM
+  colnames(binaryDF) <- duplDF$concept #Name the columns of the dataframe according to the list of concepts occurring more than once
+  binaryDF[is.na(binaryDF)] <- 0
+
+  rownames(binaryDF) <- colnames(conDF)
+
+  for(r in 1:nrow(binaryDF)){
+    binaryDF[rownames(binaryDF)[r],] <- as.numeric(duplDF$concept %in% conDF[, rownames(binaryDF)[r]])
+  }
+
+  return(binaryDF)
+}
+
+
+# tmp_binaryEncoding <- binaryEncoding(conDF = tmp_listConcepts, duplDF = tmp_countDuplicates)
+# head(tmp_binaryEncoding)
+
+
+
+## Creating a Table with metric encoding for duplicate concepts. I.e., each concept mentioned more than once is a column, each CAM is a row.
+# If the concept is mentioned in the respective CAM, cell is X, whereby X is the number of occurrence of concepts in the respective CAM if not cell is 0
+# conDF = conceptsDF
+# duplDF = duplicateDF
+metricEncoding <- function(conDF = conceptsDF, duplDF = duplicateDF) {
+  metricDF <- data.frame(matrix(nrow = 0, ncol = length(duplDF$concept))) # Create an empty dataframe where each column is going to represent a concept and each row a CAM
+  colnames(metricDF) <- duplDF$concept #Name the columns of the dataframe according to the list of concepts occuring more than once
+  #rownames(binaryDF) <- duplDF$concept
+  CAMs <- colnames(conDF)
+  for(CAM in CAMs) {
+    metricVec <- c() #Create an empty vector that is going to be filled with the number of occurrence of concepts in the respective CAM
+    for(concept in duplDF$concept) { #For each concept count how often it is mentioned in the respective CAM
+      metricVec <- append(metricVec, length(which(conDF[[CAM]] == concept)))
+    }
+    metricDF[nrow(metricDF) + 1,] = metricVec #Append the vector as a row to binaryDF
+    rownames(metricDF)[nrow(metricDF)] <- CAM #Name the respective row by the ID of the CAM it represents
+  }
+
+  return(metricDF)
+}
+
+# tmp_metricEncoding <- metricEncoding(conDF = tmp_listConcepts, duplDF = tmp_countDuplicates)
+# head(tmp_metricEncoding)
+# tmp_metricEncoding[rownames(tmp_metricEncoding) %in% rownames(tmp_metricEncoding)[tmp_metricEncoding$`risks for health` >= 2], ]
+# sum(tmp_metricEncoding >= 2)
+
+
+## Calculates Phi coefficient and p-value (chi-square) and returns both in a vector
+phiCoefficient <- function(var1, var2) {
+  crosstab <- table(factor(var1, levels=c(0,1)), factor(var2, levels=c(0,1)))
+  chisqTest <- stats::chisq.test(crosstab, correct = FALSE)
+  sig <- chisqTest$p.value
+  a <- crosstab[1, 1]
+  b <- crosstab[1, 2]
+  c <- crosstab[2, 1]
+  d <- crosstab[2, 2]
+  ad <- a * d
+  bc <- b * c
+  phi <- (ad - bc) / sqrt((a + b) * (c + d) * (a + c) * (b + d))
+
+  ## return earlier is phi is nan (divide by 0)
+  if(is.nan(x = phi)){
+    # print(phi)
+    # print(crosstab)
+    return(c(NA, NA))
+  }
+
+  if(round(x = phi, digits = 5) != psych::phi(t = crosstab, digits = 5)){
+    print("possible ERROR in phi computation")
+  }
+  return(c(phi, sig))
+}
+
+
+
+## Calculates pearson coefficient and p-value and returns both in a vector
+pearsonCoefficient <- function(var1, var2) {
+  correl <- cor.test(var1, var2)
+  sig <- correl$p.value
+  #print(typeof(correl$estimate))
+  r <- correl$estimate
+  return(c(r, sig))
+}
+
+
+## Calculates Cohens Kappa
+cohensKappa <- function(var1, var2) {
+
+  outCohen <- irr::kappa2(cbind(var1, var2))
+
+  sig <- outCohen$p.value
+  r <- outCohen$value
+
+  return(c(r, sig))
+}
+
+
+
+## Builds a list that contains two Dataframes: one that contains the correlation coefficients for the pairwise co-occurence of all concepts and one the respective p-values
+# args
+# conList = duplicateDF
+# inputTable =  binaryDf
+# CorrFUNC = cohensKappa # pearsonCoefficient, phiCoefficient
+# considerValence = TRUE
+# datNodes = CAMfiles[[1]]
+
+correlationTable <- function(conList = duplicateDF,
+                             inputTable = binaryDf,
+                             CorrFUNC,
+                             considerValence = TRUE,
+                             datNodes = NULL) {
+
+  if(considerValence){
+    ## update inputTable df by valence ratings
+    datNodes$text_summarized <-
+      str_remove(string = datNodes$text_summarized , pattern = "_positive$|_negative$|_neutral$|_ambivalent$")
+    datNodes$value <- ifelse(test = datNodes$value == 10, yes = 0, no = datNodes$value)
+
+    for(r in 1:nrow(inputTable)){
+      tmp_CAMid <- str_remove(string = rownames(inputTable)[r], pattern = "^X")
+      tmp_CAMid <- str_replace_all(string = tmp_CAMid, pattern = "\\.", replacement = "-")
+
+      tmp_datNodes <- datNodes[datNodes$CAM == tmp_CAMid,]
+
+      for(c in 1:ncol(inputTable)){
+        if(inputTable[r,c] == 1){
+          tmp_value <- tmp_datNodes$value[tmp_datNodes$text_summarized %in% colnames(inputTable)[c]]
+
+          if (mean(tmp_value) > 0){
+            inputTable[r,c] <- "positive"
+          }else if (mean(tmp_value) < 0){
+            inputTable[r,c] <- "negative"
+          } else {
+            inputTable[r,c] <- "neutral"
+          }
+        }
+      }
+    }
+
+    # error message if no overlapping words
+    # for(c in 1:ncol(inputTable)){
+    #   inputTable[,c] <- factor(inputTable[,c], levels=c("positive","negative","neutral"))
+    # }
+  }
+
+
+
+  ## set up data frames
+  mat_est <- matrix(data = NA, nrow = length(conList$concept), ncol = length(conList$concept))
+  mat_p <- matrix(data = NA, nrow = length(conList$concept), ncol = length(conList$concept))
+
+  for(r in 1:length(conList$concept)) {
+    # print(r)
+    for(c in 1:length(conList$concept)) {
+      # print(c)
+
+      if(r == c){
+        mat_est[r, c] <- 1  # add estimate (main diagonal always 1)
+        mat_p[r, c] <- 0 # add p-value
+      }else if(r < c){
+        newCell <- CorrFUNC(var1 = inputTable[, r],
+                            var2 = inputTable[, c])
+        # add estimate (phi or corr)
+        mat_est[r, c] <- newCell[1]
+        mat_est[c, r] <- newCell[1]
+        # add p-value
+        mat_p[r, c] <- newCell[2]
+        mat_p[c, r] <- newCell[2]
+      }
+    }
+  }
+
+  rownames(mat_est) <- conList$concept
+  colnames(mat_est) <- conList$concept
+
+  rownames(mat_p) <- conList$concept
+  colnames(mat_p) <- conList$concept
+
+
+  return(list(mat_est, mat_p))
+}
+
+
+## Calling functions defined above in oder to calculate correlation coefficients and p-values for all concept pairings
+conceptsDF <- listConcepts(CAMsConsInput, useSummarized = TRUE,
+                           removeSuffix = TRUE)
+duplicateDF <- countDuplicates(concepts = conceptsDF, oderFrequency = TRUE)
+binaryDf <- binaryEncoding(conDF = conceptsDF, duplDF = duplicateDF)
+# metricDF <- metricEncoding(conceptsDF, duplicateDF)
+
+
+CorrSigTables <- correlationTable(conList = duplicateDF,
+                                  inputTable =  binaryDf, # metricDF
+                                  CorrFUNC = phiCoefficient, considerValence = FALSE,
+                                  datNodes = CAMfiles[[1]])
+
+
+
+CorrSigTables <- correlationTable(conList = duplicateDF,
+                                  inputTable =  binaryDf, # metricDF
+                                  CorrFUNC = cohensKappa, considerValence = TRUE,
+                                  datNodes = CAMfiles[[1]])
+names(CorrSigTables) <- c('coefficient', 'p')
+
+
+
+
+## Extracting separate matrices for correlation coefficients and p values and filtering out rows/columns with NA only ##
+coefficientMatrix <- as.matrix(CorrSigTables[["coefficient"]])
+coefficientMatrix <- coefficientMatrix[rowSums(!is.na(coefficientMatrix))>1,
+                                       colSums(!is.na(coefficientMatrix))>1]
+pMatrix <- as.matrix(CorrSigTables[["p"]])
+pMatrix <- pMatrix[rowSums(!is.na(pMatrix))>1,
+                   colSums(!is.na(pMatrix))>1]
+
+## Filter matrices such that only concepts with at least one significant correlation (apart from autocorrelation) remain
+if(showOnlySignificant == TRUE) {
+  coefficientMatrix <- coefficientMatrix[(rowSums(pMatrix <= levelOfSignicifance) > 1), (colSums(pMatrix <= levelOfSignicifance) > 1)]
+  pMatrix <- pMatrix[(rowSums(pMatrix <= levelOfSignicifance) > 1), (colSums(pMatrix <= levelOfSignicifance) > 1)]
+}
+
+
+
+## Creating a combined matrix with coefficients and p values for output
+coefficientVec <- paste0(round(coefficientMatrix,3))
+pVec <- paste0(round(pMatrix,3))
+combinedMatrix <- matrix(paste0(coefficientVec, " (p=", pVec, ")"), ncol = ncol(coefficientMatrix))
+colnames(combinedMatrix) <- rownames(combinedMatrix) <- colnames(coefficientMatrix)
+
+
+### Preparing interactive heatmap (see comments below, if this causes problems in shiny)
+if(interactiveDots){
+  nodeType = "scatter"
+} else {
+  nodeType = "heatmap"
+}
+
+
+interactiveHeatmap <- heatmaply_cor(
+  coefficientMatrix,
+  node_type = nodeType,
+  point_size_mat = -log10(pMatrix),
+  point_size_name = "-log10(p-value)",
+  xlab = "Concepts",
+  ylab = "Concepts",
+  k_col = 2,
+  k_row = 2,
+  label_names = c("x", "y", "Correlation"),
+  width = 1000,
+  height = 1000
+)
+```
+
+
+
+# Table of Contents {.smaller}
+
+This talk will consist of 4 main parts:
+
+::::{.columns}
+
+:::{.column width="50%"}
+- **Part 1: Fundamentals**
+  - CAMs - an Overview
+  - Data Generation Process + Graph Theory (Network Ananlysis)
+  - Literature related to CAMs
+- **Part 2: CAMs**
+  - Recap: Existing Literature
+  - Coherence Theory and the HOTCO Model (Paul Thagard)
+  - CAM Study Designs and resulting Network Topologies
+:::
+::: {.column width="50%"}
+- **Part 3: CAM Tools**
+  - Data Collection - C.A.M.E.L.
+  - Data Analysis - CAM-App
+  - Setting up Studies using dashbord + JATOS
+- **Part 4: Extensions and the Future of CAMs**
+  - Possible Extensions
+  - Discussing the "Future" of CAMs
+:::
+::::
+
+
+# Part I: Fundamentals
+An overview regarding the most important fundamentals for Cognitive Affective Maps 
+
+- CAMs - an Overview
+- Motivating Graph Theory (Network Ananlysis)
+  - Random Graphs - CAM Data Generation 
+- Literature related to CAMs
+  - Mental Models
+  - Semantic Networks
+  - Fuzzy Networks
+
+
+
+
+## Overview: Potentials of Cognitive Affective Maps (CAMs)
+
+1. Understanding the relationship between cognition and emotion: CAMs provide a framework for studying the complex interplay between cognitive processes (such as perception, attention, memory, and decision-making) and emotions.
+
+2. Explaining emotional regulation: CAMs can help to explain how emotions are regulated and controlled through cognitive processes, such as attention and working memory.
+
+3. Improving decision-making: CAMs can be used to study how emotions influence decision-making and can provide insights into how decision-making can be improved through emotional regulation.
+
+4. Understanding the role of emotions in motivation: CAMs can help to explain the role of emotions in motivation and how emotions can drive behavior and action.
+
+5. Improving our understanding of mental disorders: CAMs can be used to study the relationship between cognition, emotion, and mental disorders, such as depression and anxiety, and provide insights into how these disorders can be treated.
+
+It's important to note that CAMs are just one of several approaches to understanding the relationship between cognition and emotion, and their potential benefits should be evaluated in light of the limitations and criticisms of the framework. Additionally, **further empirical research is needed to fully understand and validate the predictions made by CAMs**.
+
+## Overview: CAMs - Introduction
+
+CAMs as a quantitative and qualitative research method first became popular through [Paul Thagard](https://paulthagard.com/); possible to identify and visually represent any kind of declarative knowledge:
+
+
+![](images/CAM_example.jpg){height=450 fig-align="center"}
+
+
+`r Citet(bib, c("sendtnerKostbareKistenGrunde2021", "thagardEMPATHICAComputerSupport2010"))`
+
+
+## Overview: CAMs - Theory
+
+**What are CAMs?**
+
+* CAMs are „conceptual structures that people use to represent important aspects of the world“
+* „cognitive-affective map is a visual representation of the emotion values of a group of interconnected concepts“
+  + this is how CAMs differ from semantic networks, because CAMs additionally contain emotions (valence)
+  + hot cognition: emotions cannot be separated from cognitions
+
+**How are CAMs constructed?**
+
+* the stepwise construction process of CAMs can be understood as a **multiple constraint satisfaction process**, where concepts, conditions, goals, etc. are mentally represented with the involvement of emotions
+  + Concepts in the CAM are only changed or added if they correspond to the „most coherent account of what we want to understand“
+
+`r Citet(bib, c("thagardCoherenceThoughtAction2000", "thagardHotThoughtMechanisms2006", "thagardCognitiveScienceCOVID192021"))`
+
+
+## Overview: CAMs - Fields of Application
+
+* to study if CAMs are supplementary to questionnaires -  `r Citet(bib, c("mansellNovelNetworkApproach2021", "mansellMeasuringAttitudesComplex2021"))`
+* agent-based modelling - e.g. `r Citet(bib, c("wolfChangingMindsElectric2015", "schroderModelingMultilevelMechanisms2017"))`
+* use CAMs for conflict mediation - e.g. `r Citet(bib, c("grosCAMediaidMultimethodApproach2021"))`
+* evaluate via CAMs the success of an intervention - e.g. `r Citet(bib, c("reuterLeisureWalksModulate2021", "luthardtThenWeLl2020"))`
+* ...
+
+## Overview: CAMs - Fundamental Hypothesis
+
+**Hypothesis**: The generation process of CAMs is not arbitrary, but is determined by multiple processes at multiple levels, and thus CAMs from similar individuals on an identical topic exhibit systematic correlations (similar data generating process)
+
+* can be presented by a „emergent product of interaction between networks of mental representations at the individual level and networks of social communication at the group level“
+
+![](images/fundamentalHypothesis.jpg){height=250 fig-align="center"}
+
+> if stochasticity is ubiquitous in **complex networks**, these networks are not maximally random either; rather, they obey organization principles that make them functional
+
+`r Citet(bib, c("bianconiMultilayerNetworksStructure2018", "homer-dixonComplexSystemsApproach2013"))`
+
+
+
+## Data Generation Process + Graph Theory (Network Analysis)
+
+## Keep focused - it's going to be exciting
+
+::: {layout-ncol=2}
+![](https://media4.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif?cid=ecf05e47hmf8l7kqh12kn3rbuh885rmbgzgiyjan1n0v137g&rid=giphy.gif&ct=g)
+
+![](https://media1.giphy.com/media/1kYx8tpKGbfee2drT7/giphy.gif?cid=790b7611d38e7d9633b5e62c5857c72dfa16e5b014d7e358&rid=giphy.gif&ct=g)
+
+:::
+
+> a short excursion into the world of distributions
+
+
+
+## DGP: Stochastic Process of DGP of CAMs
+
+Data generation process (DGP): When [...] data set has been created, a good model has to be constructed for the data generation process. This is the stage at which the actual [...] analysis begins... When an [...] model has been constructed for the DGP, it should **only be used for the analysis if it reflects the ongoings in the system of interest properly**
+
+> a model should make a parsimonious, plausible and substantially meaningful contribution to the data generation process
+
+
+>  in statistics, we assume that we can represent the DGP by discrete and continuous (univariate, multivariate, mixture of) distributions
+
+
+Hands on example: Shiny App
+
+![](images/logoShiny.png){height=150}
+
+## DGP: ...
+place holder
+
+## DGP: ...
+place holder
+
+## Graph Theory: ...
+place holder
+
+## Graph Theory: ...
+place holder
+
+## Literature related to CAMs
+place holder
+
+# Part II: CAMs
+CAMs and the informations we can get from them  
+
+- Recap: Existing Literature
+- Coherence Theory and the HOTCO Model (Paul Thagard)
+- CAM Study Designs and resulting Network Topologies
+
+## Recap: Existing Literature
+place holder
+
+## Current Work
+By analyzing the content of CAMs
+
+* CAMs offer added value compared to a survey, as the latter can only consider pre-identified influential factors
+* CAMs allow to identify similar concerns as more time consuming interview / focus group based  methods - [Fenn, et al. (accepted revision)](#bib1); `r Citet(bib, c("reuter_direct_2022"))`
+* ...
+
+<br>
+
+by using CAMs for experimental and correlation studies 
+* CAMs have been used for intervention, e.g. mediation `r Citet(bib, c("gros_camediaid_2021"))` or cost intervention `r Citet(bib, c("sendtner_kostbare_2021"))`
+* correlations between CAMs’ emotional properties and latent properties and survey scales - `r Citet(bib, c("mansell_measuring_2021", "mansell_novel_2021"))`
+* ...
+
+
+
+## Current Work Publication List I - Empirical Articles
+
+* Höfele, P., Reuter, L., Estadieu, L., Livanec, S., Stumpf, M., & Kiesel, A. (2022). Connecting the methods of psychology and philosophy: Applying Cognitive-Affective Maps (CAMs) to identify ethical principles underlying the evaluation of bioinspired technologies. Philosophical Psychology, 0(0), 1–24. <https://doi.org/10.1080/09515089.2022.2113770>
+* **Luthardt**, J., Morgan, J. H., Bormann, I., & Schröder, T. (2022). Quantifying emotionally grounded discursive knowledge with cognitive-affective maps. Quality & Quantity, 56(3), 1557–1595. <https://doi.org/10.1007/s11135-021-01195-7>
+* **Luthardt**, J., Schröder, T., Hildebrandt, F., & Bormann, I. (2020). “And Then We’ll Just Check If It Suits Us” – Cognitive-Affective Maps of Social Innovation in Early Childhood Education. Frontiers in Education, 5, 1–19. <https://doi.org/10.3389/feduc.2020.00033>
+* **Mansell**, J., Mock, S., Rhea, C., Tecza, A., & Piereder, J. (2021). Measuring attitudes as a complex system: Structured thinking and support for the Canadian carbon tax. Politics and the Life Sciences, 40(2), 179–201. <https://doi.org/10.1017/pls.2021.16>
+* **Mansell**, J., Reuter, L., Rhea, C., & Kiesel, A. (2021). A Novel Network Approach to Capture Cognition and Affect: COVID-19 Experiences in Canada and Germany. Frontiers in Psychology, 12, 1–14. <https://doi.org/10.3389/fpsyg.2021.663627>
+* Reuter, L., Fenn, J., Bilo, T. A., Schulz, M., Weyland, A. L., Kiesel, A., & Thomaschke, R. (2021). Leisure walks modulate the cognitive and affective representation of the corona pandemic: Employing Cognitive-Affective Maps within a randomized experimental design. Applied Psychology: Health and Well-Being, 13(4), 952–967. <https://doi.org/10.1111/aphw.12283>
+* **Fenn**, J., Helm, J., Höfele, P., Kulbe, L., Ernst, A., & Kiesel, A. (2023). Identifying Key-Psychological Factors Influencing the Acceptance of yet Emerging Technologies – A Multi-Method-Approach to Inform Climate Policy.
+
+
+## Current Work Publication List II - Bachelor, Master Theses I
+
+* Bilo, T., & Helm, J. (2021). A Further Step Towards Sustainable Development – Re-evaluating and Expanding Cognitive-Affective Mapping for Technology Acceptance Prediction. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/bachelorthesis_bilo-helm_2021_english.pdf>
+* Dörr, M. (2020). Eine Qualitative Analyse von Kognitiv-Affektiven Karten: Können Daten von Kognitiv-Affektiven Karten im Vergleich zu Fragebögen zusätzliche Informationen geben? <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_doerr_2021_german.pdf>
+* Gros, W., Reuter, L., Stumpf, M., & Kiesel, A. (2021). CAMediaid: Multimethod approach to assess Cognitive-Affective Maps in mediation - A quantitative validation study. <https://doi.org/10.13140/RG.2.2.12436.78726>
+* Koloczek, N. (2020). Förderung der Benutzerfreundlichkeit für die Methode „Cognitive-Affective-Mapping“. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_koloczek_2020_german.pdf>
+* Kreil, A. (2018). Cognitive-Affective Mapping within the context of staircase and elevator use. Evaluating a new method in empirical psychological research [Master’s Thesis]. Albert-Ludwigs-Universität Freiburg i. Br.
+Lewis, A. J. (2020). The Public Acceptability of Perovskite Solar Photovoltaics in the Context of the German Energy Transition.
+* Reuter, L. (2019). Collection and evaluation of basal attributes of living materials systems [University of Freiburg]. <https://doi.org/10.13140/RG.2.2.27832.90889>
+
+
+## Current Work Publication List II - Bachelor, Master Theses II
+
+* Ricken, D. (2020). A Step towards Sustainable Development: Predicting the Acceptance of life-like Materials Systems with Cognitive-Affective Mapping. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/masterthesis_ricken_2020_english.pdf>
+* Rothmann, W. (2022). Cognitive-Affective Maps—Verständnis für Konzeptzusammenhänge in Abhängigkeit der Valenzen. <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/rothmann2022.pdf>
+* Sendtner, C. (2021). Kostbare Kisten: Gründe für Fehleinschätzungen der Kosten des eigenen Autos und deren Auswirkungen auf die Bewertung des ÖPNV -Masterarbeit [University of Freiburg]. <https://doi.org/10.13140/RG.2.2.32640.56325>
+
+
+## Current Work Publication List III  - Conceptual Articles
+
+
+* Homer-Dixon, T., Maynard, J. L., Mildenberger, M., Milkoreit, M., Mock, S. J., Quilley, S., Schröder, T., & Thagard, P. (2013). A Complex Systems Approach to the Study of Ideology: Cognitive-Affective Structures and the Dynamics of Belief Systems. Journal of Social and Political Psychology, 1(1), Article 1. <https://doi.org/10.5964/jspp.v1i1.36>
+* Homer-Dixon, T., Milkoreit, M., Mock, S. J., Schröder, T., & Thagard, P. (2014). The Conceptual Structure of Social Disputes: Cognitive-Affective Maps as a Tool for Conflict Analysis and Resolution. SAGE Open, 4(1), 1–20. <https://doi.org/10.1177/2158244014526210>
+* Livanec, S., Stumpf, M., Reuter, L., Fenn, J., & Kiesel, A. (2022). Who’s gonna use this? Acceptance prediction of emerging technologies with Cognitive-Affective Mapping and transdisciplinary considerations in the Anthropocene. The Anthropocene Review, 1–20. <https://doi.org/10.1177/20530196221078924>
+* **Reuter**, L., Mansell, J., Rhea, C., & Kiesel, A. (2022). Direct assessment of individual connotation and experience: An introduction to cognitive-affective mapping. Politics and the Life Sciences, 41(1), 131–139. <https://doi.org/10.1017/pls.2021.31>
+
+<br>
+
+* Thagard, P. (2000). Coherence in Thought and Action. MIT Press.
+* Thagard, P. (2006). Hot Thought: Mechanisms and Applications of Emotional Cognition. MIT Press.
+* **Thagard**, P. (2021). The cognitive science of COVID-19: Acceptance, denial, and belief change. Methods, 195, 92–102. <https://doi.org/10.1016/j.ymeth.2021.03.009>
+
+
+## Current Work - Useful Links
+
+* all bachelor / master theses of Freiburg:  <https://www.psychologie.uni-freiburg.de/abteilungen/Allgemeine.Psychologie/research/cam-research/>
+* CAM articles: <https://paulthagard.com/links/cognitive-affective-maps/>
+
+<br>
+
+* main webpage CAM tools: <https://drawyourminds.de/>
+* documentation CAM tools: <https://camtools-documentation.readthedocs.io/en/master/>
+* all CAM tools uploaded on GitHub: <https://github.com/Camel-app?tab=repositories>
+
+
+## Coherence Theory and the HOTCO Model
+place holder
+
+## CAM Study Designs and resulting Network Topologies
+
+
+## Hypothesis: SAI study has a different DGP I
+:::: {.columns}
+
+::: {.column width="50%"}
+**starting CAM**
+
+![](images/SAICAM.jpg){height=400 fig-align="center"}
+:::
+
+::: {.column width="50%"}
+**example**
+
+![](images/SAICAM_example.jpg){height=400 fig-align="center"}
+:::
+
+::::
+if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID> 
+
+
+## Hypothesis: SAI study has a different DGP II
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+
+**example I**
+
+![](images/SAICAM1.jpg){height=400 fig-align="center"}
+
+:::
+
+::: {.column width="50%"}
+
+
+
+**example II**
+
+![](images/SAICAM2.jpg){height=400 fig-align="center"}
+
+:::
+
+::::
+
+
+if you want to try it out: <https://studien.psychologie.uni-freiburg.de/publix/qDU7aBJyuQz?PROLIFIC_PID=testerID>
+
+## Understand the Influence of Study Designs on Network Parameters
+
+![](images/networkTopology_CAMsIdea.jpg){height=300 fig-align="center"}
+
+it could be assumed that:
+
+- star -> overall: high density, locally: high density
+
+- bus -> overall: medium density, locally: high density
+
+- tree -> overall: low density, locally: low density
+
+
+## Side-Note: Network Topology I
+
+![](images/networkTopology_CAMs.jpg){height=300 fig-align="center"}
+
+> Network topology is the topological structure of a network
+
+> depending on the topology various X-ities can be enhanced (evolvability, scalability, reliability, verifiability, deployability, adaptability, ...)
+
+see [Chiang Princeton University](<https://www.cs.princeton.edu/~jrex/allerton.pdf>)
+
+
+## Side-Note: Network Topology II - Importance
+
+::::{.columns}
+
+::: {.column width="50%"}
+
+**Mesh Topology**
+
+in a mesh topology, every device is connected to another device
+
+![](images/Topology_Mesh.jpg){height=200 fig-align="center"}
+
+> The cost of maintenance is high.
+:::
+
+::: {.column width="50%"}
+**Star Topology**
+
+all the devices are connected to a single hub , which is the central node and all other nodes are connected to this central node
+
+![](images/Topology_Star.jpg){height=200 fig-align="center"}
+
+> If the concentrator (hub) on which the whole topology relies fails, the whole system will crash down.
+:::
+::::
+
+>  thats (partly) our reality: AWS has 33% market share for cloud infrastructure while the next two competitors Microsoft Azure and Google Cloud have 21%, and 10% 
+
+
+
+# Part III: Developed CAM Tools
+The technological solutions for eliciting CAMs
+
+- Data Collection - C.A.M.E.L.
+- Data Analysis - CAM-App
+  - Structure of CAM Data
+  - 2 Step Data Analysis
+    - Pre-Processing
+    - Analysis
+- Setting up Studies using dashbord + JATOS
+
+## C.A.M.E.L.
+
+**Cognitive-Affective Map Extended Logic** (C.A.M.E.L. 🐪) is an open-source software to draw Cognitive-Affective Maps. It aims to offer people an easy and intuitive interface on which they could drawn their own mind map that can be analysed by researchers
+
+::::{.columns}
+
+:::{.column width="50%"}
+*researcher view*
+![](images/slide10.png){height=300 fig-align="center"}
+:::
+
+:::{.column width="50%"}
+*participant view*
+![](images/slide12.jpg){height=300 fig-align="center"}
+:::
+
+::::
+
+## C.A.M.E.L. - Features
+
+::::{.columns}
+
+:::{.column width="50%"}
+*researcher view*
+![](images/slide10.png){height=300 fig-align="center"}
+:::
+
+:::{.column width="50%"}
+*possible options*
+
+* possible to create, position and fix (i.e., impossibility to move a concept) elements
+* switch languages
+* enable / disable certain features
+
+<br>
+see in detail documentation: <https://camtools-documentation.readthedocs.io/en/master/Cognitive-Affective%20Map%20extended%20logic/#define-your-config-file>
+
+:::
+
+::::
+<br>
+try it out: [maximum settings](<https://camgalaxy.github.io/?cameraFeature=true&fullScreen=true&ShowResearcherButtons=true&hideArrows=false&hideAmbivalent=false&showSliderAgreementOnly=false>); [minimal settings](<https://camgalaxy.github.io/?cameraFeature=false&fullScreen=false&ShowResearcherButtons=false&hideArrows=true&hideAmbivalent=true&showSliderAgreementOnly=true>)
+
+
+## C.A.M.E.L. - Overview of Features 
+
+*Parameter you can change using the user researcher view:*
+
+![](images/featuresCAMEL.jpg){height=500 fig-align="center"}
+
+
+## Adaptive Designs
+
+e.g. by sending the CAM JSON object between components of a study (e.g. session data capabilities of JATOS) it is possible to set up adaptive designs, e.g. for intervention studies: 
+
+![](images/interventionDesign.jpg){height=300 fig-align="center"}
+
+> possible to implement sequential collaboration (event file is created)
+
+
+and to analyze the CAM data in real-time to adaptively ask questions using [Cytoscape.js](<https://js.cytoscape.org/>)
+
+
+<br>
+try it out: adaptive study design (simply draw 2 concepts with pos. / neg. valence and connect them and click on disk symbol to save): <https://studien.psychologie.uni-freiburg.de/publix/gv3Q8UvdRLu>
+ 
+
+## CAM-App - Structure of CAM Data
+
+A CAM (graph) is in general defined by: 
+$$ G = (V, E)$$
+, whereby V = set of vertices, E = set of edges. The vertices also contain emotional information (valence; *hot cognition*, *HOTCO*, ...), which leads to the following network properties:
+
+
+::::{.columns}
+:::{.column width="50%"}
+
+**emotional properties**
+<br>
+measure how the valence of individual nodes contributes to the overall CAM (Average Valence, Percentage of each node type, <span style="color:blue">Central Node Valence</span>, ...)
+
+:::
+
+:::{.column width="50%"}
+**latent properties**
+<br>
+refer to the number of nodes, links, and their interconnectedness (Centrality, Density, Diameter, Number of Nodes, Number of Links, Triadic Closure, ...)
+
+:::
+
+::::
+
+> remark: it would also be possible to include position information (x, y) of drawn nodes and number of changes / movements (event log)
+
+
+<br>
+using similar terminology as 
+
+`r Citet(bib, c("mansellNovelNetworkApproach2021", "mansellMeasuringAttitudesComplex2021"))`
+
+## Example CAMs
+
+::::{.columns}
+
+:::{.column Width="50"}
+
+**low density, high assortativity**
+
+![](images/SAICAM1.jpg){height=400 fig-align="center"}
+
+:::
+
+:::{.column Width="50"}
+
+**high density, low assortativity**
+
+![](images/SAICAM2.jpg){height=400 fig-align="center"}
+
+:::
+
+::::
+
+
+## CAM-App - Two Steps
+
+logic of the CAM-App follows the principle of a classical data-analysis pipeline
+
+
+::::{.columns}
+
+:::{.column width="50%"}
+
+![](images/dataAnalysisPipeline.jpg){height=200 fig-align="center"}
+
+see: `r Citet(bib, c("pengArtDataScience2016", "wickhamDataScienceImport2017"))`
+
+<br>
+<https://fennapps.shinyapps.io/shinyCAMEL_v02/>
+
+![](images/logoShiny.png){height=150 fig-align="left"}
+
+:::
+:::{.column width="50%"}
+
+composed of two steps:
+<br>
+**pre-processing step**
+
+CAM data is often messy and the number of unique concepts drawn is in general quite huge, e.g.
+
+*Following the five-step procedure, the 1063 unique concepts (1473 in total) were reduced to 52 concepts (see detailed list of the 52 concepts in D in the online supplementary; <https://osf.io/vb5qe>)* - [Fenn, et al. (accepted revision)](#bib1)
+
+<br>
+<br>
+**analysis step**
+
+* word lists / word clouds
+* co-occurrence maps
+* aggregate CAM
+* network indicators
+* network similarity (! in development)
+* ...
+
+:::
+::::
+
+## CAM-App - Implemented Functions
+
+::::{.columns}
+
+:::{.column width="50%" }
+**pre-processing step**
+
+:::{.small-font}
+1.	Import/Upload data
+2.	Draw CAMs
+3.	Approximate matching
+4.	Searching terms
+5.	Search for synonyms
+6.	Apply word2vec model
+7.	Overview of non-summarized concepts
+8.	Compute inter-rater reliability
+9.	Train raters for summarizing of concepts
+:::
+:::
+
+
+:::{.column width="50%"}
+**analysis step**
+
+:::{.small-font}
+1.	Import/Upload data
+2.	Draw CAMs
+3.	Compute network indicators
+4.	Compute neighborhood indicators
+5.	Compute descriptive statistics on network indicators
+6.	Create wordlist
+7.	Create wordcloud
+8.	Get table, pie chart
+9.	Get summary statistics
+10.	Aggregate CAMs
+11.	Concept co-occurrences
+12.	Valence co-occurrences
+13.	Similarity Algorithms
+14.	Slice CAMs
+15.	Get summary statistics
+16.	Get Report
+:::
+:::
+
+::::
+
+
+> functionalities are based on 31 R functions, Python code divided in 28 modules (server, UI seperated); see: <https://docs.google.com/spreadsheets/d/1uiLFD6RnRzv1v-k84p8u8JIua_Kf5TK0KTgGg6Oe5Hg/edit?usp=sharing>
+
+
+## Pre-Processing: Reduce Number of Unique Concepts
+
+* Approximate matching: closeness of two concepts is measured in terms of the number of primitive operations necessary to convert the concept into an exact match (e.g. substitution: coat -> cost)
+* Searching terms: using regular expressions
+
+<br>
+
+* Search for synonyms: automatically searching for synonyms in a dictionary (Reverso)
+* Apply word2vec model: automatically generating suggestions for clustering and summarizing concepts according to semantic similarity between concepts
+  + Categories of words found by word2vec:
+
+![](images/word2vec_example.jpg){height=350, fig-align="center"}
+
+## Pre-Processing: Reliability module
+
+To start the module please click on one of the the module option on the sidebar panel. The options for this module are the following:
+
+* Train Reliability: Here you can create word lists of your concepts, which can be summarized by (independet) raters.
+* Get Reliability: Based on multiple summarized wordlists (at least 2) you can compute multiple reliability coefficients.
+* Information: Further information regarding this module.
+
+## Analysis: Aggregate CAMs - multilayer networks
+
+
+Multilayer networks are defined by:
+
+$$ G = (V, E, D)$$
+
+, whereby D is a set of dimensions (or layers = CAMs). 
+
+![](images/multilayerNetworkExample.jpg){height=380 fig-align="center"} 
+
+e.g. `r Citet(bib, c("bianconiMultilayerNetworksStructure2018", "domenicoMultilayerNetworksAnalysis2022"))`
+
+
+## Analysis:  Aggregated CAM
+
+to highlight the inter-relatedness of all summarized concepts, the CAMs (between X groups) can be aggregated by creating a so-called *“canonical adjacency matrix”*; example of 58 summarized CAMs: 
+
+![](images/aggregatedCAMExample.jpg){height=450 fig-align="center"}
+
+[Fenn, et al. (accepted revision)](#bib1)
+
+
+
+## Analysis: Slice CAMs
+
+
+*If you have a CAM structure, which can be separated (e.g. pre-defined opposing concepts) the CAMs can be automatically sliced according to two possible criteria: (a) delete a connection between two concepts, or (b) delete a concept. Automatically the CAM changed this way is checked according to multiple criteria (e.g. number of expected network components) to validate the slicing process.*
+
+![](images/sliceCAMs.jpg){height=450 fig-align="center"}
+
+
+## Analysis: Concept Co-Occurrences
+
+*Computing the concept-co-occurrences between all CAMs by setting up multiple contingency tables, followed by computing the phi coefficient, groups of concepts with similar concept-co-occurrences in CAMs are identified.*
+
+
+
+```{r}
+#| message: false
+#| warning: false
+interactiveHeatmap %>% plotly::layout(height=500,width=1000)
+```
+
+
+
+
+## Study-Setup: Dashboard
+
+![](images/slide14.png){height=300 fig-align=center}
+
+
+further information see online presentation about the developed Cognitive-Affective Maps tools: <https://studien.psychologie.uni-freiburg.de/publix/4ON9vgMG7Mm>
+current website design (not connected to API): <https://camel-server.vercel.app/>
+
+
+
+
+# Part IV: Extensions and the Future of CAMs
+What we'll have in the future...
+
+- Possible Extensions
+- Discussing the "Future" of CAMs
+
+## Possible Extensions
+place holder
+
+## Future of CAMs
+place holder 
+
+# Don't forget to thank the DFG :-)
+
+This research was funded by the Deutsche Forschungsgemeinschaft (DFG), grant 2277, Research Training Group ``Statistical Modeling in Psychology" (SMiP)
+
+
+# References
+
+<!-- *********** NEW SLIDE ************** -->
+
+---
+## References I {.smaller}
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 1, end = 8)
+```
+
+## References II {.smaller}
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 9, end = 17)
+```
+
+## References III {.smaller}
+
+```{r}
+#| echo: false
+#| results: asis
+PrintBibliography(bib, start = 18, end = 26)
+```
